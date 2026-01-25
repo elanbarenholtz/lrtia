@@ -303,7 +303,7 @@ def compute_summary_stats(df: pd.DataFrame, group_col: str = None):
             row = {
                 "Group": group,
                 "AUC": f"{summary.auc:.4f}",
-                "Half-Life": f"{summary.half_life:.0f}" if summary.half_life else "N/A",
+                "Empirical Half-Life": f"{summary.half_life:.0f}" if summary.half_life else "N/A",
                 "Peak Effect": f"{summary.peak_effect:.4f}",
             }
 
@@ -312,8 +312,7 @@ def compute_summary_stats(df: pd.DataFrame, group_col: str = None):
                 best_fit = max(fits.values(), key=lambda f: f.r_squared or 0)
                 row["Best Model"] = best_fit.model
                 row["R²"] = f"{best_fit.r_squared:.3f}" if best_fit.r_squared else "N/A"
-                row["Decay Param"] = f"{best_fit.decay_param:.4f}" if best_fit.decay_param else "N/A"
-                row["Fit Half-Life"] = f"{best_fit.half_life:.1f}" if best_fit.half_life else "N/A"
+                row["Fitted Half-Life"] = f"{best_fit.half_life:.1f}" if best_fit.half_life else "N/A"
 
             summaries.append(row)
         return pd.DataFrame(summaries)
@@ -324,7 +323,7 @@ def compute_summary_stats(df: pd.DataFrame, group_col: str = None):
 
         row = {
             "AUC": f"{summary.auc:.4f}",
-            "Half-Life": f"{summary.half_life:.0f}" if summary.half_life else "N/A",
+            "Empirical Half-Life": f"{summary.half_life:.0f}" if summary.half_life else "N/A",
             "Peak Effect": f"{summary.peak_effect:.4f}",
         }
 
@@ -332,8 +331,7 @@ def compute_summary_stats(df: pd.DataFrame, group_col: str = None):
             best_fit = max(fits.values(), key=lambda f: f.r_squared or 0)
             row["Best Model"] = best_fit.model
             row["R²"] = f"{best_fit.r_squared:.3f}" if best_fit.r_squared else "N/A"
-            row["Decay Param"] = f"{best_fit.decay_param:.4f}" if best_fit.decay_param else "N/A"
-            row["Fit Half-Life"] = f"{best_fit.half_life:.1f}" if best_fit.half_life else "N/A"
+            row["Fitted Half-Life"] = f"{best_fit.half_life:.1f}" if best_fit.half_life else "N/A"
 
         return pd.DataFrame([row])
 
@@ -442,19 +440,26 @@ def plot_decay_fits(df: pd.DataFrame, metric: str = "delta_nll", group_col: str 
 
 def create_decay_comparison_table(df: pd.DataFrame, metric: str = "delta_nll", group_col: str = None):
     """Create a table comparing all decay models."""
+    from lrtia.aggregation import build_memory_curve, compute_half_life
+
     fit_results = compute_decay_fits(df, metric=metric, group_col=group_col)
 
     rows = []
     for group_name, data in fit_results.items():
+        curve = data["curve"]
         fits = data["fits"]
+
+        # Get empirical half-life
+        empirical_hl = compute_half_life(curve)
+
         for model_name, fit in fits.items():
             rows.append({
                 "Group": group_name,
                 "Model": model_name,
-                "Amplitude": f"{fit.amplitude:.4f}" if fit.amplitude else "N/A",
-                "Decay Param": f"{fit.decay_param:.4f}" if fit.decay_param else "N/A",
                 "R²": f"{fit.r_squared:.4f}" if fit.r_squared else "N/A",
-                "Half-Life": f"{fit.half_life:.1f}" if fit.half_life else "N/A",
+                "Empirical HL": f"{empirical_hl:.1f}" if empirical_hl else "N/A",
+                "Fitted HL": f"{fit.half_life:.1f}" if fit.half_life else "N/A",
+                "Decay Param": f"{fit.decay_param:.4f}" if fit.decay_param else "N/A",
             })
 
     return pd.DataFrame(rows)
@@ -703,14 +708,18 @@ def main():
 
                 # Highlight key metrics
                 st.markdown("**Key Decay Scores:**")
-                for group in decay_table["Group"].unique():
+                cols = st.columns(len(decay_table["Group"].unique()))
+                for i, group in enumerate(decay_table["Group"].unique()):
                     group_fits = decay_table[decay_table["Group"] == group]
                     best_row = group_fits.loc[group_fits["R²"].apply(lambda x: float(x) if x != "N/A" else 0).idxmax()]
-                    st.metric(
-                        label=f"{group} — Best: {best_row['Model']}",
-                        value=f"Half-Life: {best_row['Half-Life']} tokens",
-                        delta=f"R² = {best_row['R²']}",
-                    )
+                    with cols[i]:
+                        st.markdown(f"**{group}** ({best_row['Model']})")
+                        col_a, col_b = st.columns(2)
+                        with col_a:
+                            st.metric("Empirical HL", f"{best_row['Empirical HL']} tok")
+                        with col_b:
+                            st.metric("Fitted HL", f"{best_row['Fitted HL']} tok")
+                        st.caption(f"R² = {best_row['R²']}")
 
             st.divider()
 
