@@ -1,0 +1,40 @@
+# LRTIA Default Configuration
+# Long-Range Token Influence Analyzer
+
+model:
+  name: "gpt2"  # Model name or HuggingFace path
+  backend: "huggingface"
+  device: "auto"  # "auto", "cuda", "cpu", or "mps"
+  dtype: "auto"  # "float32", "float16", "bfloat16", or "auto"
+
+windowing:
+  window_tokens: 2048  # Size of each evaluation window
+  stride_tokens: 512   # Stride between windows (overlap = window - stride)
+
+targets:
+  method: "interval"   # "interval" or "sentence"
+  interval: 100        # Every N tokens (for interval method)
+  region_length: 30    # Tokens to aggregate over at each target
+  min_context: 64      # Minimum context before first target
+
+spans:
+  # Log-spaced distance buckets (tokens from span center to target)
+  distances: [32, 64, 128, 256, 512, 1024, 2048]
+  widths: [32]         # Span widths to use
+  spans_per_distance: 1  # Spans to sample per distance bucket
+
+interventions:
+  types: ["mask", "shuffle"]  # "mask", "shuffle", "delete"
+  mask_token: null  # null = use model's pad/eos token
+
+computation:
+  batch_size: 8
+  seed: 42
+  top_k_for_kl: 1000      # Top tokens for KL approximation
+  top_k_for_stability: 10  # K for top-k stability metric
+  num_workers: 0
+
+output:
+  results_dir: "./results"
+  format: "parquet"  # "parquet", "csv", or "json"
+  save_distributions: false  # Save full probability distributions
