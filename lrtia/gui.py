@@ -466,7 +466,7 @@ def create_decay_comparison_table(df: pd.DataFrame, metric: str = "delta_nll", g
 
 
 def main():
-    st.title("🧠 LRTIA - Long-Range Token Influence Analyzer")
+    st.title("LRTIA - Long-Range Token Influence Analyzer")
     st.markdown("Analyze how earlier text influences language model predictions")
 
     # Sidebar for configuration
@@ -544,214 +544,219 @@ def main():
         target_interval = st.number_input("Target interval", min_value=50, max_value=500, value=150)
         region_length = st.number_input("Region length", min_value=5, max_value=50, value=20)
 
-    # Main content
-    tab1, tab2, tab3 = st.tabs(["📂 Load Data", "🔬 Run Analysis", "📊 Results"])
-
     # Initialize session state
     if "corpus_df" not in st.session_state:
         st.session_state.corpus_df = None
     if "results_df" not in st.session_state:
         st.session_state.results_df = None
 
-    with tab1:
-        st.header("Load Corpus")
+    # =========================================================================
+    # DATA LOADING SECTION
+    # =========================================================================
+    st.header("Load Corpus")
 
+    col1, col2 = st.columns(2)
+
+    with col1:
+        uploaded_file = st.file_uploader(
+            "Choose a corpus file",
+            type=["jsonl", "json", "csv", "parquet"],
+            help="File should have columns: doc_id, text, and optionally author_id, population",
+        )
+
+        if uploaded_file is not None:
+            try:
+                st.session_state.corpus_df = load_corpus_from_file(uploaded_file)
+                st.success(f"Loaded {len(st.session_state.corpus_df)} documents")
+            except Exception as e:
+                st.error(f"Error loading file: {e}")
+
+    with col2:
+        st.markdown("**Or use demo data:**")
+        if st.button("Generate Demo Corpus"):
+            # Generate synthetic data
+            import random
+            random.seed(42)
+
+            docs = []
+            words = ["the", "a", "is", "are", "was", "were", "be", "been", "have", "has",
+                     "do", "does", "did", "will", "would", "could", "should", "may", "might",
+                     "this", "that", "these", "those", "it", "they", "we", "you", "he", "she"]
+
+            for i in range(20):
+                pop = "group_a" if i < 10 else "group_b"
+                text = " ".join(random.choices(words, k=random.randint(200, 400)))
+                docs.append({
+                    "doc_id": f"doc_{i:03d}",
+                    "author_id": f"author_{i % 5}",
+                    "population": pop,
+                    "text": text,
+                })
+
+            st.session_state.corpus_df = pd.DataFrame(docs)
+            st.success("Generated 20 demo documents")
+
+    if st.session_state.corpus_df is not None:
+        with st.expander("Corpus Preview", expanded=False):
+            st.dataframe(st.session_state.corpus_df, use_container_width=True, height=300)
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric("Documents", len(st.session_state.corpus_df))
+        with col2:
+            if "population" in st.session_state.corpus_df.columns:
+                st.metric("Populations", st.session_state.corpus_df["population"].nunique())
+        with col3:
+            if "author_id" in st.session_state.corpus_df.columns:
+                st.metric("Authors", st.session_state.corpus_df["author_id"].nunique())
+
+    st.divider()
+
+    # =========================================================================
+    # RUN ANALYSIS SECTION
+    # =========================================================================
+    if st.session_state.corpus_df is None:
+        st.info("Upload a corpus file above to begin analysis")
+    else:
+        config = {
+            "model": model,
+            "max_docs": max_docs,
+            "max_windows_per_doc": max_windows,
+            "max_targets_per_window": max_targets,
+            "distances": sorted(distances),
+            "interventions": interventions,
+            "window_tokens": window_tokens,
+            "stride_tokens": window_tokens // 2,
+            "span_width": span_width,
+            "target_interval": target_interval,
+            "region_length": region_length,
+        }
+
+        col_btn, col_info = st.columns([1, 3])
+        with col_btn:
+            run_clicked = st.button("RUN!", type="primary", use_container_width=True)
+        with col_info:
+            st.caption(f"Analyzing {min(max_docs, len(st.session_state.corpus_df))} docs with {model}")
+
+        if run_clicked:
+            progress_bar = st.progress(0)
+            status_text = st.empty()
+
+            try:
+                st.session_state.results_df = run_analysis(
+                    st.session_state.corpus_df,
+                    config,
+                    progress_bar,
+                    status_text,
+                )
+                st.success(f"Analysis complete! {len(st.session_state.results_df)} evaluations")
+            except Exception as e:
+                st.error(f"Error during analysis: {e}")
+                import traceback
+                st.code(traceback.format_exc())
+
+    # =========================================================================
+    # RESULTS SECTION
+    # =========================================================================
+    if st.session_state.results_df is not None:
+        st.divider()
+        st.header("Results")
+
+        df = st.session_state.results_df
+
+        # Metric selector
+        metric = st.selectbox(
+            "Metric",
+            ["delta_nll", "kl_divergence", "topk_overlap", "rank_change"],
+            index=0,
+        )
+
+        # Summary statistics
+        st.subheader("Summary Statistics")
+        has_populations = "population" in df.columns and df["population"].nunique() > 1
+        summary_df = compute_summary_stats(df, "population" if has_populations else None)
+        st.dataframe(summary_df, use_container_width=True)
+
+        # Main memory curve plot
+        st.subheader("Memory Curves")
+        group_by = "population" if has_populations else None
+        fig = plot_memory_curves(df, metric=metric, group_by=group_by)
+        st.plotly_chart(fig, use_container_width=True)
+
+        # Decay Fit Analysis
+        st.subheader("Decay Model Fitting")
+        st.markdown("""
+        Fit mathematical decay functions to quantify how influence decreases with distance:
+        - **Exponential**: y = A·e^(-d/τ) — τ is the decay constant
+        - **Power Law**: y = A·d^(-α) — α is the decay exponent
+        - **Linear**: y = A - slope·d — simple linear decrease
+        """)
+
+        col_model, col_info = st.columns([1, 2])
+        with col_model:
+            selected_model = st.selectbox(
+                "Decay model to display",
+                ["best", "exponential", "power_law", "linear"],
+                index=0,
+                help="'best' selects the model with highest R²",
+            )
+
+        # Plot with decay fits
+        decay_fig = plot_decay_fits(df, metric=metric, group_col=group_by, selected_model=selected_model)
+        st.plotly_chart(decay_fig, use_container_width=True)
+
+        # Decay comparison table
+        st.markdown("**All Decay Models Comparison:**")
+        decay_table = create_decay_comparison_table(df, metric=metric, group_col=group_by)
+        if not decay_table.empty:
+            st.dataframe(decay_table, use_container_width=True)
+
+            # Highlight key metrics
+            st.markdown("**Key Decay Scores:**")
+            cols = st.columns(len(decay_table["Group"].unique()))
+            for i, group in enumerate(decay_table["Group"].unique()):
+                group_fits = decay_table[decay_table["Group"] == group]
+                best_row = group_fits.loc[group_fits["R²"].apply(lambda x: float(x) if x != "N/A" else 0).idxmax()]
+                with cols[i]:
+                    st.markdown(f"**{group}** ({best_row['Model']})")
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        st.metric("Empirical HL", f"{best_row['Empirical HL']} tok")
+                    with col_b:
+                        st.metric("Fitted HL", f"{best_row['Fitted HL']} tok")
+                    st.caption(f"R² = {best_row['R²']}")
+
+        st.divider()
+
+        # Additional plots
         col1, col2 = st.columns(2)
 
         with col1:
-            st.subheader("Upload File")
-            uploaded_file = st.file_uploader(
-                "Choose a corpus file",
-                type=["jsonl", "json", "csv", "parquet"],
-                help="File should have columns: doc_id, text, and optionally author_id, population",
-            )
-
-            if uploaded_file is not None:
-                try:
-                    st.session_state.corpus_df = load_corpus_from_file(uploaded_file)
-                    st.success(f"Loaded {len(st.session_state.corpus_df)} documents")
-                except Exception as e:
-                    st.error(f"Error loading file: {e}")
+            if has_populations:
+                st.subheader("Population Comparison")
+                bar_fig = plot_summary_bars(df, metric=metric)
+                if bar_fig:
+                    st.plotly_chart(bar_fig, use_container_width=True)
 
         with col2:
-            st.subheader("Or Use Demo Data")
-            if st.button("Generate Demo Corpus"):
-                # Generate synthetic data
-                import random
-                random.seed(42)
+            if "intervention_type" in df.columns and df["intervention_type"].nunique() > 1:
+                st.subheader("Intervention Comparison")
+                int_fig = plot_intervention_comparison(df, metric=metric)
+                if int_fig:
+                    st.plotly_chart(int_fig, use_container_width=True)
 
-                docs = []
-                words = ["the", "a", "is", "are", "was", "were", "be", "been", "have", "has",
-                         "do", "does", "did", "will", "would", "could", "should", "may", "might",
-                         "this", "that", "these", "those", "it", "they", "we", "you", "he", "she"]
-
-                for i in range(20):
-                    pop = "group_a" if i < 10 else "group_b"
-                    text = " ".join(random.choices(words, k=random.randint(200, 400)))
-                    docs.append({
-                        "doc_id": f"doc_{i:03d}",
-                        "author_id": f"author_{i % 5}",
-                        "population": pop,
-                        "text": text,
-                    })
-
-                st.session_state.corpus_df = pd.DataFrame(docs)
-                st.success("Generated 20 demo documents")
-
-        if st.session_state.corpus_df is not None:
-            st.subheader("Corpus Preview")
-            st.dataframe(st.session_state.corpus_df.head(10), use_container_width=True)
-
-            col1, col2, col3 = st.columns(3)
-            with col1:
-                st.metric("Documents", len(st.session_state.corpus_df))
-            with col2:
-                if "population" in st.session_state.corpus_df.columns:
-                    st.metric("Populations", st.session_state.corpus_df["population"].nunique())
-            with col3:
-                if "author_id" in st.session_state.corpus_df.columns:
-                    st.metric("Authors", st.session_state.corpus_df["author_id"].nunique())
-
-    with tab2:
-        st.header("Run Analysis")
-
-        if st.session_state.corpus_df is None:
-            st.warning("Please load a corpus first")
-        else:
-            st.info(f"Ready to analyze {min(max_docs, len(st.session_state.corpus_df))} documents with model: {model}")
-
-            config = {
-                "model": model,
-                "max_docs": max_docs,
-                "max_windows_per_doc": max_windows,
-                "max_targets_per_window": max_targets,
-                "distances": sorted(distances),
-                "interventions": interventions,
-                "window_tokens": window_tokens,
-                "stride_tokens": window_tokens // 2,
-                "span_width": span_width,
-                "target_interval": target_interval,
-                "region_length": region_length,
-            }
-
-            if st.button("🚀 Run Analysis", type="primary"):
-                progress_bar = st.progress(0)
-                status_text = st.empty()
-
-                try:
-                    st.session_state.results_df = run_analysis(
-                        st.session_state.corpus_df,
-                        config,
-                        progress_bar,
-                        status_text,
-                    )
-                    st.success(f"Analysis complete! {len(st.session_state.results_df)} evaluations")
-                except Exception as e:
-                    st.error(f"Error during analysis: {e}")
-                    import traceback
-                    st.code(traceback.format_exc())
-
-    with tab3:
-        st.header("Results & Visualization")
-
-        if st.session_state.results_df is None:
-            st.warning("No results yet. Run an analysis first.")
-        else:
-            df = st.session_state.results_df
-
-            # Metric selector
-            metric = st.selectbox(
-                "Metric",
-                ["delta_nll", "kl_divergence", "topk_overlap", "rank_change"],
-                index=0,
-            )
-
-            # Summary statistics
-            st.subheader("Summary Statistics")
-            has_populations = "population" in df.columns and df["population"].nunique() > 1
-            summary_df = compute_summary_stats(df, "population" if has_populations else None)
-            st.dataframe(summary_df, use_container_width=True)
-
-            # Main memory curve plot
-            st.subheader("Memory Curves")
-            group_by = "population" if has_populations else None
-            fig = plot_memory_curves(df, metric=metric, group_by=group_by)
-            st.plotly_chart(fig, use_container_width=True)
-
-            # Decay Fit Analysis
-            st.subheader("Decay Model Fitting")
-            st.markdown("""
-            Fit mathematical decay functions to quantify how influence decreases with distance:
-            - **Exponential**: y = A·e^(-d/τ) — τ is the decay constant
-            - **Power Law**: y = A·d^(-α) — α is the decay exponent
-            - **Linear**: y = A - slope·d — simple linear decrease
-            """)
-
-            col_model, col_info = st.columns([1, 2])
-            with col_model:
-                selected_model = st.selectbox(
-                    "Decay model to display",
-                    ["best", "exponential", "power_law", "linear"],
-                    index=0,
-                    help="'best' selects the model with highest R²",
-                )
-
-            # Plot with decay fits
-            decay_fig = plot_decay_fits(df, metric=metric, group_col=group_by, selected_model=selected_model)
-            st.plotly_chart(decay_fig, use_container_width=True)
-
-            # Decay comparison table
-            st.markdown("**All Decay Models Comparison:**")
-            decay_table = create_decay_comparison_table(df, metric=metric, group_col=group_by)
-            if not decay_table.empty:
-                st.dataframe(decay_table, use_container_width=True)
-
-                # Highlight key metrics
-                st.markdown("**Key Decay Scores:**")
-                cols = st.columns(len(decay_table["Group"].unique()))
-                for i, group in enumerate(decay_table["Group"].unique()):
-                    group_fits = decay_table[decay_table["Group"] == group]
-                    best_row = group_fits.loc[group_fits["R²"].apply(lambda x: float(x) if x != "N/A" else 0).idxmax()]
-                    with cols[i]:
-                        st.markdown(f"**{group}** ({best_row['Model']})")
-                        col_a, col_b = st.columns(2)
-                        with col_a:
-                            st.metric("Empirical HL", f"{best_row['Empirical HL']} tok")
-                        with col_b:
-                            st.metric("Fitted HL", f"{best_row['Fitted HL']} tok")
-                        st.caption(f"R² = {best_row['R²']}")
-
-            st.divider()
-
-            # Additional plots
-            col1, col2 = st.columns(2)
-
-            with col1:
-                if has_populations:
-                    st.subheader("Population Comparison")
-                    bar_fig = plot_summary_bars(df, metric=metric)
-                    if bar_fig:
-                        st.plotly_chart(bar_fig, use_container_width=True)
-
-            with col2:
-                if "intervention_type" in df.columns and df["intervention_type"].nunique() > 1:
-                    st.subheader("Intervention Comparison")
-                    int_fig = plot_intervention_comparison(df, metric=metric)
-                    if int_fig:
-                        st.plotly_chart(int_fig, use_container_width=True)
-
-            # Raw data
-            st.subheader("Raw Data")
+        # Raw data
+        with st.expander("Raw Data"):
             st.dataframe(df, use_container_width=True)
 
-            # Download button
-            csv = df.to_csv(index=False)
-            st.download_button(
-                "📥 Download Results (CSV)",
-                csv,
-                "lrtia_results.csv",
-                "text/csv",
-            )
+        # Download button
+        csv = df.to_csv(index=False)
+        st.download_button(
+            "Download Results (CSV)",
+            csv,
+            "lrtia_results.csv",
+            "text/csv",
+        )
 
 
 if __name__ == "__main__":
