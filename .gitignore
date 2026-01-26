@@ -55,6 +55,11 @@ figures/
 *.csv
 !configs/*.yaml
 
+# Raw and processed data
+data/
+sanity_check_data/
+lrtia/data/ecsc/
+
 # OS
 .DS_Store
 Thumbs.db

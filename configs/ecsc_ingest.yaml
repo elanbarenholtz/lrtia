@@ -1,0 +1,112 @@
+# ECSC Data Ingestion Pipeline Configuration
+#
+# Eugene Children's Story Corpus (ECSC) from TalkBank CHILDES
+# https://talkbank.org/childes/access/Frogs/English-ECSC.html
+#
+# For research use only. Please cite the corpus reference.
+
+download:
+  # Official download URL from TalkBank
+  url: "https://git.talkbank.org/childes/data/Frogs/English-ECSC.zip"
+
+  # Directory for raw downloaded data
+  output_dir: "data/ecsc_raw"
+
+  # Skip download if ZIP already exists
+  cache_download: true
+
+  # Verify SHA256 checksum
+  verify_checksum: true
+
+  # Expected SHA256 (computed on first run if null)
+  # expected_sha256: null
+
+parsing:
+  # Participant roles that identify the child narrator
+  # Do NOT hardcode to "CHI" - the parser will find the correct code
+  child_roles:
+    - "Target_Child"
+    - "Child"
+    - "Target Child"
+
+  # Additional speaker codes to include (empty = child only)
+  include_additional_speakers: []
+
+  # Skip files that fail to parse instead of raising
+  skip_malformed: true
+
+  # Minimum child utterances required to include transcript
+  min_utterances: 1
+
+cleaning:
+  # Remove [bracketed] content (annotations, comments)
+  remove_brackets: true
+
+  # Remove <angled> content (overlap markers)
+  remove_angles: true
+
+  # Remove &=codes (paralinguistic markers like &=laughs)
+  remove_ampersand_codes: true
+
+  # Remove xxx/yyy/www unintelligible markers
+  remove_unintelligible: true
+
+  # Remove (.) pause markers
+  remove_pauses: true
+
+  # Remove CHAT special characters (#@+^)
+  remove_special_chars: true
+
+  # Keep discourse markers (um, uh, etc.) as plain tokens
+  preserve_fillers: true
+
+  # Collapse repeated whitespace to single spaces
+  collapse_whitespace: true
+
+output:
+  # Directory for processed output
+  output_dir: "data/ecsc_processed"
+
+  # Generate transcript-level documents (one per .cha file)
+  generate_transcripts: true
+
+  # Generate concatenated documents (grouped by subject)
+  generate_concatenated: true
+
+  # Generate utterance-level parquet for auditability
+  generate_utterances: true
+
+  # Separator between transcripts in concatenated docs
+  concatenation_separator: "\n\n\n\n"
+
+  # Fields to sort by when concatenating (in order)
+  concatenation_sort:
+    - study_year
+    - age_months
+    - file_stem
+
+  # Which text version to use in documents: "clean" or "raw"
+  text_field: "clean"
+
+  # Minimum word count for a document to be included
+  min_tokens: 10
+
+qa:
+  # Minimum ratio of child utterances (warn if below)
+  min_child_utterance_ratio: 0.0
+
+  # Warn if child utterance ratio is below this threshold
+  warn_child_ratio_threshold: 0.7
+
+  # Generate QA report JSON
+  generate_qa_report: true
+
+  # Generate reproducibility manifest
+  generate_manifest: true
+
+# Path to subject metadata file (CSV/TSV/Excel)
+# Set to null to auto-discover from downloaded data
+metadata_path: null
+
+# Random seed for reproducibility
+seed: 42
