@@ -1,0 +1,23 @@
+{
+  "dataset": "enni",
+  "version": "v4.2_halflife",
+  "model_primary": "mistralai/Mistral-7B-v0.1",
+  "model_fallback": "Qwen/Qwen2.5-7B",
+  "max_context": 512,
+  "age_bins": [
+    "4-5yr",
+    "5-6yr",
+    "6-7yr",
+    "7-8yr",
+    "8-9yr",
+    "9-10yr"
+  ],
+  "groups": [
+    "TD",
+    "LI"
+  ],
+  "actual_model": "mistralai/Mistral-7B-v0.1",
+  "n_td_docs": 1710,
+  "n_li_docs": 450,
+  "results_dir": "/content/drive/MyDrive/LRTIA/results/ENNI/v4.2_burstiness"
+}

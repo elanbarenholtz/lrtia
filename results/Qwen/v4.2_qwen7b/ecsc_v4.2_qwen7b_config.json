@@ -1,0 +1,31 @@
+{
+  "VERSION": "v4.2",
+  "MODEL_NAME": "Qwen/Qwen2.5-7B-Instruct",
+  "MODEL_DISPLAY": "Qwen2.5-7B-Instruct",
+  "MODEL_TAG": "qwen7b",
+  "QUANTIZATION": "bf16",
+  "MIN_WORDS": 200,
+  "K_TARGETS": 20,
+  "TARGET_START_FRAC": 0.15,
+  "TARGET_END_FRAC": 0.9,
+  "TARGET_REGION_TOKENS": 40,
+  "CONTEXT_GRID_BURST": [
+    32,
+    64,
+    128,
+    192,
+    256,
+    384,
+    512
+  ],
+  "SHORT_CONTEXT": 32,
+  "LONG_CONTEXTS": [
+    512,
+    256
+  ],
+  "SPIKE_PERCENTILE": 95,
+  "SPIKE_MASS_TOP_FRAC": 0.1,
+  "MIN_TARGETS_PER_DOC": 8,
+  "MAX_CONTEXT_FIXED": 512,
+  "N_BOOTSTRAP": 1000
+}

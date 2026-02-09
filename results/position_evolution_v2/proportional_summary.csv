@@ -1,0 +1,9 @@
+metric,description,value,as_pct
+rel_improve_128,gain_128/NLL_0,0.4035072610223063,40.4%
+tail_share_33_128,share from lag 33-128,0.18605359541443509,18.6%
+tail_share_49_128,share from lag 49-128,0.1151476180317839,11.5%
+tail_share_65_128,share from lag 65-128,0.0717306565266649,7.2%
+I_256_norm_full,I_256/gain_128 (all),4.393046534150854,4.39x
+I_256_norm_far,I_256/gain_128 (>=128 from end),5.139239100539234,5.14x
+I_256_norm_close,I_256/gain_128 (<64 from end),3.9284392936758645,3.93x
+closure_reduction_pct,(close-far)/far,-0.23559904164340717,-24%

@@ -1,0 +1,128 @@
+WITHIN-ESSAY STABILITY ANALYSIS
+================================================================================
+
+QUESTION: Are shape metrics stable within essays (across segments)?
+This tests whether essays have distinctive 'profiles' that could be signatures.
+
+============================================================
+1. INTRACLASS CORRELATION (ICC)
+============================================================
+ICC = Var(between-essay) / Var(total)
+
+log_slope_local:
+  ICC = 0.2061
+  Var(between) = 0.002769 (20.6%)
+  Var(within) = 0.010664 (79.4%)
+
+auc_linear_k:
+  ICC = 0.1548
+  Var(between) = 280.552273 (15.5%)
+  Var(within) = 1532.022375 (84.5%)
+
+gain_128:
+  ICC = 0.1972
+  Var(between) = 0.034209 (19.7%)
+  Var(within) = 0.139259 (80.3%)
+
+early_ratio:
+  ICC = 0.0615
+  Var(between) = 0.002405 (6.1%)
+  Var(within) = 0.036719 (93.9%)
+
+auc_log_k:
+  ICC = 0.0893
+  Var(between) = 0.101023 (8.9%)
+  Var(within) = 1.030065 (91.1%)
+
+============================================================
+2. SPATIAL STABILITY (first-half vs second-half)
+============================================================
+
+log_slope_local: r = 0.6854 (p = 0.0000)
+auc_linear_k: r = 0.6300 (p = 0.0000)
+gain_128: r = 0.6931 (p = 0.0000)
+early_ratio: r = 0.3750 (p = 0.0000)
+auc_log_k: r = 0.4879 (p = 0.0000)
+
+============================================================
+3. WITHIN vs BETWEEN DISTANCES
+============================================================
+
+log_slope_local:
+  Within-essay mean: 0.1051
+  Between-essay mean: 0.1293
+  Ratio: 0.8126
+  p-value: 0.0094
+
+auc_linear_k:
+  Within-essay mean: 43.7982
+  Between-essay mean: 47.5815
+  Ratio: 0.9205
+  p-value: 0.1345
+
+gain_128:
+  Within-essay mean: 0.4120
+  Between-essay mean: 0.4700
+  Ratio: 0.8766
+  p-value: 0.0551
+
+early_ratio:
+  Within-essay mean: 0.2017
+  Between-essay mean: 0.2210
+  Ratio: 0.9124
+  p-value: 0.0771
+
+auc_log_k:
+  Within-essay mean: 1.1809
+  Between-essay mean: 1.1739
+  Ratio: 1.0060
+  p-value: 0.6025
+
+============================================================
+4. BOOTSTRAP RANK STABILITY
+============================================================
+
+log_slope_local:
+  Mean r = 0.7238
+  95% CI = [0.6633, 0.7745]
+
+auc_linear_k:
+  Mean r = 0.6478
+  95% CI = [0.5659, 0.7108]
+
+gain_128:
+  Mean r = 0.7162
+  95% CI = [0.6308, 0.7666]
+
+early_ratio:
+  Mean r = 0.3883
+  95% CI = [0.2778, 0.4884]
+
+auc_log_k:
+  Mean r = 0.4921
+  95% CI = [0.3973, 0.5723]
+
+============================================================
+5. RESIDUALIZED ICC (controlling for confounds)
+============================================================
+
+log_slope_local:
+  ICC (raw) = 0.2061
+  ICC (residualized) = 0.2054
+
+auc_linear_k:
+  ICC (raw) = 0.1548
+  ICC (residualized) = 0.1524
+
+gain_128:
+  ICC (raw) = 0.1972
+  ICC (residualized) = 0.1957
+
+early_ratio:
+  ICC (raw) = 0.0615
+  ICC (residualized) = 0.0586
+
+auc_log_k:
+  ICC (raw) = 0.0893
+  ICC (residualized) = 0.0852
+

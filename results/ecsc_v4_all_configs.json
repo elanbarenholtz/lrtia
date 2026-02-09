@@ -1,0 +1,92 @@
+{
+  "runs": [
+    {
+      "version": "v4.0",
+      "description": "Initial burstiness analysis with single L",
+      "model": {
+        "name": "mistralai/Mistral-7B-v0.1",
+        "display": "Mistral-7B-v0.1",
+        "tag": "mistral7b",
+        "quantization": "4bit-nf4"
+      },
+      "params": {
+        "MIN_WORDS": 200,
+        "K_TARGETS": 10,
+        "TARGET_START_FRAC": 0.30,
+        "TARGET_END_FRAC": 0.90,
+        "TARGET_REGION_TOKENS": 40,
+        "SHORT_CONTEXT": 32,
+        "LONG_CONTEXT": 256,
+        "CONTEXT_GRID_BURST": [32, 64, 128, 192, 256],
+        "SPIKE_PERCENTILE": 95,
+        "SPIKE_MASS_TOP_FRAC": 0.10,
+        "MIN_TARGETS_PER_DOC": 4,
+        "MAX_CONTEXT_FIXED": 512,
+        "N_BOOTSTRAP": 1000
+      }
+    },
+    {
+      "version": "v4.2",
+      "description": "Dual-L with per-target eligibility, baseline/spike decomposition, anchor specificity",
+      "model": {
+        "name": "mistralai/Mistral-7B-v0.1",
+        "display": "Mistral-7B-v0.1",
+        "tag": "mistral7b",
+        "quantization": "4bit-nf4"
+      },
+      "params": {
+        "MIN_WORDS": 200,
+        "K_TARGETS": 20,
+        "TARGET_START_FRAC": 0.15,
+        "TARGET_END_FRAC": 0.90,
+        "TARGET_REGION_TOKENS": 40,
+        "SHORT_CONTEXT": 32,
+        "LONG_CONTEXTS": [512, 256],
+        "CONTEXT_GRID_BURST": [32, 64, 128, 192, 256, 384, 512],
+        "SPIKE_PERCENTILE": 95,
+        "SPIKE_MASS_TOP_FRAC": 0.10,
+        "MIN_TARGETS_PER_DOC": 8,
+        "MIN_TARGETS_512": 4,
+        "MAX_CONTEXT_FIXED": 512,
+        "N_BOOTSTRAP": 1000
+      },
+      "notes": "Per-target eligibility: lo=max(0.15*T, L), hi=min(0.9*T, T-40)"
+    },
+    {
+      "version": "v4.2",
+      "description": "Robustness check with larger model",
+      "model": {
+        "name": "Qwen/Qwen2.5-7B-Instruct",
+        "display": "Qwen2.5-7B-Instruct",
+        "tag": "qwen7b",
+        "quantization": "bf16"
+      },
+      "params": {
+        "MIN_WORDS": 200,
+        "K_TARGETS": 20,
+        "TARGET_START_FRAC": 0.15,
+        "TARGET_END_FRAC": 0.90,
+        "TARGET_REGION_TOKENS": 40,
+        "SHORT_CONTEXT": 32,
+        "LONG_CONTEXTS": [512, 256],
+        "CONTEXT_GRID_BURST": [32, 64, 128, 192, 256, 384, 512],
+        "SPIKE_PERCENTILE": 95,
+        "SPIKE_MASS_TOP_FRAC": 0.10,
+        "MIN_TARGETS_PER_DOC": 8,
+        "MIN_TARGETS_512": 4,
+        "MAX_CONTEXT_FIXED": 512,
+        "N_BOOTSTRAP": 1000
+      },
+      "notes": "Llama-3.1-8B unavailable, used Qwen fallback. bf16 precision."
+    }
+  ],
+  "target_selection": {
+    "v4.0": "Fixed fraction: [0.30*T, 0.90*T]",
+    "v4.2": "Per-target eligibility: lo=max(0.15*T, L), hi=min(0.9*T, T-40)"
+  },
+  "metrics": {
+    "end_of_doc": ["half_life_fixed", "early_drop_pct", "ppl_min_ctx", "total_benefit"],
+    "burstiness": ["baseline_L", "spike_mass_c", "cv_c", "kurtosis_c"],
+    "anchor": ["top_share_L", "n_eff_L", "I_L_star"]
+  }
+}

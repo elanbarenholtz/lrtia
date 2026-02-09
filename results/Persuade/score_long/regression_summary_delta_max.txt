@@ -1,0 +1,29 @@
+OLS: delta_max ~ C(score_bin) + token_count_z
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              delta_max   R-squared:                       0.065
+Model:                            OLS   Adj. R-squared:                  0.046
+Method:                 Least Squares   F-statistic:                     3.380
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):             0.0200
+Time:                        01:05:45   Log-Likelihood:                -399.37
+No. Observations:                 150   AIC:                             806.7
+Df Residuals:                     146   BIC:                             818.8
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                4.4586      0.497      8.966      0.000       3.476       5.441
+C(score_bin)[T.mid]     -1.5402      0.703     -2.191      0.030      -2.930      -0.151
+C(score_bin)[T.high]    -1.8576      0.704     -2.638      0.009      -3.249      -0.466
+token_count_z            0.4558      0.289      1.580      0.116      -0.114       1.026
+==============================================================================
+Omnibus:                      238.681   Durbin-Watson:                   1.801
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            27121.651
+Skew:                           6.816   Prob(JB):                         0.00
+Kurtosis:                      67.449   Cond. No.                         3.73
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,33 @@
+ECSC WITHIN-CHILD SIGNATURE ANALYSIS
+================================================================================
+
+DATASET
+----------------------------------------
+Total transcripts: 341
+Unique children: 188
+Children with 2+ sessions: 82
+Transcripts with task: 209
+
+TASK ICC
+----------------------------------------
+log_slope_local: ICC = 0.1175
+auc_log_k: ICC = 0.0660
+auc_linear_k: ICC = 0.0999
+early_ratio: ICC = 0.0230
+mean_gain_128: ICC = 0.0793
+
+CHILD ICC
+----------------------------------------
+log_slope_local: ICC = 0.3229
+auc_log_k: ICC = 0.1256
+auc_linear_k: ICC = 0.2296
+early_ratio: ICC = 0.0915
+mean_gain_128: ICC = 0.2739
+
+WITHIN vs BETWEEN CHILD DISTANCES
+----------------------------------------
+log_slope_local: within=0.0496, between=0.0666, ratio=0.7448, p=0.0002
+auc_log_k: within=0.4665, between=0.5229, ratio=0.8921, p=0.0212
+auc_linear_k: within=18.2559, between=22.8802, ratio=0.7979, p=0.0004
+early_ratio: within=0.0678, between=0.0761, ratio=0.8909, p=0.0362
+mean_gain_128: within=0.1760, between=0.2326, ratio=0.7566, p=0.0000

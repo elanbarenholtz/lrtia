@@ -1,0 +1,22 @@
+{
+  "VERSION": "v4.2",
+  "MODEL_NAME": "mistralai/Mistral-7B-v0.1",
+  "MODEL_DISPLAY": "Mistral-7B-v0.1",
+  "MODEL_TAG": "mistral7b",
+  "QUANTIZATION": "4bit-nf4",
+  "MIN_WORDS": 200,
+  "K_TARGETS": 20,
+  "TARGET_START_FRAC": 0.15,
+  "TARGET_END_FRAC": 0.90,
+  "TARGET_REGION_TOKENS": 40,
+  "SHORT_CONTEXT": 32,
+  "LONG_CONTEXTS": [512, 256],
+  "CONTEXT_GRID_BURST": [32, 64, 128, 192, 256, 384, 512],
+  "SPIKE_PERCENTILE": 95,
+  "SPIKE_MASS_TOP_FRAC": 0.10,
+  "MIN_TARGETS_PER_DOC": 8,
+  "MIN_TARGETS_512": 4,
+  "MAX_CONTEXT_FIXED": 512,
+  "N_BOOTSTRAP": 1000,
+  "TARGET_SELECTION": "Per-target eligibility: lo=max(0.15*T, L), hi=min(0.9*T, T-40)"
+}

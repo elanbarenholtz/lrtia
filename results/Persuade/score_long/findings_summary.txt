@@ -1,0 +1,21 @@
+
+FINDINGS (score_long cohort, n=150)
+------------------------------------------------------------
+
+Score-bin differences in memory-curve shape (AUC, log_slope) are 
+significant when controlling for length alone 
+(AUC: p=0.016, log_slope: p=0.025), 
+but vanish when controlling for baseline perplexity 
+(AUC: p=0.673, log_slope: p=0.515).
+
+The fluency→AUC relationship does not differ significantly by score bin 
+(interaction test p=>.05).
+
+Repetition metrics that differ by score bin: ttr.
+
+CONCLUSION: Apparent group differences in curve shape are largely 
+explained by baseline fluency/difficulty rather than differential 
+long-range dependence. Low-scoring essays have higher perplexity 
+(are harder for the LM to predict), which mechanically produces 
+larger AUC/slope values. Once fluency is controlled, the score-bin 
+effect disappears.

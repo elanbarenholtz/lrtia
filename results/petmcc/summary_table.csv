@@ -1,0 +1,5 @@
+Metric,beta,p,95% CI,Sig,LengthMatched,ICC
+half_life,-0.063,0.7943,"[-0.54, 0.41]",No,No,-0.027
+early_slope,-0.035,0.2966,"[-0.10, 0.03]",No,-,0.143
+early_drop_pct,-0.193,0.7689,"[-1.48, 1.10]",No,-,-0.008
+late_benefit_pct,0.614,0.4298,"[-0.92, 2.14]",No,-,0.016

@@ -1,0 +1,5 @@
+corpus_a,corpus_b,L2,JensenShannon
+ecsc,ecsc,0.0,0.0
+ecsc,persuade,0.04984501744264573,0.060372253432799054
+persuade,ecsc,0.04984501744264573,0.060372253432799054
+persuade,persuade,0.0,0.0

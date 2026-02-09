@@ -49,11 +49,11 @@ htmlcov/
 demo_data/
 demo_results/
 demo_figures/
-results/
 figures/
 *.parquet
 *.csv
 !configs/*.yaml
+!results/**/*.csv
 
 # Raw and processed data
 data/

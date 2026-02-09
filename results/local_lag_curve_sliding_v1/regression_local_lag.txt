@@ -1,0 +1,209 @@
+LOCAL LAG CURVE REGRESSION ANALYSIS (SLIDING WINDOWS)
+================================================================================
+
+PRIMARY OUTPUTS: SHAPE METRICS
+----------------------------------------
+Shape metrics characterize the 'memory-use profile' - how quickly
+predictive benefit saturates as context length increases.
+
+  * early_ratio = gain_16 / gain_128 (saturation speed)
+  * log_slope_local = slope of gain vs log(k)
+  * auc_log_k = AUC on log scale (emphasizes early saturation) [PRIMARY]
+  * auc_linear_k = AUC on linear scale (emphasizes longer k)
+
+WHAT WE'RE MEASURING:
+----------------------------------------
+  - NLL on true next tokens (actual words written)
+  - gain_k = NLL(k=0) - NLL(k): how much k tokens of context help
+  - Shape of gain_k curve = 'local memory curve'
+
+================================================================================
+
+Configuration:
+  Cohort: persuade_score_long (50/50/50)
+  Target length T: 32 tokens
+  Windows per essay: 20
+  Min preceding context: 128 tokens
+  End buffer: 64 tokens
+  Context grid k: [0, 2, 4, 8, 12, 16, 24, 32, 48, 64, 96, 128]
+  Essays analyzed: 150
+  Random seed: 42
+
+================================================================================
+
+SPLIT-HALF RELIABILITY (Shape Metrics):
+----------------------------------------
+  early_ratio: r=0.442, Spearman-Brown=0.613
+  log_slope_local: r=0.713, Spearman-Brown=0.832
+  auc_log_k: r=0.478, Spearman-Brown=0.647
+  auc_linear_k: r=0.629, Spearman-Brown=0.773
+
+================================================================================
+
+REGRESSION MODELS:
+----------------------------------------
+Models: metric ~ C(score_bin) + token_count_z + baseline_nll_z
+(controlling for essay length and baseline fluency)
+
+============================================================
+PRIMARY SHAPE METRICS
+============================================================
+
+EARLY_RATIO MODEL:
+Formula: early_ratio ~ C(score_bin) + token_count_z + baseline_nll_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            early_ratio   R-squared:                       0.070
+Model:                            OLS   Adj. R-squared:                  0.044
+Method:                 Least Squares   F-statistic:                     2.735
+Date:                Fri, 30 Jan 2026   Prob (F-statistic):             0.0312
+Time:                        00:46:13   Log-Likelihood:                 199.29
+No. Observations:                 150   AIC:                            -388.6
+Df Residuals:                     145   BIC:                            -373.5
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.6218      0.010     62.043      0.000       0.602       0.642
+C(score_bin)[T.mid]     -0.0336      0.014     -2.395      0.018      -0.061      -0.006
+C(score_bin)[T.high]    -0.0100      0.015     -0.682      0.496      -0.039       0.019
+token_count_z            0.0072      0.005      1.354      0.178      -0.003       0.018
+baseline_nll_z          -0.0121      0.006     -2.004      0.047      -0.024      -0.000
+==============================================================================
+Omnibus:                        4.219   Durbin-Watson:                   1.787
+Prob(Omnibus):                  0.121   Jarque-Bera (JB):                4.286
+Skew:                          -0.393   Prob(JB):                        0.117
+Kurtosis:                       2.739   Cond. No.                         4.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+LOG_SLOPE_LOCAL MODEL:
+Formula: log_slope_local ~ C(score_bin) + token_count_z + baseline_nll_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        log_slope_local   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.022
+Method:                 Least Squares   F-statistic:                     1.828
+Date:                Fri, 30 Jan 2026   Prob (F-statistic):              0.127
+Time:                        00:46:13   Log-Likelihood:                 219.85
+No. Observations:                 150   AIC:                            -429.7
+Df Residuals:                     145   BIC:                            -414.6
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.2894      0.009     33.122      0.000       0.272       0.307
+C(score_bin)[T.mid]      0.0206      0.012      1.686      0.094      -0.004       0.045
+C(score_bin)[T.high]    -0.0081      0.013     -0.633      0.528      -0.033       0.017
+token_count_z           -0.0026      0.005     -0.550      0.583      -0.012       0.007
+baseline_nll_z          -0.0011      0.005     -0.211      0.833      -0.012       0.009
+==============================================================================
+Omnibus:                       12.732   Durbin-Watson:                   1.978
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.386
+Skew:                           0.673   Prob(JB):                      0.00124
+Kurtosis:                       3.573   Cond. No.                         4.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+AUC_LOG_K MODEL:
+Formula: auc_log_k ~ C(score_bin) + token_count_z + baseline_nll_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              auc_log_k   R-squared:                       0.052
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     1.968
+Date:                Fri, 30 Jan 2026   Prob (F-statistic):              0.102
+Time:                        00:46:13   Log-Likelihood:                -67.342
+No. Observations:                 150   AIC:                             144.7
+Df Residuals:                     145   BIC:                             159.7
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                2.9361      0.059     49.529      0.000       2.819       3.053
+C(score_bin)[T.mid]      0.0398      0.083      0.479      0.632      -0.124       0.204
+C(score_bin)[T.high]    -0.0871      0.086     -1.008      0.315      -0.258       0.084
+token_count_z            0.0219      0.032      0.691      0.491      -0.041       0.084
+baseline_nll_z          -0.0786      0.036     -2.197      0.030      -0.149      -0.008
+==============================================================================
+Omnibus:                        8.697   Durbin-Watson:                   2.123
+Prob(Omnibus):                  0.013   Jarque-Bera (JB):               10.354
+Skew:                           0.395   Prob(JB):                      0.00565
+Kurtosis:                       4.016   Cond. No.                         4.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+AUC_LINEAR_K MODEL:
+Formula: auc_linear_k ~ C(score_bin) + token_count_z + baseline_nll_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           auc_linear_k   R-squared:                       0.044
+Model:                            OLS   Adj. R-squared:                  0.017
+Method:                 Least Squares   F-statistic:                     1.657
+Date:                Fri, 30 Jan 2026   Prob (F-statistic):              0.163
+Time:                        00:46:13   Log-Likelihood:                -649.85
+No. Observations:                 150   AIC:                             1310.
+Df Residuals:                     145   BIC:                             1325.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept              129.6652      2.880     45.017      0.000     123.972     135.358
+C(score_bin)[T.mid]      4.2318      4.037      1.048      0.296      -3.746      12.210
+C(score_bin)[T.high]    -3.7329      4.198     -0.889      0.375     -12.030       4.565
+token_count_z            0.2209      1.538      0.144      0.886      -2.819       3.261
+baseline_nll_z          -2.4786      1.738     -1.426      0.156      -5.913       0.956
+==============================================================================
+Omnibus:                       10.788   Durbin-Watson:                   2.056
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               11.565
+Skew:                           0.547   Prob(JB):                      0.00308
+Kurtosis:                       3.809   Cond. No.                         4.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+============================================================
+SECONDARY (raw gain level)
+============================================================
+
+MEAN_GAIN_128 MODEL:
+Formula: mean_gain_128 ~ C(score_bin) + token_count_z + baseline_nll_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          mean_gain_128   R-squared:                       0.049
+Model:                            OLS   Adj. R-squared:                  0.023
+Method:                 Least Squares   F-statistic:                     1.882
+Date:                Fri, 30 Jan 2026   Prob (F-statistic):              0.117
+Time:                        00:46:13   Log-Likelihood:                 30.707
+No. Observations:                 150   AIC:                            -51.41
+Df Residuals:                     145   BIC:                            -36.36
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                1.2344      0.031     40.035      0.000       1.173       1.295
+C(score_bin)[T.mid]      0.0632      0.043      1.462      0.146      -0.022       0.149
+C(score_bin)[T.high]    -0.0367      0.045     -0.817      0.416      -0.126       0.052
+token_count_z           -0.0011      0.016     -0.066      0.947      -0.034       0.031
+baseline_nll_z          -0.0185      0.019     -0.997      0.321      -0.055       0.018
+==============================================================================
+Omnibus:                       11.083   Durbin-Watson:                   1.971
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               11.319
+Skew:                           0.627   Prob(JB):                      0.00348
+Kurtosis:                       3.486   Cond. No.                         4.28
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

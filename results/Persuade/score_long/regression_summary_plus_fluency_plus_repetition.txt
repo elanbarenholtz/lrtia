@@ -1,0 +1,207 @@
+MODEL C: Length + Fluency + Repetition Controls
+======================================================================
+
+
+half_life_128
+--------------------------------------------------
+Formula: half_life_128 ~ C(score_bin) + token_count_z + ppl_W32_z + repeat_trigram_rate_z + distinct3_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          half_life_128   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                 -0.013
+Method:                 Least Squares   F-statistic:                    0.6836
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):              0.663
+Time:                        02:24:01   Log-Likelihood:                -600.88
+No. Observations:                 149   AIC:                             1216.
+Df Residuals:                     142   BIC:                             1237.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                68.5596      2.196     31.218      0.000      64.218      72.901
+C(score_bin)[T.mid]      -0.6093      3.103     -0.196      0.845      -6.744       5.525
+C(score_bin)[T.high]      1.3420      3.168      0.424      0.672      -4.920       7.604
+token_count_z            -0.8974      1.274     -0.704      0.482      -3.417       1.622
+ppl_W32_z                -1.6048      1.290     -1.244      0.215      -4.154       0.945
+repeat_trigram_rate_z    -3.7591      5.936     -0.633      0.528     -15.494       7.976
+distinct3_z              -2.9216      6.053     -0.483      0.630     -14.887       9.044
+==============================================================================
+Omnibus:                       13.143   Durbin-Watson:                   2.166
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):                9.411
+Skew:                           0.494   Prob(JB):                      0.00904
+Kurtosis:                       2.266   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+auc_128
+--------------------------------------------------
+Formula: auc_128 ~ C(score_bin) + token_count_z + ppl_W32_z + repeat_trigram_rate_z + distinct3_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                auc_128   R-squared:                       0.388
+Model:                            OLS   Adj. R-squared:                  0.362
+Method:                 Least Squares   F-statistic:                     15.08
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):           2.51e-13
+Time:                        02:24:01   Log-Likelihood:                -795.39
+No. Observations:                 150   AIC:                             1605.
+Df Residuals:                     143   BIC:                             1626.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                74.1731      7.759      9.560      0.000      58.837      89.510
+C(score_bin)[T.mid]      11.0235     11.009      1.001      0.318     -10.738      32.785
+C(score_bin)[T.high]     13.6172     11.235      1.212      0.228      -8.591      35.826
+token_count_z            -8.2055      4.531     -1.811      0.072     -17.161       0.750
+ppl_W32_z                38.3399      4.591      8.352      0.000      29.266      47.414
+repeat_trigram_rate_z   -31.3558     21.102     -1.486      0.139     -73.067      10.356
+distinct3_z             -50.0331     21.525     -2.324      0.022     -92.581      -7.485
+==============================================================================
+Omnibus:                       17.683   Durbin-Watson:                   1.891
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               49.302
+Skew:                           0.366   Prob(JB):                     1.97e-11
+Kurtosis:                       5.711   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+log_slope_128
+--------------------------------------------------
+Formula: log_slope_128 ~ C(score_bin) + token_count_z + ppl_W32_z + repeat_trigram_rate_z + distinct3_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_slope_128   R-squared:                       0.395
+Model:                            OLS   Adj. R-squared:                  0.370
+Method:                 Least Squares   F-statistic:                     15.56
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):           1.08e-13
+Time:                        02:24:01   Log-Likelihood:                -127.25
+No. Observations:                 150   AIC:                             268.5
+Df Residuals:                     143   BIC:                             289.6
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 0.9476      0.090     10.503      0.000       0.769       1.126
+C(score_bin)[T.mid]       0.1414      0.128      1.105      0.271      -0.112       0.395
+C(score_bin)[T.high]      0.1970      0.131      1.508      0.134      -0.061       0.455
+token_count_z            -0.1081      0.053     -2.051      0.042      -0.212      -0.004
+ppl_W32_z                 0.4571      0.053      8.562      0.000       0.352       0.563
+repeat_trigram_rate_z    -0.4498      0.245     -1.833      0.069      -0.935       0.035
+distinct3_z              -0.6615      0.250     -2.643      0.009      -1.156      -0.167
+==============================================================================
+Omnibus:                       13.254   Durbin-Watson:                   1.837
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               39.534
+Skew:                          -0.050   Prob(JB):                     2.60e-09
+Kurtosis:                       5.513   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+delta_128
+--------------------------------------------------
+Formula: delta_128 ~ C(score_bin) + token_count_z + ppl_W32_z + repeat_trigram_rate_z + distinct3_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              delta_128   R-squared:                       0.395
+Model:                            OLS   Adj. R-squared:                  0.370
+Method:                 Least Squares   F-statistic:                     15.56
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):           1.08e-13
+Time:                        02:24:01   Log-Likelihood:                -176.25
+No. Observations:                 150   AIC:                             366.5
+Df Residuals:                     143   BIC:                             387.6
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 1.3137      0.125     10.503      0.000       1.066       1.561
+C(score_bin)[T.mid]       0.1961      0.177      1.105      0.271      -0.155       0.547
+C(score_bin)[T.high]      0.2731      0.181      1.508      0.134      -0.085       0.631
+token_count_z            -0.1498      0.073     -2.051      0.042      -0.294      -0.005
+ppl_W32_z                 0.6336      0.074      8.562      0.000       0.487       0.780
+repeat_trigram_rate_z    -0.6236      0.340     -1.833      0.069      -1.296       0.049
+distinct3_z              -0.9171      0.347     -2.643      0.009      -1.603      -0.231
+==============================================================================
+Omnibus:                       13.254   Durbin-Watson:                   1.837
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               39.534
+Skew:                          -0.050   Prob(JB):                     2.60e-09
+Kurtosis:                       5.513   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+slope_early_128
+--------------------------------------------------
+Formula: slope_early_128 ~ C(score_bin) + token_count_z + ppl_W32_z + repeat_trigram_rate_z + distinct3_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        slope_early_128   R-squared:                       0.312
+Model:                            OLS   Adj. R-squared:                  0.283
+Method:                 Least Squares   F-statistic:                     10.81
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):           6.64e-10
+Time:                        02:24:01   Log-Likelihood:                -183.72
+No. Observations:                 150   AIC:                             381.4
+Df Residuals:                     143   BIC:                             402.5
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 0.9659      0.131      7.347      0.000       0.706       1.226
+C(score_bin)[T.mid]       0.1427      0.187      0.765      0.445      -0.226       0.511
+C(score_bin)[T.high]      0.1467      0.190      0.770      0.442      -0.230       0.523
+token_count_z            -0.1025      0.077     -1.335      0.184      -0.254       0.049
+ppl_W32_z                 0.5429      0.078      6.980      0.000       0.389       0.697
+repeat_trigram_rate_z    -0.3427      0.358     -0.958      0.339      -1.049       0.364
+distinct3_z              -0.6218      0.365     -1.705      0.090      -1.343       0.099
+==============================================================================
+Omnibus:                       37.459   Durbin-Watson:                   1.940
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              130.830
+Skew:                           0.874   Prob(JB):                     3.90e-29
+Kurtosis:                       7.228   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+slope_late_128
+--------------------------------------------------
+Formula: slope_late_128 ~ C(score_bin) + token_count_z + ppl_W32_z + repeat_trigram_rate_z + distinct3_z
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         slope_late_128   R-squared:                       0.177
+Model:                            OLS   Adj. R-squared:                  0.143
+Method:                 Least Squares   F-statistic:                     5.140
+Date:                Thu, 29 Jan 2026   Prob (F-statistic):           8.21e-05
+Time:                        02:24:01   Log-Likelihood:                -177.51
+No. Observations:                 150   AIC:                             369.0
+Df Residuals:                     143   BIC:                             390.1
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                 0.9294      0.126      7.368      0.000       0.680       1.179
+C(score_bin)[T.mid]       0.1402      0.179      0.783      0.435      -0.214       0.494
+C(score_bin)[T.high]      0.2473      0.183      1.354      0.178      -0.114       0.608
+token_count_z            -0.1137      0.074     -1.543      0.125      -0.259       0.032
+ppl_W32_z                 0.3712      0.075      4.974      0.000       0.224       0.519
+repeat_trigram_rate_z    -0.5569      0.343     -1.623      0.107      -1.235       0.121
+distinct3_z              -0.7013      0.350     -2.004      0.047      -1.393      -0.010
+==============================================================================
+Omnibus:                       38.662   Durbin-Watson:                   1.840
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.282
+Skew:                           1.050   Prob(JB):                     2.04e-21
+Kurtosis:                       6.292   Cond. No.                         11.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

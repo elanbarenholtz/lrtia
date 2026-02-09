@@ -1,0 +1,2 @@
+age_group,n,L,n_targets_median,n_targets_q25,n_targets_q75,baseline_mean,baseline_ci_low,baseline_ci_high,spike_mass_c_mean,spike_mass_c_ci_low,spike_mass_c_ci_high,cv_c_mean,cv_c_ci_low,cv_c_ci_high,kurtosis_c_mean,kurtosis_c_ci_low,kurtosis_c_ci_high
+grade2,11,512,20.0,20.0,20.0,9.795871155148008,6.9769344740057955,13.534226240916018,0.4908457445572889,0.4385380927337286,0.5614430315040254,1.205575741221844,1.167368779418077,1.2520711959431383,-0.22661463635132326,-0.7560927542941532,0.5177696147681307

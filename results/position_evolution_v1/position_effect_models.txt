@@ -1,0 +1,92 @@
+POSITION EFFECT MODELS
+============================================================
+
+Model 1: I_256 ~ pos_frac
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  I_256   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                  0.016
+Method:                 Least Squares   F-statistic:                     90.70
+Date:                Mon, 02 Feb 2026   Prob (F-statistic):           2.45e-21
+Time:                        22:32:09   Log-Likelihood:                -18929.
+No. Observations:                5400   AIC:                         3.786e+04
+Df Residuals:                    5398   BIC:                         3.788e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     13.4763      0.603     22.364      0.000      12.295      14.658
+pos_frac      -7.7124      0.810     -9.524      0.000      -9.300      -6.125
+==============================================================================
+Omnibus:                     4128.645   Durbin-Watson:                   0.724
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           149135.127
+Skew:                           3.314   Prob(JB):                         0.00
+Kurtosis:                      27.877   Cond. No.                         11.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+Model 2: I_256 ~ pos_frac + log_token_count + age_months
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  I_256   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                  0.027
+Method:                 Least Squares   F-statistic:                     51.75
+Date:                Mon, 02 Feb 2026   Prob (F-statistic):           5.76e-33
+Time:                        22:32:09   Log-Likelihood:                -18898.
+No. Observations:                5400   AIC:                         3.780e+04
+Df Residuals:                    5396   BIC:                         3.783e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+Intercept          -9.7170      2.976     -3.265      0.001     -15.552      -3.882
+pos_frac           -3.2798      0.980     -3.348      0.001      -5.200      -1.360
+log_token_count     3.1831      0.415      7.675      0.000       2.370       3.996
+age_months          0.0043      0.006      0.685      0.494      -0.008       0.016
+==============================================================================
+Omnibus:                     4117.027   Durbin-Watson:                   0.730
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           149832.363
+Skew:                           3.297   Prob(JB):                         0.00
+Kurtosis:                      27.949   Cond. No.                     2.55e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.55e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Model 4: I_256 ~ pos_frac + log_token_count + C(task)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  I_256   R-squared:                       0.043
+Model:                            OLS   Adj. R-squared:                  0.042
+Method:                 Least Squares   F-statistic:                     39.96
+Date:                Mon, 02 Feb 2026   Prob (F-statistic):           7.70e-48
+Time:                        22:32:09   Log-Likelihood:                -18857.
+No. Observations:                5400   AIC:                         3.773e+04
+Df Residuals:                    5393   BIC:                         3.777e+04
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                       -12.1164      2.981     -4.065      0.000     -17.959      -6.273
+C(task)[T.frog_on_his_own]       -0.4619      0.444     -1.040      0.299      -1.333       0.409
+C(task)[T.frog_where_are_you]     2.2252      0.426      5.228      0.000       1.391       3.060
+C(task)[T.one_frog_too_many]      1.6293      0.385      4.234      0.000       0.875       2.384
+C(task)[T.unknown]                2.1348      0.357      5.977      0.000       1.435       2.835
+pos_frac                         -3.2192      0.972     -3.310      0.001      -5.126      -1.313
+log_token_count                   3.3917      0.412      8.236      0.000       2.584       4.199
+==============================================================================
+Omnibus:                     4110.448   Durbin-Watson:                   0.739
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           152222.027
+Skew:                           3.282   Prob(JB):                         0.00
+Kurtosis:                      28.169   Cond. No.                         180.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

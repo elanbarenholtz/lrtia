@@ -1,0 +1,31 @@
+Formula: half_life_128 ~ C(score_bin) + token_count_z + C(regime)
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          half_life_128   R-squared:                       0.015
+Model:                            OLS   Adj. R-squared:                  0.004
+Method:                 Least Squares   F-statistic:                     1.320
+Date:                Wed, 28 Jan 2026   Prob (F-statistic):              0.254
+Time:                        21:26:43   Log-Likelihood:                -1853.2
+No. Observations:                 450   AIC:                             3718.
+Df Residuals:                     444   BIC:                             3743.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept                69.5255      1.893     36.735      0.000      65.806      73.245
+C(score_bin)[T.mid]       0.7788      1.798      0.433      0.665      -2.754       4.312
+C(score_bin)[T.high]     -1.0569      2.315     -0.457      0.648      -5.606       3.492
+C(regime)[T.main]         4.9713      2.918      1.704      0.089      -0.763      10.706
+C(regime)[T.extended]     0.3243      4.436      0.073      0.942      -8.395       9.043
+token_count_z             0.1900      1.809      0.105      0.916      -3.364       3.744
+==============================================================================
+Omnibus:                      138.374   Durbin-Watson:                   1.973
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.052
+Skew:                           0.264   Prob(JB):                     1.34e-06
+Kurtosis:                       1.921   Cond. No.                         9.16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
