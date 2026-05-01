@@ -1,0 +1,97 @@
+# Experiment 1: Naturalistic Disruption Validation
+# All hyperparameters in one place. Do not change after pre-registration.
+
+probes:
+  llama:
+    hf_name: "unsloth/Meta-Llama-3.1-8B"
+    use_4bit: true
+    bnb_quant_type: "nf4"
+    bnb_compute_dtype: "float16"
+  mistral:
+    hf_name: "mistralai/Mistral-7B-v0.1"
+    use_4bit: true
+    bnb_quant_type: "nf4"
+    bnb_compute_dtype: "float16"
+
+corpora:
+  wiki_zh:
+    path: "data/wiki_multilingual/zh_articles.jsonl"
+    name: "Chinese Wikipedia"
+    language: "zh"
+    type: "wiki"
+  wiki_ja:
+    path: "data/wiki_multilingual/ja_articles.jsonl"
+    name: "Japanese Wikipedia"
+    language: "ja"
+    type: "wiki"
+  wiki_ko:
+    path: "data/wiki_multilingual/ko_articles.jsonl"
+    name: "Korean Wikipedia"
+    language: "ko"
+    type: "wiki"
+  wiki_tr:
+    path: "data/wiki_multilingual/tr_articles.jsonl"
+    name: "Turkish Wikipedia"
+    language: "tr"
+    type: "wiki"
+  wiki_ar:
+    path: "data/wiki_multilingual/ar_articles.jsonl"
+    name: "Arabic Wikipedia"
+    language: "ar"
+    type: "wiki"
+  wiki_fi:
+    path: "data/wiki_multilingual/fi_articles.jsonl"
+    name: "Finnish Wikipedia"
+    language: "fi"
+    type: "wiki"
+  buckeye:
+    path: "data/buckeye_processed/speaker_concatenated.jsonl"
+    name: "Buckeye Spoken English"
+    language: "en"
+    type: "spoken"
+  french_oral:
+    path: "data/french_oral_processed/per_story.jsonl"
+    name: "French Oral Narrative"
+    language: "fr"
+    type: "spoken"
+
+context:
+  max_context: 100            # C = maximum context length in tokens
+  target_length: 30           # tokens in target region
+  target_fractions: [0.25, 0.50, 0.75]  # target positions within document
+  min_context_before_target: 110  # must have C + margin tokens before target
+
+disruptions:
+  primary_cut_point: 50       # M for all conditions at primary
+  secondary_cut_points: [25, 75]  # M for D1/D3 localization
+  d5_block_size: 20           # K = foreign block size
+  d5_context_length: 120      # C + K for D5 conditions
+
+shuffled_baseline:
+  n_shuffles: 50              # permutations averaged per (condition, c)
+  seed: 42                    # deterministic seed for reproducibility
+
+topic_matching:
+  model: "paraphrase-multilingual-mpnet-base-v2"
+  d5a_threshold: 0.6          # cosine similarity >= for same-topic
+  d5b_threshold: 0.2          # cosine similarity <= for different-topic
+  d5c_min_distance: 200       # tokens from target for same-doc distant
+  max_no_donor_rate: 0.05     # raise if > 5% of targets have no donor
+
+statistical:
+  bootstrap_resamples: 1000
+  bootstrap_seed: 123
+  alpha: 0.01                 # meta-analytic significance threshold
+  breakpoint_tolerance: 5     # |estimated_M - manipulated_M| <= 5
+  spearman_contrast_threshold: 0.3
+  d3_jump_threshold: 0.5      # standardized jump > 0.5
+  d0_mean_diff_threshold: 0.05  # mean abs diff < 5% of intact magnitude
+  d0_ci_exclusion_threshold: 0.05  # < 5% of distances with CI excluding zero
+  d1_near_diff_threshold: 0.10    # mean abs diff < 10% of intact near mean
+
+aggregate_rules:
+  llama_pass_threshold: 6     # >= 6 of 8 corpora
+  mistral_pass_threshold: 5   # >= 5 of 8 corpora
+  localization_pass_rate: 0.75  # >= 75% of condition-cut combinations
+  d5_llama_pass: 5            # >= 5 of 6 wiki corpora
+  d5_mistral_pass: 4          # >= 4 of 6 wiki corpora

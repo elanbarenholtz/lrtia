@@ -1,0 +1,144 @@
+# Experiment 1A: Naturalistic Disruption Validation — Formal Config
+# Pre-registered. Do not change after tagging exp1a-prereg-v1.
+
+experiment_name: exp1a_naturalistic_disruption_validation
+status: formal_pre_registered_run
+
+probe_models:
+  primary:
+    name: unsloth/Meta-Llama-3.1-8B    # base model, matching published analyses
+    quantization: 4bit
+    bnb_quant_type: nf4
+    bnb_compute_dtype: float16
+  robustness:
+    name: mistralai/Mistral-7B-v0.1
+    quantization: 4bit
+    bnb_quant_type: nf4
+    bnb_compute_dtype: float16
+
+context:
+  C: 100
+  target_len: 30
+  target_positions: [0.25, 0.50, 0.75]
+  min_context_before_target: 110
+
+cutpoints:
+  primary_M: 50
+  secondary_M: [25, 75]
+
+shuffles:
+  n_shuffles_formal: 50
+  n_shuffles_calibration: 10
+  random_seed_base: 20260429
+
+conditions:
+  - intact
+  - D0_noop
+  - D1_reverse_far
+  - D2_reverse_near
+  - D3_swap_halves
+  - D4_full_reverse
+  - D5a_same_topic_foreign
+  - D5b_different_topic_foreign
+  - D5c_same_document_distant
+  - D5d_shuffled_same_topic
+
+d5:
+  enabled_for: wikipedia_only
+  K: 20
+  embedding_model: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+  fallback_embedding_model: sentence-transformers/LaBSE
+  same_topic_threshold: 0.60
+  different_topic_threshold: 0.20
+  min_distance_same_doc_tokens: 200
+
+corpora:
+  wiki_zh:
+    path: data/wiki_multilingual/zh_articles.jsonl
+    name: Chinese Wikipedia
+    language: zh
+    type: wiki
+    bootstrap_unit: document
+  wiki_ja:
+    path: data/wiki_multilingual/ja_articles.jsonl
+    name: Japanese Wikipedia
+    language: ja
+    type: wiki
+    bootstrap_unit: document
+  wiki_ko:
+    path: data/wiki_multilingual/ko_articles.jsonl
+    name: Korean Wikipedia
+    language: ko
+    type: wiki
+    bootstrap_unit: document
+  wiki_tr:
+    path: data/wiki_multilingual/tr_articles.jsonl
+    name: Turkish Wikipedia
+    language: tr
+    type: wiki
+    bootstrap_unit: document
+  wiki_ar:
+    path: data/wiki_multilingual/ar_articles.jsonl
+    name: Arabic Wikipedia
+    language: ar
+    type: wiki
+    bootstrap_unit: document
+  wiki_fi:
+    path: data/wiki_multilingual/fi_articles.jsonl
+    name: Finnish Wikipedia
+    language: fi
+    type: wiki
+    bootstrap_unit: document
+  buckeye:
+    path: data/buckeye_processed/speaker_concatenated.jsonl
+    name: Buckeye Spoken English
+    language: en
+    type: spoken
+    bootstrap_unit: speaker
+  french_oral:
+    path: data/french_oral_processed/per_story.jsonl
+    name: French Oral Narrative
+    language: fr
+    type: spoken
+    bootstrap_unit: storyteller
+
+formal_analysis:
+  primary_dependent_variable: corrected_marginal_delta
+  secondary_dependent_variable: corrected_marginal_delta_nll
+  bootstrap_resamples: 1000
+  bootstrap_seed: 123
+  primary_probe_for_pass_fail: llama
+  mistral_role: robustness_check
+
+pass_fail_criteria:
+  d0:
+    mean_abs_diff_threshold: 0.05        # < 5% of intact magnitude
+    ci_exclusion_threshold: 0.05         # < 5% of distances with CI excluding zero
+  d3:
+    jump_ci_excludes_zero: true
+    standardized_jump_threshold: 0.5
+    spearman_contrast_threshold: 0.3
+  d4:
+    spearman_contrast_threshold: 0.3     # rev - fwd > 0.3
+    spearman_rev_minimum: 0.6            # rho(D4, rev_intact) >= 0.6
+  d1:
+    near_signed_diff_ci_includes_zero: true
+    near_abs_diff_threshold: 0.10        # < 10% of intact near mean
+    breakpoint_tolerance: 5              # |M_hat - M| <= 5
+    far_spearman_contrast_threshold: 0.3
+  d5:
+    primary_ordering: [D5c, D5a, D5b]   # D5c > D5a > D5b
+    d5d_role: diagnostic_only
+
+aggregate_rules:
+  llama_pass_threshold: 6               # >= 6 of 8 corpora
+  mistral_pass_threshold: 5             # >= 5 of 8 corpora
+  localization_pass_rate: 0.75           # >= 75% of condition-cut combinations
+  d5_llama_pass: 5                       # >= 5 of 6 wiki corpora
+  d5_mistral_pass: 4                     # >= 4 of 6 wiki corpora
+  meta_analysis_alpha: 0.01
+
+floor_limited:
+  threshold: 2                           # mean delta < 2 * bootstrap SE above zero
+  classification: inconclusive           # not pass, not fail
+  excluded_from_aggregate: true
