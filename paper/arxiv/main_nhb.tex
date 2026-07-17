@@ -1,0 +1,862 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+\renewcommand\Authfont{\normalsize}
+\renewcommand\Affilfont{\small\itshape}
+
+\title{\bfseries A scaling law of contextual persistence in human language}
+
+\author[1]{Elan Barenholtz}
+\affil[1]{Department of Psychology and Center for Complex Systems, Florida Atlantic University}
+
+\date{}
+
+\usepackage{lineno}
+\begin{document}
+\linenumbers
+\maketitle
+
+\begin{abstract}
+\noindent
+Human language obeys scaling laws for vocabulary growth, word frequency, and syntactic
+structure, yet none describes how the influence of prior context decays with distance. Using
+large language models as probabilistic probes, we isolated order-specific influence with a
+shuffled-token baseline; the contextual persistence function $P(d)$ measures it at distance $d$. Across ten corpora (449 documents) spanning six language
+families and written and spoken modalities, $P(d)$ decayed approximately as $1/d$
+($P(d)\propto d^{-\alpha}$, mean $\alpha=1.04$; median $r^2=0.96$). The decay vanished
+in scrambled and synthetic controls and replicated across independent probes; the same
+scale-free, near-unity signature did not appear in genomic or protein sequences under
+domain-native models. Because $\alpha$ is near $1$, contextual influence is distributed
+approximately uniformly across logarithmic timescales. These results establish a previously undescribed scaling law of contextual
+persistence in human language --- a constraint that any theory of language must
+explain.
+\end{abstract}
+
+\section{Introduction}
+
+Human language has a rich statistical structure, much of which has been captured by quantitative
+laws \citep{altmann2016statistical}. Word frequencies follow Zipf's law \citep{zipf1949human}, and
+vocabulary growth follows Heaps' law \citep{heaps1978information}; both are scale-free and recur
+with striking consistency across languages and corpora. What makes such a regularity a law is the
+reproducibility of its exponent, not the power-law form alone: Zipf's sits near unity across a wide
+range of languages and corpora.
+
+Both describe the units in aggregate, independent of the order in which they appear, and so occupy
+the most basic level of a hierarchy of statistical structure, in which each successive level is
+more specific and is defined by removing the contribution of the one below. A second level concerns
+not how often units occur but how they depend on one another across distance. That language carries such long-range dependence is established: the mutual information
+between symbols falls off as an approximate power law of their separation, decaying far more slowly
+than expected under conventional finite-order Markov models \citep{ebeling1994entropy, lin2017critical, montemurro2002longrange}. But this measure
+of raw statistical correlation conflates genuinely sequential structure with order-independent
+effects such as shared vocabulary and topic: long-range mutual information can reflect repeated
+lexical and topical content even when the local ordering of that content is disrupted. It therefore
+does not isolate the contribution of order itself.
+
+A third level lies beyond both, and no law has yet captured it: the order-specific dependence that
+remains once the contribution of unit identity is removed. This is not a formal residue. Word order
+encodes grammatical relations and compositional meaning that the identities of the words alone do
+not, so isolating order-specific dependence captures structure carried by arrangement, including
+grammatical and compositional relations that token identity alone cannot preserve, as distinct
+from the lexical and topical content carried by which words are present. Representational accounts of
+contextual dependence, such as discourse and situation models \citep{vandijk1983strategies} and
+resonance-based accounts of memory access during reading \citep{myers1998accessing}, describe it
+qualitatively rather than as a quantitative decay law. Whether this order-specific dependence obeys a
+scaling law, and if so of what form, is unknown.
+
+Reaching this third level requires estimating the probability of what comes next given long and
+specific prior context, a quantity that classical corpus statistics approximate only crudely. Large
+autoregressive transformer models \citep{vaswani2017attention, radford2019language} change this. Trained only to predict the next token, they assign
+token-level conditional probabilities to continuations over context lengths that far exceed those
+tractable with conventional corpus estimators, and are
+sensitive to precisely the order-dependent structure that raw co-occurrence statistics cannot
+isolate. Used as measuring instruments, or probes, rather than as objects of study, they provide a
+new vantage point on this level of linguistic structure.
+
+Here we measure this decay directly. For a fixed upcoming span, we ask how much revealing the
+true, ordered prior context reduces a probe's surprise, and subtract the reduction obtained when
+the same words are supplied in scrambled order. The difference removes predictive benefit available
+from the same vocabulary and topical content in scrambled order, retaining the additional benefit of
+intact sequential arrangement: the order-specific
+contextual influence. Measured as a function of distance $d$ back through the sequence,
+this defines the \emph{contextual persistence function} (CPF), $P(d)$; its
+functional form we call the \emph{contextual persistence law}. We apply it across ten
+corpora spanning six language families, multiple genres, and written and spoken modalities.
+Throughout, we treat the CPF as a law governing natural-language sequences, a property of
+the linguistic product; whether and how it maps onto the real-time mechanisms of human
+production and comprehension is a separate, empirically open question we return to in the
+Discussion.
+
+$P(d)$ decays approximately as $1/d$ ($P(d)\propto d^{-\alpha}$) with mean decay exponent
+$\alpha=1.04$ (SD $=0.15$) and no characteristic cutoff across nearly two orders of magnitude in distance. This decay
+is consistent across language families, genres, and modalities, vanishes in
+random-token controls, scales with the integrity of sequential structure, and is
+broadly distributed across prior sentences rather than concentrated in a small number
+of anchors. The CPF describes a continuous, scale-free temporal
+structure in human language, measurable directly from the linguistic sequence and
+replicable across independently trained probe models
+(Llama-3.1-8B, Mistral-7B).
+
+The shape of $P(d)$ places language alongside other human behaviours and neural
+processes that exhibit scale-free temporal structure \citep{gilden2001cognitive, barabasi2005origin, linkenkaerhansen2001longrange, beggs2003neuronal, kello2010scaling}, and constrains the class of
+mechanisms capable of producing such structure. In particular, the absence of any
+characteristic scale across the measured range, combined with the graded
+contributions of prior content distributed across the sequence, is difficult to
+reconcile with architectural accounts of memory that posit a sharp division between
+maintained and retrieved material with distinguishable temporal dynamics. The pattern
+is consistent instead with mechanisms in which prior content continues to shape
+ongoing generation through the evolving probability structure of the sequence itself.
+
+We present this as an empirical discovery rather than a mechanistic proposal. We identify a
+previously undescribed quantitative law governing contextual persistence in human language:
+the evidence establishes a robust regularity, and the principal question it raises is why it
+exists.
+
+\section{Results}
+
+\subsection{The contextual persistence function}
+
+We define the contextual persistence function (CPF), $P(d)$, as the \emph{order-specific}
+predictive influence of prior context at distance $d$ from the current point of generation:
+the reduction in target perplexity produced by revealing prior context at that distance, minus
+the reduction produced by the same tokens in scrambled order (Methods). Subtracting the
+shuffled-token baseline controls the predictive benefit available from the same token composition in
+scrambled order (the lower rungs of the hierarchy above), so $P(d)$ isolates the component of contextual dependence
+that survives only when sequential order is preserved, resolved as a function of distance.
+
+Across all corpora, $P(d)$ is positive at distances well beyond any plausible bound
+on working-memory capacity. At distances approaching 1000 tokens (the far end of our
+measurement range), prior context continues to reduce target perplexity by a measurable
+margin relative to shuffled controls. Long-range contextual influence is therefore not confined to a recency
+window but extends as a graded function across the full sequences we examined.
+
+\subsection{Heavy-tailed decay across languages, genres, and modalities}
+
+The functional form of $P(d)$ is well approximated by a heavy-tailed decay. Figure~\ref{fig:persistence}
+plots $P(d)$ against distance on log--log axes for each of the ten corpora. Across
+languages, genres, and modalities, $P(d)$ decays smoothly across nearly two orders of
+magnitude with a mean decay exponent $\alpha=1.04$ (SD $=0.15$; $P(d)\propto d^{-\alpha}$)
+--- close to a $1/d$ power law --- and a median goodness-of-fit of $r^2 = 0.96$. A
+reduced-sample replication averaging $20$ shuffled permutations per target produced the same
+cross-corpus mean exponent ($\alpha=1.04$) and improved fit stability (Supplementary Information),
+indicating that the headline result does not depend on the selected permutation. Fits are computed on $d \geq 10$
+tokens, the range over which both ordered- and shuffled-context bases are stable;
+very-short-range intervals are reported in Methods. In a comparison of five candidate
+functional forms by small-sample-corrected information criteria (Supplementary
+Information), the power law is preferred in eight of the ten corpora and outperforms a
+pure exponential in all ten; a fixed-scale exponential is never preferred. The two
+remaining corpora, Japanese literary prose and Buckeye spoken English, show mild downward
+curvature and are marginally better described by a log-normal and a stretched-exponential
+form respectively; in both the decay remains heavy-tailed and extends well beyond the range
+expected from a fixed temporal buffer acting alone.
+
+The cross-corpus consistency of the decay regime is notable. The sample spans
+Germanic, Romance, Turkic, Japonic, Uralic, and Slavic language families, as well as
+fiction and literary prose, news and expository prose, prepared speech transcripts,
+and spontaneous speech. A narrow heavy-tailed regime across this range indicates that
+the CPF reflects a general property of natural language rather than a
+property of any single language, register, or modality.
+
+The qualitative pattern that defines $P(d)$ --- a positive contribution of ordered
+context at long range together with a near-zero contribution of shuffled context ---
+extends beyond the six families covered by the long-range run. In a complementary
+cross-language analysis evaluating shorter context lengths on both probe models, the
+long-range sign pattern is preserved across three additional language families:
+Afro-Asiatic, Koreanic, and Sino-Tibetan (Supplementary Information). The headline
+exponent of $P(d)$ is therefore obtained on a six-family set within a broader nine-family
+cross-language replication of the qualitative pattern that defines the persistence
+function.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_persistence.pdf}
+\caption{\textbf{Cross-corpus contextual persistence functions.} Per-token order-specific contextual
+influence $P(d)$ as a function of distance $d$, log--log axes. Each panel is one of ten corpora spanning
+six language families (Germanic, Romance, Turkic, Slavic, Japonic, Uralic) and four production modes. All
+cells exhibit heavy-tailed decay across nearly two orders of magnitude in distance, with mean decay
+exponent $\alpha=1.04$ (SD $=0.15$; $P(d)\propto d^{-\alpha}$, so the log--log slope is $-\alpha$) ---
+close to a $1/d$ law. Points are shown for $d \geq 10$ tokens; the dotted line is the power-law fit. Intervals below $d = 10$ are excluded because at such short context the
+shuffled-token baseline is unstable: with only one or two tokens there is no meaningful permutation, so
+the order-specific difference is ill-defined there and does not reflect the persistence decay (Methods).
+The two cells marked $\dagger$ (Japanese literary prose; Buckeye spontaneous English speech) show mild
+downward curvature and are marginally better fit by a log-normal and a stretched-exponential form
+respectively, but remain heavy-tailed with the power law a close second.}
+\label{fig:persistence}
+\end{figure}
+
+\subsection{An exponent near $1$: uniform influence across logarithmic timescales}
+
+Two properties of the decay should be separated. The first is that it is scale-free: a power
+law has no distance at which its behaviour changes character, and our fits show none across
+the measured range. The second, and more distinctive, is the value of the exponent. Across the
+ten corpora the fitted decay exponent is close to $1$ and clustered around it (mean $\alpha=1.04$,
+SD $=0.15$, with $P(d)\propto d^{-\alpha}$).
+The observed between-corpus spread modestly exceeds document-sampling error (typical bootstrap SE
+${\approx}\,0.10$; Supplementary Information), although permutation sensitivity analyses indicate that
+part of this spread reflects noise in the shuffled baseline. The exponent is therefore best described
+as clustered near $1$, with limited evidence for residual corpus-level heterogeneity. The reproducibility of the near-unity value across otherwise very different samples is
+itself part of the result, and it carries a specific quantitative meaning.
+
+For a CPF of the form $P(d) \propto d^{-\alpha}$, the aggregate contextual influence contained
+within a logarithmic interval of distance --- the band spanning one multiplicative step, or one
+decade, of the past --- is proportional to $d\,P(d) \propto d^{\,1-\alpha}$. When $\alpha \approx 1$
+this quantity is approximately constant. Put concretely, if one divides the past into logarithmic
+bands (1--10, 10--100, and 100--1{,}000 tokens back), each band contributes approximately the
+same aggregate contextual influence, even though the influence of any single word continues to
+decline with distance. The reason the decades flatten is a near-exact cancellation of two opposing
+effects. Each successive logarithmic band reaches proportionally further back and so contains
+proportionally more words, and at $\alpha \approx 1$ that growth in number almost exactly offsets
+the $1/d$ decline in the average influence per token, so the many weakly contributing words far
+back combine to match the few strongly contributing words nearby. Contextual influence is therefore
+distributed approximately uniformly across
+logarithmic timescales: no logarithmic timescale dominates the aggregate, and every decade of the
+past contributes comparably to ongoing prediction (Figure~\ref{fig:alpha}).
+
+This should not be read as memory being equally strong at all distances; individual words do
+become progressively less influential as they recede. What is approximately equal is the
+\emph{aggregate} influence summed within each logarithmic decade: pointwise influence falls as
+$1/d$, while cumulative influence per multiplicative interval of distance remains flat.
+
+The value $\alpha \approx 1$ is also a boundary. For $\alpha > 1$, aggregate influence is
+concentrated near the present and the remote past contributes negligibly in sum; for $\alpha < 1$,
+the sum is increasingly dominated by distant context. $\alpha \approx 1$ is the crossover between
+these regimes: the exponent at which no timescale dominates the total. That human language sits
+at this boundary, rather than at an arbitrary point along the continuum, is what most distinguishes
+the result from a generic heavy tail.
+
+The near-unity regime is robust to the choice of response scale: expressing influence in additive
+log-probability (nats) units rather than perplexity leaves every corpus a near-$1/d$ power law,
+though the mean exponent shifts modestly from $\alpha=1.04$ to $\alpha=1.18$ (Supplementary
+Information), indicating approximate rather than exact equality of influence across logarithmic
+decades.
+
+The reproducibility of the near-unity exponent across corpora is what supports treating this as a
+candidate scaling law rather than an isolated curve fit. As with Zipf's law, the recurrence of the
+value --- an exponent near $1$ across languages, modalities, and independently trained probe models
+--- is the phenomenon, not merely the power-law form.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/schematic_alpha1.pdf}
+\caption{\textbf{Persistence functions $P(d)\propto d^{-\alpha}$ at three exponents and the resulting per-decade influence (schematic).}
+\textbf{Top row (observation):} the persistence law $P(d)\propto d^{-\alpha}$ on log--log axes, where the
+decay appears as a straight line of slope $-\alpha$. The three laws look nearly indistinguishable.
+\textbf{Bottom row (interpretation):} their sharply different consequences. The aggregate influence within a
+logarithmic decade of distance is proportional to $d\,P(d)\propto d^{\,1-\alpha}$, so for $\alpha>1$ (left)
+aggregate influence is concentrated in recent context; for $\alpha<1$ (right) it is dominated by distant
+context; and at $\alpha\approx1$ (centre) each logarithmic decade of the past --- 1--10, 10--100,
+100--1{,}000 tokens back --- contributes approximately equally, distributing influence uniformly across
+logarithmic timescales. The measured mean exponent ($\alpha=1.04$) places human language at this
+boundary. The lower bands are a conceptual illustration, not data.}
+\label{fig:alpha}
+\end{figure}
+
+\subsection{The CPF reflects sequential structure, not properties of the probe}
+
+A central concern in any LLM-based measurement is whether the observed pattern
+reflects properties of natural language or properties of the probe model. We address
+this directly with synthetic-sequence controls. We constructed sequences with
+token-frequency statistics matched to natural text but with sequential structure
+removed. Raw perplexity over these synthetic sequences exhibits apparent power-law
+structure with a slope comparable in magnitude to that observed on natural text
+(Llama-3.1: $\approx -1.27$ on uniform random vocabulary; Mistral-7B: $\approx -1.34$),
+replicating the general tendency for language-model perplexity to fall as context
+length increases even when genuine long-range dependence is absent.
+
+The order-specific CPF, $P(d)$, however, is near zero across all
+distances on the synthetic sequences. The shuffled-token baseline that defines $P(d)$
+absorbs the perplexity reduction attributable to token statistics alone, isolating the
+contribution of sequential organization. The long-range, heavy-tailed $P(d)$ observed
+for natural language therefore depends on properties of the linguistic sequence
+itself, not on the probe. We replicated the persistence signature with two
+independently trained probe models, Llama-3.1-8B and Mistral-7B, obtaining the same
+qualitative pattern and comparable decay ranges on shared corpora, along with near-zero
+$P(d)$ on synthetic controls. The CPF is therefore not an idiosyncratic
+property of the model used to estimate it.
+
+A stronger version of this argument replaces synthetic sequences with real non-language
+sequences that carry their own long-range structure, each probed with its own domain-native
+autoregressive model. If the law were a by-product of autoregressive probing rather than a
+property of language, the identical CPF protocol should reproduce it elsewhere. It does not
+(Figure~\ref{fig:langbio}).
+On genomic sequence (human chromosome~21, HyenaDNA), $P(d)$ is near zero, non-monotonic, and
+far weaker than language, with no scale-free decay. On protein sequence (Swiss-Prot, ProGen2),
+there is genuine long-range influence (expected from coevolutionary structure) but not
+language's form: the power-law fit is poor, and the point-estimate exponent varies across model
+scale while the fit itself deteriorates ($r^2 = 0.36$--$0.62$ versus $0.96$ for language;
+Supplementary Information), so the curve is long-range but not scale-free. Long-range dependence
+is not unique to language. The distinguishing result is the combination of scale-free decay, a
+near-unity exponent, and cross-probe consistency: among the domains and probes tested, only human
+language shows all three, with the measurement protocol and the presence of long-range structure
+held in common. The regularity is a property of the linguistic sequence, not of the instrument.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/lang_vs_bio.pdf}
+\caption{\textbf{Order-specific persistence $P(d)$ for human language, DNA, and protein under the
+identical protocol.} Order-specific persistence $P(d)$ under the identical CPF protocol, on log--log axes,
+for human language (aggregate of the ten corpora), DNA (HyenaDNA), and protein (ProGen2 at two
+scales, 151M and 2.7B). \textbf{Left:} language decays as a clean power law (mean $\alpha=1.04$,
+median $r^2=0.96$; points lie on the fit). \textbf{Centre:} DNA is roughly two orders of magnitude
+weaker and non-monotonic, with no clean scale-free decay. \textbf{Right:} protein carries genuine long-range
+influence but is not scale-free --- the fit is poor and the point estimate varies across model
+scale while power-law fit quality declines ($\alpha=1.07\!\to\!0.74$, $r^2=0.62\!\to\!0.36$ from 151M to 2.7B); $\times$ marks distances
+where $P(d)\leq 0$. The discriminating signature is scale-freeness and exponent stability, not the
+mere presence of long-range structure. Among the domains and probes tested here, only human
+language exhibits the combination of clean scale-free decay, a near-unity exponent, and cross-probe
+stability, despite an identical measurement protocol and domain-native autoregressive probes across domains.}
+\label{fig:langbio}
+\end{figure}
+
+\subsection{Sequence, reversal, and content make distinguishable contributions to persistence}
+
+To separate the effects of disrupting, reversing, and dissolving discourse structure, we evaluated
+four context conditions on the same target windows (Figure~\ref{fig:sentshuf}): intact context;
+sentence-shuffled context, which preserves sentence content and within-sentence order
+while disrupting the discourse sequence; sentence-reversed context, which preserves the
+set of sentence adjacencies while reversing their order and target-relative positions; and
+token-shuffled context, which removes ordered structure altogether. Three contrasts
+follow. The sentence-reversal contrast (intact minus sentence-reversed) measures the loss
+associated with reversing the temporal organization of the prior discourse, while preserving
+sentence-internal order and the set of sentences; the sequence-permutation contrast (intact minus
+sentence-shuffled) isolates sentence-sequence organization; and the content-driven
+contrast (sentence-shuffled minus token-shuffled) estimates the contribution retained by
+sentence content once discourse ordering is removed.
+
+Over their positive range, each contrast is approximately linear on log--log axes, with distinct
+fitted slopes. The sentence-reversal and sequence-permutation contrasts are steep and
+concentrated at short range (slopes $-1.44 \pm 0.48$ and $-1.26 \pm 0.01$
+respectively, approaching zero by $d > 100$ tokens), whereas the content-driven contrast
+is shallow and carries the long-range tail (slope $-0.78 \pm 0.24$). Sensitivity to sentence
+reversal and discourse-sequence permutation is therefore concentrated at short range, whereas
+sentence-level content carries the long-range tail.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig2_sentence_shuffle.pdf}
+\caption{\textbf{Per-token order-specific marginals under four context conditions.}
+Per-token order-specific marginals for four context conditions on log--log axes, aggregated across
+eight cells: ordered (intact forward chain), sentence-shuffled (discourse sequence destroyed, sentence
+content preserved), sentence-reversed (sentence order reversed, so the set of adjacencies is preserved
+while their order and target-relative positions are reversed), and token-shuffled (ordered structure
+removed). Curve ribbons are mean $\pm$ SE across the eight cells. Three contrasts decompose $P(d)$:
+sentence-reversal (intact minus sentence-reversed; slope $-1.44 \pm 0.48$), sequence-permutation (intact
+minus sentence-shuffled; slope $-1.26 \pm 0.01$), and content-driven (sentence-shuffled minus
+token-shuffled; slope $-0.78 \pm 0.24$); slope uncertainties are the SD of the per-cell slopes. The
+sentence-reversal and sequence-permutation contrasts are concentrated below ${\sim}100$ tokens, whereas
+the content-driven contrast is shallow and carries the long-range tail. The reported quantities are
+log--log slopes, not values of $\alpha$; since $P(d)\propto d^{-\alpha}$ with $\alpha>0$, a slope of
+$-1.44$ corresponds to a decay exponent $\alpha=1.44$.}
+\label{fig:sentshuf}
+\end{figure}
+
+\subsection{Persistence is broadly distributed across prior sentences}
+
+We next asked whether persistence is concentrated in a small number of privileged prior
+sentences or broadly distributed across the prior context. We addressed this with a
+sentence-level ablation: for each target, we removed one prior sentence at a time and
+measured the resulting change in prediction.
+
+The majority of prior sentences contribute positively to prediction at all distances
+examined. The proportion of contributing sentences declines gradually with distance,
+from approximately 90\% at short range to 55--60\% beyond 500 tokens, with no sharp
+transition or threshold (Figure~\ref{fig:distributed}). The magnitude of contribution is concentrated at
+recent positions (top-5 sentences account for 30--51\% of total positive influence;
+Gini coefficient 0.78--0.90), but this concentration is attributable to recency:
+variation in mean influence by absolute position within the prior context is accounted
+for by distance to the target, with no detectable residual effect of structural position
+(e.g., document opening). Persistence is therefore a distributed field of influence across the
+prior sequence, with magnitude graded smoothly by recency rather than localized to a
+small number of anchoring positions.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig3_distributed_influence.pdf}
+\caption{\textbf{Proportion of prior sentences contributing to prediction as a function of distance.} Proportion of prior
+sentences whose removal degrades target prediction as a function of distance to the target. The
+proportion declines smoothly from ${\sim}90\%$ within the first 32 tokens to ${\sim}55$--$60\%$ beyond
+500 tokens, with no sharp transition. The top-5 sentences account for 30--51\% of total positive
+influence (Gini 0.78--0.90), but this concentration reflects recency, not a privileged structural role
+for any specific position.}
+\label{fig:distributed}
+\end{figure}
+
+\section{Discussion}
+
+We have identified a quantitative regularity, which we term the
+contextual persistence law: contextual influence in human language decays as an approximately
+scale-free power law, with a near-constant exponent across ten corpora, six language families,
+and both written and spoken modalities. Because that exponent is close to $1$, contextual
+influence is distributed approximately uniformly across logarithmic timescales rather than
+concentrated at any one, a more specific statement than the mere absence of a horizon. The
+consistency of the exponent across such diverse samples makes this a candidate broadly
+cross-linguistic regularity of human language, in the same empirical sense that Zipf's and Heaps'
+laws are cross-linguistic regularities. In the hierarchy of statistical descriptions considered here ---
+unit frequency (Zipf's law), pairwise dependence across distance (long-range mutual information),
+and order-specific dependence --- the contextual persistence law is the third, order-specific rung,
+extending the Zipfian program of reproducible scale-free regularities to the component of contextual
+dependence that remains once unit identity and co-occurrence are removed. We read it
+as a law to be explained rather than as an adjudication between mechanisms, and its main force is
+as a constraint. The evidence establishes a robust regularity; the principal question is why it
+exists. Any successful account of how human language is generated must explain why its statistical
+product lacks a detectable characteristic scale over this range. An architecture with a fixed maintenance
+horizon would generally be expected to produce an inflection in $P(d)$ near that horizon, of
+whatever size; we observe none across nearly two orders of magnitude. An account in which long-range coherence rests on a small
+number of privileged anchor positions would generally predict a concentrated rather than a
+distributed influence field; we observe broad, recency-graded distribution. We do not take
+these observations to settle how memory is organized during production; they characterize
+the product, not the process. But the law they describe is what every candidate process
+now has to reproduce.
+
+The mean exponent we report ($\alpha=1.04$, SD $=0.15$) sits in a neighborhood that has been
+independently identified in two adjacent traditions in memory research.
+\citet{anderson1991reflections}, examining the statistics of information demand in natural
+environments, reported power-law relationships between the odds a memory is needed and its
+history of past use, with exponents near $0.8$ (for example, $0.73$ with recency and $0.77$
+with frequency of prior occurrence, each with $r^2 > 0.98$).
+\citet{kahana2002age}, examining associative decay in free recall via the lag-conditional
+response probability, fit power functions to each arm of the curve and reported a forward
+exponent of $0.82 \pm 0.09$ for younger adults. Each of these measurements was made by entirely different methods on
+entirely different data, and neither involves a language model: one is a
+statistical analysis of environmental information demand, the other a behavioural memory
+task. That two model-free measurements of human memory land in the same order-unity exponent
+range as our language-based measurement indicates that the scale-free form is neither an
+artefact of our instrument nor idiosyncratic to language, but a property that recurs across
+paradigms that are unambiguously about memory. The exponents are not identical: recall and
+environmental statistics show somewhat shallower decay than the linguistic estimate. We do not
+claim that a single mechanism generates all three. But their common scale-free form, with no
+characteristic bound detected in any of the three over the measured range, is the pattern a graded
+memory would naturally produce, and one that a fixed-horizon architecture would not naturally
+predict.
+
+This convergence extends to the mathematical form of forgetting itself. Forgetting across several
+human and animal memory tasks has been found to be better described by a power function than by
+exponential and other alternatives \citep{wixted1991form}: the same scale-free signature, with no
+characteristic timescale, that we find in the contextual persistence of language. That the order-specific structure of language
+should decay at a near-unity power-law rate, matching the power-law decay of the memory systems
+that must encode and retrieve it, is at least suggestive. It raises the possibility (which we
+advance as a hypothesis, not a finding) that linguistic structure is organized to align with,
+or exploit, the natural decay characteristics of human memory, so that the accessibility of prior
+content falls in step with its predictive value.
+
+This suggests an ecological reading of the law. The CPF describes the statistical structure of
+the linguistic input stream itself, and a memory system that adapted rationally to that structure
+\citep{anderson1991reflections} would be expected to mirror its decay rather than impose an
+arbitrary one. The parallel is to natural-scene statistics, where the sensitivity of the visual
+system is matched to the $1/f$ spatial-frequency structure of the natural environment
+\citep{field1987relations, simoncelli2001natural}: on this view the $1/d$ temporal structure of linguistic context is
+an environmental regularity to which the language processor may be tuned, and the shared
+near-unity exponent of language and of memory decay is what such tuning would produce.
+
+This empirical picture aligns with a longer trajectory in cognitive psychology away from
+architecturally bounded views of memory and toward continuous and graded characterizations.
+Cowan's embedded-processes account \citep{cowan2001magical} distinguishes a capacity-limited
+focus of attention from a broader set of activated long-term-memory representations; Ericsson and Kintsch's
+long-term working memory framework \citep{ericsson1995longterm} argues that skilled
+performers make routine use of long-term-memory structures during ongoing task performance,
+blurring the maintenance-retrieval boundary; and continuous-resource accounts in visual
+working memory \citep{ma2014changing} replace discrete-item architectures with graded
+distributions of representational precision. The CPF provides a direct
+quantitative measurement of an analogous continuity in natural language, observed at the
+scale of token-level sequential dependence and across naturalistic discourse rather than
+experimental task sequences. To the extent the law bears on this debate, it is consistent
+with that longer trajectory rather than a refutation of it.
+
+The CPF characterizes the statistical structure of language, not directly the memory process
+that produced it: it is computed over text, and predictive structure in text need not imply that
+speakers and writers actively used long-range memory to generate it. What the data establish is a
+property of the human-produced signal, not of any particular generative mechanism. That property is, however, far more constrained than a generic
+statistical regularity. Because $P(d)$ is defined by subtracting a shuffled-token baseline, it
+isolates the component of contextual influence that depends on the order of prior words; the
+near-zero $P(d)$ on token-scrambled and frequency-matched synthetic sequences shows it cannot
+arise from vocabulary statistics or from the probe's own calibration, and its replication across
+independently trained probes shows it is not an artefact of any single model. The long-range
+dependence therefore reflects genuine order-dependent structure in what humans produce, not
+lexical co-occurrence or measurement bias. A related objection, that written text is a static
+visual trace an author can edit and cross-reference offline unlike online cognition, is
+tempered by the modalities in which the law holds. The same signature appears in spontaneous
+conversational speech in Buckeye, where offline revision is impossible, and in the spoken delivery
+of prepared TED discourse. The Buckeye result is therefore especially important: it shows that the
+effect does not depend on written revision and is present in language generated under real-time
+constraints.
+
+What the data do not establish is that production is implemented by a sequential process drawing
+directly on arbitrarily distant prior material; that mechanistic claim the present measurements cannot adjudicate, and
+we do not make it. A natural question is whether autoregressive systems, which generate each element
+by conditioning on the available prior context, reproduce the same scale-free form under
+identical measurement. Establishing this would be a sufficiency result, showing that a purely
+sequential generation mechanism can produce the observed structure and placing the burden on
+fixed-horizon or non-sequential accounts to explain the absence of a characteristic scale by some
+other route; we leave that direct comparison to future work.
+Converting the present result from a property of the product into a claim about the producer,
+or the comprehender, will require online behavioural and neural evidence, and the law makes
+this directly testable because it predicts a specific quantity. The central prediction is that the
+cost of disrupting prior context should itself scale as $P(d)$: shuffling or replacing context in
+log-spaced windows (for example, tokens 10--20 back versus 100--110 back) should slow human
+reading and lengthen gaze durations on a downstream target \citep{hale2001probabilistic, levy2008expectation, smith2013effect} by amounts that fall off with distance
+at the near-unity rate, rather than dropping sharply at a working-memory horizon. Parallel
+predictions follow for the decay of proactive interference during comprehension and for the
+context-driven reduction of the N400 \citep{kutas2011thirty} as a function of context distance, each expected to follow
+the same $\alpha \approx 1$ decay. We regard adjudicating these as the key open hypothesis the law
+motivates.
+
+Human language appears to obey a simple quantitative law, the contextual
+persistence law, in which the influence of prior context is distributed approximately
+uniformly across logarithmic distances in human-produced language. Whether this regularity reflects
+properties of memory, discourse organization, planning, prediction, or communication is
+precisely the mechanistic question the law leaves open; whether it generalizes
+to non-linguistic sequential behaviours with extended temporal coherence (music improvisation,
+motor sequences, drawing) remains to be tested. But like other scaling laws in language, its
+value lies less in any mechanism it immediately reveals than in the constraint it imposes on
+every mechanism proposed thereafter: its existence is now an empirical target that any theory of
+language must account for.
+
+\section{Methods}
+
+\subsection{Corpora}
+
+The long-range CPF was computed on ten corpora: English fiction (public-domain texts
+from Project Gutenberg, \url{https://www.gutenberg.org}), English news prose (the English/BBC
+subset of XL-Sum \citep{hasan2021xlsum}), English spontaneous speech (Buckeye Corpus of Conversational
+Speech \citep{pitt2007buckeye}), TED transcripts in English, German, French, Turkish, and Russian
+(OPUS TED2020 \citep{reimers2020making, tiedemann2012parallel}), and literary prose in Japanese
+(Aozora Bunko) and Finnish (Project Gutenberg). Together these cover six language families (Germanic, Romance, Turkic,
+Slavic, Japonic, Uralic) and four production modes (written fiction, news prose, prepared
+speech, spontaneous speech). Per-corpus document counts (documents contributing at least one
+full-length target window) were: English fiction 60, English news 60, Buckeye 26, TED English 60,
+German 60, French 31, Turkish 12, Russian 60, Japanese literary 42, Finnish literary 38 --- 449
+documents in total. The complementary cross-language qualitative replication of the sign-flip
+pattern (Afro-Asiatic, Koreanic, Sino-Tibetan) was performed on Wikipedia and TED-transcript cells
+from a broader corpus inventory at shorter context lengths. Full per-corpus provenance --- sources,
+identifiers, licenses, snapshot dates, and selection criteria --- is given in Supplementary
+Information (Table~S3), and preprocessing steps are described there.
+
+\subsection{Probe models}
+
+Two autoregressive language models served as probes: Llama-3.1-8B (base;
+\texttt{Meta-Llama-3.1-8B}) \citep{llama3herd2024} and Mistral-7B-v0.1
+(\texttt{mistralai/Mistral-7B-v0.1}) \citep{jiang2023mistral}. Neither was fine-tuned for this study. The
+probes were used only to compute conditional probability estimates over fixed token sequences;
+the language models themselves were not the object of study. Headline results were obtained on
+Llama-3.1-8B; the qualitative pattern was replicated on Mistral-7B for shared corpora as a
+probe-independence check.
+
+\subsection{Contextual persistence function}
+
+For each document, a single target region of 30 tokens was selected at the midpoint (50\%) of
+document length. Context preceding the target was revealed in incrementally larger spans at
+log-spaced context lengths $c \in \{0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024\}$. At each
+context length, target perplexity was computed under intact context (the actual preceding $c$
+tokens, original order) and shuffled context (the same $c$ tokens, random order). The shuffled
+baseline used a single random permutation of the prior-context tokens at each target and context
+length, drawn with a fixed seed so that the baseline is deterministic and reproducible and the same
+permutation is applied across probe models; the 30-token target itself was never permuted, and no
+sentence-boundary or special tokens were introduced into the shuffled span. Sensitivity of the
+fitted exponent to this single-permutation choice is quantified in Supplementary Information
+(\emph{Robustness of the exponent: sensitivity to the shuffled permutation}), where the analysis is
+repeated with $K=20$ independent permutations per target and context length. Per-distance
+marginals were obtained as the per-token change in perplexity across successive context lengths,
+$m_d = (\mathrm{ppl}_{c_{i-1}} - \mathrm{ppl}_{c_i}) / (c_i - c_{i-1})$, with distance indexed by
+the geometric mean $d = \sqrt{c_{i-1} c_i}$ of the interval. The CPF was defined
+as $P(d) = m_d^{\text{intact}} - m_d^{\text{shuffled}}$. The shuffle preserves the identity and
+composition of the prior context while destroying its order, so this subtraction separates the
+predictive benefit of intact order from the benefit available from the same token composition in
+scrambled order, and from probe-internal token-frequency calibration. Marginals were aggregated across
+documents within each corpus and binned by distance. Only documents with at least
+$1024 + 30 + 50$ tokens were included, ensuring a full-length context window and target for every
+measurement.
+
+\subsection{Functional-form fitting}
+
+The per-token order-specific gap was fit to five candidate functional forms (power law,
+exponential, stretched exponential, truncated power law, and quadratic-in-log,
+i.e.\ log-normal-in-distance) and ranked per corpus by the small-sample-corrected Akaike
+criterion (AICc); the full comparison is reported in Supplementary Information. Fits were performed
+in log space on the fit range $d \geq 10$ tokens, the first interval at which both ordered and
+shuffled bases are at least eight tokens; shorter intervals were excluded a priori because with
+only one or two context tokens there is no meaningful permutation, leaving the shuffled baseline,
+and hence $P(d)$, unstable at $d < 10$. Within this fixed fit range the aggregated (corpus-mean)
+$P(d)$ is positive at every distance for all ten language corpora, so no bins were dropped from any
+language fit; the positive-value requirement is therefore not a source of tail-selection bias for
+the headline result and becomes operative only for the non-language controls, where sign changes
+occur and we report the number of positive bins used (Figure~\ref{fig:langbio}).
+
+\subsection{Synthetic-sequence controls}
+
+To distinguish probe-internal calibration dynamics from genuine sequential dependence, two
+synthetic-sequence controls were constructed: uniform-vocabulary sequences (tokens drawn uniformly
+at random from the model vocabulary) and frequency-matched sequences (tokens drawn with empirical
+token-frequency probabilities matched to the natural corpora). The same CPF
+protocol was applied to both.
+
+\subsection{Non-language domain controls}
+
+To test whether the persistence law is specific to human language or a generic property of
+autoregressive probing over any structured sequence, the identical CPF protocol was applied
+to two non-language biological-sequence domains, each with a domain-native autoregressive
+probe. For DNA, the probe was HyenaDNA \citep{nguyen2023hyenadna}, a single-nucleotide
+autoregressive genomic language model, run at two scales
+(\texttt{hyenadna-medium-160k-seqlen} and \texttt{hyenadna-large-1m-seqlen}); sequences were
+non-overlapping ACGT windows from human reference chromosome~21 (GRCh38, Ensembl
+\citep{cunningham2022ensembl}). For protein, the
+probe was ProGen2 \citep{nijkamp2023progen2}, an autoregressive decoder protein language
+model, run at two scales (\texttt{progen2-small}, 151M; \texttt{progen2-large}, 2.7B);
+sequences were UniProtKB/Swiss-Prot proteins \citep{uniprot2023} restricted to the twenty standard amino acids. In both
+domains the protocol matched the language runs: a 30-residue target at the sequence midpoint,
+log-spaced context lengths capped at the model's context window, an intact-versus-shuffled
+contrast, and power-law fitting on positive bins at $d \geq 10$. Because these ports are
+custom, probe faithfulness was verified before analysis: held-out per-residue perplexity was
+reproduced (ProGen2: 15.1 and 15.7 for the small and large models respectively, with per-protein
+spread and well below the $\approx 20$ uniform-amino-acid baseline), and a short-range
+order-specific floor was confirmed. For protein, the exponent was estimated on a dense
+log-spaced grid (approximately 28 bins between $d = 10$ and $993$) over 300 documents at each
+scale, with 95\% confidence intervals from a 1{,}000-fold document bootstrap using the same
+estimator applied to the language corpora. Full domain-control results and diagnostics are
+reported in Supplementary Information.
+
+\subsection{Sentence-level decomposition}
+
+The effects of sentence-order reversal, discourse-sequence permutation, and within-sentence content were
+assessed by computing $P(d)$ under four context conditions on the same target windows: ordered
+(intact); sentence-shuffled (the prior context segmented at sentence boundaries and the sentences
+randomly permuted, with within-sentence token order preserved); sentence-reversed (the order of the
+sentences reversed, so that the sentence nearest the target is moved farthest from it, with
+within-sentence token order preserved), which preserves the set of sentence adjacencies while
+reversing their order and target-relative positions; and token-shuffled (all context tokens randomly
+permuted). From these we formed three contrasts, each fit by least squares on log--log axes over the
+positive bins at $d \geq 10$: the sentence-reversal contrast (ordered minus sentence-reversed), which
+measures the loss from reversing the temporal organization of the prior discourse; the
+sequence-permutation contrast (ordered minus sentence-shuffled), which isolates sentence-sequence
+organization; and the content-driven contrast (sentence-shuffled minus token-shuffled), which
+estimates the contribution retained by sentence content. Slopes are reported
+as per-cell means $\pm$ SD across cells. The decomposition was computed across eight cells: the
+long-range corpora excluding Buckeye (spontaneous speech lacks unambiguous sentence boundaries) and
+Russian (added to the headline analysis after the decomposition run). Figure~\ref{fig:sentshuf}
+aggregates these eight cells.
+
+\subsection{Sentence-level ablation}
+
+For documents in two corpora (English fiction and English TED transcripts, 20 documents per corpus,
+1024-token prior context), each prior sentence was individually removed and the resulting change in
+target perplexity was computed (leave-one-sentence-out). Per-sentence influence was characterized by
+sign (positive $=$ removing the sentence increased target perplexity) and magnitude. The proportion
+of contributing sentences was computed in distance bins, and concentration metrics (Gini coefficient
+over per-sentence magnitudes; share of total positive influence in the top-5 sentences) were computed
+per document and aggregated. To test whether magnitude variation across prior-sentence positions
+reflects a privileged structural role over and above distance from the target, the full
+leave-one-sentence-out influence matrix was computed on a 15-document subset of each ablation corpus;
+variation in influence magnitude was accounted for by distance, with no detectable residual effect of
+structural position once distance was controlled.
+
+\section*{Supplementary Information: functional-form robustness}
+
+Because scale-free claims are sensitive to the choice of fitting procedure and to
+competing functional forms, we treated functional-form selection as a robustness analysis
+rather than assuming a power law. For each corpus the per-token order-specific gap was fit,
+in log space, to five candidate forms: a power law ($\log y = a + b\log d$), an exponential
+($\log y = a + bd$), a stretched exponential ($\log y = a - \beta d^{\gamma}$), a truncated
+power law ($\log y = a + b\log d - d/\lambda$), and a quadratic-in-log (log-normal-in-distance)
+form ($\log y = a + b\log d + c(\log d)^2$). Models were ranked per corpus by the small-sample
+corrected Akaike criterion (AICc), which penalizes the additional free parameters of the more
+flexible forms; each fit used the seven binned points with $d \geq 10$ and positive influence.
+
+The power law is preferred in eight of the ten corpora (Table~S1) and outperforms the pure
+exponential (the canonical fixed-scale alternative) in all ten, by $\Delta\text{AICc}$
+ranging from $+0.3$ to $+16.8$ (median $\approx +14$); the exponential is never preferred. The
+truncated power law never improves on the plain power law: in six corpora its fitted decay term
+is non-negative (no cutoff at all), and in three of the remaining four the implied cutoff
+$\lambda$ lies beyond the measured range. Only Buckeye spontaneous speech shows a truncated-power-law
+cutoff within range ($\lambda \approx 276$ tokens). Separately, and as a distinct model comparison,
+Buckeye is also the one corpus for which the stretched exponential is marginally preferred over the
+power law by AICc, while Japanese literary prose marginally prefers the quadratic-in-log form. Both the
+cutoff and the stretched-exponential preference point to mild downward curvature at the longest distances
+in this cell, but they are separate tests and should not be read as one explaining the other. In both non-power-law cases the power law remains a
+close second (margin $<2$ AICc), the fitted stretched exponent stays well below one, and the decay
+remains heavy-tailed. The fitted power-law exponents
+are tightly clustered near $1$ (range $\alpha=0.75$ to $1.31$; eight of ten within $0.93$ to $1.20$).
+The maximum-likelihood, Kolmogorov--Smirnov procedure of \citet{clauset2009power} addresses
+whether a \emph{sample} is drawn from a heavy-tailed distribution rather than the present
+setting of regressing a response, $P(d)$, on distance; we therefore compared candidate decay
+functions using AICc. No alternative form removes the central observation: across the measured
+range the decay carries no characteristic scale.
+
+\renewcommand{\thetable}{S1}
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+Corpus & $N$ & Preferred form & $\Delta$AICc (exp $-$ power) & $\alpha$ [95\% CI] \\
+\midrule
+Gutenberg (fiction, en) & 60 & power law & $+12.9$ & $1.05$ [$0.90$, $1.33$] \\
+TED (en)                & 60 & power law & $+15.5$ & $0.97$ [$0.87$, $1.11$] \\
+TED (de)                & 60 & power law & $+15.5$ & $1.03$ [$0.93$, $1.16$] \\
+TED (fr)                & 31 & power law & $+9.4$  & $1.31$ [$1.02$, $1.57$] \\
+TED (tr)                & 12 & power law & $+5.0$  & $0.75$ [$0.37$, $1.02$] \\
+TED (ru)                & 60 & power law & $+16.8$ & $1.02$ [$0.94$, $1.13$] \\
+Literary prose (ja)     & 42 & quadratic-in-log & $+13.2$ & $0.98$ [$0.84$, $1.15$] \\
+Literary prose (fi)     & 38 & power law & $+14.9$ & $0.93$ [$0.77$, $1.07$] \\
+News (en)               & 60 & power law & $+13.6$ & $1.16$ [$0.98$, $1.37$] \\
+Buckeye (speech, en)    & 26 & stretched exp. & $+0.3$ & $1.20$ [$0.82$, $1.53$] \\
+\bottomrule
+\end{tabular}
+\caption{Functional-form comparison and per-corpus exponents across the ten long-range corpora
+(Table~S1). $N$ is the number of contributing documents. $\Delta$AICc (exp $-$ power) is positive
+whenever the power law is preferred over a pure exponential; it is positive in every corpus, and the
+power law is the AICc-preferred form in eight of ten (the two exceptions show mild downward curvature,
+with the power law a close second). Exponent 95\% confidence intervals are from a document-level
+bootstrap ($B=2000$); the wider intervals correspond to the smaller corpora (Turkish, Buckeye, French).}
+\end{table}
+
+\subsection*{Robustness of the exponent: units and heterogeneity}
+
+Two further checks bound the interpretation of the exponent. First, because $P(d)$ is defined as a
+difference of perplexities, and perplexity is exponential in the underlying log-loss, we recomputed
+the entire analysis with $P(d)$ defined in log-probability (nats) units (i.e., replacing each
+perplexity by its logarithm, an additive information quantity) and refit the power law. The
+scale-free \emph{form} is robust to this choice: every corpus remains a near-$1/d$ power law and the
+ordering of corpora is preserved. The precise exponent, however, is not unit-invariant: the mean
+shifts from $\alpha=1.04$ (perplexity) to $\alpha=1.18$ (log-probability), a consistent offset of ${\approx}\,0.14$
+present in every cell. We report perplexity-based values in the main text for continuity with the raw
+measurement and note that the order-unity exponent, and the associated approximate uniformity of
+influence across logarithmic timescales, hold in both unit conventions, with the exact value
+dependent on the choice.
+
+Second, a document-level bootstrap ($B=2000$ resamples of documents within each corpus) yields the
+per-corpus confidence intervals in Table~S1. The between-corpus standard deviation of the ten point
+estimates ($0.156$) modestly exceeds the typical within-corpus bootstrap standard error
+(${\approx}\,0.10$). The permutation-sensitivity analysis below shows that part of this residual
+spread reflects noise in the single-permutation shuffled baseline rather than genuine linguistic
+variation: averaging over permutations narrows the apparent cross-corpus range. The exponent is
+therefore best described as clustered near $1$, with limited evidence for residual corpus-level
+heterogeneity and the low-$N$ corpora (Turkish, Buckeye, French) contributing most of both the
+apparent spread and the widest intervals.
+
+\subsection*{Robustness of the exponent: sensitivity to the shuffled permutation}
+
+Because $P(d)$ subtracts a shuffled-context baseline, and the main analysis used a single random
+permutation of the prior context at each target and context length, we tested whether the fitted
+exponent depends on that choice with a permutation-seed sensitivity analysis. On a subset of up to
+$25$ documents per corpus (all $26$ for Buckeye), we redrew $K=20$ independent permutations at each
+target and context length and recorded the target perplexity under every one, so that both the
+permutation-averaged baseline and the full across-permutation distribution of the exponent are
+available; permutation index $0$ reused the original seed. Three results follow. First, the
+cross-corpus mean exponent is unchanged: averaging the shuffled baseline over the $20$ permutations
+gives a mean $\alpha=1.04$, and the mean of the $20$ individual single-permutation estimates is
+$\alpha=1.05$, both matching the single-permutation value of $1.04$ in the main text. Second,
+averaging the baseline improves the power-law fits: corpora whose single-permutation fits were
+degraded by shuffle noise rise to $r^2\approx0.97$ once the averaged baseline removes per-permutation
+fluctuation in the shuffled perplexity (TED German $r^2\,0.66\!\to\!0.97$; Finnish literary
+$0.55\!\to\!0.97$; TED French $0.82\!\to\!0.97$; TED Turkish $0.86\!\to\!0.98$). Third, the per-corpus
+exponent carries non-negligible permutation noise, concentrated in the smaller corpora: the
+across-permutation standard deviation of $\alpha$ reaches ${\approx}\,0.20$ (Finnish literary prose,
+English news) while the larger corpora vary by ${<}\,0.1$, and a single permutation can differ from
+the $20$-permutation average by up to ${\approx}\,0.28$ (TED French). Averaging accordingly narrows
+the apparent cross-corpus spread, indicating that part of the between-corpus heterogeneity in
+Table~S1 reflects permutation noise rather than genuine linguistic variation. No corpus-level
+conclusion depends on the chosen permutation, and the near-unity, scale-free signature is unchanged.
+Per-corpus exponents under the single-permutation and $K=20$ averaged baselines are given in
+Table~S2.
+
+\renewcommand{\thetable}{S2}
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+Corpus & $\alpha$ (single perm.) & $\alpha$ (avg., $K=20$) & $r^2$ (avg.) & SD$_\alpha$ (perms) \\
+\midrule
+Gutenberg (fiction, en) & $1.15$ & $1.10$ & $0.93$ & $0.09$ \\
+TED (en)                & $1.04$ & $0.97$ & $0.96$ & $0.09$ \\
+TED (de)                & $1.09$ & $1.07$ & $0.97$ & $0.11$ \\
+TED (fr)                & $1.43$ & $1.16$ & $0.97$ & $0.12$ \\
+TED (tr)                & $0.75$ & $0.90$ & $0.98$ & $0.07$ \\
+Literary prose (ja)     & $0.92$ & $0.99$ & $0.98$ & $0.09$ \\
+Literary prose (fi)     & $0.71$ & $0.87$ & $0.97$ & $0.20$ \\
+News (en)               & $1.22$ & $1.19$ & $0.95$ & $0.18$ \\
+Buckeye (speech, en)    & $1.20$ & $1.11$ & $0.95$ & $0.16$ \\
+\bottomrule
+\end{tabular}
+\caption{Permutation-seed sensitivity of the per-corpus decay exponent (Table~S2), Llama-3.1-8B
+probe, on a subset of up to $25$ documents per corpus (all $26$ for Buckeye). ``Single perm.'' reuses
+the original seed; ``avg., $K=20$'' averages the shuffled baseline over twenty independent
+permutations per target and context length; SD$_\alpha$ is the standard deviation of the exponent
+across the twenty permutations. Averaging leaves the cross-corpus mean at $\alpha=1.04$ while raising
+the poorer single-permutation fits to $r^2\approx0.97$. The Russian TED cell, computed with a
+separate pipeline in the main analysis, was not included in this check.}
+\end{table}
+
+\subsection*{Corpus sources and provenance}
+
+Table~S3 lists the source, license, and snapshot or version for each of the ten long-range corpora;
+preprocessing and selection are summarized here. English fiction comprises public-domain novels from
+Project Gutenberg (catalogue \texttt{pg\_catalog.csv}; plain-text ebooks), selected as English fiction
+by Library of Congress class (PR, PS, PZ) or fiction subject headings, ordered by ascending Gutenberg
+ID to favour canonical works, with a per-author cap and rejection of verse, drama, and OCR artefacts,
+then segmented into ${\approx}3{,}000$-word chunks. English news is the English (BBC) portion of XL-Sum
+\citep{hasan2021xlsum}. English spontaneous speech is the Buckeye Corpus \citep{pitt2007buckeye,
+pitt2005buckeye}, retaining interviewee turns. TED transcripts (English, German, French, Turkish,
+Russian) are from the OPUS TED2020 monolingual release \citep{reimers2020making, tiedemann2012parallel}
+(version v1), retaining talks of at least $900$ words after a per-language junk-ratio filter, one
+segment per talk. Japanese literary prose comprises public-domain texts from Aozora Bunko (Nippon
+Decimal Classification 913/914/915; 21 authors, 42 texts) and Finnish literary prose public-domain
+texts from Project Gutenberg (19 authors, 38 texts); both were captured in a snapshot dated
+2026-05-01. The cross-language qualitative replication (Afro-Asiatic, Koreanic, Sino-Tibetan) drew
+additionally on Wikipedia (dumps current at the time of analysis; CC BY-SA 3.0), sampled at a
+500-token minimum after removing markup, references, and infoboxes. Tokenization used each probe's
+native tokenizer throughout.
+
+\renewcommand{\thetable}{S3}
+\begin{table}[h]
+\centering
+\footnotesize
+\begin{tabular}{p{3.0cm}p{4.6cm}p{2.6cm}p{2.6cm}}
+\toprule
+Corpus & Source (reference) & License & Snapshot / version \\
+\midrule
+English fiction        & Project Gutenberg                                            & Public domain (US) & 2026 snapshot \\
+English news           & XL-Sum, BBC subset \citep{hasan2021xlsum}                    & See source         & \texttt{csebuetnlp/xlsum} \\
+English speech         & Buckeye \citep{pitt2007buckeye, pitt2005buckeye}             & Free for research  & 2007 release \\
+TED (en, de, fr, tr, ru) & OPUS TED2020 \citep{reimers2020making, tiedemann2012parallel} & See source         & v1 \\
+Literary prose (ja)    & Aozora Bunko                                                 & Public domain      & 2026-05-01 \\
+Literary prose (fi)    & Project Gutenberg                                            & Public domain (US) & 2026-05-01 \\
+Wikipedia (replication) & Wikimedia dumps                                             & CC BY-SA 3.0       & Dump at analysis time \\
+\bottomrule
+\end{tabular}
+\caption{Sources and provenance for the language corpora (Table~S3). ``See source'' indicates the
+distributing repository states the terms of use; no separate license file was recorded at ingestion.
+Snapshot dates are given where recorded; the Project Gutenberg fiction set was captured in the same
+2026 collection window but without a per-file date stamp.}
+\end{table}
+
+\section*{Data and code availability}
+
+Analysis code, corpus manifests, per-corpus persistence curves, and the figure-generation pipeline
+will be made publicly available in a repository with an assigned DOI upon publication; they are
+available from the author on reasonable request in the interim.
+
+\section*{Funding}
+
+The author received no specific funding for this work.
+
+\section*{Competing interests}
+
+The author declares no competing interests.
+
+
+
+
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

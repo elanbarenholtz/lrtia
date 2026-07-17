@@ -1,0 +1,382 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage[hidelinks]{hyperref}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+
+\renewcommand\Authfont{\normalsize}
+\renewcommand\Affilfont{\small\itshape}
+
+\title{\bfseries A heavy-tailed law of contextual memory in human language}
+
+\author[1]{Elan Barenholtz}
+\affil[1]{Center for the Future Mind, Florida Atlantic University}
+
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+Many human behaviors exhibit power-law temporal structure with no characteristic
+scale. Whether language shares this signature has not been directly measured. We
+use large language models as probabilistic probes to measure how much prior
+context constrains the probability of upcoming tokens, isolated from
+token-frequency effects through a shuffled-token baseline. The persistence
+function $P(d)$ quantifies this order-specific influence at distance $d$ from the
+current point of generation. Across ten corpora spanning six language families,
+multiple genres, and written and spoken modalities, $P(d)$ decays approximately
+as $1/d$, with mean slope $-1.04$ (SD $=0.15$) across nearly two orders of
+magnitude, vanishes in random-token controls, replicates across independent probe
+models, and is broadly distributed across prior sentences rather than concentrated
+in anchors. Order- and content-driven contributions are distinguishable, with
+content-driven integration carrying the long-range tail. The continuous scale-free
+form is difficult to reconcile with architectural accounts that posit a sharp
+division between maintained and retrieved material, and is consistent instead with
+memory in language as a graded distance-dependent influence carried by the evolving
+probability structure of the sequence itself.
+\end{abstract}
+
+\section{Introduction}
+
+Human behavior across many domains exhibits lawful temporal structure across many
+timescales. In neural activity \citep{beggs2003neuronal}, motor and cognitive
+performance \citep{gilden2001cognitive}, and inter-event waiting times in human
+dynamics \citep{barabasi2005origin}, distance-dependent dependencies decay as power
+laws rather than as bounded or exponential functions, placing these processes among
+the broad class of human behaviors with scale-free temporal organization
+\citep{kello2010scaling}. Language is among the longer-range coherent sequential
+behaviors humans produce, sustaining structure across thousands of words, but the
+quantitative form of its temporal structure --- how the influence of prior material
+scales with distance from the current point of generation --- has not been directly
+measured. Existing characterizations of contextual integration in language,
+including discourse models, situation models, and resonance-based accounts, operate
+at the representational rather than the quantitative level, and conventional measures
+of statistical dependence in text conflate sequential structure with vocabulary-level
+regularities.
+
+Here we develop a distance-resolved measurement of contextual influence in natural
+language and apply it across ten corpora spanning six language families, multiple
+genres, and written and spoken modalities. We use large language models as
+probabilistic probes, treating their conditional probability estimates as a
+calibrated readout of how preceding context constrains upcoming tokens. Because naive
+perplexity reduction conflates sequential dependence with the probe's distributional
+calibration, we subtract a shuffled-token baseline that absorbs the contribution of
+token identity alone. The resulting persistence function $P(d)$ quantifies the
+order-specific influence of prior context at distance $d$ from the current point of
+generation.
+
+$P(d)$ decays approximately as $1/d$ with mean slope $-1.04$ (SD $=0.15$) and no
+characteristic cutoff across nearly two orders of magnitude in distance. This decay
+is consistent across language families, genres, and modalities, vanishes in
+random-token controls, scales with the integrity of sequential structure, and is
+broadly distributed across prior sentences rather than concentrated in a small number
+of anchors. The persistence function describes a continuous, scale-free temporal
+structure in human language production, measurable directly from the probability
+dynamics of generation and replicable across independently trained probe models
+(Llama-3.1-8B, Mistral-7B).
+
+The shape of $P(d)$ places language alongside other human behaviors and neural
+processes that exhibit scale-free temporal structure, and constrains the class of
+mechanisms capable of producing such structure. In particular, the absence of any
+characteristic scale across the measured range --- combined with the graded
+contributions of prior content distributed across the sequence --- is difficult to
+reconcile with architectural accounts of memory that posit a sharp division between
+maintained and retrieved material with distinguishable temporal dynamics. The pattern
+is consistent instead with mechanisms in which prior content continues to shape
+ongoing generation through the evolving probability structure of the sequence itself.
+
+\section{Results}
+
+\subsection{A persistence function for natural language}
+
+We define the persistence function $P(d)$ as the predictive influence of prior
+context at distance $d$ from the current point of generation, estimated as the
+reduction in target perplexity produced by revealing prior context at that distance,
+with shuffled-token baselines controlling for the contribution of token identity
+alone (Methods). $P(d)$ provides a distance-resolved measurement of how preceding
+language constrains the probability structure of upcoming tokens.
+
+Across all corpora, $P(d)$ is positive at distances well beyond any plausible bound
+on working-memory capacity. At distances exceeding 1000 tokens, prior context
+continues to reduce target perplexity by a measurable margin relative to shuffled
+controls. Long-range contextual influence is therefore not confined to a recency
+window but extends as a graded function across the full sequences we examined.
+
+\subsection{Heavy-tailed decay across languages, genres, and modalities}
+
+The functional form of $P(d)$ is well approximated by a heavy-tailed decay. Figure~1
+plots $P(d)$ against distance on log--log axes for each of the ten corpora. Across
+languages, genres, and modalities, $P(d)$ decays smoothly across nearly two orders of
+magnitude with a mean slope of $-1.04$ (SD $=0.15$) --- close to a $1/d$ power law
+--- and a median goodness-of-fit of $r^2 = 0.96$. Fits are computed on $d \geq 10$
+tokens, the range over which both ordered- and shuffled-context bases are stable;
+very-short-range intervals are reported in Methods. Power-law fits substantially
+outperform exponential alternatives, with $\Delta$AIC values ranging from $+12$ to
+$+26$ across the majority of corpora. Two corpora, Japanese literary prose and
+Buckeye spoken English, are better fit by stretched-exponential functions, but their
+decay remains heavy-tailed and extends well beyond the range over which any bounded
+buffer could plausibly contribute.
+
+The cross-corpus consistency of the decay regime is notable. The sample spans
+Germanic, Romance, Turkic, Japonic, Uralic, and Slavic language families, as well as
+fiction and literary prose, news and expository prose, prepared speech transcripts,
+and spontaneous speech. A narrow heavy-tailed regime across this range indicates that
+the persistence function reflects a general property of natural language rather than a
+property of any single language, register, or modality.
+
+The qualitative pattern that defines $P(d)$ --- a positive contribution of ordered
+context at long range together with a near-zero contribution of shuffled context ---
+extends beyond the six families covered by the long-range run. In a complementary
+cross-language analysis evaluating shorter context lengths on both probe models, the
+long-range sign pattern is preserved across three additional language families:
+Afro-Asiatic, Koreanic, and Sino-Tibetan (Supplementary Information). The headline
+slope of $P(d)$ is therefore obtained on a six-family set within a broader nine-family
+cross-language replication of the qualitative pattern that defines the persistence
+function.
+
+\subsection{The persistence function reflects sequential structure, not properties of the probe}
+
+A central concern in any LLM-based measurement is whether the observed pattern
+reflects properties of natural language or properties of the probe model. We address
+this directly with synthetic-sequence controls. We constructed sequences with
+token-frequency statistics matched to natural text but with sequential structure
+removed. Raw perplexity over these synthetic sequences exhibits apparent power-law
+structure with a slope comparable in magnitude to that observed on natural text
+(Llama-3.1: $\approx -1.27$ on uniform random vocabulary; Mistral-7B: $\approx -1.34$),
+replicating the general tendency for language-model perplexity to fall as context
+length increases even when genuine long-range dependence is absent.
+
+The order-specific persistence function $P(d)$, however, is near zero across all
+distances on the synthetic sequences. The shuffled-token baseline that defines $P(d)$
+absorbs the perplexity reduction attributable to token statistics alone, isolating the
+contribution of sequential organization. The long-range, heavy-tailed $P(d)$ observed
+for natural language therefore depends on properties of the linguistic sequence
+itself, not on the probe. We replicated the persistence signature with two
+independently trained probe models, Llama-3.1-8B and Mistral-7B, obtaining the same
+qualitative pattern and comparable decay ranges on shared corpora, along with near-zero
+$P(d)$ on synthetic controls. The persistence function is therefore not an idiosyncratic
+property of the model used to estimate it.
+
+\subsection{Order and content make distinguishable contributions to persistence}
+
+To characterize the structure of $P(d)$ further, we compared ordered context to two
+structure-disrupting manipulations. Sentence shuffling preserves within-sentence syntax
+and lexical content while disrupting discourse-level ordering. Token shuffling
+eliminates ordered structure within the contextual span.
+
+Sentence shuffling reduces $P(d)$ at short distances, especially below approximately 30
+tokens, but leaves much of the long-range tail intact (Figure~2). Token shuffling
+collapses $P(d)$ toward zero across all distances. The persistence function therefore
+decomposes into two distinguishable contributions: a chaining-specific component
+concentrated at short range (slope $\approx -1.26$, approaching zero by $d > 100$
+tokens) and a content-driven component that extends across the long-range tail (slope
+$\approx -0.78$). Discourse-level chaining shapes the short-range structure of $P(d)$;
+content-driven integration carries its long-range tail.
+
+\subsection{Persistence is broadly distributed across prior sentences}
+
+We next asked whether persistence is concentrated in a small number of privileged prior
+sentences or broadly distributed across the prior context. We addressed this with a
+sentence-level ablation: for each target, we removed one prior sentence at a time and
+measured the resulting change in prediction.
+
+The majority of prior sentences contribute positively to prediction at all distances
+examined. The proportion of contributing sentences declines gradually with distance,
+from approximately 90\% at short range to 55--60\% beyond 500 tokens, with no sharp
+transition or threshold (Figure~3). The magnitude of contribution is concentrated at
+recent positions (top-5 sentences account for 30--51\% of total positive influence;
+Gini coefficient 0.78--0.90), but this concentration is fully explained by recency:
+variation in mean influence by absolute position within the prior context is accounted
+for by distance to the target, with no residual effect of structural position (e.g.,
+document opening). Persistence is therefore a distributed field of influence across the
+prior sequence, with magnitude graded smoothly by recency rather than localized to a
+small number of anchoring positions.
+
+\section{Discussion}
+
+The persistence function shows a continuous, distance-dependent influence that extends
+well beyond the span of explicit maintenance, decays without a characteristic scale, and
+is distributed across the prior sequence rather than localized to a small number of
+contributing positions. This pattern is difficult to reconcile with architectural
+accounts that posit a sharp division between recently-maintained material and
+remotely-retrieved material with distinguishable temporal dynamics: a sharp division
+would predict a corresponding inflection in $P(d)$, and we observe none across nearly two
+orders of magnitude in distance. The distributed influence pattern is similarly difficult
+to reconcile with retrieval-based accounts in which long-range coherence is supported by
+access to a small number of privileged anchoring positions. The data are consistent
+instead with mechanisms in which prior content continues to shape ongoing generation
+through the evolving probability structure of the sequence --- a graded, distance-dependent
+field of influence rather than a partition between maintained and retrieved content.
+
+The mean exponent we report ($-1.04$, SD $=0.15$) sits in a neighborhood that has been
+independently identified in two adjacent traditions in memory research.
+\citet{anderson1991reflections}, examining the recurrence statistics of information demand
+in natural environments, reported a power law with exponent of approximately $-0.77$.
+\citet{kahana2002age}, examining associative decay in free recall via lag-conditional
+response probability, reported a forward-decay exponent of approximately $-0.82$ for
+younger adults. Each of these measurements was made by entirely different methods on
+entirely different data, and neither involves a language model. The convergence is striking
+but does not by itself establish a common underlying mechanism: it motivates direct
+cross-paradigm investigation of whether comparable scale-free decay forms across production,
+environmental statistics, and recall reflect a domain-general dynamic of biological cognition
+or distinct mechanisms producing similar exponents.
+
+This empirical picture aligns with a longer trajectory in cognitive psychology away from
+architecturally bounded views of memory and toward continuous and graded characterizations.
+Cowan's focus-of-attention model \citep{cowan2001magical} recasts working memory as a graded
+availability of items rather than a fixed-capacity slot store; Ericsson and Kintsch's
+long-term working memory framework \citep{ericsson1995longterm} argues that skilled
+performers make routine use of long-term-memory structures during ongoing task performance,
+blurring the maintenance-retrieval boundary; and continuous-resource accounts in visual
+working memory \citep{ma2014changing} replace discrete-item architectures with graded
+distributions of representational precision. The persistence function provides a direct
+quantitative measurement of an analogous continuity in language production, observed at the
+scale of token-level sequential dependence and across naturalistic discourse rather than
+experimental task sequences. The present result is best read as an empirical capstone to
+this longer trajectory, not a refutation of it.
+
+We do not claim that these results establish the mechanism by which prior content shapes
+language production in the brain. The persistence function is a measurement of the form of
+contextual influence, not of the cognitive processes that implement it. We note, however,
+that artificial autoregressive systems trained on human text exhibit the same scale-free
+shape under the same measurements, supporting the interpretation that $P(d)$ reflects
+properties of well-formed sequential generation rather than properties specific to human
+cognition. Whether the persistence function generalizes to non-linguistic sequential
+behaviors with extended temporal coherence --- music improvisation, motor sequences, gesture,
+drawing --- and whether the convergence with memory-retrieval exponent ranges reflects a
+shared dynamic or merely shared statistical constraints, are questions the present results
+motivate but do not answer.
+
+\section{Methods}
+
+\subsection{Corpora}
+
+The long-range persistence function was computed on ten corpora: English fiction (Project
+Gutenberg), English news prose, English spontaneous speech (Buckeye Corpus of Conversational
+Speech), TED transcripts in English, German, French, Turkish, and Russian, and literary prose
+in Japanese and Finnish. Together these cover six language families (Germanic, Romance, Turkic,
+Slavic, Japonic, Uralic) and four production modes (written fiction, news prose, prepared
+speech, spontaneous speech). The complementary cross-language qualitative replication of the
+sign-flip pattern (Afro-Asiatic, Koreanic, Sino-Tibetan) was performed on Wikipedia and
+TED-transcript cells from a broader corpus inventory at shorter context lengths. Full corpus
+details, sources, sample sizes, and preprocessing steps are provided in Supplementary
+Information.
+
+\subsection{Probe models}
+
+Two autoregressive language models served as probes: Llama-3.1-8B (base;
+\texttt{Meta-Llama-3.1-8B}) and Mistral-7B-v0.1. Neither was fine-tuned for this study. The
+probes were used only to compute conditional probability estimates over fixed token sequences;
+the language models themselves were not the object of study. Headline results were obtained on
+Llama-3.1-8B; the qualitative pattern was replicated on Mistral-7B for shared corpora as a
+probe-independence check.
+
+\subsection{Persistence function}
+
+For each document, a single target region of 30 tokens was selected at the midpoint (50\%) of
+document length. Context preceding the target was revealed in incrementally larger spans at
+log-spaced context lengths $c \in \{0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024\}$. At each
+context length, target perplexity was computed under intact context (the actual preceding $c$
+tokens, original order) and shuffled context (the same $c$ tokens, random order). Per-distance
+marginals were obtained as the per-token change in perplexity across successive context lengths,
+$m_d = (\mathrm{ppl}_{c_{i-1}} - \mathrm{ppl}_{c_i}) / (c_i - c_{i-1})$, with distance indexed by
+the geometric mean $d = \sqrt{c_{i-1} c_i}$ of the interval. The persistence function was defined
+as $P(d) = m_d^{\text{intact}} - m_d^{\text{shuffled}}$, isolating the contribution of sequential
+structure from probe-internal token-identity calibration. Marginals were aggregated across
+documents within each corpus and binned by distance. Only documents with at least
+$1024 + 30 + 50$ tokens were included, ensuring a full-length context window and target for every
+measurement.
+
+\subsection{Functional-form fitting}
+
+The per-token order-specific gap was fit on log--log axes to four functional forms: power law
+($y = \alpha\, d^{\beta}$), exponential ($y = \alpha\, e^{-\beta d}$), stretched exponential
+($y = \alpha\, e^{-\beta d^{\gamma}}$), and quadratic-in-log. Models were compared by Akaike (AIC)
+and Bayesian (BIC) information criteria, and functional-form preference was determined per corpus.
+Power-law fits were computed on positive bins with $d \geq 10$ tokens, the first interval at which
+both ordered and shuffled bases exceed eight tokens.
+
+\subsection{Synthetic-sequence controls}
+
+To distinguish probe-internal calibration dynamics from genuine sequential dependence, two
+synthetic-sequence controls were constructed: uniform-vocabulary sequences (tokens drawn uniformly
+at random from the model vocabulary) and frequency-matched sequences (tokens drawn with empirical
+token-frequency probabilities matched to the natural corpora). The same persistence-function
+protocol was applied to both.
+
+\subsection{Sentence-level decomposition}
+
+The contribution of discourse-level ordering versus within-sentence content was assessed by
+computing $P(d)$ under three context conditions: ordered (intact), sentence-shuffled (sentences
+permuted while within-sentence token order preserved), and token-shuffled. The chaining-specific
+component was estimated as the difference between ordered and sentence-shuffled persistence; the
+content-driven component as the difference between sentence-shuffled and token-shuffled. Buckeye
+was excluded from this decomposition because spontaneous speech does not have unambiguous sentence
+boundaries.
+
+\subsection{Sentence-level ablation}
+
+For documents in two corpora (English fiction and English TED transcripts, 20 documents per corpus,
+1024-token prior context), each prior sentence was individually removed and the resulting change in
+target perplexity was computed (leave-one-sentence-out). Per-sentence influence was characterized by
+sign (positive $=$ removing the sentence increased target perplexity) and magnitude. The proportion
+of contributing sentences was computed in distance bins, and concentration metrics (Gini coefficient
+over per-sentence magnitudes; share of total positive influence in the top-5 sentences) were computed
+per document and aggregated. To test whether magnitude variation across prior-sentence positions
+reflects a privileged structural role over and above distance from the target, the full
+leave-one-sentence-out influence matrix was computed on a 15-document subset of each ablation corpus;
+variation in influence magnitude was accounted for by distance, with no residual effect of structural
+position once distance was controlled.
+
+\section*{Data and code availability}
+
+Analysis code and corpus manifests are available in the project repository. Per-corpus persistence
+curves and the figure-generation pipeline are provided as supplementary material.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig1_persistence.pdf}
+\caption{\textbf{Cross-corpus persistence functions.} Per-token order-specific contextual influence
+$P(d)$ as a function of distance $d$, log--log axes. Each panel is one of ten corpora spanning six
+language families (Germanic, Romance, Turkic, Slavic, Japonic, Uralic) and four production modes. All
+cells exhibit heavy-tailed decay across nearly two orders of magnitude in distance, with mean power-law
+slope $-1.04$ (SD $=0.15$) --- close to a $1/d$ law. Fits computed on $d \geq 10$ tokens. Cells marked
+$\dagger$ (Japanese literary prose; Buckeye spontaneous English speech) are best fit by
+stretched-exponential functions but remain heavy-tailed.}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig2_sentence_shuffle.pdf}
+\caption{\textbf{Order and content make distinguishable contributions to persistence.} $P(d)$ under
+context conditions that isolate discourse-level ordering from within-sentence content. The intact and
+sentence-shuffled curves coincide at long range and diverge only below ${\sim}30$ tokens; both lie far
+above the token-shuffled baseline at all distances. The persistence function decomposes into a
+chaining-specific component (slope $\approx -1.26$, approaching zero by $d > 100$ tokens) and a
+content-driven component (slope $\approx -0.78$) that carries the long-range tail.}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/fig3_distributed_influence.pdf}
+\caption{\textbf{Persistence is broadly distributed across prior sentences.} Proportion of prior
+sentences whose removal degrades target prediction as a function of distance to the target. The
+proportion declines smoothly from ${\sim}90\%$ within the first 32 tokens to ${\sim}55$--$60\%$ beyond
+500 tokens, with no sharp transition. The top-5 sentences account for 30--51\% of total positive
+influence (Gini 0.78--0.90), but this concentration reflects recency, not a privileged structural role
+for any specific position.}
+\end{figure}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

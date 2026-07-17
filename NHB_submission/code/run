@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+# Master entrypoint for the contextual-persistence capsule.
+#
+#   bash code/run figures   # CPU: rebuild all figures + fitted exponents from cached CPF outputs
+#   bash code/run stats     # CPU: print/write the exponent bootstrap, functional-form (AICc), decomposition
+#   bash code/run dna       # GPU: run the DNA (HyenaDNA) control end to end
+#   bash code/run protein   # GPU: run the protein (ProGen2, dense grid) control end to end
+#   bash code/run all       # GPU: full pipeline (probes are run via the notebooks; see REPRODUCING.md)
+#
+# Outputs are written to results/.
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$HERE/.." && pwd)"
+export CPF_DATA="${CPF_DATA:-$ROOT/data/derived}"
+export CPF_RESULTS="${CPF_RESULTS:-$ROOT/results}"
+mkdir -p "$CPF_RESULTS"
+cmd="${1:-figures}"
+
+run_figures() {
+  echo "[run] building figures from cached CPF outputs in $CPF_DATA"
+  python "$HERE/figures/build_figures.py"
+  python "$HERE/figures/build_schematic_alpha1.py"
+  echo "[run] figures written to $CPF_RESULTS"
+}
+
+run_stats() {
+  echo "[run] exponent bootstrap + functional-form + decomposition"
+  python "$HERE/analysis/bootstrap_exponents.py"       || true
+  python "$HERE/analysis/longrange_functional_form.py" || true
+  python "$HERE/analysis/sentshuffle_decomposition.py" || true
+  python "$HERE/analysis/model_comparison.py"          || true
+}
+
+run_dna()     { echo "[run] DNA control (GPU)";     python "$HERE/domain_controls/persistence_dna_hyenadna.py"; }
+run_protein() { echo "[run] protein control (GPU)"; python "$HERE/domain_controls/run_progen2_dense.py"; }
+
+case "$cmd" in
+  figures) run_figures ;;
+  stats)   run_stats ;;
+  dna)     run_dna ;;
+  protein) run_protein ;;
+  all)
+    echo "[run] FULL PATH. Language CPF caches are produced by the GPU notebooks in code/probes/"
+    echo "      (see REPRODUCING.md); this target runs the domain controls and then the figures."
+    run_dna; run_protein; run_stats; run_figures ;;
+  *) echo "unknown command: $cmd  (use: figures | stats | dna | protein | all)"; exit 1 ;;
+esac

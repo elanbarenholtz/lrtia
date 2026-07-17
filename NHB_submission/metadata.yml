@@ -1,0 +1,27 @@
+# Code Ocean capsule metadata
+metadata_version: 1
+name: "A scaling law of contextual persistence in human language"
+description: >
+  Reproducibility capsule for the Contextual Persistence Function (CPF) analysis. Measures
+  the order-specific predictive influence of prior context at distance d across ten human
+  languages, shows an approximately scale-free power law with decay exponent alpha ~ 1.04,
+  and runs the synthetic, probe-independence, and non-language (DNA, protein) controls.
+authors:
+  - name: "Elan Barenholtz"
+    affiliations:
+      - "Department of Psychology and Center for Complex Systems, Florida Atlantic University"
+corresponding_contact: "elanbarenholtz@gmail.com"
+keywords:
+  - scaling law
+  - language
+  - contextual persistence
+  - power law
+  - large language models
+license: "MIT"          # change if you prefer BSD-3-Clause
+language: "Python"
+seed: 20260715
+run_command: "bash code/run figures"
+notes: >
+  CPU fast path (bash code/run figures) reproduces all figures and fitted exponents from
+  cached CPF outputs in data/derived. GPU full path (bash code/run all) reruns the
+  large-model probes; see REPRODUCING.md for hardware requirements.

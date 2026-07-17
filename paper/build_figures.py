@@ -31,8 +31,8 @@ plt.rcParams.update({
 
 CELLS_LONGRANGE = [
     'gutenberg_fiction_en', 'ted_transcripts_en', 'ted_transcripts_de',
-    'ted_transcripts_fr', 'ted_transcripts_tr', 'literary_ja',
-    'literary_fi', 'news_en', 'buckeye',
+    'ted_transcripts_fr', 'ted_transcripts_tr', 'ted_transcripts_ru',
+    'literary_ja', 'literary_fi', 'news_en', 'buckeye',
 ]
 STRETCHED_EXP_CELLS = {'literary_ja', 'buckeye'}
 
@@ -120,6 +120,48 @@ def cell_three_curves(path):
     return np.array(ds), np.array(ord_m), np.array(ss_m), np.array(ts_m)
 
 
+def per_target_four_rates(rec):
+    """Same as per_target_three_rates plus sentence_reversed."""
+    cs = rec['context_lengths']
+    op = rec['ordered_ppl']
+    sp = rec['sentence_shuffled_ppl']
+    rp = rec['sentence_reversed_ppl']
+    tp = rec['token_shuffled_ppl']
+    out = []
+    for i in range(1, len(cs)):
+        if cs[i - 1] == 0:
+            continue
+        width = cs[i] - cs[i - 1]
+        d_mid = math.sqrt(cs[i - 1] * cs[i])
+        out.append((d_mid,
+                    (op[i - 1] - op[i]) / width,
+                    (sp[i - 1] - sp[i]) / width,
+                    (rp[i - 1] - rp[i]) / width,
+                    (tp[i - 1] - tp[i]) / width))
+    return out
+
+
+def cell_four_curves(path):
+    """Reads a sent-reverse cache: returns (d, ord, sent_shuf, sent_rev, tok_shuf)."""
+    with open(path) as f:
+        recs = json.load(f)
+    by_i = {}
+    for r in recs:
+        for i, tup in enumerate(per_target_four_rates(r)):
+            by_i.setdefault(i, []).append(tup)
+    ds, ord_m, ss_m, sr_m, ts_m = [], [], [], [], []
+    for i in sorted(by_i):
+        rows = by_i[i]
+        n = len(rows)
+        ds.append(rows[0][0])
+        ord_m.append(sum(t[1] for t in rows) / n)
+        ss_m.append(sum(t[2] for t in rows) / n)
+        sr_m.append(sum(t[3] for t in rows) / n)
+        ts_m.append(sum(t[4] for t in rows) / n)
+    return (np.array(ds), np.array(ord_m), np.array(ss_m),
+            np.array(sr_m), np.array(ts_m))
+
+
 def fit_pl(d, y):
     """Power-law fit on positive bins. Returns (slope, r2)."""
     pos = y > 0
@@ -148,28 +190,30 @@ def fig1():
     base = DRIVE / 'corpus_expansion_longrange/llama'
     D_MIN = 10.0
 
-    fig, axes = plt.subplots(3, 3, figsize=(11, 9), sharex=True, sharey=True)
+    ncol = 5
+    nrow = (len(CELLS_LONGRANGE) + ncol - 1) // ncol
+    fig, axes = plt.subplots(nrow, ncol, figsize=(16, 6), sharex=True, sharey=True)
     cmap = plt.get_cmap('tab10')
     slopes = []
 
     for idx, cell in enumerate(CELLS_LONGRANGE):
         d, g, _, _, _ = cell_curves(base / f'{cell}.json')
-        keep = d >= D_MIN
+        # Fit and plot only the stable range d >= D_MIN. Below ~10 tokens the
+        # shuffled-token baseline is unstable (too few tokens to permute), so
+        # those intervals are excluded (see caption / Methods).
+        keep = (d >= D_MIN) & (g > 0)
         d, g = d[keep], g[keep]
         s, r2 = fit_pl(d, g)
         slopes.append(s)
         is_stretched = cell in STRETCHED_EXP_CELLS
 
-        ax = axes[idx // 3][idx % 3]
-        pos = g > 0
-        ax.plot(d[pos], g[pos], 'o-', color=cmap(idx), linewidth=1.6,
-                markersize=5, alpha=0.9)
+        ax = axes[idx // ncol][idx % ncol]
+        ax.plot(d, g, 'o-', color=cmap(idx), linewidth=1.6, markersize=5, alpha=0.95)
 
-        if s is not None and sum(pos) >= 3:
-            log_d = np.log(d[pos])
-            log_g = np.log(g[pos])
+        if s is not None and len(d) >= 3:
+            log_d = np.log(d); log_g = np.log(g)
             intercept = log_g.mean() - s * log_d.mean()
-            x_fit = np.array([d[pos].min(), d[pos].max()])
+            x_fit = np.array([d.min(), d.max()])
             ax.plot(x_fit, np.exp(intercept) * x_fit ** s, ':',
                     color='black', linewidth=1.2, alpha=0.7)
 
@@ -177,7 +221,7 @@ def fig1():
         if is_stretched:
             title += ' †'
         ax.set_title(title, fontsize=10)
-        slope_str = f'α = {s:.2f}' if s is not None else 'no fit'
+        slope_str = f'α = {-s:.2f}' if s is not None else 'no fit'  # P(d)∝d^-α; display positive α
         ax.text(0.05, 0.05, slope_str, transform=ax.transAxes, fontsize=9,
                 verticalalignment='bottom', fontweight='bold')
         ax.set_xscale('log')
@@ -193,9 +237,10 @@ def fig1():
     mean_s, sd_s = np.mean(valid), np.std(valid)
     fig.suptitle(
         f'Cross-corpus persistence functions  '
-        f'(9 cells, 5 language families;  '
-        f'mean α = {mean_s:+.2f}, SD = {sd_s:.2f};  d ≥ {int(D_MIN)};  '
-        f'† stretched-exp)',
+        f'({len(CELLS_LONGRANGE)} cells, 6 language families;  '
+        f'mean α = {-mean_s:.2f}, SD = {sd_s:.2f};  '
+        f'd ≥ {int(D_MIN)} (short range excluded);  '
+        f'† curved)',
         fontsize=11, y=1.00,
     )
 
@@ -359,72 +404,78 @@ def fig2():
 # -----------------------------------------------------------------------------
 
 def fig3():
-    """Single-panel figure: three context conditions on linear axis, d >= 10.
+    """Single-panel figure: four context conditions, d >= 10.
 
-    Plots ordered, sentence-shuffled, and token-shuffled per-token marginals
-    together. The pattern (ord ~= sent_shuf at long range, both positive;
-    tok_shuf consistently negative) makes visible:
-      - content matters (ord ~= sent_shuf at long range)
-      - discourse order matters at short range (ord > sent_shuf below ~30)
-      - disorder hurts (tok_shuf negative)
-      - chaining contribution = ord - sent_shuf gap (visible at d <~ 30)
-      - content contribution = sent_shuf - tok_shuf gap (visible at all d)
+    Plots ordered, sentence-shuffled, sentence-reversed, and token-shuffled
+    per-token marginals together. Adds the sentence-reverse condition (2026-05-17)
+    which is the cleanest test of forward-direction specificity in the chain.
 
-    Replaces the earlier two-panel decomposition figure.
+    The conditions stack as:
+      ordered          (intact forward chain)
+      sent_shuf        (sequence destroyed, content preserved)
+      sent_rev         (forward direction destroyed, adjacency preserved)
+      tok_shuf         (everything destroyed)
+
+    Reads from corpus_expansion_longrange_sentrev/llama which contains all four
+    conditions on the same targets.
     """
-    base = DRIVE / 'corpus_expansion_longrange_sentshuf/llama'
+    base = DRIVE / 'corpus_expansion_longrange_sentrev/llama'
     cells = CELLS_SENTSHUF
     D_MIN = 10.0
 
     all_d = None
-    arr_ord, arr_ss, arr_ts = [], [], []
+    arr_ord, arr_ss, arr_sr, arr_ts = [], [], [], []
     for cell in cells:
-        d, ord_m, ss_m, ts_m = cell_three_curves(base / f'{cell}.json')
+        d, ord_m, ss_m, sr_m, ts_m = cell_four_curves(base / f'{cell}.json')
         if all_d is None: all_d = d
-        arr_ord.append(ord_m); arr_ss.append(ss_m); arr_ts.append(ts_m)
+        arr_ord.append(ord_m); arr_ss.append(ss_m)
+        arr_sr.append(sr_m); arr_ts.append(ts_m)
     arr_ord = np.array(arr_ord)
     arr_ss = np.array(arr_ss)
+    arr_sr = np.array(arr_sr)
     arr_ts = np.array(arr_ts)
 
     keep = all_d >= D_MIN
     all_d = all_d[keep]
     arr_ord = arr_ord[:, keep]
     arr_ss = arr_ss[:, keep]
+    arr_sr = arr_sr[:, keep]
     arr_ts = arr_ts[:, keep]
 
     n = len(cells)
     ord_mean = arr_ord.mean(axis=0)
     ss_mean = arr_ss.mean(axis=0)
+    sr_mean = arr_sr.mean(axis=0)
     ts_mean = arr_ts.mean(axis=0)
     ord_se = arr_ord.std(axis=0) / np.sqrt(n)
     ss_se = arr_ss.std(axis=0) / np.sqrt(n)
+    sr_se = arr_sr.std(axis=0) / np.sqrt(n)
     ts_se = arr_ts.std(axis=0) / np.sqrt(n)
 
-    # Per-cell decomposition slopes for caption / annotation
-    chain_pc = arr_ord - arr_ss
-    content_pc = arr_ss - arr_ts
-    chain_slopes = [s for s in (fit_pl(all_d, chain_pc[i])[0] for i in range(n))
-                    if s is not None]
+    # Per-cell decomposition slopes
+    direction_pc = arr_ord - arr_sr        # NEW: ord vs sent_rev (direction-specific)
+    permute_pc = arr_ord - arr_ss          # old "chaining" (sequence-permutation)
+    content_pc = arr_ss - arr_ts           # content-driven
+    direction_slopes = [s for s in (fit_pl(all_d, direction_pc[i])[0] for i in range(n))
+                        if s is not None]
+    permute_slopes = [s for s in (fit_pl(all_d, permute_pc[i])[0] for i in range(n))
+                      if s is not None]
     content_slopes = [s for s in (fit_pl(all_d, content_pc[i])[0] for i in range(n))
                       if s is not None]
-    s_chain = (np.mean(chain_slopes), np.std(chain_slopes))
+    s_direction = (np.mean(direction_slopes), np.std(direction_slopes))
+    s_permute = (np.mean(permute_slopes), np.std(permute_slopes))
     s_content = (np.mean(content_slopes), np.std(content_slopes))
 
-    fig, ax = plt.subplots(figsize=(9, 5.5))
+    fig, ax = plt.subplots(figsize=(9.5, 6))
 
-    # Shaded gaps between curves
-    # content gap: between sent_shuf and tok_shuf (sent_shuf above tok_shuf)
-    ax.fill_between(all_d, ss_mean, ts_mean, color='C2', alpha=0.15,
-                    label='content gap (sent_shuf − tok_shuf)', zorder=1)
-    # chaining gap: between ord and sent_shuf (ord above sent_shuf)
-    ax.fill_between(all_d, ord_mean, ss_mean, color='C4', alpha=0.20,
-                    label='chaining gap (ord − sent_shuf)', zorder=1)
-
-    # Three condition curves with SE bands
+    # Four condition curves with SE bands.
+    # Order matters for layering: ord at top, ts at bottom (per the data ordering).
+    sent_rev_color = '#7B3FA0'  # purple, distinct from C0/C1/C3
     for vals, se_vals, color, marker, label in [
-        (ord_mean, ord_se, 'C0', 'o', 'Ordered (intact)'),
-        (ss_mean, ss_se, 'C1', 's', 'Sentence-shuffled'),
-        (ts_mean, ts_se, 'C3', '^', 'Token-shuffled'),
+        (ord_mean, ord_se, 'C0', 'o', 'Ordered (intact forward chain)'),
+        (ss_mean, ss_se, 'C1', 's', 'Sentence-shuffled (sequence destroyed)'),
+        (sr_mean, sr_se, sent_rev_color, 'D', 'Sentence-reversed (direction destroyed)'),
+        (ts_mean, ts_se, 'C3', '^', 'Token-shuffled (chance floor)'),
     ]:
         ax.fill_between(all_d, vals - se_vals, vals + se_vals,
                         color=color, alpha=0.20, zorder=2)
@@ -434,33 +485,40 @@ def fig3():
 
     ax.axhline(0, color='black', linewidth=1.0, alpha=0.7, zorder=3)
 
-    # Slope annotation in lower-right
-    ax.text(0.98, 0.04,
-            f'chaining-specific: α = {s_chain[0]:+.2f} ± {s_chain[1]:.2f}\n'
-            f'content-driven:   α = {s_content[0]:+.2f} ± {s_content[1]:.2f}',
+    # Annotate the three decomposed components, ranked by importance.
+    annotation_text = (
+        f'direction-specific:  slope = {s_direction[0]:+.2f} ± {s_direction[1]:.2f}'
+        '   (ord − sent_rev)\n'
+        f'content-driven:      slope = {s_content[0]:+.2f} ± {s_content[1]:.2f}'
+        '   (sent_shuf − tok_shuf)\n'
+        f'sequence-permute:    slope = {s_permute[0]:+.2f} ± {s_permute[1]:.2f}'
+        '   (ord − sent_shuf; small)'
+    )
+    ax.text(0.98, 0.04, annotation_text,
             transform=ax.transAxes, ha='right', va='bottom',
             fontsize=9, family='monospace',
             bbox=dict(boxstyle='round,pad=0.4', facecolor='white',
-                      edgecolor='gray', alpha=0.9))
+                      edgecolor='gray', alpha=0.92))
 
     ax.set_xscale('log')
     ax.set_xlabel('Distance d (tokens)')
     ax.set_ylabel('Per-token marginal (ppl/token)')
     ax.set_title(
-        'Three context conditions: order, content, and disorder\n'
+        'Four context conditions: forward chain, sequence, direction, and disorder\n'
         f'(Mean ± SE across {n} cells; d ≥ {int(D_MIN)})')
     ax.legend(loc='upper right', framealpha=0.95, fontsize=9)
     ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    out_png = OUT / 'fig3_sentence_shuffle.png'
-    out_pdf = OUT / 'fig3_sentence_shuffle.pdf'
-    plt.savefig(out_png, dpi=300, bbox_inches='tight')
-    plt.savefig(out_pdf, bbox_inches='tight')
+    # Save under both the script's internal name and the manuscript name.
+    for stem in ('fig3_sentence_shuffle', 'fig2_sentence_shuffle'):
+        plt.savefig(OUT / f'{stem}.png', dpi=300, bbox_inches='tight')
+        plt.savefig(OUT / f'{stem}.pdf', bbox_inches='tight')
     plt.close()
-    print(f'  saved {out_png.name}  '
-          f'(chain α = {s_chain[0]:+.3f} ± {s_chain[1]:.3f}, '
-          f'content α = {s_content[0]:+.3f} ± {s_content[1]:.3f})')
+    print(f'  saved fig3_sentence_shuffle + fig2_sentence_shuffle  '
+          f'(direction α = {s_direction[0]:+.3f} ± {s_direction[1]:.3f}, '
+          f'content α = {s_content[0]:+.3f} ± {s_content[1]:.3f}, '
+          f'permute α = {s_permute[0]:+.3f} ± {s_permute[1]:.3f})')
 
 
 # -----------------------------------------------------------------------------

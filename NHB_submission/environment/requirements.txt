@@ -1,0 +1,22 @@
+# Pinned environment for the contextual-persistence capsule.
+# The protein control was generated with transformers 5.12.1 / torch 2.11.0+cu128 on an
+# A100-40GB; the language and DNA probes are tolerant to transformers >= 4.44.
+# The CPU "fast path" (figures + stats from cached CPF outputs) needs only numpy/scipy/matplotlib.
+
+# --- core numerical / plotting (CPU fast path) ---
+numpy>=1.26,<2.2
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+tqdm>=4.66
+
+# --- model probing (GPU full path) ---
+torch>=2.3
+transformers>=5.11          # >=5.11 required by the ProGen2 port used in the protein control
+accelerate>=0.30
+sentencepiece>=0.2.0
+datasets>=2.19
+huggingface_hub>=0.23
+
+# --- domain-control I/O ---
+biopython>=1.83             # optional; FASTA handling for protein/DNA if not using urllib
