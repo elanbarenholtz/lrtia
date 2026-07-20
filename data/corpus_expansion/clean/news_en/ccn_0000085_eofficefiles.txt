@@ -1,0 +1,44 @@
+Sometimes you don't know you need a feature until you discover it and put it to use for a bit. Then you wonder how you ever got your work done without it! That's how you might feel about Windows Tags. Yes, it's a Windows feature, but you can use Tags to manage Office files—and other file types as well. Whether you work alone or share files via a server or even OneDrive for Business, you can benefit from Tags. In this article, I'll show you how to add Tags to Office and non-Office files and how to search using those Tags.
+I'm working with Office 2016 (desktop) on a Windows 10 64-bit system. The Windows Tags property is available in older versions, back to Windows Vista. In Office, they've been available since at least Office 2007 (but maybe longer). There's no downloadable demonstration file. You won't need one.
+What are Tags?
+Don't confuse Office Smart Tags and Windows Tags; they aren't the same thing. Windows Tags are keywords used for organizing (searching) files. How you use them will depend on your needs, but anytime you're working with bulk files or sharing files for the same purpose, Tags can help. Don't limit their use to simply describing the file's contents, either. You can use Tags to describe how you use the file. For instance, you might use terms such as complete and not complete to describe status. Or you might use the term upload to group files you need to upload to an external service such as OneDrive.
+Add a tag to an Office file
+Tags are a Windows file property, but you can add them when saving an Office file. During the save process, you'll see an Options link. It's quite possible that you've never explored this link before. Let's take a look:
+With any Office file open, click the File tab and choose Save As in the left pane. Below the Filename and Location controls, click the More Options link (Figure A). In the bottom-right corner of the resulting dialog, look for the Tags control (Figure B). Click the Add A Tag Link and supply a keyword (Figure C). To add more than one, separate the keywords with a semicolon. Once you add a Tags keyword, Office will display it in an AutoComplete list when you tag subsequent files, making it easier to use Tags consistently. Click Save and continue as you normally would.
+Figure A
+Click the More Options link.
+Figure B
+Click the Tags control and start entering keywords.
+Figure C
+Separate keywords with a semicolon.
+You can add Tags to all your Office files this way. Although I showed you only one, you might have several files that warrant a plant sale or 2018 keyword. Following our example, you have a plant list in Excel, but you might also have a vendor contract in Word and several graphic files you're using in different publicity venues.
+Searching
+Now let's use File Explorer to find all your plant sale files. You could run a quick search on your local drive using any number of search strings: plant list, contract, and so on. If you use this route, you know that a search can take a while and it often turns up a lot of files you're not looking for. As you can see in Figure D, what you might expect to be a simple search for your Word contract is anything but. A similar search on 2018 could return similar or even worse results.
+Figure D
+A search on contract returns a lot of files.
+Okay, I confess: The above search is unnecessarily complicated—I did that on purpose. If you see a lot of files you can't identify, check the Advanced Options dropdown and make sure System Files is unchecked (unless you're looking for system files). Doing so will improve most search tasks, with or without Tags.
+However, thanks to Tags, you don't have to second guess, remember every related file you've generated or updated, or wade through busy search results. Even if the search includes system files (as above), you won't see a lot of unexpected files. You'll see only the files you've tagged accordingly.
+To pinpoint just the files you want to see related to your plant sale, open File Explorer and click This PC (or a folder, a server drive, or OneDrive). Enter a search string in the following form:
+Tags: search string
+As you can see in Figure E, the search on Tags: plant sale matches only two files: the plant list in Excel and the vendor contract in Word. If you know where the files are, you can run a quicker search by selecting that folder before executing the search. If you're like me, some folders contain a lot of files and a Tags search is often easier and quicker than a normal alphabetical list.
+Figure E
+Using the plant sale Tags keyword reduces the number of files returned.
+Not all formats are equal
+Not all software allows you to add Tags when saving a file, but that's not a problem. You can use File Explorer to add Tags:
+Open File Explorer and select the file you want to tag. On the View tab, click Details in the Panes group to open the Details pane. Enter the appropriate Tags (Figure F). Click Save.
+Figure F
+Enter your Tags.
+Now when you run the same search, Tags: plant sale, File Explorer returns the first two files and the .jpg, as shown in Figure G.
+Figure G
+This time, the search found three tagged files.
+Using File Explorer, you can sort and group a folder's contents using Tags. Simply click the View tab and choose Tags from the Sort By or Group By dropdown. Or right-click the background and choose Tags from the Sort By or Group By options. In addition, you can filter for Tags. As Figure H shows, you can filter for specific Tags if you're using the Details view. This is great when you know all your files are in the same folder.
+Figure H
+You can also filter by Tags.
+Using File Explorer, you can add Tags to several files at the same time. Hold down the Ctrl key while selecting files to create a multi-file selection. Then, add Tags as you normally would. If you add a file to the selection that doesn't allow tagging, the Tags control won't be accessible for any of the files, so be careful.
+Only as good...
+Tags, or keywords, are only as good as the people adding them. If you work alone, this is easy. If you're trying to corral files for an organization, it's much harder. Everyone may not be on the same page, so searches will be incomplete at best. That might be one reason they're not more popular. Even using File Explorer, you can't add Tags to every file type. For instance, you can't tag a .txt file.
+In addition, you can use any of the properties via the Details pane in the same way. For instance, for Content status, you might enter Incomplete and Complete. To search, you'd use the string Contentstatus: Complete. You can also use wildcards. To see all tagged files, you'd enter Tags: -[]. That means that where Tags isn't null. As you can see, there's a lot to explore!
+Get more great Office tips and tricks delivered to your inbox. Sign up for TechRepublic's Microsoft Weekly newsletter. Subscribe
+Send me your question about Office
+I answer readers' questions when I can, but there's no guarantee. Don't send files unless requested; initial requests for help that arrive with attached files will be deleted unread. You can send screenshots of your data to help clarify your question. When contacting me, be as specific as possible. For example, "Please troubleshoot my workbook and fix what's wrong" probably won't get a response, but "Can you tell me why this formula isn't returning the expected results?" might. Please mention the app and version that you're using. I'm not reimbursed by TechRepublic for my time or expertise when helping readers, nor do I ask for a fee from readers I help. You can contact me at susansalesharkins@gmail.com.
+Also read...

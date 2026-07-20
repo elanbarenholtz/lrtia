@@ -1,0 +1,179 @@
+Now you don't find several thousand targets in that area.
+It basically boils down to the Bushehr nuclear power plant and to the Natanz fuel enrichment plant.
+So I told my assistant, "Get me a list of all centrifuge and power plant experts from our client base."
+And I phoned them up and picked their brain in an effort to match their expertise with what we found in code and data.
+And that worked pretty well.
+So we were able to associate the small digital warhead with the rotor control.
+The rotor is that moving part within the centrifuge, that black object that you see.
+And if you manipulate the speed of this rotor, you are actually able to crack the rotor and eventually even have the centrifuge explode.
+What we also saw is that the goal of the attack was really to do it slowly and creepy -- obviously in an effort to drive maintenance engineers crazy, that they would not be able to figure this out quickly.
+The big digital warhead -- we had a shot at this by looking very closely at data and data structures.
+So for example, the number 164 really stands out in that code; you can't overlook it.
+I started to research scientific literature on how these centrifuges are actually built in Natanz and found they are structured in what is called a cascade, and each cascade holds 164 centrifuges.
+So that made sense, that was a match.
+And it even got better.
+These centrifuges in Iran are subdivided into 15, what is called, stages.
+And guess what we found in the attack code?
+An almost identical structure.
+So again, that was a real good match.
+And this gave us very high confidence for what we were looking at.
+Now don't get me wrong here, it didn't go like this.
+These results have been obtained over several weeks of really hard labor.
+And we often went into just a dead end and had to recover.
+Anyway, so we figured out that both digital warheads were actually aiming at one and the same target, but from different angles.
+The small warhead is taking one cascade, and spinning up the rotors and slowing them down, and the big warhead is talking to six cascades and manipulating valves.
+So in all, we are very confident that we have actually determined what the target is.
+It is Natanz, and it is only Natanz.
+So we don't have to worry that other targets might be hit by Stuxnet.
+Here's some very cool stuff that we saw -- really knocked my socks off.
+Down there is the gray box, and on the top you see the centrifuges.
+Now what this thing does is it intercepts the input values from sensors -- so for example, from pressure sensors and vibration sensors -- and it provides legitimate program code, which is still running during the attack, with fake input data.
+And as a matter of fact, this fake input data is actually prerecorded by Stuxnet.
+So it's just like from the Hollywood movies where during the heist, the observation camera is fed with prerecorded video.
+That's cool, huh?
+The idea here is obviously not only to fool the operators in the control room.
+It actually is much more dangerous and aggressive.
+The idea is to circumvent a digital safety system.
+We need digital safety systems where a human operator could not act quick enough.
+So for example, in a power plant, when your big steam turbine gets too over speed, you must open relief valves within a millisecond.
+Obviously, this cannot be done by a human operator.
+So this is where we need digital safety systems.
+And when they are compromised, then real bad things can happen.
+Your plant can blow up.
+And neither your operators nor your safety system will notice it.
+That's scary.
+But it gets worse.
+And this is very important, what I'm going to say.
+Think about this: this attack is generic.
+It doesn't have anything to do, in specifics, with centrifuges, with uranium enrichment.
+So it would work as well, for example, in a power plant or in an automobile factory.
+It is generic.
+And you don't have -- as an attacker -- you don't have to deliver this payload by a USB stick, as we saw it in the case of Stuxnet.
+You could also use conventional worm technology for spreading.
+Just spread it as wide as possible.
+And if you do that, what you end up with is a cyber weapon of mass destruction.
+That's the consequence that we have to face.
+So unfortunately, the biggest number of targets for such attacks are not in the Middle East.
+They're in the United States and Europe and in Japan.
+So all of the green areas, these are your target-rich environments.
+We have to face the consequences, and we better start to prepare right now.
+Thanks.
+(Applause) Chris Anderson: I've got a question.
+Ralph, it's been quite widely reported that people assume that Mossad is the main entity behind this.
+Is that your opinion?
+Ralph Langner: Okay, you really want to hear that?
+Yeah.
+Okay.
+My opinion is that the Mossad is involved, but that the leading force is not Israel.
+So the leading force behind that is the cyber superpower.
+There is only one, and that's the United States -- fortunately, fortunately.
+Because otherwise, our problems would even be bigger.
+CA: Thank you for scaring the living daylights out of us.
+Thank you, Ralph.
+(Applause)
+You know, one of the intense pleasures of travel and one of the delights of ethnographic research is the opportunity to live amongst those who have not forgotten the old ways, who still feel their past in the wind, touch it in stones polished by rain, taste it in the bitter leaves of plants.
+Just to know that Jaguar shamans still journey beyond the Milky Way, or the myths of the Inuit elders still resonate with meaning, or that in the Himalaya, the Buddhists still pursue the breath of the Dharma, is to really remember the central revelation of anthropology, and that is the idea that the world in which we live does not exist in some absolute sense, but is just one model of reality, the consequence of one particular set of adaptive choices that our lineage made, albeit successfully, many generations ago.
+And of course, we all share the same adaptive imperatives.
+We're all born.
+We all bring our children into the world.
+We go through initiation rites.
+We have to deal with the inexorable separation of death, so it shouldn't surprise us that we all sing, we all dance, we all have art.
+But what's interesting is the unique cadence of the song, the rhythm of the dance in every culture.
+And whether it is the Penan in the forests of Borneo, or the Voodoo acolytes in Haiti, or the warriors in the Kaisut desert of Northern Kenya, the Curandero in the mountains of the Andes, or a caravanserai in the middle of the Sahara -- this is incidentally the fellow that I traveled into the desert with a month ago -- or indeed a yak herder in the slopes of Qomolangma, Everest, the goddess mother of the world.
+All of these peoples teach us that there are other ways of being, other ways of thinking, other ways of orienting yourself in the Earth.
+And this is an idea, if you think about it, can only fill you with hope.
+Now, together the myriad cultures of the world make up a web of spiritual life and cultural life that envelops the planet, and is as important to the well-being of the planet as indeed is the biological web of life that you know as a biosphere.
+And you might think of this cultural web of life as being an ethnosphere, and you might define the ethnosphere as being the sum total of all thoughts and dreams, myths, ideas, inspirations, intuitions brought into being by the human imagination since the dawn of consciousness.
+The ethnosphere is humanity's great legacy.
+It's the symbol of all that we are and all that we can be as an astonishingly inquisitive species.
+And just as the biosphere has been severely eroded, so too is the ethnosphere -- and, if anything, at a far greater rate.
+No biologists, for example, would dare suggest that 50 percent of all species or more have been or are on the brink of extinction because it simply is not true, and yet that -- the most apocalyptic scenario in the realm of biological diversity -- scarcely approaches what we know to be the most optimistic scenario in the realm of cultural diversity.
+And the great indicator of that, of course, is language loss.
+When each of you in this room were born, there were 6,000 languages spoken on the planet.
+Now, a language is not just a body of vocabulary or a set of grammatical rules.
+A language is a flash of the human spirit.
+It's a vehicle through which the soul of each particular culture comes into the material world.
+Every language is an old-growth forest of the mind, a watershed, a thought, an ecosystem of spiritual possibilities.
+And of those 6,000 languages, as we sit here today in Monterey, fully half are no longer being whispered into the ears of children.
+They're no longer being taught to babies, which means, effectively, unless something changes, they're already dead.
+What could be more lonely than to be enveloped in silence, to be the last of your people to speak your language, to have no way to pass on the wisdom of the ancestors or anticipate the promise of the children?
+And yet, that dreadful fate is indeed the plight of somebody somewhere on Earth roughly every two weeks, because every two weeks, some elder dies and carries with him into the grave the last syllables of an ancient tongue.
+And I know there's some of you who say, "Well, wouldn't it be better, wouldn't the world be a better place if we all just spoke one language?"
+And I say, "Great, let's make that language Yoruba.
+Let's make it Cantonese.
+Let's make it Kogi."
+And you'll suddenly discover what it would be like to be unable to speak your own language.
+And so, what I'd like to do with you today is sort of take you on a journey through the ethnosphere, a brief journey through the ethnosphere, to try to begin to give you a sense of what in fact is being lost.
+Now, there are many of us who sort of forget that when I say "different ways of being," I really do mean different ways of being.
+Take, for example, this child of a Barasana in the Northwest Amazon, the people of the anaconda who believe that mythologically they came up the milk river from the east in the belly of sacred snakes.
+Now, this is a people who cognitively do not distinguish the color blue from the color green because the canopy of the heavens is equated to the canopy of the forest upon which the people depend.
+They have a curious language and marriage rule which is called "linguistic exogamy:" you must marry someone who speaks a different language.
+And this is all rooted in the mythological past, yet the curious thing is in these long houses, where there are six or seven languages spoken because of intermarriage, you never hear anyone practicing a language.
+They simply listen and then begin to speak.
+Or, one of the most fascinating tribes I ever lived with, the Waorani of northeastern Ecuador, an astonishing people first contacted peacefully in 1958.
+In 1957, five missionaries attempted contact and made a critical mistake.
+They dropped from the air 8 x 10 glossy photographs of themselves in what we would say to be friendly gestures, forgetting that these people of the rainforest had never seen anything two-dimensional in their lives.
+They picked up these photographs from the forest floor, tried to look behind the face to find the form or the figure, found nothing, and concluded that these were calling cards from the devil, so they speared the five missionaries to death.
+But the Waorani didn't just spear outsiders.
+They speared each other.
+54 percent of their mortality was due to them spearing each other.
+We traced genealogies back eight generations, and we found two instances of natural death and when we pressured the people a little bit about it, they admitted that one of the fellows had gotten so old that he died getting old, so we speared him anyway.
+(Laughter) But at the same time they had a perspicacious knowledge of the forest that was astonishing.
+Their hunters could smell animal urine at 40 paces and tell you what species left it behind.
+In the early '80s, I had a really astonishing assignment when I was asked by my professor at Harvard if I was interested in going down to Haiti, infiltrating the secret societies which were the foundation of Duvalier's strength and Tonton Macoutes, and securing the poison used to make zombies.
+In order to make sense out of sensation, of course, I had to understand something about this remarkable faith of Vodoun.
+And Voodoo is not a black magic cult.
+On the contrary, it's a complex metaphysical worldview.
+It's interesting.
+If I asked you to name the great religions of the world, what would you say?
+Christianity, Islam, Buddhism, Judaism, whatever.
+There's always one continent left out, the assumption being that sub-Saharan Africa had no religious beliefs.
+Well, of course, they did and Voodoo is simply the distillation of these very profound religious ideas that came over during the tragic Diaspora of the slavery era.
+But, what makes Voodoo so interesting is that it's this living relationship between the living and the dead.
+So, the living give birth to the spirits.
+The spirits can be invoked from beneath the Great Water, responding to the rhythm of the dance to momentarily displace the soul of the living, so that for that brief shining moment, the acolyte becomes the god.
+That's why the Voodooists like to say that "You white people go to church and speak about God.
+We dance in the temple and become God."
+And because you are possessed, you are taken by the spirit -- how can you be harmed?
+So you see these astonishing demonstrations: Voodoo acolytes in a state of trance handling burning embers with impunity, a rather astonishing demonstration of the ability of the mind to affect the body that bears it when catalyzed in the state of extreme excitation.
+Now, of all the peoples that I've ever been with, the most extraordinary are the Kogi of the Sierra Nevada de Santa Marta in northern Colombia.
+Descendants of the ancient Tairona civilization which once carpeted the Caribbean coastal plain of Colombia, in the wake of the conquest, these people retreated into an isolated volcanic massif that soars above the Caribbean coastal plain.
+In a bloodstained continent, these people alone were never conquered by the Spanish.
+To this day, they remain ruled by a ritual priesthood but the training for the priesthood is rather extraordinary.
+The young acolytes are taken away from their families at the age of three and four, sequestered in a shadowy world of darkness in stone huts at the base of glaciers for 18 years: two nine-year periods deliberately chosen to mimic the nine months of gestation they spend in their natural mother's womb; now they are metaphorically in the womb of the great mother.
+And for this entire time, they are inculturated into the values of their society, values that maintain the proposition that their prayers and their prayers alone maintain the cosmic -- or we might say the ecological -- balance.
+And at the end of this amazing initiation, one day they're suddenly taken out and for the first time in their lives, at the age of 18, they see a sunrise.
+And in that crystal moment of awareness of first light as the Sun begins to bathe the slopes of the stunningly beautiful landscape, suddenly everything they have learned in the abstract is affirmed in stunning glory.
+And the priest steps back and says, "You see?
+It's really as I've told you.
+It is that beautiful.
+It is yours to protect."
+They call themselves the "elder brothers" and they say we, who are the younger brothers, are the ones responsible for destroying the world.
+Now, this level of intuition becomes very important.
+Whenever we think of indigenous people and landscape, we either invoke Rousseau and the old canard of the "noble savage," which is an idea racist in its simplicity, or alternatively, we invoke Thoreau and say these people are closer to the Earth than we are.
+Well, indigenous people are neither sentimental nor weakened by nostalgia.
+There's not a lot of room for either in the malarial swamps of the Asmat or in the chilling winds of Tibet, but they have, nevertheless, through time and ritual, forged a traditional mystique of the Earth that is based not on the idea of being self-consciously close to it, but on a far subtler intuition: the idea that the Earth itself can only exist because it is breathed into being by human consciousness.
+Now, what does that mean?
+It means that a young kid from the Andes who's raised to believe that that mountain is an Apu spirit that will direct his or her destiny will be a profoundly different human being and have a different relationship to that resource or that place than a young kid from Montana raised to believe that a mountain is a pile of rock ready to be mined.
+Whether it's the abode of a spirit or a pile of ore is irrelevant.
+What's interesting is the metaphor that defines the relationship between the individual and the natural world.
+I was raised in the forests of British Columbia to believe those forests existed to be cut.
+That made me a different human being than my friends amongst the Kwagiulth who believe that those forests were the abode of Huxwhukw and the Crooked Beak of Heaven and the cannibal spirits that dwelled at the north end of the world, spirits they would have to engage during their Hamatsa initiation.
+Now, if you begin to look at the idea that these cultures could create different realities, you could begin to understand some of their extraordinary discoveries.
+Take this plant here.
+It's a photograph I took in the Northwest Amazon just last April.
+This is ayahuasca, which many of you have heard about, the most powerful psychoactive preparation of the shaman's repertoire.
+What makes ayahuasca fascinating is not the sheer pharmacological potential of this preparation, but the elaboration of it.
+It's made really of two different sources: on the one hand, this woody liana which has in it a series of beta-carbolines, harmine, harmaline, mildly hallucinogenic -- to take the vine alone is rather to have sort of blue hazy smoke drift across your consciousness -- but it's mixed with the leaves of a shrub in the coffee family called Psychotria viridis.
+This plant had in it some very powerful tryptamines, very close to brain serotonin, dimethyltryptamine, 5-methoxydimethyltryptamine.
+If you've ever seen the Yanomami blowing that snuff up their noses, that substance they make from a different set of species also contains methoxydimethyltryptamine.
+To have that powder blown up your nose is rather like being shot out of a rifle barrel lined with baroque paintings and landing on a sea of electricity.
+(Laughter) It doesn't create the distortion of reality; it creates the dissolution of reality.
+In fact, I used to argue with my professor, Richard Evan Shultes -- who is a man who sparked the psychedelic era with his discovery of the magic mushrooms in Mexico in the 1930s -- I used to argue that you couldn't classify these tryptamines as hallucinogenic because by the time you're under the effects there's no one home anymore to experience a hallucination.
+(Laughter) But the thing about tryptamines is they cannot be taken orally because they're denatured by an enzyme found naturally in the human gut called monoamine oxidase.
+They can only be taken orally if taken in conjunction with some other chemical that denatures the MAO.
+Now, the fascinating things are that the beta-carbolines found within that liana are MAO inhibitors of the precise sort necessary to potentiate the tryptamine.
+So you ask yourself a question.
+How, in a flora of 80,000 species of vascular plants, do these people find these two morphologically unrelated plants that when combined in this way, created a kind of biochemical version of the whole being greater than the sum of the parts?
+Well, we use that great euphemism, "trial and error," which is exposed to be meaningless.
+

@@ -1,0 +1,270 @@
+Das sind aber nur einige vom 17. Januar letzten Jahres.
+Unser System bestand aber nur im Ansatz.
+Es war ziemlich einfach.
+Es war ein Hybrid, der von Menschen gesammelte Informationen in unsere Landkarte einfügte.
+Wir haben uns aber dann dafür entschieden, noch mehr zu tun.
+Wir mussten das nehmen, was wir schon gemacht hatten und daraus ein Grundsystem machen, das man auf der ganzen Welt nutzen kann.
+Und dafür gibt es eine Softwareentwickler-Gruppe bestehend aus Menschen aus ganz Afrika, aus Ghana, aus Malawi, aus Kenia.
+Auch einige aus den USA.
+Wir entwickeln für Smartphones, damit man es sowohl in der entwickelten Welt als auch in den Entwicklungsländern nutzen kann.
+Wir stellen immer mehr fest, dass das so funktioniert.
+Klappt's in Afrika, klappt's auch woanders.
+Deshalb entwickeln wir es zuerst für Afrika und verbreiten es dann.
+Schon angewendet wird es gerade in der Demokratischen Republik Kongo.
+Es wird schon überall in Ostafrika von Nichtregierungsorganisationen genutzt.
+Kleine Nichtregierungsorganisationen, die ihre eigenen Projekte haben.
+Gerade letzten Monat wurde es von Al Jazeera in Gaza genutzt.
+Aber ich bin eigentlich nicht hier, um darüber zu erzählen.
+Ich bin hier, um über die nächste große Sache zu reden.
+Wir haben nämlich herausgefunden, dass wir die Möglichkeit haben, Vorort-Berichte in Echtzeit zu sammeln.
+Das sahen wir letztens in Mumbai.
+Es ist aber viel einfacher, zu berichten als das auch alles zu nutzen.
+Es gibt so viel Informationen.
+Was soll man denn machen?
+Das sind für über drei Tage Twitter-Berichte nur über Mumbai.
+Woher soll man wissen, was davon eigentlich wichtig ist?
+Wie viel Wahrheit ist an dem, was man gerade anschaut?
+So fanden wir, dass diese ungeheure Menge an verschwendeten Informationen über Krisen gibt.
+Es gibt nämlich zu viel Informationen für uns, als dass wir mit ihnen etwas anfangen könnten.
+Worüber wir uns echt Gedanken machen, sind die Ereignisse aus den ersten drei Stunden.
+Wir konzentrieren uns auf diese ersten drei Stunden.
+Wie geht man damit um, was da berichtet wird?
+Man versteht noch nicht richtig, was eigentlich passiert.
+Vor Ort und auch auf der Welt ist man noch neugierig und will mitbekommen, was passiert.
+Aber niemand weiß es.
+Also haben wir, also Ushahidi, etwas entwickelt, das diese Informationen über Crowdsourcing verarbeitet.
+Das sieht man auch bei Twitter.
+Man bekommt dadurch eine ungebremste Informationsflut.
+Man hat so viele Informationen.
+Das ist toll.
+Aber was dann?
+Wir glauben, dass wir dafür etwas Interessantes tun können.
+Und wir haben dazu eine kleine Gruppe eingeteilt, die daran arbeitet.
+Wir glauben, dass wir einen Crowdsourcing-Filter schaffen können.
+Wir nehmen die Crowd, den Schwarm, und wenden dies auf die Information an.
+Und mithilfe der Bewertung der Information und derer, die Informationen einsenden, können wir verfeinerte und gewichtete Ergebnisse erhalten.
+Dann können wir die Wahrscheinlichkeit, ob etwas stimmt oder nicht, besser abschätzen.
+Dass so eine Innovation aus Afrika kommt, finde ich, offen gesagt, interessant.
+Sie kommt aus einer unerwarteten Ecke.
+Von jungen, klugen Entwicklern.
+Und da hat sich eine Gemeinschaft entwickelt, um das alles zu schaffen.
+Also vielen Dank.
+Und wir sind froh, ein Teil der TED-Familie zu sein.
+(Applaus)
+In dieser schrecklichen Welt ist deine Rebellengruppe die letzte Hoffnung.
+Leider wurdet ihr alle von den grausamen Herrschern gefasst und zu ihrer tödlichen Unterhaltung ins alte Kolosseum gebracht.
+Bevor man euch in den Kerker wirft, siehst du viele nummerierte Gänge, die nach draußen führen.
+Aber jeder Ausgang ist von einer elektrischen Schranke mit einer Tastatur versperrt.
+Einer von euch darf versuchen zu fliehen und muss dazu eine Aufgabe lösen.
+Alle anderen werden morgen früh an die mutierten Salamander verfüttert.
+Wegen ihres perfekten logischen Denkens ist Zara die beste Wahl.
+Du gibst ihr einen versteckten Sender, sodass ihr alle mithören könnt.
+Als Zara weggeführt wird, hörst du das Echo ihrer Schritte in einem der Gänge, dann bleiben sie stehen.
+Eine Stimme verkündet, dass sie einen Code eingeben muss, der aus drei positiven ganzen Zahlen in aufsteigender Reihenfolge besteht.
+Die zweite Zahl ist also größer als die erste oder gleich, und die dritte ist größer als die zweite oder gleich.
+Sie kann um bis zu drei Hinweise bitten, aber rät sie falsch oder sagt etwas anderes, landet sie wieder im Kerker.
+Beim ersten Hinweis sagt die Stimme, dass das Produkt der drei Zahlen 36 ist.
+Als Zara nach dem zweiten Hinweis fragt, erfährt sie, dass die Summe der Zahlen gleich der Nummer des betretenen Ganges ist.
+Eine lange Stille folgt.
+Sicher weiß Zara die Gangnummer, aber du kannst sie nicht wissen und sie kann sie nicht aussprechen.
+Wenn Zara den Code jetzt eingeben könnte, würde sie es tun, aber sie fragt nach dem dritten Hinweis.
+Die Stimme sagt, dass die größte Zahl in der Kombination nur einmal vorkommt.
+Gleich darauf hört die elektrische Schranke kurz auf zu summen, und du weißt, Zara ist entkommen.
+Leider ist ihr Sender außer Reichweite, mehr Informationen bekommst du nicht.
+Findest du die Lösung?
+3 2 1 Du kennst leider Zaras Gangnummer nicht, aber du entscheidest dich, trotzdem von vorn zu beginnen.
+Mit dem ersten Hinweis errechnest du alle acht möglichen Kombinationen, deren Produkt 36 ist.
+Eine der Zahlen ist richtig, aber welche?
+Nun wird es schwierig.
+Obwohl du nicht weißt, welche Zahl du suchst, errechnest du die Summe der drei Zahlen in jeder Kombination.
+Da fällt es dir auf.
+Außer zweien sind alle Summen einzigartig und wenn die Flurnummer zu einer davon gepasst hätte, hätte Zara die richtige Kombination sofort gehabt, ohne nach dem dritten Hinweis zu fragen.
+Da sie nach dem dritten Hinweis fragte, muss die Flurnummer der einzigen Summe entsprechen, die öfter auf der Liste steht: 13.
+Aber welche der zwei Kombinationen, die 13 ergeben, ist die richtige: 1, 6, 6 oder 2, 2, 9?
+Hier hilft der dritte Hinweis.
+Er sagt uns, dass die größte Zahl einzigartig ist, 2, 2, 9 muss also der Code sein.
+Als es Nacht wird, entkommen du und die anderen durch Flur 13 und trefft draußen auf Zara.
+Ihr habt euch durch Mathe und Logik befreit.
+Es ist an der Zeit, den Rest der Welt zu befreien.
+Wenn ich Ihnen sage, dass das der Ausdruck purer Freude ist, halten Sie mich dann für verrückt?
+Ich nehme es Ihnen nicht übel, denn jedes Mal, wenn ich auf dieses arktische Selfie sehe, fröstelt es mich.
+Ich will Ihnen ein bisschen mehr zu diesem Foto erzählen.
+Ich schwamm bei den Lofoten in Norwegen, innerhalb des Polarkreises.
+Das Wasser war kurz vor dem Gefrieren.
+Die Luft?
+Minus zehn plus Wind.
+Ich konnte fühlen, wie sich das Blut aus meinen Händen zurückzog, aus meinen Füßen und meinem Gesicht, um meine inneren Organen zu versorgen.
+Mir war noch nie so kalt.
+Aber sogar mit geschwollenen Lippen, hohlen Augen und geröteten Wangen habe ich erkannt, dass ich an diesem Ort pure Freude erleben kann.
+Der Psychologe Brock Bastian hat Schmerz vermutlich am besten definiert: "Schmerz ist eine Abkürzung zu Achtsamkeit.
+Er macht uns mit einem Moment auf unsere Umgebung aufmerksam.
+Er zieht dich schonungslos in eine Sinneswahrnehmung der Welt, ganz ähnlich wie Meditation."
+Wenn Zittern eine Form von Meditation ist, bin ich auf jeden Fall Mönch.
+(Lachen) Bevor wir uns damit befassen, warum irgendwer überhaupt in eiskaltem Wasser surfen will,
+möchte ich Ihnen einen kleinen Einblick in einen Tag meines Lebens geben.
+(Musik) (Video) Mann: Wir hofften alle auf gute Wellen, aber mit so etwas haben wir nicht gerechnet.
+Ich kann nicht aufhören zu zittern.
+Mir ist so kalt.
+(Musik) (Applaus) Chris Burkard: Also ein Surf-Fotograf, richtig?
+Ganz ehrlich, ich weiß nicht, ob das ein echter Beruf ist.
+Meine Eltern sahen das jedenfalls nicht so, als ich mit 19 Jahren meinen Job kündigte, um meinen Traumberuf auszuüben: blauer Himmel, warme tropische Strände und das ganze Jahr braungebrannt.
+Für mich war kein schöneres Leben vorstellbar.
+Ich fotografierte Surfer an exotischen Urlaubszielen.
+Aber es gab ein Problem.
+Je mehr Zeit ich an diesen exotischen Orten verbrachte, desto weniger erfreute ich mich daran.
+Ich war auf der Suche nach Abenteuern und fand doch wieder Alltag.
+Dinge wie Wi-Fi, Fernsehen, gutes Essen und eine konstante Mobilfunkverbindung waren das Um und Auf an allen Tourismushochburgen, im und außerhalb des Wassers.
+Es dauerte nicht lang, bis ich das Gefühl bekam, zu ersticken.
+Ich bekam Lust auf wilde, offene Weiten und so begab ich mich auf die Such nach jenen Orten, die andere Surfer für zu kalt, abgelegen oder gefährlich hielten.
+Diese Herausforderung faszinierte mich.
+Ich begann meinen eigenen Kreuzzug gegen alles Alltägliche.
+Ich habe eine Sache gelernt: Jede Berufswahl, auch die scheinbar glanzvolle eines Surf-Fotografen, läuft Gefahr monoton zu werden.
+Als ich nun versuchte, aus der Monotonie auszubrechen, sah ich: Nur ein Drittel aller Ozeane auf der Welt sind warme Gewässer, nur ein schmales Band rund um den Äquator.
+Die perfekten Wellen waren also vermutlich dort, wo es kalt ist, wo das Meer bekanntlich rau ist, und genau nach diesen Orten suchte ich.
+Bei meiner ersten Reise nach Island hatte ich das Gefühl, das Richtige gefunden zu haben.
+Die Schönheit der Natur war umwerfend.
+Aber vor allem konnte ich nicht glauben, dass wir die perfekte Wellen an so einem abgelegenen und schroffen Teil der Welt fanden.
+Einmal kamen wir zum Strand und fanden riesige Eisklötze gestapelt entlang der Küste.
+Sie bildeten ein Hindernis auf dem Weg zum Meer und wir schlängelten uns durchs Eis wie durch ein Labyrinth, um in Startposition zu kommen.
+Dort schoben wir die Eisblöcke weg, um in die Wellen zu kommen.
+Es war eine unglaubliche Erfahrung, die ich nie vergessen werde.
+Inmitten dieser harschen Bedingungen hatte ich das Gefühl, ich sei an einem der letzten ruhigen Plätze angekommen.
+Ein Ort, an dem ich Klarheit und eine Verbindung zur Welt fand, wie ich sie nie an einem überfüllten Strand finden würde.
+Es hat mich gefangen.
+Ich war süchtig.
+(Lachen) Meine Gedanken drehten sich noch nur um das kalte Wasser.
+Seit jenem Moment konzentrierte sich mein Beruf auf diese harschen Landschaften.
+So kam ich nach Russland, Norwegen, Alaska, Island, Chile, auf die Färöer-Inseln und viele andere Orte dazwischen.
+An diesen Orten reizen mich ganz besonders die Herausforderung und nötige Kreativität, um überhaupt hinzukommen.
+Stunden, Tage, Wochen saß ich vor Google Earth, um abgelegene Strände oder Riffe zu finden, die wir erreichen könnten.
+Die Fahrzeuge vor Ort waren nicht minder kreativ: Schneemobile, sechs-rädrige sowjetische Truppentransporter und einige sehr grenzwertige Hubschrauberflüge.
+(Lachen) Hubschrauber machen mir echt Angst.
+Einmal waren wir auf einer holprigen Bootsfahrt in Richtung Vancouver Island zu einem abgelegenen Surf-Spot, wo wir hilflos vom Wasser zusehen mussten, wie Bären unseren Zeltplatz verwüsteten.
+Sie liefen mit unserem Essen und Teilen von unserem Zelt davon, und zeigten uns klar, dass wir in der Nahrungskette ganz unten waren, und das ihr Zuhause war, nicht unseres.
+Für mich war diese Reise ein Zeugnis der Wildnis, die ich gegen die Touristenstrände eingetauscht habe.
+Aber erst in Norwegen -- (Lachen) -- lernte ich, die Kälte zu schätzen.
+Das ist ein Ort, wo einige der größten und stärksten Stürme der Welt riesige Wellen an die Küste schleudern.
+Wir waren in einem kleinen, abgelegenen Fjord innerhalb des Polarkreises.
+Es gab mehr Schafe als Menschen dort.
+Hätten wir Hilfe gebraucht, wir hätten sie nicht gefunden.
+Ich war im Wasser und fotografierte die Surfer, als es zu schneien begann.
+Und dann fiel die Temperatur ab.
+Ich sagte mir: Du gehst jetzt auf keinen Fall aus dem Wasser.
+Du bist den ganzen weiten Weg gereist und hast genau darauf gewartet: Eiskalte Bedingungen mit perfekten Wellen.
+Obwohl ich meinen Finger am Auslöser nicht mehr spürte, wollte ich nicht aus dem Wasser.
+Also versuchte ich, die Kälte einfach abzuschütteln.
+Aber genau in jenem Moment traf mich ein Windstoß.
+Was als leichter Schneefall begann, wurde zu einem erbarmungslosen Schneesturm.
+Ich begann die Orientierung zu verlieren.
+Ich wusste nicht, ob ich in Richtung Meer oder Küste trieb.
+Ich konnte nur die dumpfen Geräusche der Möwen und der brechenden Wellen hören.
+Hier waren schon Schiffe gesunken und Flugzeuge abgestürzt.
+Als ich draußen herumtrieb, wurde ich schon etwas nervös.
+Eigentlich bin ich total ausgeflippt.
+(Lachen) -- Ich war an der Grenze zur Unterkühlung.
+Meine Freunde mussten mir aus dem Wasser helfen.
+Ich weiß nicht, ob ich schon im Delirium war oder so was, aber sie erzählten mir später, dass ich die ganze Zeit gelächelt hatte.
+Auf dieser Reise, während diesem Erlebnis wurde mir bewusst, dass jedes Foto etwas Wertvolles war.
+Es wurde plötzlich zu etwas, das ich mir erarbeiten musste.
+Das Zittern hat mich sogar etwas gelehrt: Im Leben gibt es keine Abkürzungen zur Freude.
+Was auch immer wir erreichen wollen, wir werden darum kämpfen müssen.
+Wenn auch nur ein bisschen.
+Dieser kleine Kampf, den ich für meine Fotografie durchmachte, brachte meiner Arbeit mehr Wert.
+Sie wurde ungemein bedeutender als nur die Seiten eines Magazins zu füllen.
+Sehen Sie, ich habe einen Teil von mir dort gelassen und ich verließ diesen Ort mit dem Gefühl der Erfüllung, nach dem ich so lange gesucht hatte.
+Beim Anblick dieses Fotos
+sieht man gleich die gefrorenen Finger und den kalten Neoprenanzug, auch die Anstrengung, nur um dorthin zu kommen.
+Am allermeisten aber sehe ich pure Freude.
+Vielen Dank.
+(Applaus)
+Nach 18 Jahren, die ich als Kind in staatlicher Fürsorge bei Pflegeeltern und in Kinderheimen verbracht habe, könnte man sagen, dass ich ein Experte auf diesem Gebiet bin, und als Experte möchte ich, dass Sie wissen, dass Experten nicht einmal im Ansatz die Wahrheit für sich gepachtet haben.
+Als Pflegekind nimmt die Regierung gesetzlich den Platz der Eltern ein.
+Margaret Thatcher war meine Mutter.
+(Gelächter) Lasst uns nicht über's Stillen reden.
+(Gelächter) Harry Potter war ein Pflegekind.
+Pip aus "Große Erwartungen" war adoptiert; Superman war ein Pflegekind; Aschenputtel war ein Pflegekind; Lisbeth Salander, "The Girl with the Dragon Tattoo", war ein Pflegekind und in einer Anstalt; Batman war ein Waise; Lyra Belacqua aus Philip Pullmans "Der Goldene Kompass" war ein Pflegekind; Jane Eyre, adoptiert; Roald Dahls James aus "James und der Riesenpfirsich"; Matilda; Moses – Moses!
+(Gelächter) Moses!
+(Gelächter) – die Jungs in Michael Morpurgos "Freund oder Feind"; Alem in Benjamin Zephaniahs "Refugee Boy"; Luke Skywalker – Luke Skywalker!
+(Gelächter) – Oliver Twist; Cassia in Hong Yings "Die Konkubine von Shanghai"; Celie in Alice Walkers "Die Farbe Lila".
+Alle diese wunderbaren fiktiven Charaktere, die allesamt unter ihrer Lage litten, all jene, die Tausende weiterer Bücher und Filme hervorgebracht haben, sie alle waren Pflege-, Adoptiv- oder Waisenkinder.
+Anscheinend wissen Schriftsteller, dass Kinder ohne Familie verdeutlichen, was Familie wirklich bedeutet, mehr als was sie selber vorgibt zu sein.
+Sie nutzen also auch außerordentliche Fähigkeiten, um täglich mit außergewöhnlichen Situationen umzugehen.
+Wieso haben wir diesen Zusammenhang nicht erkannt?
+Und warum haben wir nie eine Verbindung hergestellt – Wie konnte das passieren? – zwischen diesen unglaublichen Figuren aus Populärkultur und Religionen einerseits, und den Pflege-, Adoptiv- oder Waisenkindern andererseits, die mitten unter uns leben?
+Sie brauchen nicht unser Mitleid.
+Sie brauchen unseren Respekt.
+Ich kenne berühmte Musiker, ich kenne Schauspieler, Filmstars, Millionäre und Schriftsteller, Spitzenanwälte und Fernsehdirektoren, Herausgeber von Zeitschriften, überregionale Journalisten, Müllmänner und Friseure, alle von ihnen waren Pflegekinder, adoptiert oder verwaist, und viele von ihnen wachsen in der Angst auf, über ihren Hintergrund zu sprechen, als ob es irgendwie ihr Ansehen im Vordergrund schwächen würde als ob es eine Art Kryptonit wäre, als ob es eine Zeitbombe wäre, die in ihrem Innern tickt.
+Pflegekinder, die ihr Leben in Heimen verbracht haben, haben das Recht, die Erinnerung an ihre eigene Kindheit zu besitzen und zu leben.
+So einfach ist das.
+Meine eigene Mutter – ich sollte das hier erwähnen – kam Ende der 60er in dieses Land und sie war, na ja, sie stellte fest, dass sie schwanger war, wie das bei Frauen in den späten 60ern vorkam.
+Wissen Sie, was ich meine?
+Sie stellen fest, dass sie schwanger waren.
+Und sie hatte eigentlich keine Vorstellung von dem Kontext, in dem sie gelandet war.
+Ich sollte Ihnen etwas zum Hintergrund sagen.
+In den 60er Jahren, wenn man da schwanger und alleinstehend war, wurde man als Gefahr für die Gesellschaft angesehen.
+Man wurde durch den Staat von der eigenen Familie getrennt.
+Man wurde von der Familie getrennt und in Heimen für Mütter und Babys untergebracht.
+Man bekam einen Sozialarbeiter zugewiesen.
+Die Adoptiveltern standen Schlange.
+Es war die wichtigste Aufgabe der Sozialarbeiter, das Ziel, die Frauen in der verwundbarsten Zeit ihres Lebens zu erwischen, um die Adoptionspapiere zu unterzeichnen.
+In der Folge wurden die Papiere unterzeichnet.
+Die Mutter-Baby-Heime wurden oft von Nonnen geführt.
+Die Adoptionspapiere wurden unterschrieben, das Kind wurde den Adoptiveltern übergeben und die Mutter wurde in ihre Gemeinde zurückgeschickt, um dort zu erzählen, dass sie eine kleine Auszeit genommen hatte.
+Eine kleine Auszeit...
+Eine kleine Auszeit.
+Das erste Geheimnis der Scham für eine Frau, weil sie eine Frau ist: "eine kleine Auszeit".
+Der Adoptionsprozess brauchte ein paar Monate, es war eine Industrie, wissen Sie, ein besiegeltes Geschäft, eine umtriebige, nützliche Lösung: die Regierung als Bauer, die Adoptiveltern als Abnehmer, die Mutter, die Erde, das Kind, die Ernte.
+Es ist ziemlich einfach, die Vergangenheit zu verklären, um unsere Verpflichtungen in der Gegenwart zu vernachlässigen.
+Was dann passierte, war ein direktes Spiegelbild der heutigen Zustände.
+Jeder glaubte von sich, das Richtige zu tun, im Sinne Gottes und des Staat, für die gesamte Gesellschaft: beschleunigte Adoption.
+Jedenfalls kam sie hierher, 1967, sie ist schwanger und sie kommt aus Äthiopien, das gerade sein eigenes Jubiläum feierte unter dem Kaiser Haile Selassie, und sie kam ein paar Monate vor Enoch Powells Rede, der "Ströme von Blut"-Rede.
+Sie kam Monate, bevor die Beatles "The White Album" herausbrachten, an, Monate, bevor Martin Luther King getötet wurde.
+Es war ein Sommer der Liebe, wenn man weiß war.
+Wenn man schwarz war, war es ein Sommer des Hasses.
+Sie wird also von Oxford aus in den Norden Englands geschickt in ein Mutter-Baby-Heim und bekam einen Sozialarbeiter zugewiesen.
+Sie hat einen Plan.
+Wissen Sie, ich muss das hier im Parlament sagen – Sie hat den Plan, mich für eine kurze Zeit in Pflege zu geben, während sie studiert.
+Aber der Sozialarbeiter hatte einen anderen Plan.
+Er ging zu den Pflegeeltern und sagte ihnen: "Für Sie ist das wie eine Adoption.
+Er ist für immer Ihrer.
+Sein Name ist Norman."
+(Gelächter) Norman!
+(Gelächter) Norman!
+Also nahmen sie mich.
+Sie sagten, ich sei eine Botschaft.
+Sie sagten, ich sei ein Zeichen von Gott.
+Ich war Norman Mark Greenwood.
+In den nächsten 11 Jahren war alles, was ich über diese Frau wusste, dass sie, diese Geburtsfrau, ihre Augen herausgekratzt bekommen sollte, weil sie die Adoptionspapiere nicht unterzeichnen wollte.
+Sie war eine böse Frau, zu egoistisch, um zu unterzeichnen, also verbrachte ich diese 11 Jahre kniend und betend.
+Ich versuchte zu beten.
+Ich schwöre, ich hab's versucht.
+"Gott, kann ich ein Fahrrad zu Weihnachten bekommen?"
+Aber ich antwortete mir immer selbst: "Ja, natürlich kannst du."
+(Gelächter) Und dann wurde von mir erwartet festzustellen, ob das die Stimme Gottes oder die des Teufels war.
+Und es stellte sich heraus, dass ich den Teufel in mir trug.
+Wer hätte das gedacht?
+(Gelächter) Jedenfalls, zwei Jahre gingen irgendwie rum, und sie bekamen ein eigenes Kind, dann vergingen nochmal zwei Jahre und sie bekamen noch ein eigenes Kind und es verging nochmal Zeit und sie bekamen noch ein eigenes Kind, das sie einen Unfall nannten, ich fand, das war ein ungewöhnlicher Name.
+(Gelächter) Und ich stand an der Schwelle zur Pubertät, also nahm ich Kekse aus der Dose, ohne zu fragen.
+Ich begann ein bisschen länger weg zu bleiben, etc.
+etc. Nun, in ihrer Frömmigkeit, in ihrer Naivität, meine Mutter und Vater für alle Zeiten, oder so dachte ich, und sie behaupteten es, meine Mutter und mein Vater meinten, ich hätte den Teufel in mir.
+Und das muss gesagt werden, weil sie nämlich so meinen Abschied in die Wege geleitet haben.
+Sie setzten mich an einen Tisch, meine Pflegemutter, und sie sagte zu mir, "Du liebst uns nicht, richtig?"
+Im Alter von 11 Jahren.
+Sie hatten drei andere Kinder.
+Ich bin das vierte.
+Das dritte war ein Unfall.
+Und ich sagte, "Ja, natürlich tu ich das."
+Weil man das tut.
+Meine Pflegemutter bat mich, über Liebe und ihre Bedeutung nachzudenken und die Bibel zu lesen und morgen wiederzukommen und meine ehrlichste und aufrichtigste Antwort zu geben.
+Das war also eine Gelegenheit.
+Wenn sie mich fragen, ob ich sie liebe oder nicht, dann darf ich sie nicht lieben, was mich auf die Idee brachte, dass sie vielleicht wollten, dass ich gehe.
+"Ich werde Gott um Vergebung bitten und sein Licht wird durch mich auf sie scheinen.
+Wie fantastisch."
+Das war eine Chance.
+Die Theologie war perfekt, das Timing nicht anzuzweifeln, und die Antwort so ehrlich wie ein Sünder sein konnte.
+"Ich darf euch nicht lieben," sagte ich ihnen.
+"Aber ich werde Gott um Vergebung bitten."
+"Weil du uns nicht liebst, Norman, hast du ganz offensichtlich deinen Weg gewählt."
+Vierundzwanzig Stunden später wartet mein Sozialarbeiter, dieser merkwürdige Mann, der mich sonst alle paar Monate besucht hatte, im Auto auf mich, als ich von meinen Eltern Abschied nahm.
+Ich sagte niemanden auf Wiedersehen, weder meiner Mutter, noch meinem Vater, nicht meiner Schwester, meinem Bruder, meinen Tanten, meinen Onkeln, meinen Cousins, meinen Großeltern, niemandem.
+

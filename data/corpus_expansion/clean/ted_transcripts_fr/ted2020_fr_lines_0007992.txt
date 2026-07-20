@@ -1,0 +1,176 @@
+Si vous regardez leurs extrémités, ces petites portions d'ADN, vous pouvez voir que les tuiles forment un motif de damier.
+Ces tuiles vont donc former un damier complexe qui s'assemble tout seul.
+Et l'intérêt, si vous ne l'aviez par encore remarqué, est que ces tuiles sont comme des programmes moléculaires qui permettent d'obtenir des motifs.
+Ce qui est vraiment incroyable c'est que l'on peut retranscrire tout programme informatique à l'aide de ces tuiles programmable et en particulier pour compter
+On peut donc créer des tuiles qui une fois assemblées forment un compteur binaire plutôt qu'un damier.
+On peut obtenir les nombres 5,6 et 7 en binaires.
+Afin de lancer de tels calculs on a besoin d'une base, une sorte de graine.
+Et pour cela on peut utiliser l'ADN origami.
+On peut encoder le nombre 32 dans la partie gauche de l'ADN origami et lorsque l'on ajoute les tuiles qui permettent de compter, elles vont commencer à compter en lisant ce nombre. et elles vont s'arrêter à 32.
+Ce que nous avons donc réussi à trouver c'est un moyen d'avoir un programme moléculaire qui sait quand il doit s'arrêter d'évoluer.
+Il sait quand s'arrêter parce qu'il est capable de compter.
+Il connait sa taille.
+Donc cela répond à la première question que j'ai évoqué.
+En revanche cela ne nous dit pas comment les bébés font.
+On peut donc utiliser ce compteur pour obtenir des choses plus grandes que nous n'aurions pas pu faire avec de l'ADN origami.
+Voici l'ADN origami et si on écrit 32 sur deux des côtés de l'origami et que l'on utilise notre arrosoir rempli de tuiles on peut faire pousser des tuiles pour créer un carré.
+Le compteur est utilisé comme modèle pour remplir le carré du milieu.
+Nous avons donc réussi à construire quelque chose de plus grand que l'ADN origami en le combinant avec des tuiles.
+Et ce qui est super avec ça c'est que l'on peut aussi le reprogrammer.
+Il suffit de changer quelques brins d'ADN dans la représentation binaire pour obtenir 96 au lieu de 32.
+En faisant cela l'origami a la même taille mais le carré que l'on obtient est 3 fois plus grand.
+D'une certaine manière cela récapitule ce que je vous disait sur l'évolution.
+On obtient un programme très sensible à la moindre modification - de simples mutations minuscules peuvent transformer un petit carré en quelque chose de beaucoup plus grand.
+Utiliser un compteur pour créer et construire ce genre de choses avec ce type de processus de croissance est quelque chose qui est aussi lié à la question de Craig Venter.
+On peut donc se demander combien de brin d'ADN sont nécessaires pour construire un carré d'une taille donnée.
+Si on voulait faire un carré de taille 10, 100 ou 1000, on n'utilisant que de l'ADN origami, il nous faudrait un nombre de brins d'ADN qui est le carré de la taille de ce carré, on aurait donc besoin de 100, 10 000 ou 1 000 000 de brins d'ADN.
+Mais on ne peut pas se le permettre.
+Mais en utilisant le calcul, on utilise l'origami et quelques tuiles qui comptent, on s'en sort en utilisant 100, 200 ou 300 brins d'ADN.
+On peut donc réduire de manière exponentielle le nombre de brin d'ADN que l'on consomme si on utilise les compteurs et un peu de calcul.
+Ainsi le calcul est une manière très efficace de réduire le nombre de molécules requises pour construire quelque chose ainsi que la taille du génome que vous construisez.
+Et pour finir je vais revenir sur cette idée un peu folle de construire des ordinateurs à l'aide d'ordinateurs.
+Si on regarde de plus près le carré que l'on construit avec l'origami et quelques compteurs qui y poussent, le schéma que l'on obtient est identique au schéma nécessaire pour fabriquer une mémoire d'ordinateur.
+Donc si on ajoute quelques fils et interrupteurs à ces tuiles, plutôt qu'aux agrafes, on les attache aux tuiles, ils vont ensuite assembler un circuit complexe : le démultiplexeur nécessaire pour adresser une mémoire.
+On peut donc obtenir un circuit complexe avec de simples calculs.
+C'est un ordinateur moléculaire qui construit un ordinateur électronique.
+Maintenant vous me demandez jusqu'où nous avons suivi cette voix.
+C'est ce que nous avons fait pendant un an de manière expérimentale.
+Nous avons içi un rectangle d'ADN origami et là des tuiles qui ont poussé à partir du rectangle.
+Et on peut voir de quelle manière ils comptent.
+Un, deux, trois, quatre, cinq, six, neuf, dix, onze, douze, dix-sept.
+Il y a des erreurs mais au moins ça compte.
+(Rires) il s'avère que nous avons eu cette idée il y a neuf ans de cela, c'est à peu près le temps qu'il nous a fallu pour faire ce genre de chose, et je pense que nous avons fait beaucoup de progrès.
+Nous avons plusieurs idées pour corriger ces erreurs.
+Et je pense que d'ici cinq ou dix ans nous arriverons à fabriquer le type de circuits que je vous ai présenté et peut être même obtenir des circuits qui s'assemblent d'eux-même.
+Qu'est-ce que j'aimerais que vous reteniez de cette présentation ?
+Je voudrais que vous reteniez que pour créer des formes de vies complexes et variées la Vie utilise des procédés calculatoires.
+Et les procédés utilisés sont des procédés moléculaires. et pour réussir à mieux comprendre et maîtriser cela, comme le disait Feynman, nous avons besoin de construire quelque chose pour le comprendre.
+Nous allons donc utiliser des molécules et refaçonner ces procédés, tout reconstruire en partant de la base, en utilisant l'ADN d'une manière qui n'était pas prévue par la nature, en utilisant l'ADN origami, et l'ADN origami comme base pour cette algorithmique d'auto assemblage.
+Vous voyez tout cela est quand même très cool, mais ce que j'aimerais que vous reteniez, surtout pour quelques une de ces grandes questions, c'est que la programmation moléculaire ce n'est pas juste pour fabriquer des gadgets.
+Ce n'est pas juste fabriquer -- pas seulement faire des téléphones et circuits qui s'auto-assemblent.
+C'est surtout utiliser l'informatique pour regarder ces grandes questions sous un autre angle, se poser des nouvelles versions de ces grandes questions et essayer de comprendre de quelle manière la biologie arrive à faire des choses si extraordinaire.
+Merci.
+(Applaudissements)
+Tous les week-ends, aussi loin que je m'en souvienne, mon père se levait le samedi, enfilait un vieux pull et il décapait la vieille maison grinçante dans laquelle nous vivions.
+Ce n'était pas de la restauration, c'était un rituel, une catharsis.
+Il passait toute l'année à décaper la peinture avec son pistolet thermique et son couteau à enduire puis il repeignait ce qu'il avait décapé et recommençait l'année suivante.
+Décaper et re-décaper, peindre et repeindre : dans une vieille maison, le travail n'est jamais terminé.
+Le jour des 52 ans de mon père, j'ai reçu un appel.
+Ma mère m'appelait pour me dire que les médecins avaient trouvé une tumeur dans son estomac -- cancer en phase terminale, m'a-t-elle dit, il n'avait que 3 semaines à vivre.
+Je suis immédiatement retourné chez moi à Poughkeepsie, État de New York, pour rester près de mon père en attendant sa mort, ne sachant pas quoi attendre des jours à venir.
+Pour m'occuper, je remontais mes manches et j'ai essayé de terminer ce qu'il ne pouvait plus faire : la restauration de notre vieille maison.
+Quand cette date limite de trois semaines est arrivée puis est passée, il était encore en vie.
+Après 3 mois, il s'est joint à moi.
+Nous avons vidé et repeint l'intérieur.
+Après 6 mois, les vieilles fenêtres étaient repolies et après 18 mois, le porche pourri était enfin changé.
+Et mon père était là, il se tenait dehors avec moi, admirant le travail accompli ce jour-là, des cheveux sur la tête, en pleine rémission, quand il s'est tourné vers moi et a dit : « Tu sais Michael, cette maison m'a sauvé la vie.
+» L'année d'après, j'ai décidé d'aller dans une école d'architecture.
+(Rires) Mais j'y appris quelque chose de différent sur les bâtiments.
+La reconnaissance revenait à ceux qui priorisaient les formes nouvelles et sculpturales comme les rubans ou...
+les cornichons ?
+(Rires) Je crois que c'est sensé être un escargot.
+Quelque chose me dérangeait.
+Pourquoi les meilleurs architectes, les meilleures architectures -- toutes belles, visionnaires et innovantes -- sont si rares et ne semblent servir qu'à peu de personnes ?
+Et, pour aller plus loin : que pouvions-nous faire de plus avec tout ce talent créatif ?
+Alors que j'allais entamer mes examens finaux, j'ai décidé de prendre une pause pendant mes révisions et d'aller à une conférence du docteur Paul Farmer, un militant actif pour la santé des pauvres du monde.
+J'ai été surpris d'entendre un docteur parler d'architecture.
+Il disait que les bâtiments rendaient les gens plus malades et, pour les plus pauvres, cela causait des problèmes d'épidémie.
+Dans cet hôpital d'Afrique du Sud, les patients arrivaient avec une jambe cassée, attendaient dans un couloir non ventilé et partaient avec une tuberculose résistante aux médicaments.
+Les designs de contrôle des infections n'avaient pas été assez réfléchis et des gens en étaient morts.
+« Où sont les architectes ?
+» disait Paul.
+Si les hôpitaux rendent les gens plus malades, où sont les architectes, designers pour nous aider à construire et penser des hôpitaux pour guérir ?
+L'été suivant, j'étais dans un Land Rover avec des camarades de classe, nous étions secoués sur les versants montagneux du Rwanda.
+L'année suivante, j'ai vécu à Butaro dans cette vieille pension qui était une prison après le génocide.
+J'étais là pour concevoir et construire un nouveau type d'hôpital avec le docteur Farmer et son équipe.
+Si les couloirs rendent les patients plus malades, pourquoi ne pas concevoir un hôpital où les couloirs sont à l'extérieur et où les gens marchent dehors ?
+Si les systèmes mécaniques fonctionnent rarement, pourquoi ne pas concevoir un hôpital pouvant respirer grâce à une ventilation naturelle, tout en réduisant son empreinte carbone ?
+Et l'expérience des patients ?
+Les faits montrent que la vue de la nature peut radicalement améliorer la santé.
+Alors pourquoi ne pas concevoir un hôpital où tous les patients ont une fenêtre et une belle vue ?
+Des designs simples et spécifiques peuvent créer un hôpital qui guérit.
+La conception est une chose, la construction en est une autre.
+Nous avons travaillé avec Bruce Nizeye, un ingénieur brillant, et il voyait la construction différemment que ce que j'avais appris à l'école.
+Quand nous avons dû excaver cette énorme montagne et qu'un bulldozer était cher, difficile à amener sur le site, Bruce a suggéré de le faire à la main en utilisant une méthode appelée « Ubudehe » au Rwanda, soit « la communauté travaille pour la communauté ».
+Des centaines de personnes sont venues avec pelles et binettes et nous avons excavé cette montagne en moitié moins de temps et pour moitié moins cher qu'un bulldozer.
+Au lieu d'importer du matériel, Bruce a lancé une guilde, des menuisiers expérimentés ont entraîné les autres à créer le matériel à la main.
+Sur ce chantier, 15 ans après le génocide rwandais, Bruce a insisté pour amener de la main d’œuvre de toutes origines et que la moitié soient des femmes.
+Bruce utilisait le processus de construction pour guérir, pas seulement les malades, mais toute la communauté.
+Nous appelons cela la façon de construire fabriquée localement ou « fab-lo » et elle a quatre piliers : engager des locaux, se fournir régionalement, se former où l'on peut et, surtout, voir chaque décision de conception comme une opportunité d'investir dans la dignité de l'endroit où vous travaillez.
+Voyez cela comme le mouvement pour les produits locaux mais en architecture.
+Nous pensons que cette façon de construire peut être reproduite à travers le monde et changer la façon dont nous évoquons et évaluons l'architecture.
+En utilisant la méthode fab-lo, même les décisions esthétiques peuvent influencer la vie des gens.
+A Butaro, nous avons utilisé une pierre volcanique locale trouvée en abondance dans la région mais vue comme une nuisance par les fermiers et empilée sur le bord de la route.
+Avec ces maçons, nous avons coupé ces pierres pour former les murs de l'hôpital.
+Quand ils ont commencé ce coin et ont entouré tout l'hôpital, ils étaient devenus si bons à assembler ces pierres qu'ils nous ont demandé de détruire le mur original et de le reconstruire.
+Vous voyez ce qui est possible.
+C'est beau.
+Et, pour moi, la beauté vient du fait que je sais que des mains ont taillé ces pierres et les ont modelées pour faire ce mur épais, n'existant qu'à cet endroit et fait de pierres de ce sol.
+Si vous regardez, autour de vous, le monde construit, ne vous arrêtez pas à : « Quelle est l'empreinte carbone ? » -- question importante -- mais demandez aussi : « Quelle est l'empreinte humaine de ceux qui l'ont construit ?
+» Nous avons lancé une nouvelle pratique basée sur ces questions et l'avons testée à travers le monde.
+A Haïti, nous avons demandé si un nouvel hôpital pouvait mettre un terme
+à l'épidémie de choléra.
+Dans cet hôpital ayant 100 lits, nous avons conçu une stratégie simple pour nettoyer les déchets médicaux contaminés avant leur pénétration des nappes phréatiques et nos partenaires des Centres GHESKIO sauvent déjà des vie grâce à cela.
+Ou au Malawi : nous avons demandé si une maison de naissance pouvait réduire la mortalité maternelle et infantile.
+Le Malawi a un des taux les plus élevés au monde.
+En utilisant une stratégie simple reproduisible nationalement, nous avons conçu une maison de naissance qui inciterait les femmes et leurs accompagnateurs à venir plus tôt à l'hôpital et donc à avoir des naissances plus sûres.
+Ou au Congo où nous avons demandé si un centre éducatif pouvait aussi être utilisé pour protéger les espèces menacées.
+Le braconnage d'ivoire et de viande génère une épidémie mondiale, la propagation de maladies et la guerre.
+Dans l'un des endroits les plus difficiles d'accès au monde, nous avons utilisé la boue, la poussière et le bois alentour pour construire un centre qui nous montrerait comment protéger et conserver notre riche biodiversité.
+Même ici aux États-Unis, nous avons repensé la plus grande université pour sourds et malentendants du monde.
+La communauté sourde, via le langage des signes, nous montre le pouvoir de la communication visuelle.
+Nous avons conçu un campus réveillant les façons dont, nous humains, communiquons à la fois verbalement et non verbalement.
+Même à Poughkeepsie, ma ville natale, nous avons pensé aux vieilles infrastructures industrielles.
+Nous nous sommes demandé : pouvons-nous utiliser l'art, la culture et le design pour revitaliser cette ville et d'autres villes de la Rust Belt à travers notre nation, les transformer en centres d'innovation et de croissance ?
+Lors de tous ces projets, nous avons posé une seule question : qu'est-ce que l'architecture peut faire de plus ?
+En posant cette question, nous avons dû penser à comment nous pouvions créer des emplois, nous fournir régionalement et comment investir dans la dignité des communautés pour lesquelles nous travaillons.
+J'ai appris que l'architecture peut être un moteur de changements profonds.
+Il y a un an, j'ai lu un article sur un activiste des droits civils infatigable et intrépide du nom de Bryan Stevenson.
+(Applaudissements) Bryan avait une vision architecturale audacieuse.
+Lui et son équipe ont documenté plus de 4 000 lynchages d'Afro-américains qui ont eu lieu dans le sud de l'Amérique.
+Leur plan était de marquer tous les comtés où ces lynchages avaient pris place et de construire un mémorial national pour les victimes de lynchage à Montgomery, en Alabama.
+Des pays comme l'Allemagne, l'Afrique du Sud et, bien sûr, le Rwanda ont trouvé nécessaire de construire des mémoriaux représentant les atrocités de leur passé afin de guérir leur psyché nationale.
+Nous devons le faire aux États-Unis.
+J'ai envoyé un message froid à info@equaljusticeintiative.org, j'ai dit : « Cher Bryan, votre projet de construction est peut-être le projet le plus important des projets américains et il pourrait changer notre vision de l'injustice sociale.
+Par hasard, savez-vous qui va le concevoir ?
+» (Rires) De façon surprenante, choquante, Bryan m'a répondu et m'a invité à les rencontrer, lui et son équipe, pour leur parler.
+J'ai annulé toutes mes réunions, j'ai sauté dans un avion pour Montgomery.
+Arrivé là-bas, Bryan et son équipe sont venus me chercher et nous avons marché dans la ville.
+Ils ont pris le temps de me montrer les nombreux repères placés dans toute la ville pour l'histoire de la Confédération et les rares marques pour l'histoire de l'esclavage.
+Puis il m'a amené à une colline.
+Elle dominait toute la ville.
+Il m'a montré la rivière, les lignes ferroviaires où le plus grand port de commerce intérieur d'esclaves avait un jour prospéré.
+Puis à la rotonde du Capitole, sur ces marches où George Wallace s'est tenu et a dit : « La ségrégation pour toujours ».
+Puis il a montré la colline à nos pieds.
+Il a dit : « Ici, nous construirons un nouveau mémorial qui changera l'identité de cette ville et de cette nation.
+» Nos deux équipes ont travaillé ensemble pendant cette année pour concevoir le mémorial.
+Le mémorial nous fera voyager à travers un type de bâtiment classique, presque familier, comme le Parthénon ou les colonnades du Vatican.
+Mais en entrant, le sol s'effondre sous nos pieds et notre perception change, nous réalisons que ces colonnes évoquent les lynchages qui se sont produits sur la place publique.
+En continuant, nous commençons à comprendre l'ampleur du nombre de ceux qui doivent encore trouver le repos.
+Leurs noms seront gravés sur les repères au-dessus de nous.
+A l'extérieur, il y aura un champ avec des colonnes identiques.
+Mais ce sont des colonnes temporaires, attendant au purgatoire d'être placées dans les comtés où ces lynchages ont eu lieu.
+Sur les années à venir, ce site servira de témoin quand tous ces repères seront réclamés et placés dans ces comtés de façon visible.
+Notre nation commencera à guérir de plus d'un siècle de silence.
+En réfléchissant à comment le construire, nous nous sommes souvenus d'Ubudehe, le processus de construction découvert au Rwanda.
+Nous réfléchissions si nous pouvions remplir ces colonnes avec le sol de ces sites où ces tueries ont eu lieu.
+Bryan et son équipe ont commencé à collecter ce sol et à le préserver dans des urnes avec les membres de la famille, les dirigeants et les descendants.
+L'art de la collecte du sol a mené à une guérison spirituelle.
+C'est un acte de justice réparatrice.
+Comme l'a remarqué un membre de l'équipe EJI lors de la collecte du sol où Will McBride a été lynché : « Si Will McBride a laissé une goutte de sueur, une goutte de sang, un follicule de cheveux -- j'espère le déterrer et que tout son corps puisse reposer en paix.
+» Nous prévoyons de commencer ce mémorial cette année et ce sera un endroit où, enfin, parler des actes innommables qui ont meurtri cette nation.
+(Applaudissements) Ce jour-là, quand mon père m'a dit que cette maison -- notre maison -- lui avait sauvé la vie, ce que j'ignorais, c'est qu'il parlait d'une relation bien plus profonde entre l'architecture et nous.
+Les bâtiments ne sont pas juste des sculptures expressives.
+Ils rendent visibles nos aspirations personnelles et collectives en tant que société.
+Une bonne architecture peut nous donner espoir.
+Une bonne architecture peut guérir.
+Merci beaucoup.
+(Applaudissements)
+Il y a un an, je vous ai parlé d'un livre que j'étais sur le point d'achever, et qui, entretemps, est paru, et je voudrais vous parler aujourd'hui de quelques-unes des controverses qu'il a fait naître.
+Le livre s'intitule The Blank Slate (La Page blanche) et s'appuie sur l'idée commune que l'esprit humain serait une page blanche et que toute sa structure proviendrait de la socialisation, la culture, l'éducation, l'expérience.
+L'idée de page blanche a été très importante au XXe siècle.
+Voici quelques citations qui le montrent : « L'homme n'a pas de nature », dit l'historien Jose Ortega y Gasset ; « L'homme n'a pas d'instincts », dit l'anthropologue Ashley Montagu ; « Le cerveau humain est capable d'une grande panoplie de comportements mais n'est prédisposé à aucun d'entre eux », dit le scientifique Stephen Jay Gould.
+Il y a un certain nombre de raisons qui permettent de douter que l'esprit humain soit une page blanche et certaines d'entre elles sont simplement de bon sens.
+Comme on me l'a souvent dit pendant des années, quiconque a eu plus d'un enfant sait que ceux-ci viennent au monde avec un tempérament et des talents propres ; tout ne vient pas de l'extérieur.
+Et quiconque a un enfant et un animal de compagnie a certainement noté que l'enfant, exposé à la parole, acquerra une langue humaine, alors que l'animal de compagnie, non, sûrement à cause de quelque différence innée entre les deux.
+

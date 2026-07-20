@@ -1,0 +1,251 @@
+Ich nehme überhaupt keine Drogen außer solche zur Erholung, die ich mir aussuche.
+(Lachen) Wenn Sie einmal mit Leuten sprechen, die für lange Zeit auf Warfarin sind, schränkt das ihre Lebensqualität beträchtlich ein.
+Und noch schlimmer, es wird zwangsläufig Ihr Leben verkürzen.
+Genauso ist es mit einer künstlichen Klappe, dann sind Sie auf Antibiotika angewiesen, egal welchen medizinischen Eingriff Sie haben.
+Selbst bei Zahnarztbesuchen brauchen Sie sie, falls Sie eine interne Infektion an der Klappe bekommen.
+Auch so was habe ich nicht, ich bin völlig frei.
+Meine Aorta ist geflickt, ich muss mir keine Sorgen machen,
+was für mich wie eine Wiedergeburt ist.
+Doch zurück zum Thema der Präsentation: Wie zum Himmel kommt in der multidisziplinären Forschung ein Prozessingenieur, der normalerweise mit Boilern arbeitet, dazu, ein medizinisches Gerät herzustellen, das sein eigenes Leben ändert?
+Nun die Antwort ist ein multidisziplinäres Team.
+Hier ist eine Liste des Kernteams.
+Wie Sie sehen können, machen da nicht nur zwei technische Hauptdisziplinen mit, Medizin und Ingenieurwesen, sondern auch verschiedene Spezialisten innerhalb dieser zwei Disziplinen.
+John Pepper hier war der Herzchirurg, der eigentlich an mir arbeitete,
+aber alle anderen trugen auch auf die eine oder andere Weise dazu bei.
+Raad Mohiaddin, medizinischer Radiologe:
+Wir brauchten Bilder von guter Qualität, um davon das CAD-Modell herzustellen.
+Warren Thornton, der noch immer alle CAD-Modelle für uns anfertigt, musste ein maßgeschneidertes Stück CAD-Code schreiben, um dieses Modell aus diesen ziemlich schwierigen Eingabedaten zu produzieren.
+Es gibt hier aber Schranken.
+Es gibt hier Probleme.
+Eines davon ist der Jargon.
+Ich glaube nicht, dass in diesem Raum jemand diese vier Jargonpunkte versteht.
+Die Ingenieure unter Ihnen werden Rapid-Prototyping und CAD verstehen.
+Die Mediziner unter Ihnen, falls welche da sind, werden die ersten beiden erkennen.
+Aber in diesem Raum wird es keinen geben, der alle vier Worte versteht.
+Es war wichtig, dass wir den Jargon herausnahmen, damit alle im Team genau verstehen konnten, was gemeint war, wenn ein bestimmter Ausdruck aufkam.
+Disziplinäre Konventionen waren auch komisch
+Wir nahmen eine Menge Scheibenbilder von mir auf, produzierten die Scheiben und benutzten sie dann für das CAD-Modell.
+Als die Chirurgen mit unserem ersten CAD-Modell aus Plastik spielten, kamen sie nicht damit zurecht.
+Dann wurde uns klar, dass wir tatsächlich ein spiegelverkehrtes Bild angefertigt hatten.
+Und es war spiegelverkehrt, weil wir im echten Leben immer auf Pläne, von Häusern, Straßen oder Karten, runterschauen.
+In der Welt der Medizin schaut man auf die Pläne herauf.
+Also waren die horizontalen Bilder alle umgekehrt.
+Mit disziplinären Konventionen muss man aufpassen.
+Jeder muss verstehen, was vorausgesetzt wird und was nicht.
+Institutionelle Schranken sorgten ebenfalls für Kopfzerbrechen im Projekt.
+Die Imperial College School of Medicine hatte das Brompton Hospital übernommen,
+und diese beiden Organisationen haben einige ausgesprochen schlechte Beziehungsprobleme.
+Ich arbeite mit der Imperial und dem Brompton, was einige ernsthafte Probleme bei dem Projekt verursachte,
+Probleme, die es nicht hätte geben sollen.
+Forschungs- und Ethikkomitee: Wenn man in der Chirurgie etwas Neues will,
+braucht man eine Lizenz vom örtlichen Forschungs- und Ethikkomitee.
+Ich glaube, in Polen ist das genauso.
+Es wird ein Gegenstück dazu geben,
+das neue Chirurgietypen lizenziert.
+Wir hatten nicht nur bürokratische Probleme damit, wir hatten auch professionelle Eifersüchteleien.
+Da waren Leute im Komitee, die nicht schon wieder sehen wollten, dass John Pepper Erfolg hatte,
+weil er ohnehin schon erfolgreich ist.
+Und die schufen Extraprobleme für uns.
+Bürokratische Probleme:
+Letztlich braucht jede neue Behandlung eine Leitlinie, die an alle Krankenhäuser im Land herausgeht.
+In Großbritannien gibt es das National Institute for Clinical Excellence, NICE.
+Ohne Zweifel gibt es so etwas auch in Polen.
+Wir mussten das NICE-Problem überwinden.
+Jetzt haben wir einen großartigen klinischen Leitfaden im Netz.
+So können alle interessierten Krankenhäuser vorbeischauen, den NICE-Bericht lesen, uns kontaktieren und es dann selbst tun.
+Finanzierungsprobleme: Ein weiteres großes Feld zur Sorge.
+Ein großes Problem beim Verständnis dieser Perspektiven:
+Als wir erstmals eine der großen Stiftungen in Großbritannien ansprachen, die solche Sachen finanzieren, legten wir ihnen im Grunde genommen ein technisches Angebot vor.
+Sie verstanden es nicht; sie waren Ärzte, sie waren Gott am nächsten.
+Es kann nur Quatsch sein.
+Sie warfen den Entwurf weg.
+Zu guter Letzt ging ich zu privaten Investoren.
+und gab diesen Weg einfach auf.
+Aber die meiste Forschung und Entwicklung wird von Institutionen unterstützt, von der polnischen Akademie der Wissenschaften oder dem Rat für Technik und Physikalische Forschung oder was auch immer,
+und an diesen Leuten muss man vorbei.
+Jargon ist ein großes Problem, wenn man über Disziplinen hinweg arbeitet, denn in der Welt der Technik verstehen wir alle CAD und R.P.
+– aber nicht in der medizinischen.
+Ich glaube, dass sich die Finanzierungsbürokraten wirklich zusammenreißen müssen.
+Sie müssen anfangen, miteinander zu reden, und sie müssen ihre Fantasie anwenden, wenn das nicht zu viel verlangt ist –
+was wahrscheinlich der Fall ist.
+Ich habe den Begriff "obstruktiver Konservatismus" geprägt.
+In der Medizin gibt es so viele Leute, die keinen Wandel wollen,
+erst recht nicht, wenn ein dahergelaufener Ingenieur die Antwort parat hat.
+Sie wollen sich nicht ändern.
+Sie wollen einfach tun, was sie schon immer getan haben.
+Das sage ich Ihnen, in Großbritannien gibt es immer noch viele Chirurgen,
+die nur darauf warten, dass einer unserer Patienten einen Vorfall hat, damit sie sagen können: "Ich habe euch doch gesagt, dass es nicht läuft."
+Wir haben 30 Patienten.
+Ich bin bei siebeneinhalb Jahren.
+Zusammengerechnet haben wir 90 postoperative Patienten-Jahre und wir haben keine Probleme.
+Aber immer noch sagen in Großbritannien Leute: "Ja, sicher, die externe Aortenwurzel, sie wird niemals funktionieren."
+Das ist ein echtes Problem.
+Das ist ein echtes Problem.
+Ich bin überzeugt, dass jeder hier im Saal bereits der Arroganz von Medizinern, Ärzten und Chirurgen begegnet ist.
+Der Knackpunkt ist einfach die Art, wie Ärzte sich schützen.
+"Klar, natürlich kümmere ich mich um meinen Patienten."
+Ich finde das nicht gut, aber so ist es nun mal.
+Egos sind natürlich ein Riesenproblem.
+Wenn man in einem multidisziplinären Team arbeitet,
+muss man auch mal fünfe gerade sein lassen.
+Man muss ihnen seine Unterstützung ausdrücken.
+Tom Treasure, Professor für Thorax- und Kardiovaskularchirurgie:
+Ein unglaublicher Kerl.
+Ihn muss man ganz einfach respektieren.
+Respektiert er mich?
+Das ist was anderes.
+Das sind die schlechten Nachrichten.
+Die gute Nachricht ist, dass die Vorteile irre sind.
+Übersetzen Sie das.
+Ich wette das können sie nicht.
+(Lachen) Wenn Sie eine Gruppe von Menschen mit unterschiedlicher Berufsausbildung und -erfahrung haben, haben Sie nicht nur ein anderes Grundwissen, Sie haben auch unterschiedliche Perspektiven zu allem.
+Und wenn Sie diese Leute zusammen bringen,
+und sie dazu bringen, dass sie einander verstehen, kann Spektakuläres dabei herauskommen.
+Sie können wirklich neuartige Lösungen finden, die bisher nicht gesehen worden waren, und das ganz schnell und einfach.
+Sie können riesige Arbeitsmengen einfach abkürzen, indem Sie das erweiterte Grundwissen benutzen.
+Und als Ergebnis, ist es eine ganz andere Verwendung von Technik und Wissen, mit denen Sie umgeben sind.
+Das Ergebnis von all dem ist, dass Sie unglaublich schnelle Fortschritte mit unglaublich kleinen Budgets machen können.
+Mir ist richtig peinlich, wie billig der Weg von meiner Idee zu meinem Implantat war, dass ich Ihnen nicht sagen werde, was es gekostet hat.
+Ich glaube nämlich, dass es chirurgische Standardbehandlungen gibt, wahrscheinlich in den USA, die mehr Kosten für einen Patienten verursachen als unsere Kosten für die Umsetzung meines Traums in meine Realität.
+Das ist alles, was ich sagen möchte, aber ich habe noch drei Minuten Zeit.
+Heather wird mich mögen.
+Wenn Sie noch Fragen haben, können wir gern später darüber sprechen.
+Ich würde sehr gern mit Ihnen sprechen.
+Vielen Dank.
+Chris Anderson: Wir hatten Edward Snowden vor einigen Tagen hier und jetzt ist es Zeit für eine Reaktion.
+Einige von Ihnen haben mir Fragen für unseren Gast von der NSA gesendet.
+Richard Ledgett ist der 15. Vizedirektor der National Security Agency .
+Er ist ein hochrangiger Zivilbeamter, fungiert als Leiter für operative Maßnahmen, gibt Strategien vor, legt interne Richtlinien fest und ist der Hauptberater des Direktors.
+Vorausgesetzt alles funktioniert -- Willkommen bei TED, Rick Ledgett.
+(Applaus) Richard Ledgett: Ich bin wirklich dankbar für die Gelegenheit, hier zu den Leuten zu sprechen.
+Ich freue mich auf das Gespräch.
+Danke, dass Sie das arrangiert haben.
+CA: Danke, Rick.
+Wir freuen uns, dass Sie bei uns sind.
+Es ist zweifellos ein klares Zeichen, dass die NSA bereit ist, an die Öffentlichkeit zu gehen und ihr Gesicht zu zeigen.
+Ich nehme an, dass Sie den Vortrag und das Interview mit Edward Snowden hier vor einigen Tagen gesehen haben.
+Was ist Ihre Meinung dazu?
+RL: Ich fand es interessant.
+Wir wussten nicht, dass er sich dort zeigen würde; also Respekt an euch für so eine nette Überraschung.
+In meinen Augen war an vielen Dingen, die zum Vorschein kamen, seit Herr Snowden mit der Veröffentlichung vertraulicher Informationen begann, ein Körnchen Wahrheit dran, aber es waren auch eine Menge Schätzungen und Halbwahrheiten dabei, und diese möchte ich gerne ansprechen.
+Dies ist eine wirklich wichtige Debatte, die wir in den USA und international haben, und ich glaube, dass es von Bedeutung ist und eine Tragweite hat; deshalb muss dies eine Diskussion sein, die auf Fakten basiert, und dabei wollen wir helfen.
+CA: Viele Menschen hier fragen sich, was Sie von Snowdens Beweggrund für seine Taten halten, und ob er einen alternativen Weg gehen hätte können?
+RL: Er hätte definitiv andere Wege gehen können, und ihn als Whistleblower zu bezeichnen, schädigt meiner Meinung nach die berechtigten Aktivitäten von Whistleblowern.
+Wenn also jemand, der bei der NSA arbeitet -- und das sind mehr als 35 000 Menschen.
+Sie sind alle großartige Bürger.
+Sie sind wie Ihre Ehemänner, Väter, Schwestern, Brüder, Nachbarn, Neffen, Freunde und Verwandte, die alle daran interessiert sind, das Richtige zu tun, für ihr Land und unsere internationalen Verbündeten.
+Es gibt eine Reihe von Ansprechpartnern, wenn jemand ein Anliegen hat.
+Zuerst gibt es den Vorgesetzten, und die ganze Hierarchie an Vorgesetzten in der Organisation.
+Wenn jemand dabei Bedenken hat, gibt es einige Generalinspektoren.
+Herr Snowden hatte die Option des Generalinspektors der NSA, der Navy , des Pazifikkommandos, des Verteidigungsministeriums und der Nachrichtendienstgemeinschaft; jeder von diesen hätte sein Anliegen nicht nur geheim gehalten, sondern auch gerne in Angriff genommen.
+Er hätte außerdem zu Kongressausschüssen gehen können, dafür stehen Mechanismen bereit, und er hat nichts davon getan.
+CA: Sie sagten, dass Ed Snowden andere Möglichkeiten zum Äußern seiner Bedenken gehabt hätte.
+Die Erwiderung darauf besteht aus mehreren Punkten: Zuerst einmal dachte er sicher, dass er als Dienstleister nicht dieselben Möglichkeiten wie ein Festangestellter hätte.
+Zweitens gibt es auch Erfahrungen mit anderen Whistleblowern, etwa Andrews Drake, mit dem recht hart umgegangen wurde, wie manche meinen.
+Drittens, woran er Anstoß nahm, war nicht ein bestimmtes Problem, das er entdeckt hatte, sondern Programme, die von allen drei Staatsgewalten bewilligt wurden.
+Könnte man unter diesen Umständen nicht sagen, dass seine Taten nachvollziehbar waren?
+RL: Nein, das sehe ich nicht so.
+Ich denke, dass -- Entschuldigung, ich bekomme eine Rückkopplung durch das Mikrofon -- seine Handlungen unangemessen waren, denn er hat auf lange Sicht Menschenleben aufs Spiel gesetzt.
+Ich weiß, dass Herr Snowden und einige Journalisten in der Öffentlichkeit oft sagen, dass die veröffentlichten Unterlagen nicht die nationale Sicherheit und Menschenleben gefährdet haben, aber das ist einfach nicht wahr.
+Tatsächlich sind sie gefährlich.
+In meinen Augen gehört auch eine unglaubliche Arroganz dazu, dass er es besser wissen will als die Autoren der Verfassung, wie die Gewaltenteilung des Staates aufgebaut sein muss, nämlich, dass die Exekutive und die Legislative zusammenarbeiten müssen, sich gegenseitig kontrollieren, und die Judikative den gesamten Prozess überwacht.
+Ich denke, dass das sehr arrogant von ihm ist.
+CA: Können Sie ein konkretes Beispiel geben, wie er Menschenleben gefährdet hat?
+RL: Sicher.
+Er hat Dinge veröffentlicht, die Möglichkeiten -- und die NSA basiert auf Möglichkeiten.
+Wenn wir ausländische Geheimdienst-Ziele haben, rechtmäßige Interessen -- Terroristen sind das bekannteste Beispiel, aber auch Menschenhändler, Drogendealer, Leute, die hochentwickelte Waffen, Nuklearwaffen, und Liefersysteme dafür bauen wollen, und Staaten, die womöglich Angriffe auf ihre direkten Nachbarn durchführen, wovon Sie vielleicht einiges in jüngster Zeit gehört haben -- wenden wir Möglichkeiten auf sehr diskrete und kontrollierte Art und Weise an.
+Die Aufdeckung dieser Möglichkeiten bedeutet, dass die Gegner sie sehen und erkennen: "Ich bin dadurch verwundbar"; sie ändern ihre Strategien, und wir haben bereits Ziele im Bereich des Terrorismus und der Nationalstaaten beobachtet, auch verschiedene Arten von Schmugglern und anderen Leuten, die sich wegen dieser Veröffentlichungen aus unserem Einflussbereich zurückgezogen haben, so dass wir nicht mehr wissen, was sie tun.
+Das Endergebnis ist, dass unsere Leute im Ausland in gefährlichen Situationen, egal ob Diplomaten oder Soldaten, und unsere Verbündeten in ähnlichen Situationen in größerer Gefahr sind, weil wir die Bedrohungen, die auf sie zukommen, nicht sehen.
+CA: Das ist eine allgemeine Antwort.
+Sie sagen, dass aufgrund dieser Enthüllungen der Zugang zu bestimmten Informationen versperrt wurde, den Sie früher hatten.
+Aber die Bedenken sind, dass die Art dieses Zugriffs von Anfang an eigentlich nicht rechtens war.
+Könnten Sie uns etwa das Bullrun-Programm beschreiben, laut dem angeblich die NSA gezielt Sicherheitsmaßnahmen geschwächt hat, um die Art Zugang zu erhalten, von dem Sie gesprochen haben.
+RL: Das passiert, wenn unsere legitimen Auslandsgeheimdienst-Ziele, wie ich sie bereits beschrieben habe, das globale Telekommunikationssystem als ihre Kommunikationsmethode verwenden; und das tun sie, weil es ein tolles System ist.
+Es ist das komplizierteste System, dass je erfunden wurde, es ist ein Wunder.
+Viele Leute hier im Raum sind für die Entstehung und Verbesserung verantwortlich, und das ist eine tolle Sache.
+Aber es wird auch von Menschen verwendet, die gegen uns und unsere Verbündeten arbeiten.
+Wenn ich sie also verfolgen will, muss ich die Möglichkeiten zum Verfolgen haben, und die Kontrolle besteht darin, wie ich die Möglichkeit anwende, und nicht, dass ich sie generell habe.
+Wenn wir dafür sorgen könnten, dass alle Bösen eine Ecke des Internets verwenden, könnten wir die Domain badguy.com einrichten.
+Das wäre toll, dann könnten wir unseren Einsatz dorthin verlagern.
+Aber so funktioniert es nicht.
+Sie versuchen, sich vor der Fähigkeit der Regierung, ihre Handlungen einzugrenzen und zu unterbinden, zu verstecken.
+Also müssen wir uns im gleichen Raum bewegen.
+Ich sage Ihnen Folgendes:
+Die NSA hat zwei Aufgaben:
+Die Fernmelde- und elektronische Aufklärung, über die wir leider so viel in der Presse hören,
+und die Informationssicherung, die die nationalen Sicherheitssysteme der USA schützen soll.
+Das sind z. B. Dinge wie die Kommunikationswege, die der Präsident benutzt, die Systeme, die unsere Atombomben kontrollieren, die Systeme, die unser Militär weltweit nutzt, und die Systeme, die wir mit unseren Verbündeten nutzen und die einige unserer Verbündeten selbst nutzen.
+Daher empfehlen wir gewisse Standards, und diese Standards nutzen wir selbst, und daher sind wir verpflichtet sicher zu gehen, dass diese Verbindungen für die beabsichtigten Zwecke sicher sind.
+CA: Aber das hört sich so an, als wenn Sie sagten, dass beim Internet im Allgemeinen jede Strategie rechtens sei, wenn sie Amerikas Sicherheit verbessert.
+Ich denke, hier gibt es teilweise einen großen Meinungsunterschied.
+Viele Menschen hier im Raum und überall auf der Welt denken völlig anders über das Internet.
+Sie sehen es als bedeutende Erfindung der Menschheit, etwa auf einer Ebene wie die Druckerpresse von Gutenberg.
+Es bringt Wissen zu allen.
+Es verbindet alle.
+Es wird auf diese idealistische Weise betrachtet.
+Die Taten der NSA wirken von diesem Standpunkt aus so, als hätten die Behörden damals in Deutschland Geräte in jede Druckerpresse eingefügt, die zeigen, welche Bücher Menschen kaufen und was sie lesen.
+Können Sie nachvollziehen, dass es von diesem Gesichtspunkt aus ungeheuerlich scheint?
+RL: Das kann ich und teile auch diese Ansichten über das Internet; es geht aber um mehr als das Internet.
+Es ist ein globales Telekommunikationssystem.
+Das Internet ist ein großer Teil davon, aber es gibt noch viel mehr.
+Die Menschen haben berechtigte Bedenken über das Gleichgewicht zwischen Transparenz und Geheimhaltung.
+Das wird als Gleichgewicht zwischen Privatsphäre und nationaler Sicherheit formuliert.
+Das ist nicht die richtige Einordnung,
+sondern eher Transparenz und Geheimhaltung.
+Das ist die aktuelle nationale und internationale Debatte, an der wir teilhaben wollen, und an der Menschen informiert teilhaben sollen.
+Es gibt Dinge -- Ich will dazu noch etwas sagen -- es gibt Dinge, bei denen wir transparent sein müssen: unsere Befugnisse, unsere Abläufe, unsere Aufsicht, wer wir sind.
+Wir, die NSA, haben das bislang nicht gut gemacht, und das ist meines Erachtens auch ein Grund, warum es so offenbarend und so sensationell in den Medien war.
+Niemand kannte uns, die Behörde, die nie etwas sagte.
+Es gibt Karikaturen unseres Logos von einem Adler mit Kopfhörern.
+Das ist die öffentliche Darstellung.
+Also müssen wir transparenter werden.
+Aber nicht dort, wo es den USA und all den Ländern schadet, mit denen wir zusammenarbeiten, denen wir bei der Informationsbeschaffung helfen, damit sie sich selbst und ihre Leute schützen können.
+Es ist schlecht, Einsätze und Fähigkeiten so zu offenbaren, dass die Leute, gegen die wir alle arbeiten, -- die allgemein bekannten Bösen -- uns abwehren können.
+CA: Aber ist es nicht auch schlecht, den amerikanischen Firmen quasi so einen Schlag zu verpassen, die letztendlich der Welt einige der bedeutendsten Internetdienste gebracht haben?
+RL: Ja.
+Die Firmen sind tatsächlich in einer ähnlich schwierigen Lage wie wir; denn wir verpflichten die Firmen zur Herausgabe von Informationen, wie das jedes andere Land weltweit tut.
+Jeder Industriestaat der Welt hat ein rechtmäßiges Abhörprogramm, mit dem sie von Firmen Unterstützung in Form von Informationen fordern, die sie für ihre Sicherheit benötigen; und die beteiligten Firmen sind diesen Programmen nachgekommen, genau so, wie sie es tun müssen, wenn sie in Russland oder Großbritannien arbeiten,
+in China, Indien oder Frankreich: jedes erdenkliche Land.
+Die Tatsache, dass diese Enthüllungen gemeinhin wie folgt beschrieben wurden: "Sie können Firma A nicht vertrauen, weil Ihre Privatsphäre dort gefährdet ist," stimmt nur insofern, als dass es auch auf jede andere Firma in der Welt zutrifft, die mit einem dieser Länder Geschäfte macht.
+Das wird von Leuten in unterschiedlichen Ländern als Marketingvorteil aufgegriffen, auch bei einigen Verbündeten, sie sagen: "Den USA kann man nicht trauen, aber unserer Telekommunikationsfirma kann man vertrauen, weil wir sicher sind".
+In Wirklichkeit wird es verwendet, um den großen technischen Fortschritt der amerikanischen Firmen auszuhebeln, etwa bei der Cloud und internetbasierten Technologien.
+CA: Sie sitzen dort mit der amerikanischen Flagge, und die amerikanische Verfassung garantiert Schutz vor ungerechtfertigter Durchsuchung und Beschlagnahmung.
+Wie würden Sie das Recht der amerikanischen Bürger auf Privatsphäre beschreiben?
+Gibt es ein solches Recht?
+RL: Natürlich gibt es das.
+Wir verwenden außerordentlich viel Zeit und Hingabe darauf, besser gesagt, außerordentlich und angebracht, um sicherzustellen, dass wir diese Privatsphäre schützen.
+Und darüber hinaus natürlich auch die Privatsphäre von Bürgern weltweit, nicht nur Amerikanern.
+Hier gibt es verschiedene Faktoren.
+Erstens, wir sind alle im gleichen Netzwerk.
+Meine Verbindungsdaten ...
+Ich nutze einen bestimmten E-Mail-Service, der auch von Terroristen weltweit am meisten genutzt wird.
+Ich bin also direkt neben ihnen als E-Mail-Konto im Internet.
+Wir müssen in der Lage sein, das auseinanderzunehmen und relevante Informationen zu finden.
+Dabei stoßen wir gezwungenermaßen auf Amerikaner und unschuldige ausländische Bürger, die nur ihr Leben leben.
+Also gibt es Prozesse, die das aussortieren: Also wenn wir das finden, nicht falls, sondern wenn, denn es taucht immer auf, wird es geschützt
+durch sogenannte Minimierungsprozesse.
+Sie sind vom Justizminister genehmigt und basieren auf der Verfassung.
+Wir schützen also diese Menschen.
+Für die Menschen, Bürger der Welt, die täglich legalen Tätigkeiten nachgehen, hat der Präsident in der Rede vom 17. Januar zusätzliche Schutzmaßnahmen vorgestellt, die wir bereitstellen.
+Ich denke also definitiv, dass die Leute ein Recht auf Privatsphäre haben, und wir arbeiten hart daran, dieses Recht auf Privatsphäre zu schützen.
+CA: Was ist mit Ausländern, die die Internetdienste amerikanischer Firmen nutzen?
+Haben sie auch Rechte bezüglich Privatsphäre?
+RL: Die haben sie.
+Wir können diese Firmen nur dazu verpflichten, uns Informationen zu geben, wenn diese in eine von drei Kategorien fallen: Wir können sicherstellen, dass diese Person, die anhand eines bestimmten Parameters identifiziert wurde, entweder ein Anti-Terror-, ein Waffenverbreitungs-, oder ein anderes Auslandsgeheimdienstziel darstellt.
+CA: Es wurde viel darüber geredet, dass die mit diesen Programmen gesammelten Daten im Grunde Metadaten sind.
+Es sind also nicht die Worte, die jemand in einer E-Mail oder am Telefon verwendet,
+sondern wem und wann sie geschrieben haben usw.
+Aber es wurde gesagt ...
+Jemand hier im Publikum hat mit einem früheren NSA-Analysten gesprochen, laut dem Metadaten weitaus mehr aussagen als die Kerndaten, weil man sich in den Kerndaten so darstellt, wie man sich darstellen will.
+Wer weiß bei den Metadaten schon, welche Schlüsse gezogen werden?
+Ist da etwas dran?
+RL: Ich verstehe dieses Argument nicht ganz.
+Metadaten sind aus verschiedenen Gründen wichtig.
+Sie sind Informationen, die uns das Finden von Verbindungen erlauben, die Menschen verbergen wollen.
+Wenn also ein Terrorist mit jemandem Kontakt hat, der uns unbekannt ist, der aber terroristisch aktiv ist oder Terroristen unterstützt, oder internationale Sanktionen verletzt, indem er atomwaffenfähiges Material an Länder wie den Iran oder Nordkorea liefert, wird er versuchen, dies zu verstecken, weil es gesetzeswidrig ist.
+Metadaten erlauben uns, das zu verbinden.
+Die Alternative dazu ist weitaus weniger effizient und dringt viel stärker in die Privatsphäre ein, nämlich gigantische Mengen von Inhalten zu sammeln.
+Metadaten sind also in diesem Sinn
+sogar förderlich für die Privatsphäre.
+Im Gegensatz zu einigem, das abgedruckt wurde, sitzen wir nicht herum und erstellen Metadaten-Profile normaler Leute.
+

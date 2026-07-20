@@ -1,0 +1,247 @@
+Also der erste Gedanke ist, Ihnen einfach zu zeigen, was Kinder so tun.
+Ich verwende Programme, die wir auf 100$ Laptops aufspielen.
+Ich würde jetzt gern ein kleines Auto malen.
+Nur sehr schnell.
+Und ein großes Rad dran machen.
+Und hier habe ich ein kleines Objekt, und da kann ich reingucken.
+Ich nenne es Auto.
+Und das lasse ich jetzt vorwärts fahren.
+Und jedesmal wenn ich klicke, fahre eine Kurve, Auto.
+Wenn ich ein kleines Skript machen will, um das immer wieder zu wiederholen, ziehe ich diese Dinge hier heraus und bringe sie zum laufen.
+Und ich kann probieren, das Auto hier zu steuern, indem ich --
+sehen Sie das Auto hier um fünf abbiegen?
+Und was passiert, wenn ich das auf null drehe?
+Es fährt geradeaus.
+Das ist eine kleine Offenbarung für Neunjährige.
+Es in die andere Richtung fahren lassen.
+Aber das ist natürlich ein bißchen, wie die eigene Schwester zu küssen, soweit es ums Autofahren geht.
+Die Kinder wollen ein Lenkrad machen.
+Also zeichnen sie ein Lenkrad.
+Und wir nennen es Rad.
+Und, sehen Sie die Ausrichtung hier?
+Wenn ich das Rad drehe, können Sie erkennen, daß diese Zahlen hier negativ und positiv werden.
+Das ist irgendwie eine Einladung, den Namen dieser Zahlen, die da rauskommen zu nehmen und sie einfach in dieses Skript reinfallen zu lassen.
+Und jetzt kann ich das Auto mit dem Lenkrad lenken.
+Und das ist interessant.
+Sie wissen, wieviel Schwierigkeiten Kinder mit Variablen haben.
+Aber wenn sie es so lernen, situationsbezogen, vergessen sie nie wieder, nur wegen dieses einen Versuchs, was eine Variable ist und wie man sie verwendet.
+Und jetzt können wir darüber so wie Gillian Ishijima reflektieren.
+Also, wenn man sich dieses kleine Skript hier ansieht, ist die Geschwindigkeit immer 30.
+Wir werden das Auto dementsprechend immer wieder so bewegen.
+Und ich lasse einen kleinen Punkt für jedes dieser Teile fallen.
+Diese sind gleich weit auseinander, weil sie 30 voneinander entfernt sind.
+Und wenn man diese Progression von den Sechsjährigen nimmt, indem man sagt, OK, ich werde die Geschwindigkeit jeweils um zwei erhöhen, und dann werde ich den Abstand entsprechend der Geschwindigkeit jedesmal vergrößern?
+Was bekomme ich dann?
+Wir erhalten ein visuelles Schema von dem, was die Neunjährigen Beschleunigung nennen.
+Also wie haben die Kinder jetzt Wissenschaft gemacht?
+Lehrer: Objekte, von denen man denken würde, daß sie gleichzeitig zu Boden fallen --
+Kind: Sehr schön.
+Lehrer: Schaut nicht, was andere tun.
+Wer hat den Apfel?
+Alan Kay: Sie haben kleine Stopuhren
+Lehrer: Was bekommst du heraus?
+Was hast du herausbekommen?
+AK: Stopuhren sind nicht genau genug.
+Mädchen: 0,99 Sekunden
+Lehrer: Also schreib "Schaumstoffball" --
+Mädchen: Da waren eine Kugel und ein Schaumstoffball, weil es zwei völlig verschiedene Gewichte sind.
+Und wenn man sie zugleich fallen läßt, fallen sie vielleicht gleichschnell.
+Lehrer: Fallen lassen.
+AK: Also offensichtlich hat Aristoteles niemals ein Kind darüber befragt, weil er sich natürlich nicht um das Experiment gekümmert hat, und der Heilige Thomas von Aquin auch nicht.
+Erst als Galileo es wirklich gemacht hat, hat ein Erwachsener wie ein Kind gedacht.
+Erst vor 400 Jahren.
+Etwa einmal pro Klasse mit 30 Kindern hat man so ein Kind, das gleich zum Kern der Sache kommt.
+Und was, wenn wir das jetzt etwas genauer anschauen wollen?
+Wir können einen Film davon aufnehmen, aber selbst wenn wir uns den Film schrittweise ansehen, ist es schwer zu erkennen, was passiert.
+Was man also tun kann ist, die Einzelbilder nebeneinander zu legen oder sie aufzustapeln.
+Wenn die Kinder das sehen, sagen sie: "Ah, Beschleunigung," weil sie sich daran erinnern, daß sie vor vier Monaten seitwärts gesteuert haben.
+Und dann fangen sie an zu messen, um herauszufinden, was für eine Art Beschleunigung es ist.
+Was ich also mache ist, vom Untterrand eines Bildes zum Unterrand des nächten Bildes zu messen, etwa eine Fünftelsekunde später.
+So, und die werden jedesmal schneller.
+Und wenn ich diese Freunde hier aufeinander lege, dann können wir den Unterschied sehen, der Geschwindigkeitszuwachs ist konstant.
+Und dann sagen sie, oh ja, konstante Beschleunigung.
+Haben wir schon gemacht.
+Und wie soll man überprüfen, ob das wirklich zutrifft?
+Man kann nicht viel aussagen, nur weil man den Ball hat fallen lassen.
+Aber wenn man den Ball fallen läßt und den Film gleichzeitig abspielt, dann kann man sehen, daß wir ein korrektes physikalisches Modell entwickelt haben.
+Übrigens hat Galileo das sehr clever gemacht, indem er einen Ball rückwärts auf den Saiten seiner Laute herunterrollen ließ.
+Diese Äpfel sind hier, damit ich nicht vergesse, Ihnen zu sagen, daß diese Geschichte wahrscheinlich sowas ist wie Newtons Apfelgeschichte, aber trotzdem eine tolle Geschichte.
+Ich dachte, ich sollte nur eine Sache auf diesem 100$ Laptop vorführen, um zu zeigen, daß das hier funktioniert.
+Sobald man also Schwerkraft hat, hier ist dieses -- die Geschwindigkeit etwas raufsetzen, die Raumschiffgeschwindigkeit raufsetzen.
+Wenn ich dieses kleine Spiel der Kinder starte, dann wird so das Raumschiff zerstört.
+Aber wenn ich der Schwerkraft entgegenwirke, so -- ups!
+(Gelächter).
+Nochmal.
+Ja, so.
+Ja, OK?
+Ich glaube, ich schließe am besten mit zwei Zitaten.
+Marshall McLuhan hat gesagt: "Kinder sind Nachrichten, die wir in die Zukunft schicken."
+Aber wenn man darüber nachdenkt, sind Kinder die Zukunft, die wir in die Zukunft schicken.
+Vergessen Sie die Nachrichten.
+Kinder sind die Zukunft.
+Und Kinder der ersten und zweiten Welt, und besonders in der dritten Welt, brauchen Mentoren.
+Diesen Sommer bauen wir 5 Millionen dieser 100$-Laptops, und vielleicht 50 Millionen nächstes Jahr.
+Aber wir könnten keine tausend neuen Lehrer ausbilden, um unser Leben zu retten.
+Und das heißt, daß wir erneut so eine Sache haben, für die wir die Technik bereitstellen können, aber die Betreuung, die man braucht, um von einem einfachen neuen iChat Sofortnachrichtendienst zu etwas mit mehr Tiefe zu gelangen, fehlt.
+Ich glaube, daß man das mit einer neuen Benutzeroberfläche machen muß.
+Und diese neue Oberfläche könnte mit Ausgaben von etwa 100 Millionen Dollar erstellt werden.
+Das hört sich viel an, aber es entspricht nur 18 Minuten Irakausgaben.
+Wir geben da 8 Millionen Dollar pro Monat aus.
+18 Minuten entsprechen 100 Millionen Dollar.
+Also ist das eigentlich billig.
+Einstein hat gesagt, "Mache die Dinge so einfach wie möglich.
+Aber nicht einfacher."
+Vielen Dank.
+Genau vor 10 Jahren war ich in Afghanistan.
+Ich berichtete über den Afghanistankrieg und ich wurde als Reporter von Al Jazeera Zeuge des Ausmaßes von Leid und Zerstörung, das bei so einem Krieg entsteht.
+Dann, zwei Jahre später, berichtete ich über einen anderen Krieg - den Irakkrieg.
+Ich wurde im Zentrum des Krieges eingesetzt, denn ich berichtete über den Krieg aus dem nördlichen Teil des Iraks.
+Und der Krieg endete mit einem Regimewechsel wie der in Afgahnistan.
+Das Regime, das wir losgeworden sind, war wirklich eine Diktatur, ein autoritäres Regime, das über Jahrzehnte ein großes Gefühl der Lähmung erzeugte in der Nation, im Volk selbst.
+Allerdings, der Wandel durch fremde Intervention erzeugte noch schlimmere Umstände für die Menschen und verschärfte das Gefühl der Lähmung und der Unterlegenheit in diesem Teil der Welt.
+Für Jahrzehnte haben wir unter autoritären Regimen gelebt - in der arabischen Welt, im Nahen Osten.
+Diese Regime erzeugten etwas in uns während dieser Zeit.
+Ich bin nun 43 Jahre alt.
+In den letzten 40 Jahren habe ich fast immer die selben Gesichter von Königen und Präsidenten gesehen, die uns regieren - alte, verhärtete, autoritäre, korrupte Zustände - Regime, von denen wir uns umgeben sahen.
+Für einen Moment fragte ich mich, ob wir mit dem Ziel einer richtigen Veränderung leben, einer Veränderung, die nicht durch fremde Intervention kommt, durch das Übel der Besatzung, durch Invasionen von anderen Ländern, die das Gefühl der Unterlegenheit manchmal verstärken?
+Die Iraker: Ja, die sind Saddam Hussein losgeworden, aber als sie ihr Land durch fremde Streitkräfte besetzt sahen, fühlten sie sich sehr traurig, sie fühlten, dass ihre Würde leidete.
+Und deshalb rebellierten sie.
+Deshalb akzeptierten sie nicht.
+Und tatsächlich fragten andere Regime ihre Bevölkerung: "Wollt ihr die selbe Situation wie im Irak haben?
+Wollt ihr Bürgerkrieg, Glaubenskrieg?
+Wollt ihr Zerstörung?
+Wollt ihr fremde Streitkräfte in eurem Land haben?"
+Und die Menschen entschieden für sich selbst.
+"Vielleicht sollten wir uns mit dieser Art von autoritärem Zustand abfinden, in dem wir uns befinden, anstatt dieses zweite Szenario zu erleben."
+Das war einer der schlimmsten Albträume, die wir gesehen haben.
+10 Jahre lang waren wir in der unglücklichen Situation, Bilder der Zerstörung, Bilder des Tötens, von religiösen Konflikten, Bilder der Gewalt zu zeigen, die aus einem großartigen Stück Land kamen, einer Region, die früher einmal der Quell von Zivilisation, Kunst und Kultur für tausende von Jahren war.
+Nun bin ich hier um Ihnen zu sagen, dass die Zukunft, von der wir träumen tatsächlich da ist.
+Eine neue Generation, gut gebildet, miteinander verbunden, inspiriert durch universelle Werte und einem globalen Verständnis hat eine neue Realität für uns geschaffen.
+Wir haben einen neuen Weg entdeckt unsere Gefühle auszudrücken und unsere Träume zu äußern.
+Diese jungen Menschen, die das Selbstwertgefühl unserer Nation in diesem Teil der Welt wiederhergestellt haben, die uns eine neue Bedeutung von Freiheit gegeben haben, und uns befähigt haben auf die Straßen zu gehen.
+Nichts passierte.
+Keine Gewalt.
+Nichts.
+Gehe einfach aus dem Haus, erhebe deine Stimme und sage: "Wir wollen das Ende des Regimes."
+Genau das ist in Tunesien passiert.
+Innerhalb weniger Tage ist das tunesische Regime, das Millarden von Dollar in Sicherheitsdienste investiert hat, Millarden von Dollar in Erhaltung, im Versuch der Erhaltung, der Gefängnisse kollabiert, verschwand, aufgrund der Stimmen der Öffentlichkeit.
+Menschen, die ermutigt waren auf die Straße zu gehen und ihre Stimme zu erheben, sie versuchten sie zu töten.
+Die Geheimdienste wollten Menschen verhaften.
+Sie fanden etwas namens Facebook.
+Sie fanden etwas namens Twitter
+Sie waren überrascht von all den verschiedenen Problemen.
+Und sie sagten: "Diese Kinder sind fehlgeleitet."
+Deshalb baten sie ihre Eltern auf die Straße zu gehen und sie einzusammeln und nach Hause zu bringen.
+Das ist, was sie sagten.
+Das ist ihre Propaganda.
+"Bringt diese Kinder nach Hause, denn sie sind fehlgeleitet."
+Aber ja, diese Jugend, die inspiriert ist von universellen Werten, die idealistisch genug ist, sich eine wunderbare Zukunft vorzustellen und zur gleichen Zeit realistisch genug ist, diese Art der Vorstellung auszugleichen und den Prozess der dazu führt - keine Gewaltanwendung nicht zu versuchen Chaos zu erzeugen.
+Diese jungen Menschen gingen nicht nach Hause.
+Eltern gingen tatsächlich auf die Straßen und sie unterstützten sie.
+Und somit wurde die Revolution in Tunesien geboren.
+Wir von Al Jazeera wurden aus Tunesien jahrelang verbannt und die Regierung erlaubte keinem Al Jazeera Reporter dort zu sein.
+Aber wir bemerkten, dass diese Leute auf der Straße alle unsere Reporter waren, sie belieferten unsere Redaktion mit Bildern, mit Videos und mit Nachrichten.
+Und plötzlich wurde die Redaktion in Doha ein Zentrum, das all diese Arten von Input von gewöhnlichen Menschen empfing - Menschen, die verbunden sind und Menschen, die ehrgeizig sind und die sich selbst befreit haben vom Gefühl der Unterlegenheit.
+Und dann fällten wir die Entscheidung: Wir werden die Nachrichten bringen.
+Wir werden die Stimme für diese stimmlosen Menschen sein.
+Wir werden die Botschaft verteilen.
+Ja, manche der jungen Menschen sind mit dem Internet verbunden, aber die Konnektivität in der arabischen Welt ist sehr gering, ist sehr klein, aufgrund vieler Probleme, unter denen wir leiden.
+Aber Al Jazeera nahm die Stimmen der Menschen und wir verstärkten .
+Wir brachten sie in jedes Wohnzimmer der arabischen Welt - international, global, durch unseren englischen Kanal.
+Und dann begannen die Menschen zu spüren, dass etwas Neues geschieht.
+Und dann entschied sich Zine el-Abidine Ben Ali zu gehen.
+Und dann begann Ägypten und Hosni Mubarak entschied sich zu gehen.
+Und jetzt Libyen wie Sie sehen.
+Dann gibt es Jemen.
+Es gibt viele weitere Länder, die versuchen das Gefühl wieder zu entdecken von "Wie stellen wir uns eine Zukunft vor, die wunderbar, friedlich und tolerant ist?"
+Ich möchte Ihnen etwas sagen, dass das Internet und Vernetzung ein neues Selbstverständnis geschaffen haben.
+Aber dieses Selbstverständnis ist weiterhin treu zu dem Boden und zu dem Land aus dem es entstanden ist.
+Das war der große Unterschied zwischen den vielen Versuchen zuvor um Wandel zu schaffen, bevor wir dachten und die Regierung uns befahl - und manchmal stimmte es sogar - dass Wandel uns aufgezwungen wurde und die Menschen wehrten sich, denn sie dachten, es sei fremd für ihre Kultur,
+wir glaubten immer, dass der Wandel von innen kommt, dass Wandel eine Übereinstimmung sein soll mit Kultur und kultureller Vielfalt, mit unserem Glauben in unsere Tradition und in unsere Geschichte, aber zur gleichen Zeit, offen für universelle Werte, verbunden mit der Welt, tolerant nach außen.
+Und das ist der Moment, der gerade jetzt in der arabischen Welt stattfindet.
+Das ist der richtige Moment und es ist der jetzige Augenblick, in dem wir all diese Bedeutungen zusammen kommen sehen, die dann den Anfang schaffen für diese wunderbare Ära, die in dieser Region entstehen wird.
+Wie ging die Elite damit um - die sogenannte politische Elite?
+Vor den Augen von Facebook benutzten sie Kamele auf dem Tahrir Platz.
+Vor den Augen von Al Jazeera begannen sie Tribalismus zu erzeugen.
+Dann, als sie versagten, begannen sie von Verschwörungen zu reden, die aus Tel Aviv kamen, um die arabische Welt zu spalten.
+Sie begannen dem Westen zu sagen: "Denkt an Al-Qaeda.
+Al-Qaeda übernimmt unsere Gebiete.
+Das sind Islamisten, die neue Imaras schaffen wollen.
+Denkt an diese Leute, die zu euch kommen werden, um eure große Zivilisation zu ruinieren."
+Glücklicherweise können die Menschen gerade nicht mehr getäuscht werden.
+Denn die korrupte Elite in der Region hat sogar die Macht der Täuschung verloren.
+Sie konnten nicht und sie können sich nicht vorstellen, wie sie mit dieser Realität umgehen können.
+Sie haben verloren -
+sie wurden getrennt von ihrem Volk, von den Massen und nun sehen wir sie zusammenbrechen, einer nach dem anderen.
+Al Jazeera ist kein Werkzeug der Revolution.
+Wir machen keine Revolutionen.
+Allerdings, wenn etwas von dieser Größenordnung passiert, sind wir im Zentrum der Berichterstattung.
+Wir wurden aus Ägypten verbannt und unsere Korrespondenten - manche von ihnen wurden verhaftet -
+aber die meisten unserer Kameramänner und unserer Journalisten gingen undercover in Ägypten - freiwilig - , um zu berichten, was am Tahrir Platz passiert.
+18 Tage lang sendeten unsere Kameras live die Stimmen der Menschen vom Tahrir Platz.
+Ich erinnere mich an eine Nacht, als mich jemand auf meinem Handy anrief - eine gewöhnliche Person, die ich nicht kannte - vom Tahrir Platz.
+Er sagte mir: "Wir bitten Sie die Kameras nicht abzuschalten.
+Wenn Sie heute Nacht die Kameras abschalten, wird es einen Genozid geben.
+Sie beschützen uns, indem Sie zeigen, was auf dem Tahrir Platz geschieht."
+Ich fühlte mich verantwortlich unsere Korrespondenten dort anzurufen und unsere Redaktion anzurufen und ihnen zu sagen: "Tut alles, damit die Kameras bei Nacht nicht ausgeschaltet werden, denn die Menschen fühlen sich wirklich sicher, wenn jemand über ihre Geschichte berichtet - und sie fühlen sich ebenso beschützt."
+Nun haben wir eine Chance, eine neue Zukunft zu schaffen in diesem Teil der Welt.
+Wir haben eine Chance hinzugehen und an die Zukunft zu denken als etwas, was offen für die Welt ist.
+Lasst uns nicht die Fehler im Iran wiederholen, einer Revolution.
+Lasst uns uns davon befreien - besonders im Westen - so über diesen Teil der Welt zu denken, basierend auf Ölinteressen, oder basierend auf Interessen der Illusion der Stabilität und Sicherheit.
+Die Stabilität und Sicherheit autoritärer Regime kann nichts erzeugen außer Terrorismus, Gewalt und Zerstörung.
+Lasst uns die Wahl der Menschen akzeptieren.
+Lasst uns nicht auswählen und entscheiden von wem wir wollen, dass er ihre Zukunft bestimmt.
+Die Zukunft soll von den Menschen selbst bestimmt werden, sogar wenn es manchmal Stimmen gibt, die uns vielleicht ängstigen.
+Aber die Werte der Demokratie und der Entscheidungsfreiheit, die den Mittleren Osten zu diesem Zeitpunkt durchfluten, sind die beste Gelegenheit der Welt, für den Westen und den Osten, um Stäbilität und Sicherheit, um Freundschaft und Toleranz aus der arabischen Welt entstehen zu sehen, eher als die Bilder von Gewalt und Terrorismus.
+Lasst uns diese Menschen unterstützen.
+Lasst uns für sie einstehen.
+Und lasst uns unseren beschränkten Egoismus aufgeben um den Wandel willkommen zu heißen, um mit den Menschen dieser Region eine großartige Zukunft und Hoffnung und Toleranz zu feiern.
+Die Zukunft ist da, und die Zukunft ist jetzt.
+Ich danke Ihnen herzlich.
+(Applaus) Vielen herzlichen Dank.
+(Applaus) Chris Anderson: Ich habe ein paar Fragen an Sie.
+Ich danke Ihnen für Ihr Kommen.
+Wie würden Sie die historische Bedeutung einschätzen von dem was dort passierte?
+Ist es eine Story des Jahres, eine Story des Jahrzehnts, oder noch mehr?
+Wadah Khanfar: Tatsächlich könnte das die größte Story sein, über die wir je berichtet haben.
+Wir haben über viele Kriege berichtet.
+Wir haben über eine Menge Tragödien, eine Menge Probleme, eine Menge Konfliktzonen und eine Menge Gefahrenherde in der Region berichtet, denn wir waren zentral mittendrin.
+Aber das ist eine Geschichte - es ist eine gute Geschichte, es ist schön.
+Es ist nichts über das man einfach berichtet, weil man über einen großen Vorfall berichten muss.
+Man wird Zeuge vom Wandel der Geschichte.
+Man wird Zeuge der Geburt einer neuen Ära.
+Und das ist alles, worum es in dieser Geschichte geht.
+CA: Es gibt viele Menschen im Westen, die immer noch skeptisch sind oder denken, das könnte nur ein Zwischenzustand sein, vor viel gefährlicherem Chaos.
+Sie glauben wirklich, dass, wenn es jetzt demokratische Wahlen in Ägypten gibt, dass eine Regierung entstehen kann, die manche von den Werten, von denen Sie so inspirierend geredet haben, unterstützt?
+WK: Tatsächlich verteidigen die Leute, nach dem Kollaps des Hosni Mubarak Regimes, die Jugend, die sich selbst organisiert hat in verschiedenen Gruppen und Gremien, sie verteidigen diese Transformation und sie versuchen sie in Einklang zu bringen, um den Werten der Demokratie zu genügen, aber zur gleichen Zeit auch verständlich zu machen, und zu vermitteln, dass es vernünftig ist, nicht in Unordnung zu geraten.
+Meiner Meinung nach sind diese Menschen viel weiser als, nicht nur die politische Elite, sogar als die intellektuelle Elite, sogar als die Oppositionsführer, eingeschlossen politischer Parteien.
+In diesem Moment ist die Jugend der arabischen Welt viel weiser und fähig Wandel zu schaffen als die Alten - eingeschlossen der politischen und kulturellen und ideologischen alten Regime.
+(Applaus) CA: Wir werden uns nicht politisch verwickeln oder einmischen auf diese Art.
+Was sollen die Menschen hier bei TED, hier im Westen, tun, wenn sie sich vernetzen oder einen Unterschied machen wollen und sie daran glauben, was hier gerade geschieht?
+WK: Ich denke, wir haben ein sehr wichtiges Thema in der arabischen Welt entdeckt - dass Menschen sich kümmern, die Menschen interessieren sich für diese große Transformation.
+Mohamed Nanabhay, der hier bei uns sitzt, der Chef von Aljazeera.net, er sagte mir, dass es eine 2,500 prozentige Steigerung an Klicks auf unsere Webseite von verschiedenen Teilen der Welt gibt.
+50 Prozent davon kommen aus Amerika.
+Denn wir entdeckten, dass es die Menschen kümmert, und die Menschen wollen informiert sein - sie empfangen den Stream durch unser Internet.
+Unglücklicherweise berichten wir in den Vereinigten Staaten nicht zu diesem Zeitpunkt außer in Washington D.C. für Al Jazeera English.
+Aber ich kann Ihnen sagen, das ist der Moment zum Feiern, indem wir uns vernetzen mit den Menschen auf der Straße und unsere Unterstützung für sie ausdrücken und diese Art von Gefühl zeigen, dem universellen Gefühl, die Schwachen und Unterdrückten zu unterstützen, um eine viel bessere Zukunft für uns alle zu schaffen.
+CA: Nun Wadah, eine Gruppe von Mitgliedern der TED Gemeindschaft, TEDx Cairo, treffen sich während wir sprechen.
+Sie hatten einige Redner dort.
+Ich glaube, sie haben Ihren Vortrag gehört.
+Danke, dass Sie sie inspirieren und auch uns alle.
+Vielen Dank.
+(Applaus)
+Ich möchte heute darüber sprechen, was wir davon lernen können, die Genome heute lebender Völker und ausgestorbener Völker zu erforschen.
+Doch davor möchte ich Sie an das erinnern, was Sie schon wissen: unser Genom, unser Genmaterial ist in fast allen Zellen unseres Körpers in Chromosomen gespeichert, in der Form von DNA, dem bekannten doppelhelikalen Molekül.
+Und die genetische Information befindet sich in einer Sequenz von vier Basen, die mit den Buchstaben A, T, C und G abgekürzt werden.
+Und die Information ist doppelt vorhanden -- einmal auf jedem Strang -- das ist wichtig, denn wenn neue Zellen gebildet werden, teilen sich die Stränge und neue Stränge werden in einem fast perfekten Prozess den alten Strängen nachgebildet.
+Doch natürlich ist in der Natur nichts ganz perfekt.
+Manchmal passiert ein Fehler und ein falscher Buchstabe wird eingebaut.
+Und wir können die Folgen solcher Mutationen sehen, wenn wir DNA Sequenzen vergleichen, unsere hier im Raum zum Beispiel.
+Wenn wir mein Genom mit Ihrem vergleichen, gibt es ungefähr alle 1.200 bis 1.300 Buchstaben einen Unterschied.
+Und diese Mutationen sammeln sich proportional zur Zeit in einem gewissen Außmaß an.
+Wenn wir uns also einen Schimpansen ansehen, gibt es da mehr Unterschiede.
+Ungefähr ein Buchstabe von hundert ist anders als beim Schimpansen.
+Und wenn Sie sich für die Geschichte eines Stücks DNA oder des ganzen Genoms interessieren, können Sie die Geschichte der DNA anhand der Unterschiede rekonstruieren.
+Normalerweise stellen wir unsere Ideen zu dieser Geschichte in Form von Bäumen wie diesem dar.
+In diesem Fall ist es sehr einfach.
+

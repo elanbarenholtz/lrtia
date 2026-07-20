@@ -1,0 +1,253 @@
+Also können wir einen komplizierten Schaltkreis schaffen, indem wir nur ein bisschen Berechnung verwenden.
+Es ist ein molekularer Computer, der einen elektronischen baut.
+Und jetzt fragt ihr: "Wie weit sind wir auf dieser Straße?"
+Experimentell haben wir das im vergangenen Jahr getan.
+Hier ist ein Rechteck aus DNA-Origami, und hier wachsen ein paar Bausteine daraus.
+Und man kann sehen, wie sie zählen.
+Eins, zwei, drei, vier, fünf, sechs, neun, zehn, elf, zwölf, siebzehn.
+Da sind ein paar Fehler drin, aber wenigstens zählt es in eine Richtung.
+(Lachen) Diese Idee hatten wir vor neun Jahren, und das ist die ungefähre Zeitkonstante, die wir zum Erreichen dieser Dinge benötigen.
+Ich würde sagen, wir haben viel geschafft.
+Wir haben ein paar Ideen, wie wir diese Fehler lösen,
+Und ich glaube, dass wir in den nächsten 5 bis 10 Jahren die Quadrate herstellen können, die ich beschrieben habe, und vielleicht sogar ein paar der selbstmontierten Schaltkreise.
+Was möchte ich euch allen aus diesem Vortrag mitgeben?
+Ich möchte, dass ihr euch bewusst seid, dass das Leben, um seine sehr diversen und komplexen Formen zu erschaffen, Berechnung verwendet.
+Und die verwendeten Berechnungen sind molekular, und um das zu verstehen und es besser in den Griff zu bekommen, wie Feynman sagte, müssen wir etwas bauen, um es zu verstehen.
+Also werden wir Moleküle nehmen und das alles umbauen, es von Grund auf zu erbauen, indem wir DNA so verwenden, wie die Natur es nie beabsichtigte, indem wir DNA-Origami verwenden, und das soll diese algorithmische Selbstassemblierung begründen.
+Und das ist alles schon ziemlich cool, aber was ihr aus diesem Vortrag mitnehmen solltet, vielleicht aus einer dieser großen Fragen, ist dass sich die molekulare Programmierung nicht ums Erschaffen von Spielereien dreht.
+Es geht nicht nur um – es geht nicht um selbstmontierte Handys und Schaltkreise.
+Es geht aber darum, mithilfe der Informatik große Fragen in einem neuen Licht zu betrachten, neue Versionen dieser großen Fragen zu stellen und zu verstehen, wie die Biologie solche faszinierenden Dinge schaffen kann.
+Danke.
+(Applaus)
+Shah Rukh Khan: "Ein Mädchen sollte man sehen, nicht hören."
+"Sei still" oder "psst".
+So bringt man Mädchen oft zum Schweigen -- von Kindheit an bis ins hohe Alter.
+Stolz präsentiere ich den nächsten Gast, Vorkämpferin der Frauenrechte, Beraterin für Armut, Gender und Entwicklung bei der Weltbank, den Vereinten Nationen, mehreren NGOs in Indien und weltweit.
+Sie nennt sich selbst Kultur-Detektivin.
+Begrüßen Sie herzlich die renommierte Sozialwissenschaftlerin und Autorin Deepa Narayan.
+(Musik) (Applaus) (Applaus endet) Deepa Narayan: Gute Eltern wollen brave Mädchen erziehen, doch in Wirklichkeit schränken sie ihre Töchter ein, machen sie klein und erdrücken sie.
+Dadurch bereiten sie sie auf Missbrauch vor.
+Das wäre so niederschmetternd, dass Eltern es nicht ertragen könnten, also wird es verschleiert.
+In Indien heißt das "Anpassung".
+Sie kennen das Wort bestimmt.
+"Liebes, pass dich ein bisschen an.
+Pass dich an.
+Egal, was passiert, pass dich an."
+"Anpassung" erzieht Mädchen dazu, wehrlos zu sein, nicht vorhanden zu sein, nicht gesehen zu werden, ein Niemand zu sein -- und sie erzieht Jungen dazu, für sich Macht und Einfluss über die Welt zu beanspruchen.
+Gleichzeitig reden wir von der Stärkung der Frauen und Geschlechtergleichheit.
+Nach der Gruppenvergewaltigung 2012 in einem fahrenden Bus in Delhi wollte ich die Wurzeln des Missbrauchs begreifen.
+Also stellte ich eine ganz einfache Frage: "Was bedeutet es für Sie heute, eine gute Frau oder ein guter Mann zu sein?"
+Ich war so überrascht von den Antworten, besonders denen der jungen Leute, dass daraus ein Forschungsprojekt wurde, das mein Leben bestimmte.
+Drei Jahre lang befragte ich über 600 Frauen, Männer und Kinder, gebildet, aus der Mittelschicht.
+Ich hörte 1.800 Stunden zu, schrieb 8.000 Seiten Notizen mit und brauchte noch ein Jahr zur Auswertung.
+Heute sehen wir gutgekleidete, gebildete Frauen wie viele von Ihnen, Sie alle hier im Raum einschließlich mir, und wir denken, die Welt habe sich verändert.
+Doch diese Äußerlichkeiten sind extrem irreführend, denn im Inneren haben wir uns nicht verändert.
+Heute spreche ich nicht von den Armen, sondern nur von Mittel- und Oberschicht,
+denn wir belügen uns selbst am meisten.
+Wir haben immer wieder behauptet: Wenn Frauen gebildet sind, Arbeit haben und Geld verdienen, dann sind sie selbstbestimmt, frei und gleichberechtigt.
+Das stimmt nicht.
+Warum?
+Infolge meiner Forschung benenne ich sieben Gewohnheiten, die Frauen auslöschen, sie verschwinden lassen.
+Doch diese Gewohnheiten bestehen weiter, weil sie uns so vertraut sind und wir sie als gut und moralisch ansehen.
+Warum sollte man etwas Gutes und Moralisches ändern oder aufgeben?
+Einerseits lieben wir unsere Kinder, unsere Töchter, andererseits erdrücken wir sie.
+Gewohnheit 1: Du hast keinen Körper.
+Schritt 1, um ein Mädchen unsichtbar zu machen: Man lässt ihren Körper verschwinden, man tut, als ob sie keinen hätte.
+Die 23-jährige Akangsha sagte: "In meiner Familie wurde niemals über den Körper gesprochen."
+In diesem Stillschweigen werden Abermillionen Mädchen sexuell belästigt und erzählen es nicht einmal ihrer Mutter.
+Wegen der negativen Kommentare anderer mögen 90 Prozent der Frauen ihren eigenen Körper nicht.
+Wenn ein Mädchen ihren Körper ablehnt, lehnt sie ihr einziges Haus ab.
+So werden Unsichtbarkeit und Unsicherheit zu ihrem wackeligen Fundament.
+Gewohnheit 2: Sei still.
+Ruhe.
+Wenn es dich nicht geben soll und du keinen Körper hast, wie kannst du eine Stimme haben?
+Fast jede Frau erzählte mir: "Als ich klein war, schimpfte meine Mutter: 'Sprich nicht, sei still, psst, sprich leise, streite nicht, reagiere nicht!
+(Hindi) Gib keine Antwort!'"
+Das kennen Sie sicher alle.
+Also bekommen Mädchen Angst und ziehen sich zurück.
+Sie werden still und sagen: "Lass es sein.
+(Hindi) Lass es los.
+Es ist sinnlos.
+Keiner hört zu."
+Gebildete Frauen erzählten, ihr größtes Problem sei ihre Unfähigkeit, ihre Meinung zu sagen, als ob ihnen im nächsten Moment ein Fuß die Kehle zudrückte.
+Schweigen beraubt Frauen ihrer Existenz.
+Gewohnheit 3: Sei nett zu den Leuten.
+Mach es den anderen recht.
+Jeder mag nette Frauen, die immer lächeln, die nie nein sagen, nie wütend sind, selbst wenn sie ausgenutzt werden.
+Dazu die 18-jährige Amisha: "Mein Vater sagte: 'Wenn du nicht lächelst, fühle ich mich nicht gut.'"
+Also lächelt sie.
+Ihr Vater lehrt sie also: "Mein Glück ist wichtiger als dein Glück."
+Und während Mädchen versuchen, alle ständig glücklich zu machen, bekommen sie Angst, Entscheidungen zu treffen.
+Wenn man sie fragt, sagen sie: "Ganz egal!
+(Hindi) Egal was!
+Alles geht.
+(Hindi) Das ist okay."
+Die 25-jährige Darsha sagte voller Stolz: "Ich bin extrem flexibel.
+Ich werde zu dem, was die anderen von mir wollen."
+Diese Mädchen geben ihre Träume und ihre Wünsche auf und niemand merkt es, nur die Depressionen -- sie schleichen sich ein.
+Das Mädchen verliert einen weiteren Teil ihres Selbst.
+Gewohnheit 4: Du hast keine Sexualität.
+Sie stimmen mir wohl alle zu, dass in Indien mit seinen 1,3 Milliarden Menschen Sex sicher nichts Neues ist.
+Allerdings erkennen heute mehr Menschen an, dass auch Frauen ein Recht auf sexuelles Verlangen haben.
+Aber wie kann eine Frau ohne Recht auf ihren Körper, ohne Wissen über ihren Körper, die eventuell sexuell belästigt wurde, die nicht nein sagen kann und voller Scham ist -- wie kann sie ihr sexuelles Verlangen ausleben?
+Die weibliche Sexualität wird unterdrückt.
+Gewohnheit 5: Vertraue keiner Frau.
+Wie würde sich die Welt wohl verändern, wenn sich Frauen solidarisierten?
+Aber um das zu verhindern, legt unsere Kultur großen moralischen Wert auf Loyalität gegenüber Männern und Diskretion in der Familie.
+Viele Frauen sagten: "Ich kenne nur eine vertrauenswürdige Frau und das bin ich."
+Sogar die 30-jährige Ruchi, die an der Universität von Delhi für Frauenrechte eintritt, sagte: "Ich vertraue Frauen nicht.
+Sie sind eifersüchtig und falsch."
+Also schließen sich Frauen in Städten keinen Frauengruppen an.
+Fragt man sie warum, sagen sie: "Wir haben keine Zeit für Klatsch."
+Eine Frau, die allein ist, lässt sich viel leichter vernichten.
+Gewohnheit 6: Pflicht ist wichtiger als eigene Wünsche.
+Muskan, erst 15, definierte ausführlich, was ein braves Mädchen ist:
+"Sie ist freundlich, sanft, höflich, liebevoll, einfühlsam, ehrlich, gehorsam, respektiert Ältere, hilft vorbehaltlos, ist gut zu anderen und erfüllt ihre Pflicht."
+Strapaziös, oder?
+Wenn man endlich seine Pflicht getan hat, ist auch von den Wünschen nichts mehr übrig.
+Wenn aufopferungsvolle Mütter nichts mehr zu sagen haben, außer über das Essen zu reden -- "Hast du gegessen? (in Hindi) Was willst du essen?" --, dann finden sie Männer wie der 24-jährige Saurabh "langweilig".
+Frauen werden zu Randfiguren.
+Gewohnheit 7: Sei völlig abhängig.
+All diese Gewohnheiten zusammen erdrücken Frauen, machen ihnen Angst, machen ihr Überleben völlig von Männern abhängig.
+So bleibt das System männlicher Macht bestehen.
+All diese sieben Gewohnheiten, die wir für gut und moralisch hielten, entreißen den Mädchen das Leben und geben Männern Gelegenheit zum Missbrauch.
+Wir müssen uns ändern.
+Doch wie geht das?
+Gewohnheiten sind nur Gewohnheiten.
+Sie sind angelernt, man kann sie sich also abgewöhnen.
+Diese persönliche Veränderung ist extrem wichtig.
+Ich musste mich auch ändern.
+Doch das verändert nicht das System, das Millionen andere Frauen erdrückt.
+Wir müssen zum Ursprung des Übels.
+Wir müssen ändern, was es bedeutet, eine gute Frau und ein guter Mann zu sein, denn das ist das Fundament jeder Gesellschaft.
+Wir brauchen keine flexiblen Frauen, wir brauchen flexible Definitionen -- auch für Männer.
+Dieser große gesellschaftliche Wandel kann nicht ohne Männer geschehen.
+Wir brauchen euch.
+Männer müssen Champions des Wandels werden, starke Veränderungskräfte entwickeln.
+Sonst dauert es weitere 200 Jahre, bis unsere Mädchen und Jungen sicher und frei sind.
+Stellen Sie sich vor, eine halbe Milliarde Frauen trifft sich mit Unterstützung der Männer zu persönlichen und politischen Gesprächen und Veränderungen.
+Stellen Sie sich Männer in ihren eigenen Kreisen vor oder Männer und Frauen, die sich treffen, um einander zuzuhören -- ohne Verurteilung oder Tadel, ohne Anklage und ohne Scham.
+Wir würden uns stark verändern.
+Wir schaffen das gemeinsam.
+Frauen, passt euch nicht an.
+Männer, passt euch an, es ist an der Zeit.
+Danke.
+(Applaus) SRK: Schön gesagt, wunderbar.
+Applaus für Deepa.
+Beim Zuhören begriff ich: Selbst in den einfachsten Gesprächen mit Frauen sind wir aggressiv.
+So sage ich manchmal zu meiner Tochter: (Hindi) "Wenn du lächelst, geht es mir gut, sonst nicht."
+Verzeih, das sollte ich nicht.
+(Hindi) Ab heute sage ich meiner Tochter:
+"Egal was du tust, (Hindi) ich mag es.
+Auch wenn ich mich nicht gut fühle, darfst du tun, was du willst."
+(Applaus) Was war deine Reaktion auf all die unerfüllten Geschichten und Wünsche und die Abhängigkeit von Mädchen, die uns eigentlich gesellschaftlich begünstigt erscheinen?
+DN: Ich war sehr deprimiert.
+Es war schockierend, deshalb konnte ich nicht aufhören, da ich weder eine Studie noch ein Buch geplant hatte.
+Ich hatte schon 17 Bücher geschrieben und dachte: "Das ist genug."
+Doch als ich am St. Stephen's College und den meisten in Delhi bekannten Elite-Colleges hörte, wie die jungen Frauen und Männer darüber sprachen, was es für sie bedeutete, Frau oder Mann zu sein, hörte sich das an wie die Generation meiner Mutter.
+Ich ging von College zu College.
+Mir fiel auf, dass sich jede Frau allein fühlt, dass sie ihre Angst und ihr Verhalten verbirgt, weil sie denkt, sie sei selbst schuld.
+Es ist keine persönliche Schuld, es ist anerzogen.
+Die größte Erkenntnis ist wohl: Wenn wir uns nichts mehr vormachen, dann ändert sich die Welt.
+SRK: Mädchen, stimmt ihr Deepa alle zu?
+(Applaus) Ich höre die Mädchen schon sagen: "Hast du das gehört?
+Warum sagst du mir das nicht?"
+Ja, so sollte es sein.
+Du, Junge, passt dich an.
+Wir tun das nicht mehr, okay?
+(Applause) Vielen Dank.
+Schönen Abend.
+Danke.
+(Applaus)
+Jedes Wochenende, soweit ich zurückdenken kann, stand mein Vater samstags auf, zog ein altes Sweatshirt an und werkelte an der alten Bude herum, in der wir lebten.
+Ich würde es kaum restaurieren nennen, es war ein Ritual, Entspannung.
+Er verbrachte das ganze Jahr damit, Farbe mit einer alten Heißluftpistole und einem Spachtel abzukratzen, und dann übermalte er die Stelle, nur um im Folgejahr wieder neu zu beginnen.
+Abkratzen und wieder abkratzen, malen und übermalen: Die Arbeit an einem alten Haus endet nie.
+Am 52. Geburtstag meines Vaters bekam ich einen Anruf.
+Meine Mutter war am Apparat, um mir zu sagen, dass Ärzte bei ihm ein Magengeschwür gefunden hätten -- unheilbarer Krebs, teilte sie mir mit, und er hätte nur noch drei Woche zu leben.
+Ich zog sofort nach Hause nach Poughkeepsie, New York, um bei meinem Vater "Totenwache" zu halten, ohne zu wissen, was die nächsten Tage für uns bereithielten.
+Um mich abzulenken, krempelte ich die Ärmel hoch, um das fertigzustellen, was er jetzt selbst nicht mehr beenden konnte -- die Restauration unseres alten Hauses.
+Als die drohende Drei-Wochen-Frist kam und dann vorbeizog, war er immer noch am Leben.
+Und nach drei Monaten half er mir.
+Wir entkernten und strichen die Innenräume neu.
+Nach sechs Monaten hatten wir die alten Fenster ausgebessert, und nach 18 Monaten war die morsche Veranda endlich ersetzt.
+Mein Vater stand da draußen mit mir und bewunderte unser Tagewerk, mit Haaren auf seinem Kopf, vollständig genesen, als er sich umdrehte und zu mir sagte: "Weißt du, Michael, das Haus hat mein Leben gerettet."
+Also beschloss ich im Jahr darauf, Architektur zu studieren.
+(Gelächter) Aber damals lernte ich etwas anderes über Gebäude.
+Anerkennung erhielten scheinbar diejenigen, die neuartige und skulpturale Formen bevorzugten, wie Schleifen oder ...
+Essiggurken?
+(Gelächter) Und das soll wohl eine Schnecke sein.
+Etwas daran störte mich.
+Warum ist die geniale Architektur der besten Architekten -- so schön, visionär und innovativ -- so selten und dient scheinbar so wenigen?
+Um es auf den Punkt zu bringen: Was könnten wir noch mit all dem kreativen Talent machen?
+Zu Beginn meiner Abschlussprüfungen beschloss ich, eine Pause bei einer Nachtschicht einzulegen und zu einer Vorlesung von Dr. Paul Farmer zu gehen, ein führender Gesundheitsaktivist für die Armen der Welt.
+Ich war überrascht, dass ein Arzt über Architektur sprach.
+Er sagte, dass Gebäude Menschen kränker machen, was für die Ärmsten der Welt zu epidemischen Problemen führe.
+In diese Klinik in Südafrika kamen Patienten etwa mit einem gebrochen Bein, warteten in diesem unbelüfteten Flur und gingen wieder mit einem multiresistenten Tuberkulose-Keim.
+Man hatte einfache Gestaltungen zum Infektionsschutz vergessen, daher waren Menschen gestorben.
+"Wo sind die Architekten?
+", fragte Paul.
+Wenn Kliniken Menschen kränker machen, wo sind die Architekten und Designer, um uns bei Bau und Gestaltung von Kliniken zu helfen, die uns ermöglichen, zu heilen?
+Im folgenden Sommer saß ich mit ein paar Kommilitonen hinten in einem Land Rover, wir holperten über die hügeligen Berghänge von Ruanda.
+Das gesamte folgende Jahr lebte ich in einem alten Gästehaus in Butaro, das nach dem Genozid ein Gefängnis war.
+Ich war dort, um gemeinsam mit Dr. Farmer und seinem Team eine neue Klinikform zu entwerfen und bauen.
+Wenn Flure Patienten kränker machen, könnten wir nicht eine Klinik gestalten, die Flure nach außen verlegt und Menschen dazu bringt, dort herumzulaufen?
+Wenn mechanische Systeme selten funktionieren, könnten wir dann nicht eine atmende Klinik mit natürlicher Belüftung entwerfen und unterdessen die Umweltbelastung reduzieren?
+Und was ist mit der Patientenerfahrung?
+Erwiesenermaßen kann allein ein Blick in die Natur den Genesungserfolg radikal verbessern.
+Warum also keine Klinik gestalten, in der jeder Patient ein Fenster mit Ausblick hat?
+Einfache, standortspezifische Entwürfe können eine heilende Klinik erschaffen.
+Etwas zu entwerfen ist eine Sache; es zu bauen, wie wir lernten, eine ganz andere.
+Wir arbeiteten mit Bruce Nizeye, einem genialen Ingenieur, und er dachte anders über Konstruktion, als wir es gelernt hatten.
+Als wir eine enorme Bergkuppe ausheben mussten und die Beschaffung eines Bulldozers zu teuer und schwierig war, schlug Bruce vor, mit der Hand auszuheben, mittels der ruandischen Methode "Ubudehe", was "Gemeindearbeit für die Gemeinde" bedeutet.
+Hunderte Menschen kamen mit Schaufeln und Hacken und wir hoben diesen Hügel in der Hälfte der Zeit und zum halben Preis aus.
+Statt Möbel zu importieren, gründete Bruce eine Innung und schaffte Tischler heran, die andere darin ausbildeten, wie man Möbel von Hand baut.
+Auf der Baustelle bestand Bruce 15 Jahre nach dem Genozid in Ruanda darauf, Arbeiter unterschiedlichster Herkunft an Bord zu holen, und dass die Hälfte Frauen sein sollten.
+Bruce nutzte den Bauprozess zum Heilen, nicht nur für die Kranken, sondern für die Gemeinschaft als Ganzes.
+Wir nennen das die lokal gefertigte Bauweise oder "Lo-Fab", und sie hat vier Säulen: örtlich anstellen, regional einkaufen, möglichst viel ausbilden und, vor allem, jede Entwurfsentscheidung als Gelegenheit sehen, in die Würde der Orte zu investieren, an denen man dient.
+Betrachten Sie es als Regionale Ernährungs-Bewegung, aber für Architektur.
+Und wir sind überzeugt, dass diese Bauweise weltweit angewendet werden kann und ändern kann, wie wir über Architektur reden und diese bewerten.
+Bei Anwendung der Lo-Fab-Bauweise können auch ästhetische Entscheidungen das Menschenleben positiv beeinflussen.
+In Butaro entschieden wir uns für ein lokales Vulkangestein, das in der Gegen reichlich verfügbar ist, aber von Bauern oft als Ärgernis empfunden und am Straßenrand gestapelt wird.
+Maurer halfen uns, diese Steine zu schneiden und mit ihnen die Mauern der Klinik zu formen.
+Als sie an dieser Ecke begannen und die gesamte Klinik umhüllten, wurden sie so gut darin, die Steine aufeinanderzusetzen, dass sie die ursprüngliche Wand abreißen und neu bauen wollten.
+Sie sehen, was möglich ist.
+Es ist wunderschön.
+Das Schöne daran ist die Tatsache, dass ich weiß, welche Hände diese Steine geschnitten und diese massive Wand mit ihnen gebaut haben, nur an diesem Ort, mit Steinen aus dieser Erde.
+Wenn Sie heute nach draußen gehen und die gebaute Welt betrachten, fragen Sie nicht nur nach der Umweltbelastung -- eine wichtige Frage --, sondern fragen Sie auch nach den Menschenhänden, die es erbaut haben.
+Wir schufen eine neue Praxis rund um diese Fragen und wir testeten sie weltweit.
+Wie in Haiti, wo wir uns fragten, ob eine neue Klinik helfen könnte, die Choleraepidemie zu beenden.
+In dieser 100-Betten-Klinik entwarfen wir eine einfache Strategie, um verseuchten Medizinabfall zu reinigen, bevor er ins Grundwasser gelangt, und unsere Partner bei Les Centres GHESKIO retten dadurch schon Leben.
+Oder Malawi: Wir fragten uns, ob ein Geburtshaus Mütter- und Kindersterblichkeit radikal reduzieren könnte.
+Malawi hat eine der weltweit höchsten Sterblichkeitsraten von Kindern und Müttern
+Durch Nutzung einer einfachen Methode zur landesweiten Anwendung entwarfen wir ein Geburtshaus, um Frauen und ihre Begleiter zu ermuntern, früher in die Kliniken zu kommen und damit sichere Geburten zu haben.
+Oder im Kongo, wo wir uns fragten, ob ein Ausbildungszentrum auch genutzt werden könnte, um gefährdete Arten zu schützen.
+Wilderei von Elfenbein und Wildfleisch führt zu globalen Seuchen, Krankheitsübertragung und Krieg.
+In einem der entlegensten Orte der Welt nutzten wir Lehm, Schmutz und vorhandenes Holz, um ein Zentrum zu bauen, das uns Wege aufzeigt, um unsere große Artenvielfalt zu schützen.
+Sogar hier in den USA, wo wir gebeten wurden, die weltweit größte Universität für Taube und Schwerhörige neu zu denken.
+Die Gehörlosen-Gemeinschaft zeigt uns durch Gebärdensprache die Macht visueller Kommunikation.
+Wir entwarfen einen Campus zur Veranschaulichung der Kommunikationsarten, die wir als Menschen sowohl verbal als auch nonverbal nutzen.
+Sogar in Poughkeepsie, meiner Heimatstadt, dachten wir über alte, industrielle Infrastruktur nach.
+Wir fragten uns: Könnten wir Kunst, Kultur und Design nutzen, um diese und andere "Rustbelt"-Städte im ganzen Land wiederzubeleben und sie zu Zentren für Innovation und Wachstum zu machen?
+In jedem dieser Projekte stellten wir eine einfache Frage: Was kann Architektur noch?
+Und indem wir diese Frage stellten, mussten wir überlegen, wie wir Jobs schaffen könnten, wie wir uns regional eindecken und wie wir in die Würde der Gemeinden investieren könnten, in denen wir arbeiten.
+Ich habe gelernt, dass Architektur ein transformativer Motor des Wandels sein kann.
+Vor etwa einem Jahr las ich einen Artikel über einen unermüdlichen und furchtlosen Bürgerrechtler namens Bryan Stevenson.
+(Applaus) Bryan hatte eine kühne Architekturvision.
+Er und sein Team hatten über 4000 Lynchmorde an Afroamerikanern dokumentiert, die sich in den Südstaaten zugetragen hatten.
+Sie planten, jeden Bezirk zu kennzeichnen, in dem Lynchmorde stattgefunden hatten, und für die Lynchopfer eine nationale Gedenkstätte in Montgomery, Alabama, zu errichten.
+Länder wie Deutschland und Südafrika, und natürlich Ruanda, sahen die Notwendigkeit, Gedenkstätten zu bauen, um sich der Gräueltaten ihrer Vergangenheit zu besinnen und ihre nationale Seele zu heilen.
+In den Vereinigten Staaten liegt das noch vor uns.
+Daher schickte ich spontan eine E-Mail an info@equaljusticeintiative.org: "Lieber Bryan", stand darin, "ich denke, euer Bauprojekt ist womöglich das wichtigste Projekt, das wir in Amerika machen könnten, und es könnte unsere Haltung zum Rassismus ändern.
+Weißt du vielleicht, wer es entwerfen wird?"
+(Gelächter) Überraschenderweise, schockierenderweise, antwortete Bryan mir direkt und lud mich zu einem Gespräch mit ihm und seinem Team ein.
+Selbstredend sagte ich alle Termine ab und nahm den nächsten Flieger nach Montgomery, Alabama.
+Als ich dort ankam, holten Bryan und sein Team mich ab und zeigten mir die Stadt.
+Sie nahmen sich die Zeit, mir die vielen Gedenktafeln zu zeigen, die überall in der Stadt zur Geschichte der Konföderation stehen, und die wenigen Gedenktafeln zur Geschichte der Sklaverei.
+Dann ging er mit mir zu einem Hügel.
+Er überragte die ganze Stadt.
+Er zeigte auf den Fluss und die Bahngleise, wo der größte inländische Hafen für Sklavenhandel einst florierte.
+Dann wies er auf die Rotunde des Kapitols, auf dessen Stufen George Wallace gestanden und verkündet hatte: "Ewige Rassentrennung."
+Und dann auf dem Hügel direkt unter uns.
+Er sagte: "Hier werden wir eine neue Gedenkstätte bauen, die die Identität der Stadt und dieses Landes verändern wird."
+

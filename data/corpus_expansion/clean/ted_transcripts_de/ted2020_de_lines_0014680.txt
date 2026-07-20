@@ -1,0 +1,240 @@
+Aber wenn wir uns Qualitätstests anschauen -- und davon gab es noch nicht genug bis jetzt, und ich ermutige die Leute, mehr davon zu machen und Wikipedia mit traditionellen Dingen zu vergleichen -- gewinnen wir deutlich.
+Eine deutsche Zeitschrift verglich die deutsche Wikipedia, die sehr, sehr viel kleiner ist als die Englische, mit Microsoft Encarta und Brockhaus Multimedia, und wir gewannen in jeder Beziehung.
+Sie engagierten Experten, die sich die Artikel ansahen und die Qualität verglichen, und wir waren sehr zufrieden mit dem Ergebnis.
+Viele Leute haben von der Wikipedia Bush-Kerry Kontroverse gehört.
+Das ist eine -- die Medien haben das sehr ausführlich behandelt.
+Es begann mit einem Artikel in Red Herring.
+Die Reporter riefen mich an und sie -- ich meine, ich muß sagen, dass sie meinen Namen richtig geschrieben haben, aber was sie wirklich sagen wollten war, dass die Bush-Kerry Wahl so strittig sei, dass sie die Wikipedia Community spalte.
+Und so zitierten sie mich: "Sie sind das Umstrittenste in der Geschichte der Wikipedia."
+Was ich tatsächlich sagte war, dass sie überhaupt nicht umstritten sind.
+War also ein fehlerhaftes Zitat.
+Die Artikel wurden sehr heftig editiert.
+Und es stimmt, dass wir die Artikel mehrere Male sperren mussten.
+Das Time Magazin berichtetete vor Kurzem, dass "Extreme Aktionen manchmal erforderlich sind, und Wales die Einträge über Kerry und Bush in 2004 weitgehend sperren musste."
+Das war, nachdem ich dem Reporter gesagt hatte, wir mussten sie ein paarmal, hin und wieder, sperren.
+Die Wahrheit ist also im Allgemeinen, dass die Arten von Kontroversen, von denen Sie erwarten, wir hätten sie in der Wikipedia Community, eigentlich keine echten Kontroversen sind.
+Artikel über kontroverse Themen werden viel bearbeitet aber sie führen kaum zu Kontroversen innerhalb der Community.
+Und der Grund dafür ist, dass die meisten Leute die Notwendigkeit von Neutralität verstehen.
+Der echte Kampf findet nicht zwischen links und rechts statt -- da vermuten ihn die meisten Leute -- sondern zwischen der Partei der Umsichtigen und der Partei der Trottel.
+Und keine Seite des politischen Spektrums hat ein Monopol auf diese Eigenschaften.
+Die tatsächliche Wahrheit über den spezifischen Bush-Kerry-Vorfall ist, dass die Bush-Kerry-Artikel für weniger als ein Prozent der Zeit in 2004 gesperrt wurden, und das lag nicht daran, dass sie strittig waren; das lag nur am routinemäßigen Vandalismus -- der manchmal sogar auf der Bühne passiert, liebe Leute --
+manchmal haben sogar schon Reporter berichtet, dass sie Wikipedia vandalisiert haben und dann erstaunt waren, wie schnell das repariert wurde.
+Und ich sagte -- wissen Sie, ich sage immer, bitte tut das nicht, das ist nicht gut.
+Also, wie machen wir das?
+Was -- Wie steuern wir die Qualitätskontrolle?
+Was macht ein -- wie funktioniert das?
+Da gibt es ein paar Elemente, die meisten sind soziale Regeln und einige Elemente der Software.
+Die größte und wichtigste Sache ist unsere Richtlinie des neutralen Standpunkts.
+Das ist etwas, das ich von Beginn an niedergelegt habe als ein Kernprinzip der Community, das überhaupt nicht zur Debatte steht.
+Es ist ein soziales Konzept der Kooperation, wir reden also nicht viel über Wahrheit und Objektivität.
+Der Grund dafür ist, wenn wir sagen, wir schreiben nur die Wahrheit über ein Thema, dann hilft uns das kein bißchen, herauszufinden, was wir schreiben sollen, weil ich nicht mit Ihnen darüber übereinstimme, was die Wahrheit ist.
+Aber wir haben diesen Jargonbegriff der Neutralität, der eine eigene lange Geschichte in der Gemeinschaft hat und der im Grunde besagt, wann immer es ein kontroverses Thema gibt nimmt Wikipedia dazu keine eigene Position ein.
+Wir sollten nur berichten, was angesehene Parteien darüber gesagt haben.
+Diese Richtlinie für Neutralität ist daher sehr wichtig für uns, denn sie ermächtigt eine Gemeinschaft, die sehr vielfältig ist, zusammenzukommen und tatsächlich etwas zustande zu bringen.
+Unsere Mitstreiter haben sehr unterschiedliche politische, religiöse und kulturelle Hintergründe.
+Aber weil wir diese starke Neutralitätsrichtlinie haben, die von Anfang an nicht verhandelbar war, stellen wir sicher, dass diese Leute zusammem arbeiten können, und dass die Beiräge nicht einfach zu einem Krieg zwischen der Linken und der Rechten werden.
+Wenn man derartiges Verhalten an den Tag legt, wird man gebeten, die Gemeinschaft zu verlassen.
+Das ist Peer-Review in Echtzeit.
+Jede Änderung im Projekt landet auf der 'Letzte Änderungen'-Seite.
+Sobald also jemand seine Änderung gemacht hat, steht sie dort.
+Die letzten Änderungen werden auch in einen IRC-Kanal übertragen, das ist ein Internet-Chat-Kanal, den die Leute mit verschiedenen Programmen überwachen.
+Und die Leute können RSS-Feeds abonnieren -- sie können E-Mail Benachrichtungen der Änderungen erhalten.
+Und die Nutzer können ihre eigene, persönliche Beobachtungsliste einrichten.
+Meine Seite steht auf einigen Bobachtungslisten Freiwilliger, weil sie hin und wieder vandalisiert wird.
+Was daher passiert ist, dass jemand sehr schnell die Änderung bemerkt und dann die Änderung rückgängig macht.
+Es gibt zum Beispiel auch einen 'Neue Seiten'-Feed, man kann also auf eine spezielle Seite auf Wikipedia gehen und jede neue Seite sehen, sobald sie erstellt wird.
+Das ist sehr wichtig, denn viele neue Seiten, die erstellt werden, sind einfach nur Müll, der gelöscht werden muss, ASDFASDF halt.
+Das ist aber auch eines der interessantesten und lustigsten Dinge bei Wikipedia, einige der neuen Artikel werden
+von Leuten mit einem interessanten Thema angefangen, andere Leute finden das faszinierend und klinken sich ein, um zu helfen und sie viel besser zu machen.
+Wir haben also Beiträge anonymer Nutzer, was eines der kontroversesten und faszinierendsten Dinge bei Wikipedia ist.
+Chris konnte diese Änderung machen -- er musste sich dafür nicht einloggen, er ging einfach auf die Website und änderte das.
+Aber es zeigt sich, dass nur ca. 18 Prozent der Änderungen auf der Website von anonymen Nutzern kommen.
+Und es ist sehr wichtig, zu verstehen, dass die überwiegende Mehrzahl der Bearbeitungen auf der Website aus einer eng verbundenen Community von 600 bis 1.000 Leuten kommt, die ständig miteinander kommunizieren.
+Und wir haben über 40 IRC-Kanäle, 40 Mailinglisten.
+All diese Menschen kennen sich gegenseitig.
+Sie unterhalten sich, wir haben Offline-Treffen.
+Dies sind die Leute, die den Löwenanteil auf der Seite machen, und sie sind in gewissem Sinne semi-professionell bei dem, was sie tun,
+dass wir die Ansprüche für uns selbst gleichwertig oder höher setzen als professionelle Qualitäts-Ansprüche.
+Wir erfüllen diese Ansprüche nicht immer,
+aber wir streben sie an.
+Es ist die enge Gemeinschaft, die sich wirklich um die Site kümmert und das sind einige der klügsten Leute, die ich je traf.
+Natürlich ist es mein Job, das zu sagen, aber es ist tatsächlich wahr.
+Die Sorte Leute, die interessiert sind, eine Enzyklopädie zum Spaß zu schreiben, sind tendenziell ziemlich kluge Leute.
+Die Werkzeuge und die Software: Es gibt viele Werkzeuge, die uns erlauben -- mit uns ist die Gemeinschaft gemeint -- uns selbst und die ganze Arbeit zu kontrollieren.
+Dies ist ein Beispiel einer Versionsgeschichte einer Seite über die flache Erde, und man kann einige Änderungen sehen, die gemacht wurden.
+Das Nette an dieser Seite ist, man kann sofort drauf schauen und sie verstehen, oh OK, das verstehe ich jetzt.
+Wenn jemand hingeht und sich ansieht -- sieht er, dass jemand, eine anonyme IP-Adresse, meine Seite bearbeitet hat --
+das klingt verdächtig -- wer ist diese Person?
+Jemand schaut es sich an, der kann sofort die Änderungen in rot hervorgehoben sehen, um zu sehen, ok, nun, diese Worte wurden geändert und Ähnliches.
+Das ist ein Werkzeug, das wir benutzen um schnell die Versionsgeschichte einer Seite zu kontrollieren.
+Eine andere Sache, die wir innerhalb der Community tun ist, das wir alles offen gestalten.
+Die meisten der sozialen Regeln und Arbeitsmethoden sind in der Software ganz offen gelassen.
+Das ganze Zeug steht einfach auf Wikiseiten.
+Es gibt nichts in der Software, das die Einhaltung der Regeln erzwingt.
+Das Beispiel hier ist eine Seite für Löschkandidaten.
+Ich hab's vorhin erwähnt, es gibt Leute die tippen nur ASDFASDF --
+das muss gelöscht werden.
+In solchen Fällen löschen es die Admins einfach.
+Es gibt keinen Grund, darüber lange zu diskutieren.
+Es gibt, wie sie sich denken können, aber Bereiche, bei denen wir uns fragen: Ist das bedeutsam genug, um in eine Enzyklopädie aufgenommen zu werden?
+Sind die Informationen überprüfbar?
+Ist das eine Ente?
+Ist es wahr?
+Was ist es?
+Wir brauchten also eine soziale Methode, um die Antwort darauf zu finden.
+Und die Methode, die organisch in der Gemeinschaft aufkam, ist die Löschkandidaten-Seite.
+Und in dem konkreten Beispiel hier, das ist ein Film, "Twisted Issues", und die erste Person sagt: "Das ist also angeblich ein Film.
+Im Google-Test versagt er kläglich."
+Der Google-Test ist, wenn man auf Google nachschaut, ob es existiert, denn wenn etwas nicht mal bei Google auftaucht, existiert es wahrscheinlich nicht.
+Es ist keine perfekte Regel aber es reicht für den Anfang.
+Jemand sagt also: "Löscht es bitte.
+Löscht es -- es ist nicht relevant."
+Und dann antwortet jemand: "Halt, halt, halt, ich habe ihn gefunden.
+Er steht in dem Buch 'Film Threat Video Guide: die 20 Untergrundfilme, die man sehen muss."
+Oh, OK.
+Die nächste Person sagt: "Säubert den Artikel."
+Noch jemand sagt: "Hab's in der IMDB gefunden.
+Behalten, behalten."
+Und interessant dabei ist auch, dass die Software -- diese Abstimmtung ist nur -- es ist nur normaler Text auf einer Seite.
+Das ist mehr ein Dialog als eine Abstimmung.
+Es stimmt also, dass am Ende des Tages ein Administrator da durchgeht, es sich anschaut und sagt: Ok, 18 für Löschen, 2 für Behalten, wir löschen es.
+Aber in anderen Fällen kann es 18 zu 2 für Löschen stehen und wir behalten es, weil diese beiden letzten sagen: "Halt, wartet eine Minute.
+Niemand sonst hat es gesehen, aber ich habe es in einem Buch gefunden, und ich habe einen Link zu einer Seite, die es beschreibt, und ich räume es morgen auf, darum löscht es bitte nicht".
+Und dann wird es überleben.
+Und es hängt auch davon ab, wer die Leute sind, die abstimmen.
+Wie ich sagte, es ist eine eng verbundene Gemeinschaft.
+Hier, ganz am Ende:"Behalten, echter Film."
+Rick Kay.
+Rick Kay ist ein sehr bekannter Wikipedianer, der sehr viel Arbeit in die Bekämpfung von Vandalimus und Enten steckt
+und eben die Löschkandidaten.
+Seine Stimme hat viel Gewicht in der Gemeinschaft, weil er weiß, was er tut.
+Wie wird das alles verwaltet?
+Die Leute interessieren immer die Administratoren und solche Dinge.
+Das Wikipedia Verwaltungsmodell, die Verwaltung der Gemeinschaft, ist ein sehr verwirrender, aber funktionierender Mix aus Konsens -- das bedeutet, wir versuchen, nicht über die Inhalte von Artikeln abzustimmen, weil die Perspektive der Mehrheit nicht unbedingt neutral ist.
+Ein demokratisches Element, alle Administratoren -- das sind die Leute, die Seiten löschen können,
+doch das bedeutet nicht, dass sie das Recht dazu haben,
+auch sie müssen sich an die Regeln halten -- aber sie werden gewählt,
+sie werden von der Gemeinschaft gewählt.
+Manchmal beschuldigen mich Leute -- zufällige Trolle im Internet -- , dass ich die Admins selbst auswähle, um die inhaltliche Ausrichtung der Enzyklopädie zu beeinflussen.
+Ich lache darüber, denn ich habe tatsächlich keine Ahnung, wie sie gewählt werden.
+Es gibt ein aristokratisches Element.
+Ich habe darauf hingedeutet, als ich erwähnte, wie beispielsweise Rick Kays Stimme viel mehr Gewicht hat als die eines Unbekannten.
+Manchmal mache ich diesen Vortrag mit Angela, die gerade erneut gewählt wurde vom Aufsichtsrat der Gemeinschaft -- zum Aufsichtsrat der Stiftung, mit mehr als doppelt so vielen Stimmen, wie die Person, die es nicht geschafft hat.
+Und es ist ihr immer peinlich wenn ich sage, dass Angela, zum Beispiel, so gut wie alles in der Wikipedia anstellen könnte, weil sie so beliebt und mächtig ist.
+Aber die Ironie ist natürlich, dass Angela das tun kann, weil sie die eine Person ist, von der man weiß, das sie nie, niemals die Regeln der Wikipedia brechen würde.
+Und ich sage immer gern, dass sie auch die einzige Person ist, die tatsächlich alle Regeln von Wikipedia kennt, darum...
+und dann gibt es Monarchie, und das ist meine Rolle in der Gemeinschaft.
+Ich habe das mal in Berlin erklärt, und am nächsten Tag stand in der Zeitung die Überschrift: "Ich bin die Königin von England."
+Und das ist nicht genau, was ich sagte, aber -- der Punkt ist, meine Rolle in der Gemeinschaft -- innerhalb der Welt freier Software gibt es lange -- es gibt dort eine langlebige Tradition des "wohlwollender Diktator"-Modells.
+Wenn man sich die meisten der großen freien Softwareprojekte anschaut, dann ist dort immer eine einzelne Person am Ruder, die von allen als der wohlwollende Diktator akzeptiert wird.
+Nun, ich mag den Begriff 'wohlwollender Diktator' nicht, und ich glaube nicht, dass es mein Job oder meine Rolle in der Welt der Ideen ist, Diktator der Zukunft allen menschlichen Wissen zu sein, das von der Welt gesammelt wurde.
+Das ist einfach unangemessen.
+Aber es gibt trotzdem Bedarf für ein gewisses Maß an Monarchie, ein gewisses Maß an -- manchmal müssen wir eine Entscheidung treffen und wir wollen nicht zu sehr versumpfen in formalen Entscheidungsprozessen.
+Hier ein Beispiel, warum das so ist -- oder warum das wichtig sein kann, wir hatten vor Kurzem die Situation, dass eine Neonazi-Website Wikipedia entdeckt hat und sie sagten sich: "Oh nein, das ist schrecklich, die jüdische Verschwörung von einer Website, und wir werden bestimmte Artikel löschen, die wir nicht mögen.
+Und wie wir sehen, haben sie eine Abstimmung, also schicken wir -- wir haben 40.000 Mitglieder und wir schicken sie dahin, und sie werden alle abstimmen und die Seiten löschen lassen."
+Nun, sie schafften es, dass 18 Leute aufgetaucht sind.
+Da sieht man einmal Mathematik für Neonazis.
+Sie denken immer, sie hätten 40.000 Mitglieder, dabei sind es 18.
+Aber sie brachten 18 Leute dazu, vorbeizukommen und sehr absurd abzustimmen, um einen vollkommen zulässigen Artikel zu löschen.
+Natürlich endete die Abstimmung mit etwa 85 zu 18 Stimmen, es gab also keine echte Gefahr für unseren demokratischen Prozess.
+Andererseits sagten die Leute auch: "Was machen wir denn nun?
+Ich meine, das könnte passieren, und was passiert, wenn ein Gruppe sich ernsthaft organisiert
+und zu uns kommt, um abzustimmen?"
+Darauf sagte ich: "Nun, scheiß' drauf, wir ändern einfach die Regeln."
+Das ist mein Job in der Gemeinschaft, zu sagen: Wir lassen nicht zu, dass unsere Offenheit und Freiheit die Qualität unserer Inhalte unterminiert.
+Solange die Leute mir in meiner Rolle also trauen, ist das ein berechtiger Platz für mich.
+Andererseits, der freien Lizenz wegen, wenn ich einen schlechten Job mache, dann nehmen die Freiwilligen alles und gehen weg -- ich kann niemandem sagen, was er zu tun hat.
+Der abschließende Punkt ist also, um zu verstehen, wie Wikipedia funktioniert, ist es wichtig zu verstehen, dass unser Wikimodell die Art ist, wie wir arbeiten, aber wir sind keine fanatischen Webanarchisten.
+Tatsächlich ist unsere -- wir sind sehr flexibel, was unsere soziale Methodologie betrifft, denn im Endeffekt ist es die Leidenschaft der Gemeinschaft für die Qualität unserer Arbeit, nicht notwendigerweise für den Prozess, den wir haben, um sie zu erledigen.
+Danke.
+(Applaus) Ben Saunders: Ja, hi, Ben Saunders.
+Jimmy, du hast erwähnt, Unparteilichkeit sei der Schlüssel des Erfolgs der Wikipedia.
+Es scheint mir, als seien die meisten Lehrbücher, die zur Ausbildung unserer Kinder benutzt werden, von Natur aus voreingenommen.
+Kannst Du sagen, ob Wikipedia von Lehrern benutzt wird, und wie verändert in Deinen Augen Wikipedia die Schulbildung?
+Jimmy Wales: Ja, also viele Lehrer beginnen, Wikipedia zu benutzen.
+Andere -- es gibt da eine Mediengeschichte über Wikipedia, die wie ich glaube falsch ist.
+Sie basiert auf der Geschichte von Blogger gegen Zeitungen.
+Und die Geschichte ist, es gibt da dieses verrückte Ding, die Wikipedia, aber Akademiker und Lehrer hassen es.
+Es stellt sich heraus, dass das nicht stimmt.
+Das letzte Mal, als ich eine E-Mail von einem Journalisten erhielt, die besagte: "Warum hassen Akademiker die Wikipedia?"
+habe ich ihm von meiner Harvard E-Mail-Adresse geantwortet, denn ich bin dort seit kurzem Forschungs-Stipendiat.
+Und ich sagte: "Naja, nicht alle hassen sie."
+Aber ich denke, da wird es große Auswirkungen geben.
+Und wir haben in der Tat ein Projekt, über das ich wirklich sehr begeistert bin, und das ist das Wikibooks-Projekt, das sich bemüht, Lehrbücher in allen Sprachen zu schaffen.
+Und das ist ein viel größeres Projekt;
+Es wird 20 Jahre oder länger dauern, um verwirklicht zu werden.
+Aber es ist Teil unserer Mission, jedem Menschen auf dem Planeten eine Enzyklopädie zu geben.
+Wir meinen damit nicht, sie mit AOL-artigen CDs vollzuspammen.
+Wir meinen, dass wir ihnen ein Werkzeug geben, das sie benutzen können.
+Und für viele Leute auf der Welt ist eine Enzyklopädie, die auf einem universitären Niveau geschrieben ist keine sonderlich große Hilfe ohne eine Menge Bildungsmaterial, das einem hilft, den Punkt zu erreichen, wo man sie tatsächlich nutzen kann.
+Das Wikibooks-Projekt ist also ein Bestreben, das zu tun.
+Und ich glaube, dass wir wirklich einen großen -- es mag nicht einmal von uns kommen, es gibt da so viele Arten von Innovation.
+Aber frei lizensierte Lehrbücher sind die nächste große Sache in der Bildung.
+Das letzte Jahrzehnt habe ich damit verbracht, mich Schmerz und Demütigung auszusetzen, hoffentlich für eine gute Sache, die Selbstvervollkommnung.
+Ich habe das in drei Teilen getan.
+Zunächst kam der Verstand.
+Ich entschloss mich, schlauer zu werden, indem ich die gesamte Encyclopedia Britannica las von A bis Z – oder, um genauer zu sein, von "a-ak" zu "Zywiec".
+Hier ein kleines Bild.
+Es war ein wunderbares Jahr.
+Eine wirklich faszinierende Reise.
+Manchmal war es schmerzhaft, besonders für die mir Nahestehenden.
+Meine Frau fing an, von mir einen Dollar zu verlangen, für jede irrelevante Tatsache, die ich in die Unterhaltung streute.
+Es hatte seine schlechten Seiten.
+Danach entschied ich mich zur Arbeit am Geist.
+Wie ich letztes Jahr gesagt habe, bin ich völlig ohne Religion aufgewachsen.
+Ich bin Jude, aber ich bin so jüdisch, wie "Olive Garden" italienisch ist.
+(Lachen) Nicht wirklich.
+Aber ich wollte mehr über die Bibel und mein Erbe erfahren, indem ich darin eintauchte und versuchte, es zu leben und mich darin zu versenken.
+Also folgte ich allen Regeln der Bibel.
+Von den zehn Geboten bis zum Bartwachsen lassen – denn das dritte Buch Mose lehrt, man soll sich nicht rasieren.
+So sah ich zum Schluss mit meinem Bart aus.
+Vielen Dank für Ihre Reaktion.
+(Lachen) Ein bisschen wie Moses oder Ted Kaczynski.
+Ich habe etwas von beiden.
+Hier ist die Heckenschnittkunst.
+Hier ist das Schaf.
+Zum letzten Teil dieser Triologie wollte ich mich auf den Körper konzentrieren und versuchen, so gesund wie irgend möglich zu sein, der gesündeste Mensch auf der Welt.
+Das hab ich die letzten Jahre so getrieben.
+Erst seit ein paar Monaten bin ich damit fertig.
+Und ich muss sagen, Gott sei Dank.
+Denn dieses gesunde Leben brachte mich allmählich um.
+(Lachen) Es war überwältigend, weil die Menge an Dingen, die zu tun sind, einfach irrsinnnig ist.
+Ich hörte auf die Experten und sprach mit einer Art medizinischem Beirat.
+Sie sagten mir, was ich zu tun hatte.
+Ich musste richtig essen, Sport treiben, meditieren, Hunde streicheln, weil das den Blutdruck senkt.
+Ich schrieb das Buch auf einem Laufband und ich brauchte etwa 1 000 Meilen, um das Buch zu schreiben.
+Ich musste Sonnenschutz auftragen.
+Das war keine kleine Heldentat, denn Dermatologen sagen, man sollte ein Schnapsglas Sonnenschutz haben.
+Dazu muss man ihn alle zwei Stunden neu auftragen.
+Ich schätze die Hälfte meines Vorschusses für das Buch ging beim Sonnenschutz drauf.
+Ich sah aus wie ein glasierter Doughnut für den größten Teil des Jahres.
+Händewaschen.
+Das musste ich anständig machen.
+Mein Immunologe erzählte mir, dass ich auch alle Fernbedienungen und iPhones in meinem Haus abwaschen müsste, da die für Keime regelrechte Orgien sind.
+Das dauerte ganz schön lange.
+Ich versuchte so sicher wie möglich zu sein, das gehört ja auch zu Gesundheit.
+Der dänische Sicherheitsrat hatte mich dazu inspiriert.
+Sie begannen eine Öffentlichkeitskampagne die besagte: "Ein Gehhelm ist ein guter Helm."
+Sie glauben, dass man Helme nicht nur zum Radfahren anziehen sollte, sondern auch zum Umhergehen.
+Und dann sehen Sie auch wie sie mit ihren Helmen beim Einkaufen sind.
+(Lachen) Nun, das habe ich versucht.
+Ich gebe zu, dass das ein bisschen weit geht.
+Aber wenn Sie einmal überlegen, die Autoren von Freakonomics haben darüber geschrieben, dass mehr Menschen pro Kilometer beim betrunkenen Gehen sterben als beim betrunkenen Autofahren.
+Das sollten Sie sich merken, wenn Sie heute Abend ein paar intus haben.
+Also hörte ich auf, in gewisser Weise war es ein Erfolg.
+Alle Marker zeigten in die richtige Richtung.
+Mein Cholesterin ging runter, ich nahm ab, meine Frau erzählte mir nicht mehr, dass ich schwanger aussehen würde.
+Das war schön.
+Und im Großen und Ganzen ein Erfolg.
+Aber ich merkte auch, dass ich zu gesund war, und das war ungesund.
+Ich war so auf all diese Dinge fixiert, dass ich Freunde und Familie vernachlässigte.
+Und wie Ihnen Dan Buettner erzählen kann, ist ein starkes soziales Netz ganz entscheidend für unsere Gesundheit.
+Also hörte ich auf.
+Und ließ mich gehen in der Woche nach Abschluss des Projektes.
+Ich ging zur dunklen Seite und ließ es mir gut gehen.
+Es war wie in Caligula.
+(Lachen) Ohne den Sex.
+Sie müssen wissen, ich habe drei kleine Kinder, also wurde da nichts draus.
+Aber das Überfressen und Übertrinken auf jeden Fall.
+Letztlich stabilisierte ich mich.
+

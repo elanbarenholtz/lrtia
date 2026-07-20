@@ -1,0 +1,241 @@
+Every patient we do has an absolutely bespoke implant.
+Once you've made it, the installation is quite easy.
+John Pepper, bless his heart, professor of cardiothoracic surgery.
+Never done it before in his life, he put the first one in, didn't like it, he put the second one in.
+Happy, away I went.
+Four and a half hours on the table, and everything was done.
+So the surgical implantation was actually the easiest part.
+If you compare our new treatment to the existing alternative, the composite aortic root graft, there are one or two startling comparisons which I'm sure will be clear to all of you.
+Two hours to install one of our devices, compared to 6 hours for the existing treatment.
+As I said, the existing treatment requires the heart-lung bypass machine, and it requires a total body cooling.
+We don't need any of that.
+We work on a beating heart.
+He opens you up, he accesses the aorta while your heart is beating, all at the right temperature.
+No breaking into your circulatory system.
+So it really is great.
+But for me, absolutely the best point is, there is no anticoagulation therapy required.
+I don't take any drugs at all, other than recreational ones that I would choose to take.
+(Laughter) And in fact, if you speak to people who are on long-term warfarin, it is a serious compromise to your quality of life, and even worse, it inevitably foreshortens your life.
+Likewise, if you have the artificial valve option, you're committed to antibiotic therapy whenever you have any intrusive medical treatment, even trips to the dentist require that you take antibiotics, in case you get an internal infection on the valve.
+Again, I don't have any of that, so I'm entirely free, my artery is fixed.
+I haven't got to worry about it, which is a rebirth for me.
+Back to the theme of the presentation, multidisciplinary research, how on earth does a process engineer used to working with boilers end up producing a medical device which transforms his own life?
+Well, the answer to that is, a multidisciplinary team.
+This is a list of the core team, and you can see there aren't only two principal technical disciplines there, medicine and engineering, but also, there are various specialists from within those two disciplines.
+John Pepper was the cardiac surgeon who did all the actual work on me.
+But everyone else had to contribute one way or another.
+Raad Mohiaddin, a medical radiologist.
+We had to get good-quality images from which to make the CAD model.
+Warren Thornton, who still does all our CAD models for us, had to write a bespoke piece of CAD code to produce this model from this really rather difficult input data set.
+There are some barriers to this, though, there are some problems.
+Jargon is a big one.
+I would think no one in this room understands the first four jargon points.
+The engineers amongst you will recognize "rapid prototyping" and "CAD."
+The medics amongst you, if there are any, will recognize the first two, but there will be nobody else here that understands all those four words.
+Taking the jargon out was very important to ensure that everyone in the team understood exactly what was meant when a particular phrase was used.
+Our disciplinary conventions were funny as well.
+We took a lot of horizontal slice images through me, produced those slices and used them to build a CAD model.
+And the very first CAD model we made, the surgeons were playing with it and couldn't quite figure it out.
+And then we realized that it was actually a mirror image of the real aorta.
+And it was a mirror image because in the real world, we always look down on plans, plans of houses, or streets, or maps.
+In the medical world, they look up at plans.
+So the horizontal images were all in inversion.
+So, one needs to be careful with disciplinary conventions.
+Everyone needs to understand what is assumed and what is not.
+Institutional barriers were another serious headache in the project.
+The Brompton Hospital was taken over by the Imperial College School of Medicine.
+And there are some seriously bad relationship problems between the two organizations.
+I was working with the Imperial and the Brompton, and this generated some serious problems for the project.
+Really, problems that shouldn't exist.
+Research &amp; Ethics Committee.
+If you want to do anything new in surgery, you have to get a license from your local Research &amp; Ethics.
+I'm sure it's the same in Poland.
+There will be some form of equivalent which licenses new types of surgery.
+We didn't only have the bureaucratic problems associated with that, we also had professional jealousies.
+There were people on the Research &amp; Ethics committee who really didn't want to see John Pepper succeed again.
+Because he is so successful.
+And they made extra problems for us.
+Bureaucratic problems.
+Ultimately, when you have a new treatment, you have to have a guidance note for all the hospitals in the country.
+In the UK, we have the National Institute and Clinical Excellence.
+You have an equivalent in Poland, no doubt.
+And we had to get past the NICE problem.
+We now have a great clinical guidance, out on the net.
+So any other hospitals interested can come along, read the NICE report, get in touch with us, and then get doing it themselves.
+Funding barriers, another big area to be concerned with.
+A big problem with understanding one of those perspectives.
+When we first approached one of the big, charitable UK organizations that fund this kind of stuff, we essentially gave them an engineering proposal.
+They didn't understand it, they were doctors, next to God, it must be rubbish, they binned it.
+So in the end, I went after private investors, just gave up on it.
+Most R&amp;D is going to be institutionally funded, by the Polish Academy of Sciences or the Engineering and Physical Sciences Research Council, or whatever.
+And you need to get past those people.
+Jargon is a huge problem when you try to work across disciplines, because in an engineering world, we all understand CAD and RP.
+Not in the medical world.
+I suppose the funding bureaucrats ultimately have to get their act together.
+They've really got to start talking to each other, and exercise a bit of imagination, if that's not too much to ask.
+(Laughter) Which it probably is.
+(Laughter) I've coined the phrase "obstructive conservatism."
+So many people in the medical world don't want to change.
+Particularly when some jumped-up engineer has come along with the answer.
+They don't want to change.
+They simply want to do whatever they've done before.
+And in fact, many surgeons in the UK are still waiting for one of our patients to have some sort of an episode, so that they could say, "Told you that was no good."
+We've actually got 30 patients.
+At seven and a half years, we've got 90 post-op patient years between us, and we haven't had a single problem.
+And still, there are people in the UK saying, "That external aortic root, it will never work, you know."
+It really is a problem.
+I'm sure everyone in this room has come across arrogance amongst medics, doctors, surgeons, at some point.
+The middle point is simply the way that the doctors protect themselves.
+"Well, of course, I'm looking after my patient."
+I think it's not good, but that's my view.
+Egos, of course, again a huge problem.
+If you work in a multidisciplinary team, you've got to give your guys the benefit of the doubt, you've got to express support for them.
+Tom Treasure, professor of cardiothoracic surgery.
+Incredible guy.
+Dead easy to give him respect.
+Him giving me respect?
+Slightly different.
+(Laughter) That's all the bad news.
+The good news is, the benefits are stonkingly huge.
+Translate that one!
+I bet they can't.
+(Laughter) When you have a group of people with different professional training, a different professional experience, they not only have a different knowledge base, but also a different perspective on everything.
+And if you can bring them together, and get them talking and understanding each other, the results can be spectacular.
+You can find really novel solutions that have never been looked at before, very quickly and easily.
+You can short-cut huge amounts of work simply by using the extended knowledge base you have.
+And as a result, it's an entirely different use of the technology and the knowledge around you.
+The result of all this is that you can get incredibly quick progress on incredibly small budgets.
+I'm so embarrassed at how cheap it was to get from my idea to me being implanted that I'm not prepared to tell you what it cost, because I suspect there are absolutely standard surgical treatments, probably in the USA, which cost more for a one-off patient than the cost of us getting from my dream to my reality.
+That's all I want to say, and I've got three minutes left.
+So, Ewa's going to like me.
+If you have any questions, please come up and talk to me later on, it would be a pleasure to speak with you.
+Many thanks.
+(Applause)
+Chris Anderson: This is such a strange thing.
+Your software, Linux, is in millions of computers, it probably powers much of the Internet.
+And I think that there are, like, a billion and a half active Android devices out there.
+Your software is in every single one of them.
+It's kind of amazing.
+You must have some amazing software headquarters driving all this.
+That's what I thought -- and I was shocked when I saw a picture of it.
+I mean, this is -- this is the Linux world headquarters.
+(Laughter) (Applause) Linus Torvalds: It really doesn't look like much.
+And I have to say, the most interesting part in this picture, that people mostly react to, is the walking desk.
+It is the most interesting part in my office and I'm not actually using it anymore.
+And I think the two things are related.
+The way I work is ...
+I want to not have external stimulation.
+You can kind of see, on the walls are this light green.
+I'm told that at mental institutions they use that on the walls.
+(Laughter) It's like a calming color, it's not something that really stimulates you.
+What you can't see is the computer here, you only see the screen, but the main thing I worry about in my computer is -- it doesn't have to be big and powerful, although I like that -- it really has to be completely silent.
+I know people who work for Google and they have their own small data center at home, and I don't do that.
+My office is the most boring office you'll ever see.
+And I sit there alone in the quiet.
+If the cat comes up, it sits in my lap.
+And I want to hear the cat purring, not the sound of the fans in the computer.
+CA: So this is astonishing, because working this way, you're able to run this vast technology empire -- it is an empire -- so that's an amazing testament to the power of open source.
+Tell us how you got to understand open source and how it lead to the development of Linux.
+LT: I mean, I still work alone.
+Really -- I work alone in my house, often in my bathrobe.
+When a photographer shows up, I dress up, so I have clothes on.
+(Laughter) And that's how I've always worked.
+I mean, this was how I started Linux, too.
+I did not start Linux as a collaborative project.
+I started it as one in a series of many projects I had done at the time for myself, partly because I needed the end result, but even more because I just enjoyed programming.
+So it was about the end of the journey, which, 25 years later, we still have not reached.
+But it was really about the fact that I was looking for a project on my own and there was no open source, really, on my radar at all.
+And what happened is ...
+the project grows and becomes something you want to show off to people.
+Really, this is more of a, "Wow, look at what I did!"
+And trust me -- it was not that great back then.
+I made it publicly available, and it wasn't even open source at that point.
+At that point it was source that was open, but there was no intention behind using the kind of open-source methodology that we think of today to improve it.
+It was more like, "Look, I've been working on this for half a year, I'd love to have comments."
+And other people approached me.
+At the University of Helsinki, I had a friend who was one of the open source -- it was called mainly "free software" back then -- and he actually introduced me to the notion that, hey, you can use these open-source licenses that had been around.
+And I thought about it for a while.
+I was actually worried about the whole commercial interests coming in.
+I mean, that's one of the worries I think most people who start out have, is that they worry about somebody taking advantage of their work, right?
+And I decided, "What the hell?"
+And -- CA: And then at some point, someone contributed some code that you thought, "Wow, that really is interesting, I would not have thought of that.
+This could actually improve this."
+LT: It didn't even start by people contributing code, it was more that people started contributing ideas.
+And just the fact that somebody else takes a look at your project -- and I'm sure it's true of other things, too, but it's definitely true in code -- is that somebody else takes an interest in your code, looks at it enough to actually give you feedback and give you ideas.
+That was a huge thing for me.
+I was 21 at the time, so I was young, but I had already programmed for half my life, basically.
+And every project before that had been completely personal and it was a revelation when people just started commenting, started giving feedback on your code.
+And even before they started giving code back, that was, I think, one of the big moments where I said, "I love other people!"
+Don't get me wrong -- I'm actually not a people person.
+(Laughter) I don't really love other people -- (Laughter) But I love computers, I love interacting with other people on email, because it kind of gives you that buffer.
+But I do love other people who comment and get involved in my project.
+And it made it so much more.
+CA: So was there a moment when you saw what was being built and it suddenly started taking off, and you thought, "Wait a sec, this actually could be something huge, not just a personal project that I'm getting nice feedback on, but a kind of explosive development in the whole technology world"?
+LT: Not really.
+I mean, the big point for me, really, was not when it was becoming huge, it was when it was becoming little.
+The big point for me was not being alone and having 10, maybe 100 people being involved -- that was a big point.
+Then everything else was very gradual.
+Going from 100 people to a million people is not a big deal -- to me.
+Well, I mean, maybe it is if you're -- (Laughter) If you want to sell your result then it's a huge deal -- don't get me wrong.
+But if you're interested in the technology and you're interested in the project, the big part was getting the community.
+Then the community grew gradually.
+And there's actually not a single point where I went like, "Wow, that just took off!" because it -- I mean -- it took a long time, relatively.
+CA: So all the technologists that I talk to really credit you with massively changing their work.
+And it's not just Linux, it's this thing called Git, which is this management system for software development.
+Tell us briefly about that and your role in that.
+LT: So one of the issues we had, and this took a while to start to appear, is when you ...
+When you grow from having 10 people or 100 people working on a project to having 10,000 people, which -- I mean, right now we're in the situation where just on the kernel, we have 1,000 people involved in every single release and that's every two months, roughly two or three months.
+Some of those people don't do a lot.
+There's a lot of people who make small, small changes.
+But to maintain this, the scale changes how you have to maintain it.
+And we went through a lot of pain.
+And there are whole projects that do only source-code maintenance.
+CVS is the one that used to be the most commonly used, and I hated CVS with a passion and refused to touch it and tried something else that was radical and interesting and everybody else hated.
+CA: (Laughs) LT: And we were in this bad spot, where we had thousands of people who wanted to participate, but in many ways, I was the kind of break point, where I could not scale to the point where I could work with thousands of people.
+So Git is my second big project, which was only created for me to maintain my first big project.
+And this is literally how I work.
+I don't code for -- well, I do code for fun -- but I want to code for something meaningful so every single project I've ever done has been something I needed and -- CA: So really, both Linux and Git kind of arose almost as an unintended consequence of your desire not to have to work with too many people.
+LT: Absolutely.
+Yes.
+(Laughter) CA: That's amazing.
+LT: Yeah.
+(Applause) And yet, you're the man who's transformed technology not just once but twice, and we have to try and understand why it is.
+You've given us some clues, but ...
+Here's a picture of you as a kid, with a Rubik's Cube.
+You mentioned that you've been programming since you were like 10 or 11, half your life.
+Were you this sort of computer genius, you know, übernerd, were you the star at school who could do everything?
+What were you like as a kid?
+LT: Yeah, I think I was the prototypical nerd.
+I mean, I was ...
+I was not a people person back then.
+That's my younger brother.
+I was clearly more interested in the Rubik's Cube than my younger brother.
+(Laughter) My younger sister, who's not in the picture, when we had family meetings -- and it's not a huge family, but I have, like, a couple of cousins -- she would prep me beforehand.
+Like, before I stepped into the room she would say, "OK.
+That's so-and-so ..."
+Because I was not -- I was a geek.
+I was into computers, I was into math, I was into physics.
+I was good at that.
+I don't think I was particularly exceptional.
+Apparently, my sister said that my biggest exceptional quality was that I would not let go.
+CA: OK, so let's go there, because that's interesting.
+You would not let go.
+So that's not about being a geek and being smart, that's about being ... stubborn?
+LT: That's about being stubborn.
+That's about, like, just starting something and not saying, "OK, I'm done, let's do something else -- Look: shiny!"
+And I notice that in many other parts in my life, too.
+I lived in Silicon Valley for seven years.
+And I worked for the same company, in Silicon Valley, for the whole time.
+That is unheard of.
+That's not how Silicon Valley works.
+The whole point of Silicon Valley is that people jump between jobs to kind of mix up the pot.
+And that's not the kind of person I am.
+CA: But during the actual development of Linux itself, that stubbornness sometimes brought you in conflict with other people.
+Talk about that a bit.
+Was that essential to sort of maintain the quality of what was being built?
+How would you describe what happened?
+LT: I don't know if it's essential.
+Going back to the "I'm not a people person," -- sometimes I'm also ...
+shall we say, "myopic" when it comes to other people's feelings, and that sometimes makes you say things that hurt other people.
+And I'm not proud of that.
+

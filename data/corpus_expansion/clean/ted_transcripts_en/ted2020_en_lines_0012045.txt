@@ -1,0 +1,191 @@
+(Applause) But, at the same time, it's -- I get people who tell me that I should be nice.
+And then when I try to explain to them that maybe you're nice, maybe you should be more aggressive, they see that as me being not nice.
+(Laughter) What I'm trying to say is we are different.
+I'm not a people person; it's not something I'm particularly proud of, but it's part of me.
+And one of the things I really like about open source is it really allows different people to work together.
+We don't have to like each other -- and sometimes we really don't like each other.
+Really -- I mean, there are very, very heated arguments.
+But you can, actually, you can find things that -- you don't even agree to disagree, it's just that you're interested in really different things.
+And coming back to the point where I said earlier that I was afraid of commercial people taking advantage of your work, it turned out, and very quickly turned out, that those commercial people were lovely, lovely people.
+And they did all the things that I was not at all interested in doing, and they had completely different goals.
+And they used open source in ways that I just did not want to go.
+But because it was open source they could do it, and it actually works really beautifully together.
+And I actually think it works the same way.
+You need to have the people-people, the communicators, the warm and friendly people who like -- (Laughter) really want to hug you and get you into the community.
+But that's not everybody.
+And that's not me.
+I care about the technology.
+There are people who care about the UI.
+I can't do UI to save my life.
+I mean, if I was stranded on an island and the only way to get off that island was the make a pretty UI, I'd die there.
+(Laughter) So there's different kinds of people, and I'm not making excuses, I'm trying to explain.
+CA: Now, when we talked last week, you talked about some other trait that you have, which I found really interesting.
+It's this idea called taste.
+And I've just got a couple of images here.
+I think this is an example of not particularly good taste in code, and this one is better taste, which one can immediately see.
+What is the difference between these two?
+LT: So this is -- How many people here actually have coded?
+CA: Oh my goodness.
+LT: So I guarantee you, everybody who raised their hand, they have done what's called a singly-linked list.
+And it's taught -- This, the first not very good taste approach, is basically how it's taught to be done when you start out coding.
+And you don't have to understand the code.
+The most interesting part to me is the last if statement.
+Because what happens in a singly-linked list -- this is trying to remove an existing entry from a list -- and there's a difference between if it's the first entry or whether it's an entry in the middle.
+Because if it's the first entry, you have to change the pointer to the first entry.
+If it's in the middle, you have to change the pointer of a previous entry.
+So they're two completely different cases.
+CA: And that's better.
+LT: And this is better.
+It does not have the if statement.
+And it doesn't really matter -- I don't want you understand why it doesn't have the if statement, but I want you to understand that sometimes you can see a problem in a different way and rewrite it so that a special case goes away and becomes the normal case.
+And that's good code.
+But this is simple code.
+This is CS 101.
+This is not important -- although, details are important.
+To me, the sign of people I really want to work with is that they have good taste, which is how ...
+I sent you this stupid example that is not relevant because it's too small.
+Good taste is much bigger than this.
+Good taste is about really seeing the big patterns and kind of instinctively knowing what's the right way to do things.
+CA: OK, so we're putting the pieces together here now.
+You have taste, in a way that's meaningful to software people.
+You're -- (Laughter) LT: I think it was meaningful to some people here.
+CA: You're a very smart computer coder, and you're hellish stubborn.
+But there must be something else.
+I mean, you've changed the future.
+You must have the ability of these grand visions of the future.
+You're a visionary, right?
+LT: I've actually felt slightly uncomfortable at TED for the last two days, because there's a lot of vision going on, right?
+And I am not a visionary.
+I do not have a five-year plan.
+I'm an engineer.
+And I think it's really -- I mean -- I'm perfectly happy with all the people who are walking around and just staring at the clouds and looking at the stars and saying, "I want to go there."
+But I'm looking at the ground, and I want to fix the pothole that's right in front of me before I fall in.
+This is the kind of person I am.
+(Cheers) (Applause) CA: So you spoke to me last week about these two guys.
+Who are they and how do you relate to them?
+LT: Well, so this is kind of cliché in technology, the whole Tesla versus Edison, where Tesla is seen as the visionary scientist and crazy idea man.
+And people love Tesla.
+I mean, there are people who name their companies after him.
+(Laughter) The other person there is Edison, who is actually often vilified for being kind of pedestrian and is -- I mean, his most famous quote is, "Genius is one percent inspiration and 99 percent perspiration."
+And I'm in the Edison camp, even if people don't always like him.
+Because if you actually compare the two, Tesla has kind of this mind grab these days, but who actually changed the world?
+Edison may not have been a nice person, he did a lot of things -- he was maybe not so intellectual, not so visionary.
+But I think I'm more of an Edison than a Tesla.
+CA: So our theme at TED this week is dreams -- big, bold, audacious dreams.
+You're really the antidote to that.
+LT: I'm trying to dial it down a bit, yes.
+CA: That's good.
+(Laughter) We embrace you, we embrace you.
+Companies like Google and many others have made, arguably, like, billions of dollars out of your software.
+Does that piss you off?
+LT: No.
+No, it doesn't piss me off for several reasons.
+And one of them is, I'm doing fine.
+I'm really doing fine.
+But the other reason is -- I mean, without doing the whole open source and really letting go thing, Linux would never have been what it is.
+And it's brought experiences I don't really enjoy, public talking, but at the same time, this is an experience.
+Trust me.
+So there's a lot of things going on that make me a very happy man and thinking I did the right choices.
+CA: Is the open source idea -- this is, I think we'll end here -- is the open source idea fully realized now in the world, or is there more that it could go, are there more things that it could do?
+LT: So, I'm of two minds there.
+I think one reason open source works so well in code is that at the end of the day, code tends to be somewhat black and white.
+There's often a fairly good way to decide, this is done correctly and this is not done well.
+Code either works or it doesn't, which means that there's less room for arguments.
+And we have arguments despite this, right?
+In many other areas -- I mean, people have talked about open politics and things like that -- and it's really hard sometimes to say that, yes, you can apply the same principles in some other areas just because the black and white turns into not just gray, but different colors.
+So, obviously open source in science is making a comeback.
+Science was there first.
+But then science ended up being pretty closed, with very expensive journals and some of that going on.
+And open source is making a comeback in science, with things like arXiv and open journals.
+Wikipedia changed the world, too.
+So there are other examples, I'm sure there are more to come.
+CA: But you're not a visionary, and so it's not up to you to name them.
+LT: No.
+(Laughter) It's up to you guys to make them, right?
+CA: Exactly.
+Linus Torvalds, thank you for Linux, thank you for the Internet, thank you for all those Android phones.
+Thank you for coming here to TED and revealing so much of yourself.
+LT: Thank you.
+(Applause)
+Chris Anderson: We had Edward Snowden here a couple days ago, and this is response time.
+And several of you have written to me with questions to ask our guest here from the NSA.
+So Richard Ledgett is the 15th deputy director of the National Security Agency, and he's a senior civilian officer there, acts as its chief operating officer, guiding strategies, setting internal policies, and serving as the principal advisor to the director.
+And all being well, welcome, Rick Ledgett, to TED.
+(Applause) Richard Ledgett: I'm really thankful for the opportunity to talk to folks here.
+I look forward to the conversation, so thanks for arranging for that.
+CA: Thank you, Rick.
+We appreciate you joining us.
+It's certainly quite a strong statement that the NSA is willing to reach out and show a more open face here.
+You saw, I think, the talk and interview that Edward Snowden gave here a couple days ago.
+What did you make of it?
+RL: So I think it was interesting.
+We didn't realize that he was going to show up there, so kudos to you guys for arranging a nice surprise like that.
+I think that, like a lot of the things that have come out since Mr. Snowden started disclosing classified information, there were some kernels of truth in there, but a lot of extrapolations and half-truths in there, and I'm interested in helping to address those.
+I think this is a really important conversation that we're having in the United States and internationally, and I think it is important and of import, and so given that, we need to have that be a fact-based conversation, and we want to help make that happen.
+CA: So the question that a lot of people have here is, what do you make of Snowden's motivations for doing what he did, and did he have an alternative way that he could have gone?
+RL: He absolutely did have alternative ways that he could have gone, and I actually think that characterizing him as a whistleblower actually hurts legitimate whistleblowing activities.
+So what if somebody who works in the NSA -- and there are over 35,000 people who do.
+They're all great citizens.
+They're just like your husbands, fathers, sisters, brothers, neighbors, nephews, friends and relatives, all of whom are interested in doing the right thing for their country and for our allies internationally, and so there are a variety of venues to address if folks have a concern.
+First off, there's their supervisor, and up through the supervisory chain within their organization.
+If folks aren't comfortable with that, there are a number of inspectors general.
+In the case of Mr. Snowden, he had the option of the NSA inspector general, the Navy inspector general, the Pacific Command inspector general, the Department of Defense inspector general, and the intelligence community inspector general, any of whom would have both kept his concerns in classified channels and been happy to address them.
+(CA and RL speaking at once) He had the option to go to congressional committees, and there are mechanisms to do that that are in place, and so he didn't do any of those things.
+CA: Now, you had said that Ed Snowden had other avenues for raising his concerns.
+The comeback on that is a couple of things: one, that he certainly believes that as a contractor, the avenues that would have been available to him as an employee weren't available, two, there's a track record of other whistleblowers, like being treated pretty harshly, by some views, and thirdly, what he was taking on was not one specific flaw that he'd discovered, but programs that had been approved by all three branches of government.
+I mean, in that circumstance, couldn't you argue that what he did was reasonable?
+RL: No, I don't agree with that.
+I think that the — sorry, I'm getting feedback through the microphone there — the actions that he took were inappropriate because of the fact that he put people's lives at risk, basically, in the long run, and I know there's been a lot of talk in public by Mr. Snowden and some of the journalists that say that the things that have been disclosed have not put national security and people at risk, and that is categorically not true.
+They actually do.
+I think there's also an amazing arrogance to the idea that he knows better than the framers of the Constitution in how the government should be designed and work for separation of powers and the fact that the executive and the legislative branch have to work together and they have checks and balances on each other, and then the judicial branch, which oversees the entire process.
+I think that's extremely arrogant on his part.
+CA: Can you give a specific example of how he put people's lives at risk?
+RL: Yeah, sure.
+So the things that he's disclosed, the capabilities, and the NSA is a capabilities-based organization, so when we have foreign intelligence targets, legitimate things of interest -- like, terrorists is the iconic example, but it includes things like human traffickers, drug traffickers, people who are trying to build advanced weaponry, nuclear weapons, and build delivery systems for those, and nation-states who might be executing aggression against their immediate neighbors, which you may have some visibility into some of that that's going on right now, the capabilities are applied in very discrete and measured and controlled ways.
+So the unconstrained disclosure of those capabilities means that as adversaries see them and recognize, "Hey, I might be vulnerable to this," they move away from that, and we have seen targets in terrorism, in the nation-state area, in smugglers of various types, and other folks who have, because of the disclosures, moved away from our ability to have insight into what they're doing.
+The net effect of that is that our people who are overseas in dangerous places, whether they're diplomats or military, and our allies who are in similar situations, are at greater risk because we don't see the threats that are coming their way.
+CA: So that's a general response saying that because of his revelations, access that you had to certain types of information has been shut down, has been closed down.
+But the concern is that the nature of that access was not necessarily legitimate in the first place.
+I mean, describe to us this Bullrun program where it's alleged that the NSA specifically weakened security in order to get the type of access that you've spoken of.
+RL: So there are, when our legitimate foreign intelligence targets of the type that I described before, use the global telecommunications system as their communications methodology, and they do, because it's a great system, it's the most complex system ever devised by man, and it is a wonder, and lots of folks in the room there are responsible for the creation and enhancement of that, and it's just a wonderful thing.
+But it's also used by people who are working against us and our allies.
+And so if I'm going to pursue them, I need to have the capability to go after them, and again, the controls are in how I apply that capability, not that I have the capability itself.
+Otherwise, if we could make it so that all the bad guys used one corner of the Internet, we could have a domain, badguy.com.
+That would be awesome, and we could just concentrate all our efforts there.
+That's not how it works.
+They're trying to hide from the government's ability to isolate and interdict their actions, and so we have to swim in that same space.
+But I will tell you this.
+So NSA has two missions.
+One is the Signals Intelligence mission that we've unfortunately read so much about in the press.
+The other one is the Information Assurance mission, which is to protect the national security systems of the United States, and by that, that's things like the communications that the president uses, the communications that control our nuclear weapons, the communications that our military uses around the world, and the communications that we use with our allies, and that some of our allies themselves use.
+And so we make recommendations on standards to use, and we use those same standards, and so we are invested in making sure that those communications are secure for their intended purposes.
+CA: But it sounds like what you're saying is that when it comes to the Internet at large, any strategy is fair game if it improves America's safety.
+And I think this is partly where there is such a divide of opinion, that there's a lot of people in this room and around the world who think very differently about the Internet.
+They think of it as a momentous invention of humanity, kind of on a par with the Gutenberg press, for example.
+It's the bringer of knowledge to all.
+It's the connector of all.
+And it's viewed in those sort of idealistic terms.
+And from that lens, what the NSA has done is equivalent to the authorities back in Germany inserting some device into every printing press that would reveal which books people bought and what they read.
+Can you understand that from that viewpoint, it feels outrageous?
+RL: I do understand that, and I actually share the view of the utility of the Internet, and I would argue it's bigger than the Internet.
+It is a global telecommunications system.
+The Internet is a big chunk of that, but there is a lot more.
+And I think that people have legitimate concerns about the balance between transparency and secrecy.
+That's sort of been couched as a balance between privacy and national security.
+I don't think that's the right framing.
+I think it really is transparency and secrecy.
+And so that's the national and international conversation that we're having, and we want to participate in that, and want people to participate in it in an informed way.
+So there are things, let me talk there a little bit more, there are things that we need to be transparent about: our authorities, our processes, our oversight, who we are.
+We, NSA, have not done a good job of that, and I think that's part of the reason that this has been so revelational and so sensational in the media.
+Nobody knew who we were.
+We were the No Such Agency, the Never Say Anything.
+There's takeoffs of our logo of an eagle with headphones on around it.
+And so that's the public characterization.
+And so we need to be more transparent about those things.
+What we don't need to be transparent about, because it's bad for the U.S., it's bad for all those other countries that we work with and that we help provide information that helps them secure themselves and their people, it's bad to expose operations and capabilities in a way that allows the people that we're all working against, the generally recognized bad guys, to counter those.
+CA: But isn't it also bad to deal a kind of body blow to the American companies that have essentially given the world most of the Internet services that matter?
+RL: It is.
+It's really the companies are in a tough position, as are we, because the companies, we compel them to provide information, just like every other nation in the world does.
+Every industrialized nation in the world has a lawful intercept program where they are requiring companies to provide them with information that they need for their security, and the companies that are involved have complied with those programs in the same way that they have to do when they're operating in Russia or the U.K.
+or China or India or France, any country that you choose to name.
+

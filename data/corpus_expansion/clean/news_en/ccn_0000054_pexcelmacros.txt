@@ -1,0 +1,34 @@
+Most of us use macros to automate processes that we repeat or that require specialized knowledge. Regardless of why you use macros, you want them to run as quickly as possible. You can optimize your code by:
+Disabling features that update the sheet
+Avoiding selecting things
+In this article, I'll show you how to make simple changes to your code to optimize it for speed.
+I'm using Excel 2016 on a Windows 10 64-bit system, but these tips will work in older versions. The tips are specific to the desktop version because macros don't run in the browser version. There's no demonstration file; you won't need one.
+1: Disable updating features
+Have you noticed that your screen sometimes flickers while a macro is running? This happens when Excel attempts to redraw the screen to show changes made by the running macro. If screen updates aren't necessary while running the macro, consider disabling this feature so your macro can run a bit faster. Use the following statements to disable and enable this feature:
+Application.ScreenUpdating = False 'macro code Application.ScreenUpdating = True
+You can expect Excel to redraw the screen when the macro completes its work—when you reset the property to True.
+Disabling screen updates won't disable the Status Bar, which displays information during normal operations, including what your macro is doing. To disable updates to the Status Bar, use the DisplayStatusBar property as follows:
+Application.ScreenUpdating = False Application.DisplayStatusBar = False 'macro code Application. DisplayStatusBar = True Application.ScreenUpdating = True
+If your macro is analyzing a lot of data, consider setting the Calculation property to Manual while the macro is running. That way, the workbook won't recalculate unless you force it to by pressing F9. Calculation speed probably isn't a large performance factor is most normal workbooks though, and it can have unexpected results, so use it sparingly—as needed:
+Application.Calculation = xlCalculationManual Application.ScreenUpdating = False Application.DisplayStatusBar = False 'macro code Application. DisplayStatusBar = True Application.ScreenUpdating = True Application.Calculation = xlCalculationAutomatic
+Macros can trigger unnecessary event procedures. For instance, entering a value into a cell triggers the Worksheet_Change event. A few won't be noticeable, but if the macro is complex enough, you might consider disabling events while the macro is running:
+Application.Calculation = xlCalculationManual Application.ScreenUpdating = False Application.DisplayStatusBar = False Application.EnableEvents = False 'macro code Application.EnableEvents = True Application. DisplayStatusBar = True Application.ScreenUpdating = True Application.Calculation = xlCalculationAutomatic
+Similar to setting the Calculation property to Manual, disabling events can have unexpected results, so use it with careful consideration.
+2: Don't select things
+If you use the macro recorder, you may have noticed that it's fond of using the Select method to explicitly reference things. It works, but it's slow and prone to runtime errors. If you want to start with the recorder, do so. Then, review the resulting code for Select methods and change them to Range references. For example, the following recorder code applies italics to C4:C62:
+Sub Macro1() Range("C4:C62").Select Selection.Font.Italic = True End Sub
+The recorder uses the Select method to identify the range. Once you know the right methods and properties—Font.Italic = True—you can easily rewrite the macro as follows:
+Sub Macro2() Range("C4:C62").Font.Italic = True ' Sheets("Divisions").Range("C4:C62").Font.Italic = True ' Range("Table3[Species]").Font.Italic = True End Sub
+Macro2() accomplishes the same thing with one line of code and without selecting the range. In short, you simply combine the two statements and delete the Select method and the Selection object. The optimized code is more efficient and less prone to runtime errors.
+The commented lines show the Sheet and Table object references. The sheet reference is necessary only if you want to run the macro outside of the sheet (Divisions, in this case). The Table references the Species column in a Table named Table3.
+To learn more about efficient selection methods when using VBA, read Excel tips: How to select cells and ranges efficiently using VBA.
+Similar to selecting ranges and objects to perform an action in the sheet, an explicit reference to the sheet also slows down processing. The solution is to use variables. For example, the following code references the same cell (value) six times:
+Function ReturnFeeSlow() Select Case Range("I4") Case 1 ReturnFee = Range("I4") * 10 Case 2 ReturnFee = Range("I4") * 20 Case 3 ReturnFee = Range("I4") * 30 Case 4 ReturnFee = Range("I4") * 40 Case 5 ReturnFee = Range("I4") * 50 End Select MsgBox ReturnFee, vbOKOnly End Function
+At the very least, ReturnFeeSlow() makes two explicit references to I4. It's not changing the value, it's using the value in a simple expression. In this case, it's more efficient to define a variable with the value in I4 and use the variable, as follows:
+Function ReturnFeeFast() Dim intFee As Integer intFee = Range("I4").Value Select Case intFee Case 1 ReturnFee = intFee * 10 Case 2 ReturnFee = intFee * 20 Case 3 ReturnFee = intFee * 30 Case 4 ReturnFee = intFee * 40 Case 5 ReturnFee = intFee * 50 End Select MsgBox ReturnFee, vbOKOnly End Function
+Faster is better
+Please forgive the obnoxiously contrived examples, but the concept is the point, not the code's purpose. Specifically, built-in updating features and explicit references to the sheet or a range will slow down your code. Admittedly, with today's fast systems, simple macros won't always need optimization. However, if you're working with a complex custom application, these easy-to-implement changes should improve efficiency.
+Get more great Office tips and tricks delivered to your inbox. Sign up for TechRepublic's Microsoft Weekly newsletter. Subscribe
+Send me your question about Office
+I answer readers' questions when I can, but there's no guarantee. Don't send files unless requested; initial requests for help that arrive with attached files will be deleted unread. You can send screenshots of your data to help clarify your question. When contacting me, be as specific as possible. For example, "Please troubleshoot my workbook and fix what's wrong" probably won't get a response, but "Can you tell me why this formula isn't returning the expected results?" might. Please mention the app and version that you're using. I'm not reimbursed by TechRepublic for my time or expertise when helping readers, nor do I ask for a fee from readers I help. You can contact me at susansalesharkins@gmail.com.
+Also read...

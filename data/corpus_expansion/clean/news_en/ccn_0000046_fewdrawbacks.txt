@@ -1,0 +1,33 @@
+Before I made the purchase of an Essential Phone, like everyone else, I scoured through review after review. My goal was to sift through the chaff and find something that would key me into understanding what was at the core of the PH-1. It didn't take long for a common thread to bubble up from the surface. That thread? A less-than stellar camera. The good news for me was that I don't consider a smartphone's primary function to be taking photos, so having the best camera available wasn't a top priority.
+With that out of the way, it seemed the PH-1 met all of my needs, and did so at a price point that was right on the money. And thus, I made the purchase, and set aside my OnePlus 3 to embark on a journey with the newest underdog.
+As many of you know, I'm a big fan of the underdog. I've been using Linux as my primary OS for decades, so I'm accustomed to watching a platform scrape and dig for attention and respect. However, after just two weeks of use, I'm convinced the PH-1 shouldn't be considered an underdog but a top dog, in a class by itself.
+That's not to say it's perfect because it's not, but no device is (and anyone who believes otherwise is kidding themselves).
+Now that I've had plenty of time to experience Essential's first foray into the smartphone market, I feel like I have plenty to say about the device. And, with that said, let's dive into the good and the bad.
+SEE: Mobile device computing policy (Tech Pro Research)
+The bad
+I thought I'd flip the script and start with the bad. Why? Because there isn't much in the way of bad to be found. In fact, I have to trick myself into thinking "Maybe photos are more important than I originally thought!" before I can really come up with something negative of note to say about the PH-1.
+It has been well documented that the Essential Phone's camera is lackluster. The software is a bit slow, and the low-light photos are far from great. The selfie camera also suffers from the software issues that hinder the main camera.
+However, after four updates (that's right, four updates since I received the device, more on that in a bit), I've watched the camera app improve exponentially. It's still not nearly as good as the Pixel 2 camera app for instance, but it's passible. For anyone that doesn't consider photos to be a priority, the camera app will suffice.
+The only other nit to pick is that the gorgeous case is the biggest fingerprint magnet I've ever seen. I'm constantly wiping the back down. Had this phone not been nearly as beautiful as it is, the fingerprints wouldn't concern me. But the PH-1 is one of the most elegant smartphones I have ever held in my hand, so my propensity is to keep it clean. Essential should be cleaning up in awards for hardware design—of that there is no doubt.
+Finally, there is no headphone jack. That's okay for two reasons: Bluetooth headphones have come a very long way, and Essential included the necessary dongle so users won't have to toss their standard headphones or other devices that might make use of that common interface.
+And that's it for the bad.
+The good
+There is almost too much to say here , so I'm going to boil it down to a few "essential" items.
+First and foremost: the design. As I said, it's gorgeous. But even the titanium sides and ceramic back take a seat to the display. No it's not the most cutting edge (Essential went with an LCD display, instead of the more popular, flagship level, OLED option), but the edge to edge is absolutely beautiful. Essential essentially proved that a bezel-less device is very much possible and their home screen launcher makes perfect use of the screen real estate (Figure A).
+Figure A
+The one downfall is that not every app found in the Google Play Store makes use of that full screen. To Essential's credit, so far I've only found one app that didn't—Discogs (Figure B).
+Figure B
+Beyond the hardware, there's the stock Android (shipping with Android 7.1.1). If you're looking for nothing but essential Android, the PH-1 delivers. Upon arrival the device included the bare minimum software. There was zero bloat. Couple that with the speedy Qualcomm Snapdragon 835 processor paired with 4GB of RAM and 128GB of internal storage, and that barebones Android runs as smoothly as any flagship device. Period. Apps install quickly, start instantly, and run smoothly. The PH-1 easily stands toe-to-toe with my wife's Samsung Galaxy S8.
+One very crucial aspect many users will appreciate is how quickly the PH-1 receives the Android Security Patch. Since initially turning on the device, my PH-1 has received four Android updates. Even though the device is running Android 7.1.1, it enjoys the most recent Security Patch (Figure C).
+Figure C
+The combination of beautiful and powerful hardware, and up-to-date barebones software make for an incredible experience.
+Who's the ideal PH-1 user?
+Let's make this easy:
+If you're tired of devices shipping with bloat—and who isn't—the PH-1 might be the ideal device for you.
+If you're constantly on-the-go, the titanium case is strong enough to withstand your brutal abuse.
+If you're a fan of the underdog, the PH-1 is the perfect smartphone for you. The ratio of price to performance will absolutely blow you away. No other smartphone, regardless of manufacturer, enjoys this level of form and function. Essential has every right to stand with the leaders in the industry. It's every bit as cool as the iPhone X and as flexible as any Android device—all without the price found with most flagship smartphones.
+If you like your devices to turn heads, the PH-1 is the perfect mix of brawn, brains, and beauty. The look of the PH-1 draws onlookers in, and the performance locks them in. The second you hold the PH-1 in your hand you'll know you've purchased a quality product. This is a flagship smartphone, there's no doubt.
+What more needs to be said?
+Bravo Essential, you've created something special.
+Automatically sign up for TechRepublic's Mobile Enterprise Newsletter for more news and tips. Subscribe
+Also see

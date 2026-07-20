@@ -1,0 +1,303 @@
+Wenn Sie, liebes Publikum, also das nächste Mal jemandem von Ihrem Ziel erzählen wollen, was tun Sie dann?
+Richtig.
+- Bravo.
+(Applaus)
+Als ich 7 Jahre alt war, fragte mich ein Erwachsener wohlwollend, was ich denn mal werden wolle.
+Ich sagte stolz: "Eine Künstlerin!"
+"Auf keinen Fall," sagte er, "vom Künstlerdasein kann man doch nicht leben!"
+Die Träume meines inneren Picassos waren zerstört.
+Aber ich sortierte mich neu, suchte nach neuen Träumen und entschied mich letztlich, Wissenschaftlerin zu werden.
+Vielleicht der nächste Albert Einstein.
+(Lachen) Ich mochte Mathe und Naturwissenschaften schon immer, später dann auch Programmieren.
+Deshalb entschied ich mich für ein Informatikstudium.
+In meinem ersten Jahr zeigte uns der Dozent für Computergrafik diese wunderbaren Kurzfilme.
+Es waren die ersten Computeranimationen, die wir je gesehen hatten.
+Staunend schaute ich die Filme an, in meinem Kopf sprühten Funken.
+Genau das wollte ich im Leben machen.
+Der Gedanke, dass Mathematik, Naturwissenschaften und Programmieren gemeinsam eine neue Welt und eigene Figuren erschaffen könnten, alles durch eine Geschichte verbunden, verzauberte mich.
+Zwei Jahre später begann ich, für die Firma zu arbeiten, die genau diese Filme herstellte: Pixar Animation Studios.
+Dort lernte ich, wie diese Filme entstehen.
+Für unsere Filme bauen wir eine dreidimensionale Welt im Computer auf.
+Wir beginnen mit einem Punkt, aus dem eine Linie, aus der ein Gesicht wird.
+Daraus werden Figuren, Bäume oder Steine, aus denen ein Wald wird.
+Weil es eine dreidimensionale Welt ist, können wir die Kamera durch diese Welt bewegen.
+Das hat mich alles sehr fasziniert.
+Dann probierte ich das erste Mal die Beleuchtung aus.
+Beleuchtung bedeutet, dass man Licht in die 3D-Welt bringt.
+Ich platziere Lichtquellen und verändere ihre Position.
+Hier habe ich ein Licht hinzugefügt.
+Die Beleuchtung wird erst einmal nur grob berechnet.
+Dann kommen Schatten dazu und die Lichtquelle.
+Wenn ich die Lichter platziere, stelle ich mir vor, wie es in Wirklichkeit aussehen würde.
+Ich suche einen Kompromiss mit unserer künstlerischen Vorstellung der Szene.
+So sieht es vielleicht zuerst aus, dann verändern wir hier und dort etwas und innerhalb von Wochen wird aus einer Rohfassung wie dieser diese Endfassung.
+Mein Lieblingsmoment in der Beleuchtung kommt,
+wenn aus dieser Szene diese hier wird.
+Aus den Einzelteilen entsteht ein Ganzes und eine Welt erwacht zum Leben, als wäre es ein tatsächlich existierender Ort.
+Es kann nicht genug dieser Momente geben, vor allem für das kleine Mädchen, das Künstlerin werden wollte.
+Während ich Beleuchten lernte, erfuhr ich, wie man Licht nutzen kann: Man kann Geschichten erzählen, Tageszeiten anzeigen, bestimmte Stimmungen herstellen, das Auge des Betrachters lenken, eine Figur attraktiv erscheinen lassen oder den Fokus auf sie lenken.
+Haben Sie WALL-E entdeckt?
+(Lachen) Da ist er.
+Sie sehen also, wir können jede erdenkliche Welt im Computer erschaffen.
+Wir können eine Welt mit Monstern erschaffen, Roboter sich verlieben lassen, wir verleihen sogar Schweinen Flügel.
+(Lachen) Das ist natürlich alles unglaublich, aber ungebundene künstlerische Freiheit kann schnell auch Chaos heraufbeschwören.
+Welten werden unglaubwürdig.
+Momente werden unglaubwürdig.
+Als Publikum stolpern wir über diese Momente.
+Also müssen wir an den Gesetzen der Naturwissenschaften festhalten.
+Wissenschaft und die Welt, wie wir sie kennen, bilden das Fundament.
+So bleiben wir auf dem Boden der Glaubwürdigkeit.
+"Findet Nemo" ist dafür ein perfektes Beispiel.
+Der größte Teil des Films spielt unter Wasser.
+Wie erschafft man diesen Effekt?
+Wir fingen mit Grundlagenforschung an.
+Wir bauten eine gefilmte Unterwasserszene am Computer nach.
+Wir suchten nach Faktoren, die das ganze zu einem Unterwasserelebnis machten.
+Entscheidend ist zum Beispiel, wie Licht durch das Wasser wandert.
+Wir programmierten also Licht mit der Physik des Wassers.
+Zuerst die Sichtbarkeit des Wassers und dann, was mit den Farben passiert.
+Objekte nahe dem Betrachter erscheinen in kräftigen Farben.
+Wenn Licht in den Tiefen des Meeres verschwindet, gehen zuerst die roten Wellenlängen und dann die grünen verloren.
+Am Ende bleibt nur blaues Licht übrig.
+In diesem Ausschnitt sehen Sie zwei weitere wichtige Elemente.
+Der Seegang und die sogenannte Dünung bilden den unsichtbaren Wasserstrom, der die kleinen Partikel im Wasser hin und her bewegt.
+Der zweite Faktor ist die Kaustik.
+Sie beschreibt die Lichtbänder, die man z. B. auf dem Boden eines Pools sieht, wenn das Sonnenlicht an den Wellen des Wassers auf dem Meeresgrund gebrochen wird.
+Das hier sind Nebelstrahlen.
+Sie geben einen Hinweis auf die Farbtiefe.
+Außerdem zeigen sie an, wo oben ist, wenn wir die Wasseroberfläche nicht sehen.
+Einen anderen coolen Effekt sehen Sie hier: Die kleinen Partikel haben wir nur mit der Kaustik beleuchtet.
+Wenn sie in die Lichtbänder schweben, erscheinen sie, und wenn sie heraus schweben, verschwinden sie.
+Das führt zu einem magischen Unterwasserfunkeln.
+Wir benutzen die Wissenschaften -- die Physik des Wassers, von Licht und Bewegung -- um der künstlerischen Freiheit Grenzen zu setzen.
+Wir müssen uns aber nicht immer daran halten.
+Bei jedem Element überlegen wir, ob wir wissenschaftlich korrekt bleiben müssen oder zum Wohle der Geschichte die Realität etwas verbiegen können.
+Mit der Farbe konnten wir beispielsweise etwas spielen.
+So würde eine traditionelle Unterwasserwelt aussehen.
+Aber wenn wir den Hafen von Sydney mit mehr Grün einfärben, kommt die traurige Stimmung besser zur Geltung.
+In dieser Szene muss man tief in den Ozean schauen können, um zu verstehen, was der Ostaustralische Strom ist.
+Die Schildkröten steigen in ihn wie in eine Achterbahn ein.
+Deswegen haben wir die Wasserströme sehr viel sichtbarer gemacht, als es in der Realität möglich wäre.
+Letztendlich schaffen wir keine wissenschaftlich korrekte Abbildung.
+Wir schaffen eine glaubwürdige Welt, in deren Geschichte das Publikum eintauchen kann.
+Wir nutzen Wissenschaft, um etwas Wundervolles zu erschaffen.
+Mit Geschichten und künstlerischer Note lassen wir Traumwelten entstehen.
+WALL-E ist ein gutes Beispiel.
+Er erkennt Schönheit in den einfachsten Dingen.
+Aber die Beleuchtung stellte uns vor große Probleme.
+Wir hatten diesen überzeugenden Roboter mit so viel Liebe fürs Detail gebaut, dass seine Fernglasaugen optisch perfekt waren.
+(Lachen) Seine "Augen" sind sein wichtigstes Schauspiel-Werkzeug.
+Er hat kein Gesicht oder traditionelle Dialoge.
+Die Animatoren waren deshalb von diesen Fernglasaugen abhängig.
+Damit vermittelten sie seine Emotionen.
+Beim Beleuchten bemerkten wir, dass die dreifachen Linsen in den Augen viel zu viele Reflexionen ergaben.
+Er hatte glasige Augen.
+(Lachen) Glasige Augen sind sehr unpraktisch, wenn man das Publikum davon überzeugen will, dass ein Roboter eine Persönlichkeit hat und sich verlieben kann.
+Wir versuchten also, diese optisch perfekten Fernglasaugen so zu verändern, dass sie weiterhin echte Roboterteile waren, ohne störende Reflexionen zu zeigen.
+Der Prozess begann bei den Linsen.
+Das ist die flache Frontlinse, dann kommt eine konkave Linse und eine konvexe.
+Hier sind alle drei zusammen zu sehen, mit all ihren Reflexionen.
+Wir versuchten sie abzudunkeln, auszublenden; nichts funktionierte.
+Manchmal sollte sich etwas Bestimmtes in seinen Augen spiegeln -- meistens Eve.
+Wir konnten deshalb keine Platzhalterbilder auf die Linsen setzen.
+Hier sehen Sie Eve auf der ersten Linse, auf der zweiten Linse; nichts funktionierte.
+Wir dunkelten die Linse ab, es funktionierte immer noch nicht.
+Dann hatten wir unseren Heureka-Moment.
+Wir fügten ein kleines Licht hinzu, welches zufällig genau in sein Auge fiel.
+Es beleuchtet die graue Blende.
+Diese Blende tritt plötzlich stärker hervor und stellt alles andere in den Hintergrund.
+Jetzt sieht man, dass WALL-E Augen hat.
+Menschen haben das Augenweiß, eine farbige Iris und eine schwarze Pupille.
+WALL-E hat jetzt ein Augenschwarz, graue Blenden und eine schwarze Pupille.
+Damit fühlt es sich an, als hätte WALL-E eine Seele, als wäre er eine Figur mit Emotionen.
+Im letzten Teil des Films verliert WALL-E diese Persönlichkeit und stirbt förmlich.
+Das war die perfekte Stelle, um die glasigen Augen wieder hervorzuholen.
+In der nächsten Szene erwacht WALL-E wieder zum Leben.
+Das Licht kommt zurück, die Blenden sind wieder da und er ist wieder der süße Roboter, in den wir uns verliebt haben.
+(Video) WALL-E: Eva?
+Danielle Feinberg: Es liegt eine Schönheit in diesen unerwarteten Momenten -- wenn man den Schlüssel zur Seele eines Roboters findet; wenn man herausfindet, was man im Leben tun möchte.
+Für mich war die Qualle in "Findet Nemo" so ein Schlüsselmoment.
+In jedem Film gibt es Szenen, die irgendwie nicht passen wollen.
+Diese Szene war eine davon.
+Der Regisseur hatte seine Vorstellung, die auf wunderschönen Videos von Quallen aus dem Südpazifik basierte.
+Als wir uns daran versuchten, gerieten wir ins Wanken.
+Die Vorführungen beim Regisseur wurden weniger eine Gefühlssache, sondern wir diskutierten über Zahlen und Prozente.
+Vielleicht hingen wir stärker als normalerweise an der echten Welt fest, oder wir waren einfach vom Wege abgekommen.
+Wir benutzten plötzlich unser Gehirn, ohne die Augen mitzubenutzen; wir benutzten Wissenschaft ohne Kunst.
+Physikalische Fesseln erwürgten die Szene.
+Trotz der ganzen Frustration glaubte ich trotzdem, dass wir etwas Schönes bauen könnten.
+Als es an die Beleuchtung ging, kniete ich mich richtig rein.
+Ich versuchte Blau und Rosa auszutarieren, die Kaustik auf den Quallenschirmen tanzen zu lassen, wabernde Nebelstrahlen und langsam bildete sich etwas heraus.
+Als ich eines Morgens die Arbeit des letzten Tages ansah,
+war ich ganz begeistert.
+Ich zeigte es der Beleuchtungsleiterin und sie war begeistert.
+Bald darauf zeigte ich die Szene dem Regisseur und 50 weiteren Menschen.
+Bei so einer Präsentation hofft man normalerweise auf ein paar nette Worte, dann bekommt man eine Liste an Veränderungswünschen.
+Am Ende darf man hoffentlich zum nächsten Schritt übergehen.
+Ich präsentierte die Quallen-Szene.
+Der Regisseur schwieg unheimlich lange.
+Lange genug, dass ich anfing zu denken: "Das ist ein totaler Reinfall."
+Dann begann er zu applaudieren.
+Dann applaudierte der Produktionsdesigner.
+Dann applaudierte der ganze Raum.
+Für diese Momente lebe ich, deswegen bin ich Beleuchterin.
+Der Moment, in dem alles zusammen kommt und wir eine Welt betreten, die glaubhaft ist.
+Mit Mathematik, Naturwissenschaften und Programmieren erschaffen wir diese Welten.
+Mit Geschichten und Kunst erfüllen wir sie mit Leben.
+Kunst und Wissenschaft sind so ineinander verwoben, dass es die Welt zu einem Ort voller Wunder macht, zu einem Ort mit Seele; zu einem Ort, an den wir glauben können; zu einem Ort, an dem ausgedachte Dinge real werden können -- eine Welt, in der einem Mädchen plötzlich bewusst wird, dass sie nicht nur eine Wissenschaftlerin ist, sondern auch eine Künstlerin.
+Danke.
+(Applaus)
+Im All wimmelt es von Planeten.
+Ich will, dass wir in nur einem Jahrzehnt ein Weltraumteleskop bauen, das das Bild einer Erde im Orbit eines anderen Sterns erfassen und herausfinden kann, ob es dort Leben geben könnte.
+Meine Kollegen im NASA Jet Propulsion Laboratory in Princeton und ich arbeiten an einer Technologie, die in einigen Jahren genau dazu in der Lage sein wird.
+Astronomen glauben heute, dass jeder Stern in der Galaxis einen Planeten hat.
+Sie schätzen, dass bis zu ein Fünftel davon einen erdähnlichen Planeten hat, auf dem Leben möglich wäre.
+Gesehen aber haben wir noch keinen; wir haben sie nur indirekt erfasst.
+Dies ist das berühmte NASA-Foto vom blass-blauen Punkt.
+Aufgenommen wurde es 1990 von der Raumsonde Voyager, als man sie beim Verlassen des Sonnensystems drehte, um aus einer Entfernung von 6 Mrd. km eine Foto von der Erde zu machen.
+So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen.
+Warum gibt es das noch nicht?
+Warum ist das schwer?
+Stellen Sie sich vor, wir nähmen das Hubble Weltraumteleskop, drehten es um und setzten es in eine Umlaufbahn um den Mars.
+Wir würden vermutlich ein leicht unscharfes Bild der Erde sehen, weil wir ein recht kleines Teleskop in der Umlaufbahn des Mars sind.
+Nun gehen wir auf die 10-fache Distanz.
+Hier sind wir in der Umlaufbahn des Uranus.
+Das Bild ist kleiner, weniger detailliert, gröber.
+Man sieht den kleinen Mond noch.
+Gehen wir wieder 10-mal so weit weg!
+Hier sind wir am Rand des Sonnensystems, im Kuipergürtel.
+Es gibt gar keine Auflösung mehr.
+Die Erde ist nun Carl Sagans blass-blauer Punkt.
+Wir entfernen uns wieder um das 10-Fache.
+Nun sind wir in der Oort'schen Wolke außerhalb des Sonnensystems, und wir sehen, wie die Sonne langsam in unser Sichtfeld rückt, wo sich der Planet befindet.
+Und wieder 10-mal weiter weg.
+Nun sind wir bei Alpha Centauri, unserem nächsten Nachbarstern, und der Planet ist weg.
+Alles, was wir sehen, ist das große strahlende Bild des Sterns, der 10-Mrd.-mal heller leuchtet als der Planet, der in dem kleinen roten Kreis sein sollte.
+Das wollen wir sehen.
+Deshalb ist es so schwer!
+Das Licht vom Stern wird gebeugt, im Inneren des Teleskops gestreut,
+und erzeugt das sehr helle Bild, das den Planeten verblassen lässt.
+Um den Planeten sichtbar zu machen, müssen wir etwas gegen all das Licht tun.
+Wir müssen es loswerden.
+Viele meiner Kollegen arbeiten an tollen Technologien zu dem Zweck, aber ich möchte Ihnen heute die vorstellen, die ich am coolsten finde und die uns am ehesten innerhalb des nächsten Jahrzehnts eine Erde liefert.
+Vorgestellt wurde die Idee 1962 vom Vater des Weltraumteleskops, Lyman Spitzer.
+Dazu angeregt hatte ihn eine Eklipse.
+Sie kennen das alle: eine Sonnenfinsternis.
+Der Mond hat sich vor die Sonne geschoben.
+Er deckt den Großteils des Lichts ab und wir sehen um ihn herum eine matte Korona.
+Es ist wie wenn ich den Daumen hochhalte und den Strahler abblocke, der mich blendet: Ich kann Sie in der hinteren Reihe sehen.
+Also, was passiert hier?
+Nun, der Mond wirft einen Schatten auf die Erde.
+Wir platzieren ein Teleskop oder eine Kamera in diesen Schatten, blicken zurück auf die Sonne, der Großteil des Lichts ist weg, und wir können die matte, feine Struktur in der Korona erkennen.
+Spitzer schlug vor, das im Weltraum nachzustellen.
+Wir bauen eine große Lichtblende, fliegen sie ins All, platzieren sie vor dem Stern, verdecken den Großteil des Lichts, fliegen ein Weltraumteleskop in den so erzeugten Schatten und "Zack!" -- wir sehen Planeten.
+Aussehen würde das ungefähr so:
+Da ist die große Lichtblende -- und es gibt keine Planeten.
+Denn leider funktioniert das so nicht sehr gut, weil die Lichtwellen des Lichts und die Wellen um die Lichtblende gebeugt werden, auf dieselbe Weise wie im Teleskop.
+Es ist wie Wasser, das einen Stein im Bach umfließt, und all das Licht zerstört den Schatten einfach.
+Es ist ein schlechter Schatten: Wir sehen keine Planeten.
+Aber Spitzer kannte die Lösung.
+Wenn wir die Kanten aufbrechen, sie weicher machen könnten, um die Beugung zu reduzieren, dann können wir einen Planeten sehen.
+In den letzten, rund zehn Jahren haben wir genau dafür optimale Lösungen gefunden.
+Eine davon sieht ungefähr so aus:
+Wir nennen sie blütenförmige Sternenblende ("Starshade").
+Wenn wir die Kanten der Blütenblätter genau richtig hinbekommen, regulieren wir ihre Form so, dass wir die Beugung reduzieren.
+Nun ist es ein toller Schatten.
+Er ist etwa 10-Mrd.-mal dunkler als zuvor, und wir erkennen die angestrahlten Planeten -- einfach so.
+Sie muss natürlich größer sein als mein Daumen.
+Starshade ist halb so groß wie ein Fußballfeld.
+Sie muss 50 000 Kilometer vom Teleskop wegfliegen, das exakt in ihrem Schatten bleiben muss, und dann können wir diese Planeten sehen.
+Das klingt schwierig, aber brillante Ingenieure, meine Kollegen bei JPL, haben ein fabelhaftes Design entwickelt, und das sieht so aus.
+Sie ist anfangs um eine Nabe gewickelt.
+Sie trennt sich vom Teleskop.
+Die Blütenblätter entfalten sich -- öffnen sich.
+Das Teleskop dreht sich herum.
+Sie sehen, wie Starshade wendet und 50 000 Kilometer vom Teleskop wegfliegt.
+Sie wird sich vor den Stern platzieren und, einfach so, einen wunderbaren Schatten erzeugen.
+Zack, wir kriegen die Planeten in seiner Umlaufbahn.
+(Applaus) Vielen Dank.
+Das ist kein Science-Fiction.
+Wir arbeiten seit 5 oder 6 Jahren daran.
+Letzten Sommer haben wir einen coolen Test durchgeführt, in Kalifornien bei Northrop Grumman.
+Dies sind vier Blütenblätter einer Starshade im kleinen Maßstab.
+Sie ist ca. halb so groß wie die, die Sie eben sahen.
+Hier entfalten sich die Blätter.
+Vier Studenten haben diese vier Blätter im Sommerpraktikum bei JPL gebaut.
+Sie sehen, wie sie ausfahren.
+Die Blätter müssen sich richtig drehen.
+Das Gerüst der Blätter muss jedes Mal exakt zur selben Stelle ausfahren, auf ein Zehntel Millimeter genau.
+Wir haben den Test 16-mal ausgeführt, und 16-mal blieb es exakt an derselben Stelle stehen, auf ein Zehntel Millimeter genau.
+Dies muss mit absoluter Präzision erfolgen, aber wenn es gelingt, diese Technologie zu bauen und ins All zu bringen, dann könnte man so etwas erblicken:
+Dies ist ein Bild eines unserer Nachbarsterne vom Hubble-Weltraumteleskop.
+Wenn wir ein ähnliches Weltraumteleskop, ein etwas größeres, dort hinausbringen und eine Blende davorfliegen könnten, dann sähen wir vielleicht so etwas ...
+Das ist ein Familienporträt des Sonnensystems --
+aber nicht unseres; wir hoffen auf ein anderes Sonnensystem --, durch eine Blende gesehen, eine Starshade wie diese.
+Sie sehen Jupiter, Saturn, Uranus, Neptun und, direkt dort in der Mitte, neben dem Rest an Licht, ist der blass-blaue Punkt.
+Das ist die Erde.
+Das wollen wir sehen -- sehen, ob es Wasser gibt, Sauerstoff, Ozon, Dinge, die uns verraten, ob es dort Leben geben könnte.
+Für mich ist dies die coolste Wissenschaft.
+Darum arbeite ich in diesem Feld, weil ich denke, das wird die Welt verändern.
+Wenn wir das sehen, wird das alles verändern.
+Vielen Dank.
+(Applaus)
+Als ich ungefähr 8 Jahre alt war, hörte ich zum ersten Mal vom Klimawandel und von globaler Erwärmung.
+Offenbar hatten das Menschen durch ihre Lebensweise gemacht.
+Mir wurde gesagt, ich solle das Licht ausmachen, um Energie zu sparen, und Papier wiederverwenden, um Ressourcen zu sparen.
+Ich erinnere mich, dass ich es sehr seltsam fand, dass Menschen, die eine Tierart von vielen sind, dazu fähig sind, das Erdklima zu verändern.
+Denn wenn wir es wären und es tatsächlich geschah, dann würden wir doch über nichts anderes mehr sprechen.
+Im Fernsehen würde es nur darum gehen.
+Schlagzeilen, Radio, Zeitungen -- wir würden von nichts anderem hören oder lesen, so als wäre ein Weltkrieg ausgebrochen.
+Aber niemand sprach darüber.
+Wenn das Verbrennen fossiler Brennstoffe so schädlich war, dass es unsere Existenz bedrohte, wie konnten wir dann so weitermachen wie bisher?
+Warum gab es keine Beschränkungen?
+Warum wurde es nicht verboten?
+Für mich ergab das keinen Sinn.
+Es war zu unwirklich.
+Mit 11 Jahren wurde ich krank.
+Ich bekam Depressionen.
+Ich hörte auf zu sprechen und zu essen.
+Innerhalb von zwei Monaten verlor ich etwa 10 kg Gewicht.
+Später bekam ich die Diagnose Asperger-Syndrom, Zwangsstörungen und selektiver Mutismus.
+Im Grunde bedeutet es, dass ich nur spreche, wenn ich es für nötig halte.
+Jetzt ist einer dieser Momente.
+(Lachen) (Applaus) Für Menschen mit einer Form von Autismus ist fast alles schwarz oder weiß.
+Wir können nicht gut lügen und meist nehmen wir ungern am sozialen Leben teil, das alle anderen so zu mögen scheinen.
+(Lachen) In vielerlei Hinsicht scheinen Autisten die Normalen und die anderen ziemlich seltsam zu sein.
+(Lachen) Besonders beim Thema Nachhaltigkeit, über das jeder sagt, der Klimawandel sei eine existentielle Bedrohung und das wichtigste Thema von allen, machen alle weiter wie bisher.
+Ich verstehe das nicht, denn wenn Emissionen gestoppt werden müssen, dann müssen wir sie stoppen.
+Ich sehe das schwarz-weiß.
+Es gibt keine Grauzonen, wenn es um das Überleben geht.
+Entweder bestehen wir als Zivilisation weiter oder nicht.
+Wir müssen uns ändern!
+Reiche Länder wie Schweden müssen anfangen, die Emissionen wenigstens um 15 % pro Jahr zu verringern.
+Nur so bleiben wir unter einer Erwärmung von 2 Grad.
+Doch wie der Weltklimarat kürzlich zeigte, könnten wir mit einem Ziel von 1,5° Celsius stattdessen die Folgen für das Klima deutlich reduzieren.
+Wir können uns denken, was das für die Verringerung von Emissionen bedeutet.
+Man sollte meinen, die Medien und sämtliche Politiker würden über nichts anderes reden.
+Aber sie erwähnen es nicht einmal.
+Auch nicht, dass Treibhausgase bereits im System eingeschlossen sind.
+Oder dass Luftverschmutzung eine Erwärmung versteckt, sodass wir beim Verbrennungsstopp fossiler Brennstoffe bereits eine zusätzliche Erwärmung von vielleicht sogar 0,5 bis 1,1° Celsius haben.
+Außerdem spricht kaum jemand darüber, dass wir uns mitten im sechsten Massenaussterben befinden.
+Bis zu 200 Arten sterben tagtäglich aus.
+Arten sterben heute 1.000-mal bis 10.000-mal schneller aus als normal.
+Auch spricht kaum jemand über den Aspekt der Klimagerechtigkeit, welche im Pariser Abkommen überall erwähnt wird und die absolut erforderlich ist, damit es global funktioniert.
+Es bedeutet, reiche Länder müssen ihre Emissionen innerhalb von 6 bis 12 Jahren auf Null reduzieren müssen.
+So bekommen Menschen in ärmeren Ländern die Chance, ihren Lebensstandard durch den Aufbau einer Infrastruktur zu verbessern, die wir bereits haben, wie Straßen, Schulen, Krankenhäuser, sauberes Trinkwasser, Elektrizität und so weiter.
+Denn wie können wir von Ländern wie Indien oder Nigeria verlangen, sich um die Klimakrise zu kümmern, wenn wir, die schon alles haben, uns keine Sekunde darum kümmern oder um unsere konkreten Zusagen zum Pariser Abkommen?
+Warum also reduzieren wir unsere Emissionen nicht?
+Warum steigen sie stattdessen immer noch?
+Verursachen wir absichtlich ein Massenaussterben?
+Sind wir böse?
+Nein, sicher nicht.
+Die Menschen machen weiter, weil ein Großteil keine Ahnung vor den Folgen unseres Alltagslebens hat.
+Sie wissen nicht, dass ein schneller Wandel notwendig ist.
+Wir alle denken, wir wüssten es, und wir alle denken, jeder wüsste es, aber so ist es nicht.
+Wie könnten wir das auch?
+Wenn es wirklich eine Krise gäbe, die durch unsere Emissionen verursacht würde, müssten man wenigstens einige Anzeichen sehen.
+Nicht nur überflutete Städte, zehntausende Tote und ganze Länder voller Trümmer aus abgerissenen Gebäuden.
+Man würde Beschränkungen sehen.
+Aber nein.
+Und niemand spricht darüber.
+Es gibt keine Notfallversammlungen, keine Schlagzeilen, keine aktuellen Nachrichten.
+Niemand handelt, als wären wir in einer Krise.
+

@@ -1,0 +1,261 @@
+Wie hoffen, Ihnen geholfen zu haben.
+Indem sie auf die Dateien zugegriffen haben, haben sie Gesetze gebrochen, aber sie haben auch den Hersteller gezwungen, sein Gerät zu reparieren.
+Der Öffentlichkeit Schwachstellen zu zeigen, ist eine Vorgehensweise, die in der Hacker-Szene "Full Disclosure" genannt wird und die umstritten ist, aber sie brachte mich dazu, darüber nachzudenken, wie Hacker einen evolutionären Effekt auf Technologien haben, die wir jeden Tag nutzen.
+Das ist es, was Khalil getan hat.
+Khalil ist ein palästinensischer Hacker der Westbank und er fand eine ernstzunehmende Sicherheitslücke auf Facebook, die er über das Bug Bounty Programm des Unternehmens melden wollte.
+Das sind normalerweise tolle Programme für Unternehmen, die Hacker für jede Sicherheitslücke belohnen, welche sie im Quellcode finden.
+Aufgrund von Kommunikationsproblemen wurde seinen Meldung leider nicht anerkannt.
+Aus Frustration über diesen Austausch nutzte er seine Entdeckung, um an Mark Zuckerbergs Wall zu posten.
+So bekam er ihre Aufmerksamkeit und sie behoben den Fehler.
+Da Khalil ihn aber nicht ordnungsgemäß gemeldet hatte, wurde ihm die Belohnung verweigert, die normalerweise ausgezahlt wird.
+Jedoch hatte ihn eine Gruppe von Hackern beachtet,
+und tatsächlich sammelten sie über 13.000 Dollar, um ihn für seine Entdeckung zu belohnen, was eine rege Diskussion in der IT-Branche darüber auslöste, wie wir mit Anreizen für Hacker umgehen, das Richtige zu tun.
+Aber ich denke, dass es hier um eine noch größere Sache geht.
+Sogar Unternehmen, die von Hackern gegründet wurden, wie Facebook, haben noch immer eine komplizierte Beziehung zu Hackern.
+Für konservativere Unternehmen wird es also lange dauern, sich zu wandeln, um die Hacker-Kultur und ihr kreatives Chaos wertzuschätzen.
+Aber ich denke, die Mühe lohnt sich, denn die Alternative, blind alle Hacker zu bekämpfen, bedeutet gegen eine Macht sein, die man nicht kontrollieren kann, und das auf Kosten langsamer Innovation und Regulierung von Wissen.
+Das sind Dinge, die sich später rächen.
+Besonders dann, wenn wir Hacker jagen, die bereit sind, ihre Freiheit aufs Spiel zu setzen für Ideale wie die Freiheit des Internets, besonders in Zeiten wie diesen, in denen Regierungen und Unternehmen darum kämpfen,
+das Internet zu kontrollieren.
+Ich finde es erstaunlich, dass jemand aus der dunklen Ecke des Cyberspace die Stimme seiner Opposition werden kann, seine letzte Verteidigungslinie, vielleicht jemand wie Anonymus, die führende Marke des globalen Hacktivismus.
+Die universale Hacker-Bewegung braucht heute keine einleitenden Worte, vor sechs Jahren jedoch war sie nicht vielmehr als eine Internet-Subkultur, die sich dem Verbreiten dämlicher Katzenbilder und Trolling-Kampagnen verschrieben hatte.
+Die Transformation kam Anfang 2008, als Scientology gewisse geleakte Videos von gewissen Seiten entfernen wollte.
+In diesem Moment wurde Anonymus aus einer scheinbar willkürlichen Ansammlung von Internetnutzern geboren.
+Aber das Internet mag es nicht, wenn man versucht, ihm Dinge zu entnehmen.
+Es wird sich mit Cyberattacken, durchdachten Streichen und organisierten Protesten überall auf der Welt, von meiner Heimatstadt Tel Aviv bis nach Adelaide in Australien, wehren.
+Das zeigte, dass Anonymus und diese Idee Menschen von der Tastatur auf die Straßen bringen können, und dies legte den Grundstein für dutzende weitere Aktionen gegen empfundene Ungerechtigkeiten gegen ihre Welt, online wie offline.
+Seitdem haben sie viele Ziele verfolgt.
+Sie haben Korruption und Missbrauch aufgedeckt.
+Sie haben Päpste und Politiker gehackt und ich denke, ihr Effekt ist größer als simple DoS-Angriffe, die Websites zum Absturz bringen oder gar sensible Dokumente offenlegen.
+Ich denke, dass sie, wie Robin Hood, Umverteilung betreiben.
+Aber es geht ihnen nicht um Geld, auch nicht um Ihre Dokumente,
+sondern um Ihre Aufmerksamkeit.
+Sie rücken Fälle in den Fokus, die sie unterstützen und zwingen uns, hinzusehen, indem sie wie eine globale Lupe Probleme fokussieren, deren wir uns nicht bewusst sind, aber eventuell sein sollten.
+Ihnen wurden viele Namen gegeben, von Kriminellen bis zu Terroristen, und ich kann ihre illegalen Aktivitäten nicht rechtfertigen, die Ideen, für die sie kämpfen, betreffen uns aber alle.
+Die Wahrheit ist, dass Hacker viel mehr tun können, als Dinge zu zerstören.
+Sie können Menschen zusammenbringen.
+Und wenn das Internet es nicht mag, dass man versucht, ihm Dinge zu entnehmen, schauen Sie, was passiert, wenn man versucht, es abzuschalten.
+Das geschah in Ägypten im Januar 2011, als Präsident Husni Mubarak in einem verzweifelten Versuch, die Revolution in den Straßen Kairos niederzuschlagen, seine Leute zu Ägyptens Internetanbietern schickte und sie wortwörtlich den Stecker ziehen ließ bei der Anbindung des Landes zur Welt -- über Nacht.
+Nie hatte eine Regierung jemals so etwas getan und für Hacker wurde die Sache dadurch persönlich.
+Hacker wie die Telecomix Group waren im Untergrund schon aktiv und halfen Ägyptern die Zensur zu umgehen, mit ausgefuchsten Workarounds, wie Morsezeichen und Amateurfunk.
+Es war Hochsaison für "Low-Tech", die die Regierung nicht blockieren konnte, aber als das Internet ganz zusammenbrach, fuhr Telecomix schweres Geschütz auf.
+Sie fanden europäische Anbieter, die noch 20 Jahre alte, analoge Einwählsysteme hatten.
+Sie stellten 300 Stück davon für Ägypter bereit und lieferten so eine langsame, aber funktionierende Internetverbindung.
+Es funktionierte.
+Es funktioniere so gut, dass jemand sogar eine Folge HIMYM herunterladen konnte.
+Doch während Ägyptens Zukunft noch immer unsicher ist, war Telecomix vorbereitet, als das gleiche nur ein Jahr später in Syrien passierte.
+Anonymus war die vielleicht erste internationale Gruppierung, die das Vorgehen des syrischen Militärs öffentlich anprangerte, indem sie ihre Website verunstalteten.
+Aber bei dieser Art von Macht kommt es sehr darauf an, an wessen Seite man ist, denn des einen Held ist des anderen Verbrecher.
+So ist die Syrian Electronic Army eine Pro-Assad-Gruppe von Hackern, die sein umstrittenes Regime unterstützt.
+Sie nahmen in den vergangenen Jahren mehrere hochrangige Ziele in Visier, darunter den Twitter-Account von Associated Press, auf welchem sie eine Nachricht posteten, dass Obama bei einem Anschlag auf das Weiße Haus verletzt wurde.
+Der Tweet war natürlich ein Fake, die resultierenden Kursverluste des Dow Jones hingegen waren es nicht und so verloren eine Menge Leute eine Menge Geld.
+Solche Dinge geschehen gerade auf der ganzen Welt.
+In Konflikten auf der Krim und in Lateinamerika, in Europa und den Vereinigten Staaten, sind Hacker eine soziale, politische und militärische Macht.
+Ob als Individuen oder in Gruppen, als Ehrenamtliche oder in militärischen Konflikten.
+Hacker gibt es überall.
+Sie kommen aus allen sozialen Schichten, haben verschiedene Ethnien, unterschiedliche ideologische Hintergründe und Geschlechter.
+Sie gestalten jetzt das Weltgeschehen.
+Hacker stellen heute eine außergewöhnliche Kraft für Veränderung dar.
+Weil Zugang zu Informationen ein entscheidender Machtfaktor ist, den Regierungen gern kontrollieren würden.
+Das versuchen sie, indem sie allumfassende Überwachungsprogramme etablieren, wofür sie übrigens Hacker brauchen.
+Daher hat die Regierung eine weit zurückreichende Hass-Liebe zu Hackern, weil dieselben Leute, die das Hacken verteufeln, es auch im großen Stil nutzen.
+Vor zwei Jahren sah ich General Keith Alexander.
+Er ist der Direktor der NSA und Cyber-Kommandeur, aber anstatt seiner Vier-Sterne-General Uniform, trug er Jeans und T-Shirt.
+Das war auf der DEF CON, der größten Hacker-Konferenz der Welt.
+Wie auch ich sah er dort vielleicht keine 12 000 Kriminelle in Las Vegas.
+Ich denke, er sah ungenutztes Potential.
+Tatsächlich war er dort, um eine Stelle auszuschreiben.
+"In diesem Raum", sagte er "ist das Talent, das unsere Nation braucht."
+Hacker in der letzten Reihe antworteten: "Dann hört auf, uns zu verhaften."
+(Gelächter) (Applaus) Jahrelang standen Hacker auf der falschen Seite, aber im Lichte unseres heutigen Wissens, wer passt besser auf unsere Internetwelt auf?
+Die Spielregeln sind nicht mehr so klar wie früher, aber vielleicht sind Hacker die einzigen, die in der Lage sind, Regierungen und datensammelnde Unternehmen auf ihrem eigenen Spielfeld herauszufordern.
+Für mich stellt das eine Hoffnung dar.
+Über die letzten drei Jahrzehnte haben Hacker viel getan, sie haben aber auch Bürgerrechte, Innovation und Internetfreiheit beeinflusst, und ich denke, es ist an der Zeit, sich genau anzuschauen, wie wir Hacker darstellen.
+Wenn wir sie nämlich weiterhin als die bösen Buben sehen, wie können sie dann auch Helden sein?
+Meine Jahre in der Hacker-Szene haben mich sowohl das Problem als auch das Schöne der Hacker wahrnehmen lassen: Sie können einfach nichts Kaputtes in dieser Welt sehen und lassen, wie es ist.
+Sie haben den Zwang, Kaputtes entweder auszunutzen oder es zu verändern, und so finden sie die zerbrechlichen Dinge in unserer sich schnell wandelnden Welt.
+Sie bringen uns dazu, sie zwingen uns dazu, Dinge zu reparieren oder etwas Besseres zu verlangen, und ich denke, wir brauchen sie, um genau das zu tun, dann letztlich ist es nicht Information, die frei sein will, sondern wir.
+Vielen Dank.
+(Applaus)
+Hackt den Planeten!
+Jeden Tag im Leben bewegst du dich durch Machtsysteme anderer Menschen.
+Spürst du sie?
+Verstehst du Macht?
+Ist dir klar, warum sie so wichtig ist?
+Macht ist etwas, worüber wir nicht gerne sprechen.
+Das trifft besonders auf das Leben innerhalb der Gemeinschaft zu.
+In einer Demokratie sollte die Macht beim Volk liegen, Punkt.
+Alles weitere Gerede über Macht und wer sie innehat wirkt ein bisschen schäbig, vielleicht sogar böse.
+Aber Macht ist grundsätzlich weder besser noch schlechter als Feuer oder Physik.
+Sie existiert einfach.
+Sie bestimmt, wie jede Form von Regierung funktioniert.
+Sie legt fest, wer die Spielregeln bestimmt.
+Nur wenn man weiß, wie Macht funktioniert, kann man etwas bewirken, wird ernst genommen und nicht ausgenutzt.
+In dieser Lektion sehen wir uns an, wo Macht herkommt, wie sie ausgeübt wird und was man tun kann, um in der Öffentlichkeit an mehr Macht zu gelangen.
+Beginnen wir mit einer einfachen Definition.
+Macht ist die Fähigkeit, andere das machen zu lassen, was du willst.
+Natürlich zählt dies in allen Bereichen des Lebens, von der Familie über die Arbeit bis zu unseren Beziehungen.
+Unser Fokus liegt auf der Öffentlichkeit, wo Macht heißt, dass die Gesellschaft entscheidet und die Maßnahmen durchführt, die du willst.
+Es gibt sechs Quellen bürgerlicher Macht.
+Da ist zuerst die körperliche Kraft und das Gewaltpotenzial.
+Kontrolle der Gewaltmittel, ob in der Polizei oder im Militär, ist Macht in ihrer ursprünglichsten Form.
+Eine zweite Hauptquelle von Macht ist der Wohlstand.
+Geld schafft die Möglichkeit, Resultate und jede Art von Macht zu kaufen.
+Die dritte Form von Macht ist staatliches Handeln, die Regierung.
+Gesetze und Bürokratie zwingen Menschen dazu, Dinge zu tun oder zu unterlassen.
+In einer Demokratie, zum Beispiel, geben wir als Volk theoretisch der Regierung ihre Macht durch Wahlen.
+In einer Diktatur entsteht Staatsmacht durch Gewaltandrohung, nicht durch die Zustimmung der Regierten.
+Die vierte Machtquelle ist die soziale Norm oder was für Menschen als okay gilt.
+Normen haben kein zentralisiertes Regierungssystem.
+Sie wirken in abgeschwächter Form unter Gleichrangigen.
+Sie können sicherlich das Verhalten von Menschen und sogar Gesetze verändern.
+Denk an die Entwicklungen der Ehenormen für gleichgeschlechtliche Partner.
+Die fünfte Form von Macht sind Ideen.
+Eine Idee wie z. B. individuelle Freiheit oder Rassengleichheit kann eine unbegrenzte Fülle an Macht erschaffen, wenn sie genug Menschen dazu motiviert, ihr Denken und Handeln zu verändern.
+Und somit ist die sechste Quelle von Macht die Menge, viele Menschen.
+Eine laute Menschenmasse erzeugt Macht, indem sie gemeinsame Interessen ausdrückt und Rechtmäßigkeit beansprucht.
+Denk an den Arabischen Frühling oder den Aufstieg der Tea Party.
+Massen zählen.
+Es gibt sechs Hauptquellen der Macht.
+Also denken wir jetzt darüber nach, wie Macht ausgeübt wird.
+Es lohnt sich, drei Gesetze der Macht zu untersuchen.
+Gesetz Nr. 1: Macht ist nie statisch.
+Sie wächst entweder oder verringert sich in der Öffentlichkeit.
+Wenn du also nichts unternimmst, entscheidet jemand anderer über dich.
+Gesetz Nr. 2: Macht ist wie Wasser.
+Sie fließt wie die Strömung durch den Alltag.
+Politik ist die Arbeit, diese Strömung in eine bevorzugte Richtung zu lenken.
+Politische Maßnahmen sind das Bestreben, einen bestimmten Kraftfluss zu zementieren und zu erhalten.
+Politik ist zementierte Macht.
+Gesetz Nr. 3: Machtverbindungen.
+Macht erzeugt mehr Macht, ebenso wie Machtlosigkeit.
+Ob Gesetz Nr. 3 zu einer Situation führt, in der nur eine Person alle Macht innehat, hängt davon ab, wie wir Gesetz 1 und 2 anwenden.
+Welche Regeln stellen wir auf, dass ein paar Menschen nicht zu viel Macht haben und nicht ihr Vorrecht in politischen Maßnahmen verankern?
+Das ist die Frage der Demokratie und du siehst jedes der Gesetze in jedem Nachrichtenbericht.
+Billiglohnarbeiter organisieren sich für eine bessere Bezahlung.
+Ölkonzerne drängen zur Genehmigung von großen Pipelines.
+Schwule und lesbische Paare versuchen das Recht auf Heirat zu erlangen.
+Eltern in den Städten verlangen nach Schulgutscheinen.
+Du kannst diese Bemühungen unterstützen oder nicht.
+Ob du bekommst, was du willst, hängt davon ab, wie geschickt du mit Macht umgehst, was uns zu deinen Möglichkeiten führt, um zu mehr Macht im öffentlichen Leben zu gelangen.
+Denk dabei an Bildung.
+Deine Herausforderung ist zu lernen, wie man Macht liest und schreibt.
+Macht lesen heißt, so vielen mächtigen Texten wie möglich Aufmerksamkeit zu schenken.
+Ich meine nicht nur Bücher.
+Ich meine, die Gesellschaft als eine Reihe von Texten zu sehen.
+Gefallen dir die Dinge in deiner Uni, Stadt, deinem Land nicht?
+Arbeite heraus, wer welche Art von Macht in welchen Systemen besitzt.
+Verstehe, warum es so geworden ist, wer es so entschieden hat und wer es so belassen will.
+Ergründe die Strategien anderer in folgenden Situationen: Frontalangriff oder Umwege, Vereinigungen oder charismatische Köpfe.
+Lies, damit du schreiben kannst.
+Um Macht zu schreiben, muss man zuerst glauben, dieses Recht zu besitzen, um ein federführender Autor zu sein.
+Du bist einer.
+So wie mit jeder Art von Schreiben lernst du dich auszudrücken, sprich mit einer authentischen Stimme.
+Ordne erst deine Ideen und dann organisiere andere Menschen.
+Übe das Erzielen von Einigkeit.
+Übe Konflikt.
+So wie mit dem Schreiben geht es überall um Übung.
+Du kannst täglich in deiner Nachbarschaft und darüber hinaus üben.
+Setze dir Ziele, dann größere Ziele.
+Beobachte die Muster, finde heraus, was funktioniert.
+Passe sie an und wiederhole sie.
+Das ist Staatsbürgerschaft.
+In dieser kurzen Lektion erforschten wir, wo Bürgermacht herkommt, wie sie funktioniert und was man tun kann, um sie auszuüben.
+Die große Frage, die bleibt, ist das "Warum" der Macht.
+Möchtest du, dass Macht jedem oder nur dir nützt?
+Sind deine Absichten sozial oder anti-sozial ausgerichtet?
+Hier geht es nicht um Strategie.
+Es geht um Charakter, aber das ist etwas für andere Lektionen.
+Aber denk daran: Macht und Charakter ergeben einen guten Bürger, und du hast die Macht, ein solcher zu sein.
+Ich bin ein Immigrant aus Uganda und lebe in den Vereinigten Staaten, während ich auf die Bewilligung meines Asylantrags warte.
+Migranten haben in unserer heutigen Welt nicht viel Bewegungsfreiheit.
+Das trifft sicher auf alle zu, die verzweifelt genug sind, um Boote durch eine raue und stürmische See zu navigieren.
+Diesen Risiken sind meine Cousins aus West- und Nordafrika ausgesetzt, wenn sie versuchen, nach Europa überzusetzen.
+Für einen Migranten ist es wirklich eine seltene, aber glückliche Gelegenheit, vor einer solchen Versammlung zu sprechen.
+Das zeigt jedoch auch, was in der weltweiten Debatte über Flüchtlinge, Migranten und Immigranten so oft fehlt: die Stimmen der Entrechteten.
+Die Bürger vieler Gastländer, selbst die, die vormals die Neuankömmlinge begrüßten, fühlen sich angesichts der steigenden Zahl an Neuankömmlingen unwohl.
+Es wird umgehend kritisiert, die Neuankömmlinge würden die Stabilität der Sozialsysteme und Arbeitsmärkte in diesen Ländern umkippen.
+Unsichere und skeptische Bürger schauen zu den Politikern, die sich gegenseitig an Populismus und Nationalismus zu überbieten suchen.
+Es ist ein Wettkampf darum, wer den Migranten gegenüber am härtesten ist, am ehesten gewillt ist, Einreiseverbote zu verhängen, und sich am stärksten für den Mauerbau einsetzt.
+All diese Einschränkungen betreffen aber nur die Symptome, nicht die Ursachen.
+Warum kommen sie?
+Migranten könnten ihre Ansichten teilen, wenn Politiker nur zuhören würden.
+In Dubai habe ich das Unrecht und die Benachteiligungen aufgezeichnet, die den Gastarbeitern regelmäßig angetan werden.
+Die Regierungen der jeweiligen Länder übten daraufhin Druck auf mich aus und beendeten meine Karriere als Journalist im Nahen Osten.
+Ich wurde nach Uganda abgeschoben, wo der wirtschaftliche Mangel viele Menschen verhungern lässt.
+Ich floh aus Uganda in die Vereinigten Staaten, in der Hoffnung, eine Stimme für meine Brüder und Schwestern zu sein, die als Migranten große Not erfahren.
+Mein Vater war nicht glücklich darüber, dass ich ein Buch schrieb, mit dem ich Abschiebung und Arbeitslosigkeit riskierte.
+Er war seit Jahren Diabetiker, schon als ich noch in Dubai arbeitete.
+Mein Gehalt hatte immer für seine Behandlungskosten ausgereicht.
+Nachdem man mich ausschloss, konnte ich es mir nicht leisten, seine Behandlung fortzuführen.
+Selbst in seinen letzten Tagen konnte ich es mir nicht leisten, ihn ins Krankenhaus zu bringen.
+Als ich seinen Leichnam im letzten Juni in meinen Armen zum Grab trug, wurde mir klar, dass ich für meine Meinung einen hohen Preis gezahlt hatte.
+Sich gegen vielschichtige Ungerechtigkeit einzusetzen ist nie einfach, denn solche Probleme verlangen mehr als nur Rhetorik.
+Solange Goldminen, Ölfelder und große Farmen in Afrika weiter ausländischen Investoren gehören, die diese entscheidenden Ressourcen in den Westen verschiffen, wird der Strom an afrikanischen Migranten nicht abnehmen.
+Keine Beschränkung der Welt kann je die Migrationswelle aufhalten, die unsere Menschheitsgeschichte ausmacht.
+Bevor Grenzkontrollen verschärft und neue Visabeschränkungen erlassen werden können, sollten Länder mit einer langen Einwanderungsgeschichte in einen offeneren Dialog eintreten.
+Das ist der einzige pragmatische Ansatz für gegenseitige Versöhnung angesichts eines Vermächtnisses von Ausbeutung, Versklavung, Kolonialismus und Imperialismus, um so gemeinsam eine gerechtere Weltwirtschaft im 21. Jahrhundert erschaffen zu können: eine, die allen zugutekommt.
+Wir alle wissen, dass das World Wide Web Publizieren, Rundfunk, Handel und soziale Vernetzung total verwandelt hat, aber wo kommt das alles her?
+Ich werde drei Menschen zitieren: Vannevar Bush, Doug Engelbart und Tim Berners-Lee.
+Wollen wir uns diese Jungs mal näher anschauen.
+Das ist Vannevar Bush.
+Vannevar Bush war im Krieg wissenschaftlicher Chefberater der US-Regierung.
+1945 veröffentlichte er in einer Zeitschrift namens Atlantic Monthly einen Artikel.
+Dieser Artikel hieß "As We May Think".
+Darin sagte Vannevar Bush, dass die Art, wie wir Informationen benutzen, kaputt sei.
+Wir funktionieren nicht wie Bibliotheken und Katalogsysteme und dergleichen.
+Das Gehirn arbeitet mit Assoziationen.
+Denkt es einmal an eine Sache, hüpft es sofort zur nächsten,
+und die Strukturierung von Informationen ist völlig ungeeignet, bei diesem Prozess Schritt zu halten.
+Und so stellte er eine Maschine vor, und er nannte sie Memex.
+Der Memex würde Informationen verknüpfen, eine Information mit einer dazugehörigen Information und so weiter.
+Das geschah 1945.
+Damals war ein Computer etwas, was Geheimdienste zum Knacken von Codes benutzten.
+Und niemand wusste darüber Bescheid.
+Das war also vor der Erfindung des Computers.
+Und er stellte diese Maschine namens Memex vor.
+Er hatte eine Plattform, auf der man Informationen miteinander verbinden, und auf Wunsch aufrufen konnte.
+Wenn wir einmal vorwärts spulen: Einer, die diesen Artikel gelesen hatte, war Doug Engelbart, Mitglied der US Air Force.
+Er las diesen Artikel in ihrer Bibliothek im fernen Osten.
+Dieser Artikel inspirierte ihn so sehr, dass er gewissermaßen den Rest seines Lebens bestimmte.
+Mitte der Sechziger konnte er diese Inspiration bei seiner Arbeit im Stanford Research Lab, Californien in die Tat umsetzen.
+Er baute ein System.
+Es war zur Erweiterung der menschlichen Intelligenz bestimmt, so nannte man das.
+In Voraussicht der heutigen Welt, mit Cloud Computing und Softwareservices, nannte er es NLS für oN-Line System.
+Und das ist Doug Engelbart.
+Auf der Fall Joint Computer Conference gab er 1968 eine Präsentation.
+Was er zeigte -- er saß auf einer Bühne wie dieser und demonstrierte dieses System.
+Er hatte ein Headset-Mikrophon wie ich.
+Und er bediente dieses System.
+Sie können sehen, wie er zwischen Dokumenten und Graphiken und so weiter schaltet.
+Er steuert alles von dieser Plattform hier mit einer 5-Fingertastatur. und der ersten Computermaus der Welt, die er extra für dieses System entworfen hatte.
+Hier kommt also auch die Maus her.
+Das ist Doug Engelbart.
+Das Problem an Doug Engelbarts System war, dass Computer in jenen Tagen mehrere Millionen Pfund kosteten.
+Der Besitz eines Heimcomputers für ein paar Millionen war genauso wie der eines Privatjets, nicht wirklich praktisch.
+Doch springen wir in die 80er, als Heimcomputer tatsächlich ankamen, und es Platz für solche Systeme auf einem Heimcomputer gab.
+Mein Unternehmen, OWL, baute ein System namens Guide für den Apple Macintosh.
+Wir lieferten das aller erste Hypertextsystem,
+und es fing an, ein Eigenleben zu entwickeln.
+Apple führte ein Ding namens HyperCard ein und machte ganz schön Aufhebens darum.
+Am Tag seiner Markteinführung hatten sie eine zwölfseitige Zugabe im Wall Street Journal.
+Die Zeitschriften fingen an, darüber zu berichten.
+Byte Magazine und Communications at the ACM hatten Sonderausgaben zu Hypertext.
+Wir entwickelten eine PC-Version dieses Produktes und eine Macintosh-Version.
+Und unsere PC-Version wurde ganz schön ausgefeilt.
+In den 80ern gibt es einige Beispiele für dieses System im Einsatz.
+Wir konnten Dokumente liefern, konnten Arbeiten über Nacht durchführen.
+Wir entwickelten ein System mit Markup-Sprache auf Html-Basis.
+Wir nannten sie hml: Hypertext Markup Language.
+Und das System bekam sehr, sehr große Dokumentationssysteme über Computernetzwerke hin.
+Also brachte ich es zu einer Handelsmesse in Versailles bei Paris im späten November 1990.
+Dort sprach mich ein netter junger Mann namens Tim Berners-Lee an.
+Er sagte "Sind Sie Ian Ritchie?"
+ich sagte "Jawohl."
+Und er sagte: "Ich muss mit Ihnen sprechen."
+Und er erzählte mir von seinem geplanten System namens World Wide Web.
+Ich dachte, nun das ist ein pompöser Name, besonders, weil das ganze System über den Computer in seinem Büro lief.
+Aber er war davon überzeugt, dass dieses World Wide Web eines Tages die ganze Welt übernehmen würde.
+Er wollte mich dazu bringen, dass ich einen Browser schreibe, weil sein System keine Graphiken, Schrifttypen oder Layouts hatte.
+Es war einfach nur Text.
+

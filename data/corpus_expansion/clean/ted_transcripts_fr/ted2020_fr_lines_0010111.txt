@@ -1,0 +1,254 @@
+En 1926, Kurt Lewin, le fondateur de la psychologie sociale, a appelé cela "substitution".
+En 1933, Wera Mahler a découvert que, si quelque chose était reconnu par les autres, il semblait réel à l'esprit.
+En 1982, Peter Gollwitzer a écrit un livre uniquement là-dessus, et en 2009, il a mené de nouveaux tests qu'il a publiés.
+Les voici : 163 personnes dans 4 tests différents --
+chacun écrit son but personnel,
+une moitié annonce son engagement vers ce but aux autres, l'autre moitié non.
+Ensuite, chacun a 45 minutes de travail pour se rapprocher de son but, mais peut s'arrêter quand il le veut.
+Ceux qui se sont tus ont travaillé les 45 minutes, en moyenne.
+Quand on les interroge, ils disent qu'ils ont eu l'impression qu'il leur fallait encore beaucoup de temps pour y arriver.
+Ceux qui avaient annoncé leur but, se sont arrêtés après 33 minutes, en moyenne.
+Quand on les interroge, ils disent qu'ils se sentent beaucoup plus proches de leur but.
+Si c'est vrai, que pouvons-nous faire?
+Eh bien, vous pouvez résister à la tentation de tout révéler.
+Vous pouvez retarder la récompense que la reconnaissance sociale apporte.
+Vous pouvez comprendre que votre esprit confond le discours et l'action.
+Mais si vous devez parler de quelque chose, vous pouvez le faire d'une manière qui ne vous procure aucune satisfaction, par exemple, "Je veux vraiment courir ce marathon, donc je dois m'entraîner 5 fois par semaine, et donne-moi un coup de pied si je ne le fais pas, d'accord?"
+Donc, public, la prochaine que vous serez tentés de dévoiler votre but, que direz-vous?
+Exactement.
+Bien joué.
+(Applaudissements)
+A sept ans, un adulte bien intentionné m'a demandé ce que je voulais faire dans la vie.
+Fièrement, j'ai répondu : « Artiste.
+» « Mais non ! » a-t-il dit, « Tu ne gagneras pas ta vie en étant artiste !
+» Mes rêves de Picasso ont été détruits.
+Mais je me suis reprise, et j'ai cherché un nouveau rêve, jusqu'à décider de devenir une scientifique, quelque chose comme la nouvelle Albert Einstein.
+(Rires) J'ai toujours aimé les sciences, et plus tard, la programmation.
+Alors, j'ai décidé d'étudier ça à l'université.
+En première année, mon professeur en graphique nous a montré de magnifiques courts-métrages.
+C'était la première animation digitale que nous ayons jamais vue.
+J'ai regardé ces films, émerveillée, hypnotisée, des feux d'artifice plein la tête, pensant : « Voilà ce que je veux faire de ma vie.
+» L'idée que les maths, la science et la programmation pourraient s'unir pour créer ces mondes, ces personnages et ces histoires qui me parlaient, était de la pure magie.
+Deux ans plus tard, je travaillais là où on créait ces films, les studios d'animation Pixar.
+C'est là que j'ai appris comment on crée ces films.
+Pour créer nos films, on crée un monde tridimensionnel sur ordinateur.
+On commence avec un point qui forme une ligne pour faire un visage qui crée un personnage, ou des arbres et des rochers qui deviennent une forêt.
+Et parce que c'et un monde tridimensionnel, on peut filmer à l'intérieur de ce monde.
+J'étais fascinée par tout cela.
+Mais après j'ai eu un avant-goût de l'éclairage.
+L'éclairage consiste à mettre des lumières dans ce monde tridimensionnel.
+En réalité, j'ai des icônes de lumière que je déplace.
+Là, j'ai ajouté une lumière, J'ouvre l'ébauche d'éclairages dans notre logiciel, affiche les ombres et je place la lumière.
+A ce moment, je pense à ce à quoi ça ressemblerait dans la vie réelle, tout en équilibrant avec les besoins artistiques et l'histoire.
+Ça pourrait ressembler à ça au début, mais si on ajuste cela et bouge cela des semaines plus tard, l'ébauche pourrait ressembler à ça, et, la version finale, à ça.
+C'est ce moment dans l'éclairage, qui m'en a fait tomber amoureuse.
+C'est quand on passe de ça, à ça.
+C'est le moment où tout s'assemble, et tout d'un coup le monde prend vie comme si un tel endroit existait vraiment.
+On ne se fatigue pas de ce moment, surtout pour cette fille de sept ans qui voulait devenir une artiste.
+En apprenant à éclairer, j'aide à raconter une histoire, en montrant quelle heure il est, en créant une humeur, en guidant les yeux du spectateur, en rendant le personnage attrayant ou le faisant ressortir dans une scène.
+Avez-vous vu WALL-E ?
+(Rires) Il est là.
+Comme vous voyez, on peut créer tous les mondes que l'on veut sur ordinateur.
+On peut faire un monde rempli de monstres, de robots qui tombent amoureux, ou même faire voler des cochons.
+(Rires) Même si c'est une chose incroyable, cette liberté artistique infinie peut aussi créer le chaos.
+Elle peut créer des mondes artificiels, des mouvements ridicules, des choses discordantes aux yeux du public.
+Pour éviter ça, on s'attache à la science.
+On utilise la science et notre monde comme colonne vertébrale, pour se rapprocher de quelque chose de reconnaissable et familier.
+« Le Monde de Nemo » en est un parfait exemple.
+Une grande partie du film se déroule sous la mer.
+Comment peut-on faire pour que ça y ressemble ?
+Lors des premières recherches, nous avons filmé sous l'eau et nous l'avons recréé sur ordinateur.
+Ensuite nous l'avons sectionné pour voir quels élements constituaient cet effet.
+L'un des plus essentiels est la façon dont la lumière pénètre dans l'eau.
+Alors on a codé une lumière qui imite cet effet.
+D'abord, la visibilité de l'eau, et après ce qui arrive à la couleur.
+Les objets proches de nous reflètent leur couleur vive.
+Quand la lumière pénétre plus loin dans l'eau, on perd la perception du rouge, puis du vert, nous laissant avec le bleu dans les profondeurs.
+Dans cette vidéo, vous voyez deux autres éléments importants.
+Le premier, c'est la marée, ou courants sous-marins invisibles qui font bouger les particules dans l'eau.
+La deuxième, c'est le caustique.
+Ce sont les traits de lumière, comme ceux au fond d'une piscine, qui sont créés quand le soleil traverse les vagues et la surface de l'océan.
+On a des rayons de lumière.
+Ils indiquent la profondeur, mais aussi où se trouve la surface dans des scènes où l'on n'a pas de repère.
+L'autre chose sympa que vous voyez ici, c'est que l'on éclaire cette particule seulement avec la caustique, pour qu'elle circule dans ces rayons de lumière elle apparaît et elle disparaît en donnant à l'eau une brillance délicate et magique.
+Vous voyez comment on utilise la science, la physique de l'eau, la lumière et le mouvement -- pour permettre cette liberté artistique.
+Mais nous ne lui sommes pas liés.
+On examine chacun de ces éléments, ceux qui doivent être scientifiquement précis et ceux que l'on peut modifier pour l'atmosphère et l'histoire.
+On a vite compris que l'on avait plus de marge avec la couleur.
+Voici une scène sous-marine aux couleurs classiques.
+Mais on peut teinter d'une couleur verte le port de Sydney pour transmettre la tristesse de la scène.
+Dans cette scène, il est important que l'on voit les profondeurs, pour comprendre le courant est-australien, dans lequel les tortues font un tour de montagnes russes.
+On a augmenté la visibilité de l'eau au-delà de tout ce que vous verriez dans la vie réelle.
+Parce qu'à la fin, on n'essaye pas de recréer un monde scientifiquement correct, on essaie de créer un monde crédible, où le public peut se plonger dans l'histoire.
+On utilise la science pour créer du rêve.
+On utilise l'histoire et l'art pour nous transporter dans des lieux fantastiques.
+Ce robot, WALL-E, en est un exemple parfait.
+Il trouve la beauté dans les choses simples.
+Mais quand il a fallu l'éclairer, on avait un gros problème.
+On s'est tellement cassé la tête pour créer un robot convaincant, qu'on a créé des jumelles visuellement parfaites.
+(Rires) Ces jumelles étaient un de ses instruments d'action les plus importants.
+Il n'a pas de visage ou une langue traditionnelle.
+Alors les animateurs dépendaient beaucoup de ces jumelles pour exprimer ses actions et émotions.
+En l'éclairant, on comprit que les triples lentilles de ces jumelles réfléchissaient trop de lumière.
+Il semblait avoir des yeux vitreux.
+(Rires) Les yeux vitreux sont une chose terrible quand on doit convaincre le public qu'un robot a une personnalité et qu'il peut tomber amoureux.
+Alors on a travaillé sur ces jumelles visuellement parfaites, en essayant de trouver une solution pour garder sa nature de robot mais en résolvant ce problème de reflets.
+Sont venues les lentilles.
+Voici une lentille plate, ici une lentille concave et une convexe.
+Et les voilà toutes les trois, qui nous montrent différents reflets.
+On a essayé d'annuler leur effet, on a essayé de les bloquer, rien n'a marché.
+Vous voyez ici, parfois une chose précise doit se refléter dans ses yeux -- en général, c'est Eve.
+On ne pouvait pas utiliser une image abstraite sur les lentilles.
+Voici Eve dans les premières lentilles, dans les secondes, ça ne marche pas.
+On les enlève, et ça ne marche pas non plus.
+Alors on a eu une illumination.
+On a ajouté une lumière qui éclaire les yeux de WALL-E.
+Vous voyez que ça illumine ces lames de diaphragme grises.
+Soudain, ces lames de diaphragme traversent ce reflet comme rien d'autre ne peut le faire.
+Maintenant WALL-E a des yeux.
+Comme les hommes ont le blanc des yeux, l'iris colorée et la pupille noire.
+Maintenant WALL-E a le noir des yeux, les lames de diaphragmes grises et les pupilles noires.
+Soudain, WALL-E semble avoir une âme, comme s'il était un personnage avec des émotions.
+Vers la fin du film, WALL-E perd sa personnalité, il meurt.
+C'est le moment parfait pour reprendre l'aspect vitreux de ses yeux.
+Dans la scène suivante, WALL-E ressuscite.
+On l'éclaire pour retrouver les lames de diaphragme grises. et il redevient le robot doux et sensible que nous aimons.
+(Vidéo) WALL-E : Eve ?
+Danielle Feinberg : Ces moments inattendus sont très beaux -- quand on trouve la clef de l'âme d'un robot, le moment où l'on découvre ce qu'on veut faire dans sa vie.
+La méduse dans « Le monde de Nemo » a été un de ces moments pour moi.
+Dans chaque film, il y a une scène difficile à créer.
+Celle-là en faisait partie.
+Le réalisateur avait une idée de cette scène basée sur de magnifiques vidéos de méduses dans le Pacifique.
+Au fur et à mesure, on était en difficulté.
+Les compte-rendus avec le réalisateur sont passés d'une conversation détendue à de plus en plus de questions sur des chiffres et pourcentages.
+Peut-être parce qu'étrangement, on basait le film sur quelque chose de réel, ou parce qu'on s'était juste perdu.
+On utilisait notre cerveau, sans les yeux. la science sans l'art.
+La réalité scientifique étouffait la scène.
+Malgré toutes ces frustrations, je pensais qu'elle pouvait être belle.
+Quand j'ai commencé à éclairer, je m'y suis dédiée.
+En travaillant à équilibrer les bleus et les roses, les caustiques qui dansaient sous les méduses, les rais de lumière ondulant, quelque chose d'intéressant commença à apparaître.
+Un matin, j'ai regardé mon travail de la veille.
+J'étais excitée.
+Je l'ai montré au régisseur des lumières et elle a été emballée.
+Peu après, je le présentais au réalisateur dans une salle avec 50 personnes.
+Lors du compte-rendu, on espère avoir des compliments, ensuite des remarques et critiques, en général.
+Puis, finalement, on te donne l'accord de passer à la scène suivante.
+J'ai montré mon intro, et j'ai mis la scène de la méduse.
+Le réalisateur est resté silenceux pendant un très long moment.
+Assez long pour que je puisse me dire : « Oh non, c'est foutu.
+» Et il a commencé à applaudir.
+Puis, le concepteur artistique.
+Et finalement, toute la salle.
+C'est pour ces moments que je fais ce travail.
+Le moment où tout fait sens et où l'on crée un monde auquel on peut croire.
+On utilise la science et la programmation pour créer ces mondes incroyables.
+On utilise les histoires et l'art pour leur donner vie.
+C'est la coexistence de l'art et la science qui transforme le monde en un lieu magique, un lieu avec une âme, un lieu auquel on peut croire, un lieu où les choses qu'on imagine deviennent réelles -- et un monde où tout d'un coup, une fille réalise qu'elle n'est pas seulement une scientifique, mais aussi une artiste.
+Merci.
+(Applaudissements)
+L'univers grouille de planètes.
+Je veux que, dans la décennie à venir, nous construisions un télescope capable de fournir les images d'une Terre orbitant autour d'une autre étoile et comprendre si elle peut abriter des formes de vie.
+Mes collègues du Jet Propulsion Laboratory de la NASA à Princeton et moi travaillons sur une technologie qui sera capable de cela dans les années à venir.
+Les astronomes pensent désormais que chaque étoile de notre galaxie à une planète, et ils supposent qu'un cinquième de celles-ci ont une planète similaire à la Terre qui pourrait être capable d'abriter la vie, mais nous n'en avons jamais vu.
+Nous les avons seulement détectées indirectement.
+Voici la célèbre photo du point bleu pâle prise par la NASA.
+Elle a été prise par la sonde Voyager en 1990, alors qu'elle faisait demi-tour à la sortie du système solaire afin de prendre une photo de la Terre à une distance de six milliards de kilomètres.
+Je veux faire la même chose avec une planète similaire à la Terre orbitant autour d'une étoile.
+Pourquoi n'avons-nous pas fait cela ?
+Pourquoi est-ce difficile ?
+Imaginions que nous prenions le télescope spatial Hubble et que nous le retournions et le déplacions le long de l'orbite de Mars.
+On obtiendrait ça, une photo légèrement floue de la Terre, parce que c'est un assez petit télescope situé sur l'orbite de Mars.
+Maintenant éloignons-nous dix fois plus.
+Nous sommes sur l'orbite d'Uranus.
+C'est plus petit, avec moins de détails, moins de résolution.
+Nous pouvons toujours voir la petite lune, mais éloignons nous encore dix fois plus.
+Nous nous trouvons aux limites du système solaire, à la ceinture de Kuiper.
+Maintenant la résolution est nulle.
+C'est le point bleu pâle de Carl Sagan.
+Mais éloignons-nous encore dix fois plus.
+Nous sommes au niveau du nuage d'Oort, en dehors du système solaire, et nous commençons à voir le soleil entrer dans notre champ de vision, là où se trouve la planète.
+Une fois de plus, dix fois plus loin.
+Nous sommes dans Alpha du Centaure, l'étoile la plus proche de nous, et la planète a disparu.
+Nous voyons seulement le rayonnement de l'étoile dix milliards de fois plus brillant que la planète, qui se trouve dans le cercle rouge.
+C'est ce que nous voulons voir.
+C'est pourquoi c'est difficile.
+La lumière provenant de l'étoile est diffractée.
+Elle est diffractée dans le télescope, créant cette image très brillante qui cache la planète.
+Donc, pour voir la planète, nous devons faire quelque chose au sujet cette lumière.
+Nous en débarrasser.
+Beaucoup de mes collègues travaillent sur des technologies capables de cela, mais je voudrais vous parler aujourd'hui de celle que je pense être la plus cool, et qui nous fera probablement découvrir une Terre dans la décennie à venir.
+Lyman Spitzer, le père du télescope spatial, l'a suggéré en premier, en 1962.
+Il s'est inspiré d'une éclipse.
+Voici une éclipse solaire.
+Vous en avez déjà vu.
+La lune se place devant le soleil.
+Elle occulte presque toute la lumière, ce qui nous permet de voir la couronne solaire.
+Il se passerait la même chose si je bloquais la lumière du projecteur avec mon pouce.
+Je pourrais vous voir, au dernier rang.
+Eh bien, que se passe-t-il ?
+Eh bien, la lune jette une ombre sur la Terre.
+Nous avons placé un télescope ou un appareil photo dans cette ombre, nous regardons le soleil, et la plupart de la lumière a été éliminée et nous pouvons voir cette structure sombre et fine dans la couronne solaire.
+Spitzer a suggéré de faire la même chose dans l'espace.
+Nous construisons un écran géant, l'envoyons dans l'espace, le plaçons devant une étoile, occultant une grande partie de la lumière, nous envoyons un télescope dans cette ombre ainsi créée, et boum, nous voyons les planètes.
+Eh bien, ça aurait l'air de quelque chose comme ça.
+Voilà l'écran géant, et il n'y a pas de planètes, parce que, hélas, ça ne fonctionne pas très bien, parce que les ondes lumineuses sont diffractées autour de cet écran comme dans le télescope.
+C'est comme l'eau contournant une pierre dans un ruisseau, toute cette lumière détruit l'ombre.
+C'est une très mauvaise ombre.
+Nous ne pouvons pas voir les planètes.
+Mais Spitzer avait la réponse.
+Si nous pouvions adoucir les bords afin de contrôler la diffraction, nous pourrions voir une planète, et ces dix dernières années, nous avons trouvé des solutions optimales pour cela.
+Ça ressemble à peu près à ça.
+Nous l'appelons le starshade en forme de pétales de fleur.
+Si nous construisons parfaitement le bord des pétales, si nous contrôlons leur forme, nous pouvons contrôler la diffraction, et maintenant l'ombre est excellente,
+environ 10 milliards de fois plus sombre qu'avant, et nous pouvons voir les planètes rayonner d'un coup.
+Bien sûr, il faut que ce soit plus gros que mon pouce.
+Ce starshade est environ de la taille d'un demi-terrain de football et doit s'envoler à 50 000 kilomètres du télescope qui doit être positionné dans son ombre de façon à pouvoir voir ces planètes.
+Ça a l'air formidable, mais des ingénieurs très intelligents, mes collègues au JPL, ont conçu un projet fabuleux et qui ressemble à ça.
+Il commence enroulé autour d'un moyeu.
+Il se détache du télescope.
+Les pétale se déploient, ils s'ouvrent, le télescope se retourne.
+Puis on peut le voir se retourner et s'envoler à 50 000 kilomètres de distance du télescope.
+Il va se placer devant l'étoile comme ça, en créant une ombre exceptionnelle.
+Boum, on peut voir les planètes orbitant tout autour.
+(Applaudissements) Merci.
+Ce n'est pas de la science-fiction.
+Nous travaillons à ce projet depuis cinq ou six ans.
+L'été dernier, nous avons effectué un test vraiment cool en Californie à Northrop Grumman.
+Ici on peut voir quatre pétales.
+C'est un starshade à petite échelle,
+environ la moitié de la taille que celui que vous venez de voir.
+Vous voyez les pétales se déployer.
+Ces quatre pétales ont été construits par quatre étudiants en stage au JPL.
+Maintenant vous le voyez se déployer.
+Ces pétales doivent pivoter à leur place.
+La base de ces quatre pétales doit se positionner au même endroit à chaque fois, au dixième de millimètre près.
+Nous avons effectué ce test 16 fois, et à chaque fois, elle s'est placée exactement au même endroit au dixième de millimètre près.
+Ça doit être très précis, mais si nous pouvons le faire, si nous pouvons construire cette technologie, si nous pouvons l'envoyer dans l'espace, vous pourrez voir quelque chose comme ça.
+C'est une photo d'une des étoiles proches de nous prise avec le télescope spatial Hubble.
+Si nous pouvons prendre un télescope semblable, légèrement plus grand, l'envoyer là-bas, placer un disque occultant devant, nous pourrions voir quelque chose comme cela.
+Voici une photo de notre système solaire, mais pas le nôtre.
+Le système solaire de quelqu'un d'autre vu à travers un disque occultant, à travers un starshade comme celui-ci.
+On peut voir Jupiter, on peut voir Saturne, Uranus, Neptune, et juste là au centre, près de la lumière résiduelle se trouve le point bleu pâle.
+La Terre.
+C'est ce que nous voulons voir.
+Voir s'il y a de l'eau, de l'oxygène, de l'ozone, les choses qui nous pourraient nous dire si la vie peut exister.
+Je pense que c'est la science la plus cool qui soit.
+C'est pourquoi je fais cela, parce que je pense que ça va changer le monde.
+Tout va changer quand nous verrons cela.
+Merci.
+(Applaudissements)
+A l'âge de 8 ans environ, j'ai entendu parler pour la première fois de changement climatique ou réchauffement climatique.
+Apparemment, c'était quelque chose que les humains avaient créé de par leur manière de vivre.
+On me disait d'éteindre les lumières pour économiser l'énergie, et de recycler le papier pour économiser les ressources.
+Je me rappelle avoir pensé que c'était vraiment étrange que les humains, qui sont une espèce animale parmi d'autres, soient capables de changer le climat de la Terre.
+Car si nous le pouvions, et si cela était réellement en train de se passer, nous ne parlerions que de cela.
+Dès qu'on aurait allumé la TV, tout aurait été consacré à ce sujet.
+Gros titres, radio, journaux, vous n'auriez jamais pu lire ou entendre quoi que ce soit d'autre, comme si une guerre mondiale faisait rage.
+Mais personne n'en parlait jamais.
+Si brûler des combustibles fossiles était mauvais au point de menacer notre existence, comment pouvions-nous continuer à le faire ?
+Pourquoi n'y avait-il aucune restriction ?
+Pourquoi n'était-ce pas déclaré illégal ?
+Pour moi, cela n'avait aucun sens.
+C'était trop irréel.
+De sorte qu'à 11 ans, je suis tombée malade.
+

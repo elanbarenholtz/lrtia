@@ -1,0 +1,164 @@
+L'autre est la sécurité de l'information et du traitement des données, qui protège les systèmes de sécurité nationaux des États-Unis.
+Des choses comme, les systèmes de communication utilisés par le président, les systèmes de communication qui contrôlent nos armes nucléaires, les moyens de communication utilisés par nos militaires dans le monde, et les systèmes de communication que nous utilisons avec nos alliés, et quelques-uns sont aussi utilisés par nos alliés eux-mêmes.
+Nous faisons des recommandations sur les normes d'utilisation, et nous utilisons ces mêmes standards, et nous faisons en sorte que ces communications puissent être utilisées de manière fiable pour ce pour quoi elles sont faites.
+CA : Dans ce que vous dites, il semblerait que lorsque l'on parle d'internet au sens large, toutes les solutions sont bonnes si elles peuvent améliorer la sécurité de l'Amérique.
+Et à mon avis, c'est sur ce point, que les opinions sont si divisées, il y a beaucoup de gens dans cette pièce et dans le monde qui ont une idée très différente d'internet.
+C'est pour eux une invention prodigieuse de l'humanité, au même titre que l'invention de l'imprimerie par Gutenberg, par exemple.
+C'est la connaissance à portée de tous.
+C'est un lien entre tous.
+Et c'est ressenti de cette manière idéaliste.
+Et de ce point de vue, ce qu'a fait la NSA s'apparente à ce qu'auraient pu faire, en leur temps, les autorités allemandes en insérant un dispositif dans toutes les presses, qui aurait permis de savoir qui achète quoi et qui lit quoi.
+Pouvez-vous envisager cela de ce point de vue, cela paraît monstrueusement choquant ?
+RL : Je comprends tout à fait cela, et je partage le point de vue sur l'utilité d'internet, j'ajouterais même que ça va au-delà d'internet.
+C'est un système de télécommunication mondial.
+Internet n'est que la partie émergée de l'iceberg,
+mais il y a bien plus.
+Je pense que les gens ont tout à fait le droit de s'inquiéter de l'équilibre qu'il doit y avoir entre transparence et opacité.
+Cela a été formulé comme si il s'agissait d'un équilibre entre vie privée et sécurité nationale.
+Je ne pense pas que ce soit la bonne manière de voir les choses.
+Je pense qu'il s'agit réellement de ce qui est transparent et de ce qui est secret.
+C'est le débat national et international actuel, nous voulons y prendre part, et nous voulons que les gens y participent en étant informés.
+Donc il y a des choses, permettez-moi de parler de cela un peu plus longuement, il y a des choses sur lesquelles nous devons être transparents : nos autorités, nos procédures, notre surveillance, qui nous sommes.
+Nous, la NSA, n'avons pas fait du bon travail de ce côté-là, et je pense que c'est en partie, la raison pour laquelle, cela a été une telle révélation, et cela a fait autant sensation dans les médias.
+Personne ne savait réellement qui nous étions.
+Nous étions la « No Such Agency » ,
+la « Never Say Anything » .
+Il y a des caricatures de notre logo un aigle qui porte des écouteurs.
+C'est l'image que le public a de nous.
+Nous nous devons d'être plus transparents concernant ces choses.
+Ce sur quoi nous ne devons pas être plus transparents, parce que ce n'est pas bon pour les États-Unis, ainsi que pour tous les pays avec lesquels nous travaillons, et que nous aidons à obtenir des informations qui leur permettent d'assurer leur sécurité et celle de leur population, il n'est pas bon de mettre à jour les opérations et les capacités, d'une manière telle que cela permettrait aux gens contre lesquels nous travaillons, les criminels reconnus comme tels, de les contrer.
+CA : N'est-ce pas aussi un mauvais coup porté aux entreprises américaines, qui ont donné au monde la plupart des services qui comptent sur Internet ?
+RL : Oui, c'est vrai.
+Cela met vraiment les entreprises dans une position difficile, de même que nous, parce que nous les contraignons à délivrer des informations, comme le font toutes les nations du monde.
+Tous les pays industrialisés dans le monde ont des programmes d'interception de données légaux, via lesquels ils demandent aux entreprises de leur fournir les informations dont ils ont besoin pour leur sécurité.
+Les entreprises impliquées se conforment toutes à ces programmes de la même manière quand elles travaillent en Russie ou en Grande-Bretagne,
+en Chine, en Inde ou en France, quel que soit le pays dont on parle.
+Le fait que ces révélations se soient faites dans les termes suivants : « vous ne pouvez pas faire confiance à l'entreprise A parce que votre vie privée devient suspecte avec eux », cela n'est vrai que dans la mesure où c'est ce qui se passe dans toutes les entreprises du monde qui traitent avec l'un de ces pays dans le monde.
+Du coup, les gens l'utilisent comme un argument marketing, cela a été vendu comme ça dans plusieurs pays, des pays alliés inclus, où il se dit : « Hé, vous ne pouvez pas faire confiance aux États-Unis, mais faites confiance à nos entreprises de télécommunications, parce qu'elles sont sécurisées.
+» En réalité, ils utilisent cet argument pour contrecarrer l'avance technologique qu'ont les entreprises américaines dans le domaine de l'informatique dématérialisée
+et des technologies basées sur internet.
+CA : Vous êtes assis là, avec le drapeau américain, et la Constitution américaine nous garantit la liberté contre les « perquisitions et saisies non motivées ».
+Comment définiriez-vous le droit des citoyens américains à la vie privée ?
+Ce droit existe-t-il ?
+RL : Oui bien sûr, il existe.
+Et nous y consacrons une quantité de temps et de force démesurée, démesurée et nécessaire je devrais dire, une quantité de temps et d'efforts dans le but de protéger cette vie privée.
+Au delà de ça, la vie privée des citoyens dans le monde, il n'est pas seulement question des Américains.
+Plusieurs choses sont en jeu ici.
+Premièrement : nous utilisons tous le même réseau.
+Mes communications, j'utilise un service de courrier électronique qui est aussi celui le plus utilisé par les terroristes dans le monde : le numéro un.
+Donc je suis juste à côté d'eux dans cet espace, au sein d'Internet.
+Donc nous devons être capables de séparer ces données, et de trouver l'information qui nous est utile.
+En faisant cela, il est évident que nous allons rencontrer
+des Américains et d'innocents citoyens étrangers qui sont simplement en train de faire leurs affaires.
+Dans ce cas-là nous avons des procédures qui écartent ces informations.
+Elles nous disent, quand vous trouvez cela, pas si vous trouvez ceci, quand vous trouvez ceci, parce qu'il est certain que vous allez le trouver,
+c'est comme cela que vous protégez cela.
+Elles s'appellent les procédures de minimisation.
+Elles sont approuvées par le Procureur Général et basées sur la Constitution.
+Et donc nous protégeons ceux-là.
+Et donc, pour les gens, les citoyens du monde qui vaquent à leurs occupations légales, quotidiennement, le président dans son discours du 17 janvier, a énoncé un certain nombre de protections supplémentaires que nous leur fournissons.
+Donc je pense réellement, que tout le monde a droit à la vie privée, et que nous travaillons très dur pour protéger ce droit.
+CA : Que faites-vous des étrangers qui utilisent les services Internet de compagnies américaines ?
+Ont-ils un droit à la vie privée ?
+RL : Tout à fait.
+Ils l'ont dans le sens où il n'y a que trois cas dans lesquels nous pouvons contraindre l'une de ces entreprises à nous donner des informations : lorsque nous pouvons identifier une personne en particulier, identifiée par un certain type de sélecteur, associée à la lutte contre le terrorisme, ou à la prolifération, ou à tout autre cible de services de renseignement étrangers.
+CA : Il a beaucoup été dit qu'un grand nombre des renseignements obtenus avec l'aide de ces programmes
+sont essentiellement des métadonnées.
+Ce ne sont pas vraiment les mots que nous pouvons écrire dans un mail ou utiliser par téléphone.
+C'est à qui c'est écrit, quand, et ainsi de suite.
+Mais certains disent, et quelqu'un ici dans le public a parlé à un ancien analyste de la NSA, selon lui les métadonnées sont beaucoup plus invasives que les données de base, parce que dans les données de base, vous vous présentez de la manière dont vous souhaitez.
+Avec les métadonnées, personne ne peut dire quelles conclusions vont en découler.
+Qu'en est-il ?
+RL : Je ne comprends pas vraiment ce débat.
+Je pense que les métadonnées sont importantes pour plusieurs raisons.
+Elles vous permettent d'établir des liens entre les personnes
+qui souhaitent les cacher.
+Quand un terroriste entre en contact avec quelqu'un que nous ne connaissons pas mais qui soutient ou participe aux activités terroristes, ou quelqu'un qui viole des sanctions internationales en fournissant des armes nucléaires ou du matériel à un pays comme l'Iran ou la Corée du Nord, cette personne essaye de cacher ses activités
+parce qu'elles sont illicites.
+Les métadonnées vous permettent de relier tout ça.
+Une gigantesque collection de contenu serait une alternative à cela beaucoup moins efficace et beaucoup plus invasive en ce qui concerne la propriété privée.
+Donc vu sous cet angle, les métadonnées, sont en fait un apport positif pour le droit à la vie privée.
+Et contrairement, à certaines choses qui ont été écrites, nous ne sommes pas là assis à entrecroiser les métadonnées de tout le monde.
+Si vous n'avez aucun lien avec une cible précise des services de renseignement vous ne nous intéressez pas.
+CA : Donc en ce qui concerne les menaces auxquelles l'Amérique doit faire face, en général, à quel niveau situez-vous le terrorisme ?
+RL : Je pense que le terrorisme est toujours la première de ces menaces.
+Je pense qu'il n'y a jamais eu autant de lieux où les choses se passent mal et qui forment des substrats dans lesquels les terroristes profitent du manque de gouvernance pour se développer.
+Un de mes anciens supérieurs, Tom Fargo, Amiral Fargo, avait l'habitude de décrire ça comme des « arcs d'instabilité ».
+Il y a de nombreux « arcs d'instabilité » dans le monde en ce moment, des endroits comme la Syrie où, à l'heure actuelle, se déroule une guerre civile et il y a un nombre important des milliers et des milliers de combattants étrangers qui vont en Syrie pour apprendre comment devenir des terroristes et pratiquer cette activité, beaucoup de ces gens sont des occidentaux qui détiennent des passeports européens et dans certains cas des Américains, et ils sont essentiellement en train d'apprendre comment faire le « djihad » avec la ferme intention de partir et de revenir le faire dans leur propre pays.
+Il y a des lieux comme l’Irak qui subissent une très forte violence sectaire, un autre endroit favorable à la naissance du terrorisme.
+Et vous avez aussi l'activité dans la corne de l'Afrique et dans la zone du Sahel.
+Encore une fois, des lieux où la gouvernance est faible qui deviennent des terreaux fertiles pour les activités terroristes.
+Donc je pense que c'est très sérieux, la menace numéro un.
+Je pense que la menace numéro deux est la cybermenace.
+Elle se décompose en trois points : le premier et le plus connu dont les gens ont entendu parler, est le vol de propriété intellectuelle.
+Des pays étrangers viennent, volent les secrets des entreprises, et par la suite fournissent ces informations aux entreprises d’État ou aux entreprises en lien avec le gouvernement, pour leur permettre de faire de grandes avancées technologiques ou pour accroître leurs compétences en informatique décisionnelle, dans le but de gagner des contrats à l'étranger.
+Ce sont des activités très coûteuses qui se déroulent à l'heure actuelle.
+Plusieurs États-nations font cela.
+Ensuite, il y a les attaques par déni de service.
+Vous savez certainement qu'il y en a eu une série dirigée contre le secteur financier américain depuis 2012.
+Encore une fois, c'est un État-nation qui mène ces attaques, et ils font cela sous forme de représailles semi-anonymes.
+La dernière forme sont les attaques destructives, et ce sont celles qui me préoccupent le plus.
+Elles sont en augmentation.
+Il y a eu l'attaque contre Saudi Aramco en 2012, août 2012.
+Plus de 35 000 ordinateurs ont été infectés par un virus qui a tout effacé.
+Suivie d'une autre attaque une semaine plus tard contre une société qatarie.
+En mars 2013, il y a eu une attaque en Corée du Sud, attribuée par la presse à la Corée du Nord, qui a infecté des milliers d'ordinateurs.
+Celles-ci sont en augmentation, et nous voyons des gens s'intéresser à ces possibilités avec le désir de les employer.
+CA : Bien, il y a plusieurs choses ici, parce que c'est vraiment le cœur du problème, ou presque.
+Tout d'abord, beaucoup de gens qui regardent le risque et les chiffres ne comprennent pas cette croyance selon laquelle le terrorisme est toujours la menace numéro un.
+En dehors du 11 Septembre, je crois que les chiffres pour les 30 ou 40 dernières années sont d'environ 500 Américains morts à cause du terrorisme, la plupart à cause de terroristes locaux.
+La possibilité ces dernières années de mourir à cause du terrorisme est beaucoup moins importante que celle de mourir à cause d'un éclair.
+Ce à quoi vous pouvez me répondre qu'un seul accident nucléaire ou attaque bioterroriste ou autre changerait ces chiffres.
+Est-ce votre point de vue ?
+RL : Hé bien, je dirai deux choses.
+La première, la raison pour laquelle il n'y a pas eu d'attaque importante aux États-Unis depuis le 11 Septembre, ce n'est pas le hasard.
+Nous avons travaillé très dur, avec l'aide de beaucoup d'autres au sein de la communauté du renseignement, les militaires, et tous nos alliés dans le monde.
+Vous n'avez entendu parler que de la partie émergée de l'iceberg en ce qui concerne le nombre d'attaques terroristes que les programmes de la NSA ont contribué à stopper, 54 en tout, dont 25 en Europe, et sur ces 25, 18 se sont passées dans trois pays, certains sont nos alliés, et certains de ces pays, d'ailleurs, trouvent à redire sur les programmes de la NSA.
+Ce n'est pas par accident que ces choses-là arrivent.
+C'est du travail.
+Nous trouvons et échangeons des renseignements sur les activités terroristes et nous les interdisons d'une manière ou d'une autre, en appliquant la loi, grâce à la coopération avec d'autres pays et parfois grâce à des actions militaires.
+L'autre chose que je souhaite dire est que votre idée de menace nucléaire ou bio-chimique n'est pas du tout exagérée en réalité, il existe un certain nombre de groupes qui s'y intéressent depuis des années, ils souhaitent obtenir ces technologies et travaillent dans ce but.
+CA : Il a également été dit, que parmi ces 54 supposés incidents, à peu près aucun d'entre eux n'avait de lien avec ces fameux programmes mis à jour par M. Snowden, que cela s'est fait à travers d'autres formes de renseignement, que vous recherchez une aiguille dans une botte de foin, et que ces programmes controversés ont pour seul effet de complexifier ces recherches, et ne permettent en aucun cas de trouver l'aiguille.
+L'aiguille a été trouvée grâce à d'autres méthodes.
+Y a-t-il une part de vérité ?
+RL : Non, en fait nous parlons de deux programmes en particulier.
+Le premier est la Section 215 du programme de métadonnées de la téléphonie américaine, et l'autre est communément appelé le programme PRISM, c'est en réalité la section 702 de l'amendement FISA.
+Mais le programme 215 n'est adapté qu'aux menaces directes contre les États-Unis, il y a eu une douzaine de menaces dans lesquelles il a été impliqué.
+Maintenant vous verrez des gens dire publiquement qu'il n'y a pas de lien de « cause à effet », il n'y a aucun cas pour lequel la menace ait été mise à exécution.
+Mais cela dénote un manque de compréhension de la manière dont fonctionne la surveillance terroriste.
+Pensez à ce que voyez à la télévision, quand vous regardez une enquête concernant un meurtre.
+Par quoi cela commence-t-il ?
+Par un corps, et ils partent de là pour résoudre le crime.
+Nous travaillons en amont, avec de la chance, avant qu'il y ait des cadavres, et nous cherchons des solutions en fonction des personnes auxquelles nous avons à faire, en fonction de ce qu'ils essayent de faire, et cela demande une grande quantité d'informations.
+Pensez à une mosaïque, et est impossible de dire si une partie était indispensable à la construction de cette mosaïque, mais pour réaliser l’œuvre en entier, vous avez besoin de toutes les fractions d'information.
+En ce qui concerne les menaces qui n'étaient pas destinées directement aux États-Unis 42 sur les 54, le programme PRISM est tout à fait adapté, et nous a aidés concrètement à arrêter ces attaques.
+CA : Snowden a dit il y a deux jours, que le terrorisme a toujours été « une bonne excuse pour l'action » dans le monde des renseignements.
+C'est un sujet qui fait appel à un émotionnel très fort chez les gens, cela permet de mettre en place ces programmes qui confèrent à une organisation comme la vôtre des pouvoirs qu'elle n'aurait pas autrement.
+Avez-vous des débats en interne à ce sujet ?
+RL : Oui.
+Nous parlons de cela tout le temps, il y a un débat en cours entre la branche exécutive et au sein même de la NSA et la communauté du renseignement sur ce qui est juste, adapté, ce qu'il est correct de faire.
+Il est important de signaler que les programmes dont nous sommes en train de parler ont tous été autorisés par deux présidents différents, deux partis politiques différents, deux fois par le Congrès, et par des juges fédéraux à 16 reprises.
+Ce n'est pas la NSA qui prend ces décisions de manière unilatérale.
+C'est une activité légale du Ministère des Affaires Étrangères du gouvernement des États-Unis, approuvée par les trois branches du gouvernement des États-Unis, et dont le Président Madison aurait été fier.
+CA : Pourtant, quand les membres du Congrès ont découvert ce qui se passait avec leur autorisation, beaucoup d'entre eux ont été très choqués.
+Pensez-vous que ce n'est pas une réaction légitime, mais une réaction seulement liée au fait que l'information soit devenue publique, qu'ils savaient réellement ce que vous étiez en train de faire avec les pouvoirs qu'ils vous avaient délégués ?
+RL : Le congrès est une machine complexe.
+Ils sont 535, ils changent souvent, en ce qui concerne la Chambre des députés, c'est tous les deux ans.
+Je pense que la NSA a fourni tous les renseignements nécessaires à nos commissions de surveillance, la diffusion de cette information à tout le Congrès est gérée par les commissions elles-mêmes.
+Je dirais que les membres du Congrès ont eu l'opportunité de se rendre compte, et un grand nombre d'entre eux, ceux qui ont des responsabilités de surveillance, avaient la capacité de le faire.
+En fait, les présidents de ces comités l'ont affirmé publiquement.
+CA : Vous avez mentionné la menace de cyberattaques, et je pense que personne ici présent ne contredirait le fait que c'est une grande préoccupation, mais acceptez-vous qu'il existe un compromis entre stratégies défensives et offensives et qu'il est possible que les mesures prises pour « affaiblir le chiffrement » et qui vous permettent de trouver les méchants puissent aussi ouvrir la porte à d'autres formes de cyberattaques ?
+RL : Je crois deux choses.
+La première, vous parlez d'affaiblissement du chiffrement,
+moi non.
+La suivante est que ces deux missions incombent à la NSA, nous avons un caractère défensif très fort, et en réalité, les faiblesses que nous décelons dans la grande majorité des cas, nous les transmettons aux personnes responsables de la création ou du développement de ces produits.
+Nous avons une grande expérience dans ce domaine, et nous travaillons actuellement sur une proposition pour être transparent et publier des rapports de transparence, de la même manière que les sociétés Internet sont autorisées à publier des rapports concernant leur propre transparence.
+Nous voulons être plus transparents au regard de tout ça.
+Nous sommes utilisateurs de nos propres programmes.
+Nous utilisons les standards, nous utilisons les produits que nous recommandons, il est donc dans notre intérêt de protéger nos communications au même titre que celles des autres.
+CA : Edward Snowden,
+après sa conférence, circulait dans les couloirs à l'aide du « bot », je l'ai entendu dire à un couple de personnes, qui lui demandait ce qu'il pensait de la NSA de manière générale, il faisait des compliments sur les gens qui travaillent avec vous, il disait que c'est un groupe d'employés vraiment passionnés qui veulent faire les choses bien, et que le problème vient de politiques mal conçues.
+Il est venu de manière très raisonnable et calme.
+Pas comme un fou.
+Diriez-vous, même si vous êtes en désaccord avec la manière de faire, qu'il a au moins ouvert la discussion sur un sujet très important ?
+

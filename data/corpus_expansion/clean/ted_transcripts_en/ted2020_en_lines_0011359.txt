@@ -1,0 +1,217 @@
+To him, being paid would have meant being a mercenary.
+If he had accepted payment, he wouldn't be able to say "yes" or "no" depending on what he deemed a just or unjust cause.
+So he was a photographer by day, and a forger by night for 30 years.
+He was broke all of the time.
+Then there were the emotional sacrifices: How can one live with a woman while having so many secrets?
+How can one explain what one does at night in the lab, every single night?
+Of course, there was another kind of sacrifice involving his family that I understood much later.
+One day my father introduced me to my sister.
+He also explained to me that I had a brother, too, and the first time I saw them I must have been three or four, and they were 30 years older than me.
+They are both in their sixties now.
+In order to write the book, I asked my sister questions.
+I wanted to know who my father was, who was the father she had known.
+She explained that the father that she'd had would tell them he'd come and pick them up on Sunday to go for a walk.
+They would get all dressed up and wait for him, but he would almost never come.
+He'd say, "I'll call."
+He wouldn't call.
+And then he would not come.
+Then one day he totally disappeared.
+Time passed, and they thought he had surely forgotten them, at first.
+Then as time passed, at the end of almost two years, they thought, "Well, perhaps our father has died."
+And then I understood that asking my father so many questions was stirring up a whole past he probably didn't feel like talking about because it was painful.
+And while my half brother and sister thought they'd been abandoned, orphaned, my father was making false papers.
+And if he did not tell them, it was of course to protect them.
+After the liberation he made false papers to allow the survivors of concentration camps to immigrate to Palestine before the creation of Israel.
+And then, as he was a staunch anti-colonialist, he made false papers for Algerians during the Algerian war.
+After the Algerian war, at the heart of the international resistance movements, his name circulated and the whole world came knocking at his door.
+In Africa there were countries fighting for their independence: Guinea, Guinea-Bissau, Angola.
+And then my father connected with Nelson Mandela's anti-apartheid party.
+He made false papers for persecuted black South Africans.
+There was also Latin America.
+My father helped those who resisted dictatorships in the Dominican Republic, Haiti, and then it was the turn of Brazil, Argentina, Venezuela, El Salvador, Nicaragua, Colombia, Peru, Uruguay, Chile and Mexico.
+Then there was the Vietnam War.
+My father made false papers for the American deserters who did not wish to take up arms against the Vietnamese.
+Europe was not spared either.
+My father made false papers for the dissidents against Franco in Spain, Salazar in Portugal, against the colonels' dictatorship in Greece, and even in France.
+There, just once, it happened in May of 1968.
+My father watched, benevolently, of course, the demonstrations of the month of May, but his heart was elsewhere, and so was his time because he had over 15 countries to serve.
+Once, though, he agreed to make false papers for someone you might recognize.
+(Laughter) He was much younger in those days, and my father agreed to make false papers to enable him to come back and speak at a meeting.
+He told me that those false papers were the most media-relevant and the least useful he'd had to make in all his life.
+But, he agreed to do it, even though Daniel Cohn-Bendit's life was not in danger, just because it was a good opportunity to mock the authorities, and to show them that there's nothing more porous than borders -- and that ideas have no borders.
+All my childhood, while my friends' dads would tell them Grimm's fairy tales, my father would tell me stories about very unassuming heroes with unshakeable utopias who managed to make miracles.
+And those heroes did not need an army behind them.
+Anyhow, nobody would have followed them, except for a handful men and women of conviction and courage.
+I understood much later that actually it was his own story my father would tell me to get me to sleep.
+I asked him whether, considering the sacrifices he had to make, he ever had any regrets.
+He said no.
+He told me that he would have been unable to witness or submit to injustice without doing anything.
+He was persuaded, and he's still convinced that another world is possible -- a world where no one would ever need a forger.
+He's still dreaming about it.
+My father is here in the room today.
+His name is Adolfo Kaminsky and I'm going to ask him to stand up.
+(Applause) Thank you.
+Almost 30 years ago, my country was facing the need to rebuild everything from scratch.
+After years of Soviet occupation, Estonia regained its independence, but we were left with nothing.
+No infrastructure, no administration, no legal code.
+Organizational chaos.
+Out of necessity, the state leaders back then had to make some daring choices.
+The ones that our country could afford.
+There was a lot of experimentation and uncertainty but also a bit of luck involved, particularly in the fact that we could count on a number of brilliant visionaries, cryptographers and engineers.
+I was just a kid back then.
+Today, we are called the most digital society on earth.
+I'm from Estonia, and we've been declaring taxes online since 2001.
+We have been using digital identity and signature since 2002.
+We've been voting online since 2005.
+And for today, pretty much the whole range of the public services that you can imagine: education, police, justice, starting a company, applying for benefits, looking at your health record or challenging a parking ticket -- that's everything that is done online.
+In fact, it's much easier to tell you what are the three things we cannot yet do online.
+We have to show up to pick up our ID documents, get married or divorced, or sell real estate.
+That's pretty much it.
+So, that's why don't freak out when I tell you that every year I can't wait to start doing my tax declaration.
+(Laughter) Because all I have to do is sit on my couch with a mobile phone, swipe a few pages with prefilled data on income and deductions and hit submit.
+After three minutes, I'm looking at the tax return amount.
+It actually feels like a quite rewarding experience.
+No tax advisors, no collecting receipts, no doing the math.
+And have I mentioned that I have not visited a state office for almost seven years?
+Indeed, one of the features of the modern life that has no reason to exist anymore, considering technological possibilities of today, is the labyrinth of bureaucracy.
+We've almost got rid of it completely in Estonia, in an effort coordinated by the government that has also digitized itself.
+For instance, cabinet of ministers' work in e-Cabinet is absolutely paperless.
+The central idea behind this development is transformation of the state role and digitalization of trust.
+Think about it.
+In most countries, people don't trust their governments.
+And the governments don't trust them back.
+And all the complicated paper-based formal procedures are supposed to solve that problem.
+Except that they don't.
+They just make life more complicated.
+I believe Estonian experience is showing that technology can be the remedy for getting the trust back, while creating an efficient, user-centric service delivery system that actively responds to citizens' needs.
+We did not do it by digitizing bureaucracy as it is.
+But by rather agreeing on a few strong, common principles, redesigning rules and procedures, getting rid of unnecessary data collection and task duplication, and becoming open and transparent.
+Let me give you a glimpse into some of the key e-Estonia design principles today.
+First, it is essential to guarantee privacy and confidentiality of data and information.
+This is achieved through a strong digital identity that is issued by the state and compatible with everything.
+In fact, every Estonian has one.
+The identity is doubled with a strong digital signature that is accepted, used and legally binding both in Estonia and the European Union.
+When the system can properly and securely identify who is using it, after logging in, it will provide access to the personal data of the citizen and all the public services within one tool, and allow to authorize anything by signing digitally.
+A second principle, and one of the most transformative, is called "Once only."
+It means that the state cannot ask for the same data more than once, nor can store it in more than one place.
+For instance, if you've already provided your birth or marital certificate to the population registry, this is the only place where this data is going to be held.
+And no other institution will be ever asking for it again.
+Once only is a very powerful rule, as it defines the whole structure of the data collection in a country, what information is collected and who is responsible for maintaining it, making sure we avoid centralization of data, duplication of data, and guarantee that it's actually up to date.
+This distributed approach also avoids the problem of the single point of failure.
+But since the data cannot be replicated, or collected more than once, it means that the design has to keep in mind secure and robust access to that information at all times, so the public institution can offer a service.
+This is exactly the role of the data exchange platform called the X-Road that has been in use since 2001.
+Just like a highway, it connects public sector databases and registries, local municipalities and businesses, organizing a real-time, secure and regulated data exchange, saving an auditable trace after each move.
+Here's a screenshot of a live feed showing all the requests performed on the X-Road and all the services that it actually facilitates.
+And this is the real picture of all the connections between public and private sector databases.
+As you can see, there is no central database whatsoever.
+Confidentiality and privacy are definitely very important.
+But in the digital world, reliability and integrity of information is just critical for operations.
+For instance, if someone changes your medical health record, let's say allergies, without you or your doctor knowing, treatment could be deadly.
+That's why in a digital society, a system like an Estonian one, when there's almost no paper originals, there's almost only digital originals, integrity of data, data exchange rules, software components and log files is paramount.
+We use a form of blockchain that we invented back in 2007, way before blockchain even became a thing, to check and guarantee the integrity of data in real time.
+Blockchain is our auditor and a promise that no access to the data or data manipulation remains unrecorded.
+Data ownership is another key principle in the design of the system.
+Aren't you worried by the fact that governments, tech companies and other businesses around the world claim data they've collected about you is theirs, generally refuse to give access to that information, and often fail to prove how it was used or shared with third parties?
+I don't know, for me it seems like a quite disturbing situation.
+The Estonian system is based on the principle that an individual is the owner of the data collected about him, thus has an absolute right to know what information is collected and who has been accessing it.
+Every time a policeman, a doctor or any state officer is accessing personal information of the citizens online, first they only get to access it after logging in to the information they're authorized to see to do their job.
+And secondly, every time they're making requests, this is saved in a log file.
+This detailed log file is part of the state public services and allows real transparency, making sure no privacy violation will remain unnoticed to the citizen.
+Now, of course, this is only a simplified summary of all the design principles that e-Estonia is built on.
+And now, government is building up to get ready for use of artificial intelligence and building a whole new generation of public services -- proactive services that would activate seamlessly based on different life situations that people might be in, such as childbirth, unemployment or starting a business.
+Now, of course, running a digital society with no paper backup can be an issue, right?
+Even though we trust our systems to be solid, but one can never be too cautious as we experienced back in 2007, when the first cyberincident happened, and it literally blocked part of our networks, making access to the services impossible for hours.
+We survived.
+But this event put cybersecurity at the very top of agenda, both in terms of strengthening the platform and backing it up.
+So how do you back up a country-wide system in a small state where everything is super close?
+Well for instance, you can export a copy of the data outside the country territory to an extraterritorial space of an embassy.
+Today, we have those data embassies that are holding the most critical digital assets of Estonia, guaranteeing continuity of operations, protection of our data, and most importantly, our sovereignty.
+Even in case of a physical attack on our territory.
+Some of you might be thinking by now: Where are the downsides?
+Well, going all digital is administratively, and let's be honest, financially more efficient.
+Interfacing primarily with computer systems might create an impression that the human factor, elected politicians and participating in democratic processes is somehow less important.
+And there are also some people who feel threatened by pervasive technology that might make their skills obsolete.
+So all in all, unfortunately, running a country on a digital platform has not saved us from political power struggles and polarization in the society, as we have seen in the last elections.
+Well, until there are humans involved.
+One last question.
+If everything is location-independent and I can access all of the services from anywhere in the world, why cannot others tap into some of these services, even if they don't reside within Estonian borders?
+Five years ago, we launched a governmental start-up called e-Residency program that for today joins tens of thousands of people.
+These are businessmen and women from 136 different countries, who establish their businesses digitally, who do their banking online, and who run their companies virtually over e-Estonia platform, within European Union legal framework, using an e-identity card similar to mine and all of that from anywhere in the world.
+The Estonian system is location-independent and user-centric.
+It prioritizes inclusiveness, openness and reliability.
+It puts security and transparency at its center.
+And the data into the hands of the rightful owner, the person they refer to.
+Don't take my word for it.
+Try it.
+Thank you.
+(Applause)
+It would be nice to be objective in life, in many ways.
+The problem is that we have these color-tinted glasses as we look at all kinds of situations.
+For example, think about something as simple as beer.
+If I gave you a few beers to taste and I asked you to rate them on intensity and bitterness, different beers would occupy different space.
+But what if we tried to be objective about it?
+In the case of beer, it would be very simple.
+What if we did a blind taste?
+Well, if we did the same thing, you tasted the same beer, now in the blind taste, things would look slightly different.
+Most of the beers will go into one place.
+You will basically not be able to distinguish them, and the exception, of course, will be Guinness.
+(Laughter) Similarly, we can think about physiology.
+What happens when people expect something from their physiology?
+For example, we sold people pain medications.
+Some people, we told them the medications were expensive.
+Some people, we told them it was cheap.
+And the expensive pain medication worked better.
+It relieved more pain from people, because expectations do change our physiology.
+And of course, we all know that in sports, if you are a fan of a particular team, you can't help but see the game develop from the perspective of your team.
+So all of those are cases in which our preconceived notions and our expectations color our world.
+But what happened in more important questions?
+What happened with questions that had to do with social justice?
+So we wanted to think about what is the blind tasting version for thinking about inequality?
+So we started looking at inequality, and we did some large-scale surveys around the U.S. and other countries.
+So we asked two questions: Do people know what kind of level of inequality we have?
+And then, what level of inequality do we want to have?
+So let's think about the first question.
+Imagine I took all the people in the U.S.
+and I sorted them from the poorest on the right to the richest on the left, and then I divided them into five buckets: the poorest 20 percent, the next 20 percent, the next, the next, and the richest 20 percent.
+And then I asked you to tell me how much wealth do you think is concentrated in each of those buckets.
+So to make it simpler, imagine I ask you to tell me, how much wealth do you think is concentrated in the bottom two buckets, the bottom 40 percent?
+Take a second.
+Think about it and have a number.
+Usually we don't think.
+Think for a second, have a real number in your mind.
+You have it?
+Okay, here's what lots of Americans tell us.
+They think that the bottom 20 percent has about 2.9 percent of the wealth, the next group has 6.4, so together it's slightly more than nine.
+The next group, they say, has 12 percent, 20 percent, and the richest 20 percent, people think has 58 percent of the wealth.
+You can see how this relates to what you thought.
+Now, what's reality?
+Reality is slightly different.
+The bottom 20 percent has 0.1 percent of the wealth.
+The next 20 percent has 0.2 percent of the wealth.
+Together, it's 0.3.
+The next group has 3.9, 11.3, and the richest group has 84-85 percent of the wealth.
+So what we actually have and what we think we have are very different.
+What about what we want?
+How do we even figure this out?
+So to look at this, to look at what we really want, we thought about the philosopher John Rawls.
+If you remember John Rawls, he had this notion of what's a just society.
+He said a just society is a society that if you knew everything about it, you would be willing to enter it in a random place.
+And it's a beautiful definition, because if you're wealthy, you might want the wealthy to have more money, the poor to have less.
+If you're poor, you might want more equality.
+But if you're going to go into that society in every possible situation, and you don't know, you have to consider all the aspects.
+It's a little bit like blind tasting in which you don't know what the outcome will be when you make a decision, and Rawls called this the "veil of ignorance."
+So, we took another group, a large group of Americans, and we asked them the question in the veil of ignorance.
+What are the characteristics of a country that would make you want to join it, knowing that you could end randomly at any place?
+And here is what we got.
+What did people want to give to the first group, the bottom 20 percent?
+They wanted to give them about 10 percent of the wealth.
+The next group, 14 percent of the wealth, 21, 22 and 32.
+Now, nobody in our sample wanted full equality.
+Nobody thought that socialism is a fantastic idea in our sample.
+But what does it mean?
+It means that we have this knowledge gap between what we have and what we think we have, but we have at least as big a gap between what we think is right to what we think we have.
+Now, we can ask these questions, by the way, not just about wealth.
+We can ask it about other things as well.
+So for example, we asked people from different parts of the world about this question, people who are liberals and conservatives, and they gave us basically the same answer.
+We asked rich and poor, they gave us the same answer, men and women, NPR listeners and Forbes readers.
+

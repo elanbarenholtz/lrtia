@@ -1,0 +1,32 @@
+corpus_id	language	genre	modality	docs_clean	docs_excluded	median_word_count	notes
+flores_matched_ar	ar	matched_translation	translated_written	21	0	904	matched-translation control (NOT natural production)
+flores_matched_de	de	matched_translation	translated_written	21	0	1004	matched-translation control (NOT natural production)
+flores_matched_en	en	matched_translation	translated_written	21	0	1016	matched-translation control (NOT natural production)
+flores_matched_es	es	matched_translation	translated_written	21	0	1207	matched-translation control (NOT natural production)
+flores_matched_fi	fi	matched_translation	translated_written	21	0	741	matched-translation control (NOT natural production)
+flores_matched_fr	fr	matched_translation	translated_written	21	0	1176	matched-translation control (NOT natural production)
+flores_matched_he	he	matched_translation	translated_written	21	0	804	matched-translation control (NOT natural production)
+flores_matched_hi	hi	matched_translation	translated_written	21	0	1195	matched-translation control (NOT natural production)
+flores_matched_ja	ja	matched_translation	translated_written	21	0	51	matched-translation control (NOT natural production)
+flores_matched_ko	ko	matched_translation	translated_written	21	0	718	matched-translation control (NOT natural production)
+flores_matched_ru	ru	matched_translation	translated_written	21	0	906	matched-translation control (NOT natural production)
+flores_matched_sw	sw	matched_translation	translated_written	21	0	983	matched-translation control (NOT natural production)
+flores_matched_tr	tr	matched_translation	translated_written	21	0	813	matched-translation control (NOT natural production)
+flores_matched_vi	vi	matched_translation	translated_written	21	0	1417	matched-translation control (NOT natural production)
+flores_matched_zh	zh	matched_translation	translated_written	21	0	100	matched-translation control (NOT natural production)
+gutenberg_fiction_en	en	fiction_narrative	written	60	19	3037	
+news_en	en	news_journalistic	written	60	2	1116	
+subtitles_dialogue_ar	ar	dialogue_subtitles	dialogue_transcript	60	0	2997	
+subtitles_dialogue_de	de	dialogue_subtitles	dialogue_transcript	60	0	2997	
+subtitles_dialogue_en	en	dialogue_subtitles	dialogue_transcript	60	0	2998	
+subtitles_dialogue_es	es	dialogue_subtitles	dialogue_transcript	60	0	2997	
+subtitles_dialogue_fr	fr	dialogue_subtitles	dialogue_transcript	60	0	2997	
+subtitles_dialogue_ru	ru	dialogue_subtitles	dialogue_transcript	60	0	2997	
+subtitles_dialogue_tr	tr	dialogue_subtitles	dialogue_transcript	60	0	2997	
+ted_transcripts_ar	ar	ted_transcript	prepared_speech_transcript	60	0	3492	
+ted_transcripts_de	de	ted_transcript	prepared_speech_transcript	60	0	3491	
+ted_transcripts_en	en	ted_transcript	prepared_speech_transcript	60	0	3493	
+ted_transcripts_es	es	ted_transcript	prepared_speech_transcript	60	0	3492	
+ted_transcripts_fr	fr	ted_transcript	prepared_speech_transcript	60	0	3491	
+ted_transcripts_ru	ru	ted_transcript	prepared_speech_transcript	60	0	3492	
+ted_transcripts_tr	tr	ted_transcript	prepared_speech_transcript	60	0	3494	

@@ -1,0 +1,253 @@
+Sie nannten das Ding sogar "er" und "sie", während die Leute den Roboter mit dem Rechner-Gehirn "es" nannten, Niemand bezeichnete den je mit "er" oder "sie".
+Wenn die Leute nach der Aufgabe über den Abenteurer-Roboter sprachen, sagten sie: "Am Ende waren wir gute Freunde, und haben uns abgeklatscht, gedanklich."
+Was immer das heißen mag.
+(Lachen) Klingt schmerzhaft.
+Während die Leute bei dem mit dem Rechner-Gehirn sagten: &amp;quot;Das war wie mit einem faulen Azubi.&amp;quot;
+Das Ding machte nur das, was es tun sollte, und kein bisschen mehr.
+Das ist doch eigentlich das, was man von Robotern erwartet.
+Daher war ich überrascht, dass die Leute höhere Erwartungen an Roboter hatten als das, was jeder in der Robotertechnik denkt, was sie tun sollten.
+Und so dachte ich, es ist vielleicht an der Zeit, ähnlich, wie Method Acting die Ansicht über Schauspielkunst im 19. Jahrhundert gewandelt hat, von einer sehr kalkulierten geplanten Art des Auftretens zu einer intuitiveren, risikoreicheren und körperlicheren Art des Ausdrucks.
+Vielleicht ist es an der Zeit, dass Roboter nun dieselbe Art der Revolution durchmachen.
+Ein paar Jahre später -- ich hatte meinen nächsten Forschungs-Job an der Georgia Tech in Atlanta, und arbeitete in einer Gruppe, die mit Musik-Robotern hantierte.
+Und ich dachte mir: Musik?
+Das ist doch genau das Richtige, um sich Teamarbeit, Koordination, Timing, Improvisation anzuschauen.
+Und wir hatten da schon diesen Roboter, der Marimba spielte.
+Marimba, für jeden wie mich war es dieses große hölzerne Xylophon.
+Und als ich das untersuchte, suchte ich nach anderen Arbeiten in Mensch-Roboter-Improvisation.
+Ja, es gibt tatsächlich noch andere Studien dazu.
+Aber die waren auch so ein wenig wie Schachspiele.
+Der Mensch spielt vor, der Roboter analysiert, was gespielt wurde, und improvisiert seinen eigenen Teil.
+Musiker nennen diese Art des Zusammenspiels "Call and Response" (Vorsänger und Chor-Antwort) Das fällt auch gut unter das Thema "Roboter und Künstliche Intelligenz".
+Aber ich dachte: Wenn ich die gleichen Ideen nutze, wie im Theaterstück und in den Teamwork-Studien, dann könnte ich es vielleicht hinkriegen, dass die Roboter zusammen improvisieren
+wie eine Band.
+Jeder spielt unabhängig voneinander, und niemand unterbricht je sein Spiel.
+So probierte ich das Gleiche noch mal, diesmal mit Musik.
+Wobei der Roboter nicht wirklich weiß, was er spielen soll.
+Ganz wie bei der Bewegung des Körpers, nutzt er die Chance zum Spielen, und macht, was mich meine Jazz-Lehrerin mit 17 lehrte:
+&amp;quot;Wenn man improvisiert, weiß man manchmal nicht, was man macht, man macht es einfach.&amp;quot;
+So versuchte ich, einen Roboter zu bauen, der nicht wirklich weiß, was er tut, sondern einfach weitermacht.
+Schauen wir doch ein paar Sekunden bei dieser Performance zu,
+wo der Roboter dem menschlichen Musiker zuhört und improvisiert.
+Sehen Sie, wie auch der Musiker auf das reagiert, was der Roboter macht, und auf sein Verhalten reagiert.
+An manchen Stellen ist er sogar erstaunt, womit der Roboter daherkommt.
+(Musik) (Applaus) Musiker sein, heißt doch nicht nur Noten spielen, sonst ginge doch niemand zu einem Live-Konzert.
+Musiker kommunizieren auch mit ihren Körpern, mit den anderen Bandmitgliedern, mit dem Publikum, sie nutzen auch ihre Körper, die Musik auszudrücken.
+Ich dachte: "Wenn wir schon einen Roboter-Musiker auf der Bühne haben, warum ihn dann nicht zu einem ausgewachsenen Musiker machen?"
+Ich begann mit dem Design eines sozial ausdrucksfähigen Kopfes für den Roboter.
+Der Kopf beeinflusste die Marimba nicht wirklich, er brachte nur zum Ausdruck, wie die Musik war.
+Hier sind ein paar gekritzelte Entwürfe aus einer Bar in Atlanta, die an einem gefährlichen Ort lag ... genau auf halbem Wege zwischen Labor und meiner Wohnung.
+(Lachen) Und so verbrachte ich dort wohl durchschnittlich 3 bis 4 Stunden am Tag.
+Denk ich mal.
+(Gelächter) Und ... ich kehrte zu meinen Animationstools zurück, um herauszubekommen, nicht nur, wie ein Roboter-Musiker wohl aussehen müsste, sondern vor allem auch, wie er sich bewegen würde, etwa um zu zeigen, dass ihm das Spiel des anderen nicht gefällt oder vielleicht sogar, welchen Beat er selbst gerade fühlt, im Moment.
+(Lachen) Wir schafften es schließlich, das Geld für den Bau des Roboters zu bekommen.
+Das war schön. ich zeige Ihnen nun eine ganz ähnliche Performance, nur diesmal mit einem sich sozial ausdrückenden Kopf.
+Achten Sie darauf, wie der Roboter uns wirklich zeigt, wie er den Beat vom Menschen aufnimmt.
+Damit gibt er auch dem Musiker einen Wink, dass der Roboter erkennt, was der macht.
+Und beachten Sie den Wandel in seinen Bewegungen, sobald er sein eigenes Solo beginnt.
+(Musik) Jetzt schaut er mich an, ob ich auch zuhöre.
+(Musik) Achten Sie wieder auf den Schlussakkord des Stückes,
+diesmal kommuniziert der Roboter mit seinem Körper, der sein eigenes Ding dreht.
+Und wenn alles bereit ist, koordiniert er den Schlussakkord mit mir.
+(Musik) (Applaus) Ich hoffe, Sie sehen, wie sehr das überhaupt nicht --
+wie sehr dieser Teil des Körpers, der das Instrument gar nicht berührt, tatsächlich bei der musikalischen Performance hilft.
+Und irgendwann -- wir sind in Atlanta -- da war klar, dass mal ein paar Rapper in unser Labor kommen würden.
+Es kam also dieser Rapper vorbei für eine Jam-Session mit dem Roboter.
+Und hier sehen Sie den Roboter
+auf den Beat eingehen.
+Beachten Sie, wie unwiderstehlich es ist, bei den Kopfbewegungen des Roboters mitzumachen.
+Man möchte glatt den eigenen Kopf mitbewegen.
+Beachten Sie auch den Rapper: Er konzentriert sich voll auf sein iPhone, aber sobald der Roboter sich zu ihm hinwendet, dreht er sich zurück.
+Nur am Rande seines Blickwinkels, gerade so im Augenwinkel ...
+Er hat wirklich Einfluss.
+Der Grund ist: Wir können Gegenstände nicht ignorieren, die sich in unserer Umgebung bewegen,
+Wir sind darauf fest verdrahtet.
+Wenn Sie also ein Problem haben, sagen wir, mit Ihrem Partner, der zu viel auf sein iPhone oder auf sein Smartphone schaut, sollten Sie vielleicht einen Roboter dabei haben, um dessen Aufmerksamkeit zu bekommen.
+(Lachen) (Musik) (Applaus) Ich möchte Ihnen noch den letzten Roboter vorstellen, an dem wir gearbeitet haben, Er entstand aus etwas Überraschendem: Wir stellten fest, dass die Leute irgendwann nicht mehr darauf achteten, dass der Roboter intelligent genug war, zu improvisieren und zuzuhören, und alle die Dinge, deren Entwicklung mich Jahre gekostet hatte.
+Ihnen gefiel einfach, dass der Roboter Spaß an der Musik hatte.
+(Lachen) Sie sagten auch nicht, dass sich der Roboter zur Musik bewege, Sie sagten: "Dem Roboter macht die Musik Spaß."
+Und wir dachten: "Warum sollten wir diese Idee nicht hernehmen, um noch einen neuen Gegenstand zu entwerfen?"
+Diesmal war es keine Tisch-Lampe, sondern ein mobiler Lautsprecher, so ein Ding, wo man sein Smartphone reinsteckt.
+Ich dachte: &amp;quot;Was würde passieren, wenn der Docking-Lautsprecher die Musik nicht nur abspielt, sondern auch noch Freude daran hat?"
+(Lachen) Hier wieder einige Animationsversuche aus der Frühphase.
+(Lachen) Und so schaut dann das Endprodukt aus.
+(&amp;quot;Drop It Like It's Hot&amp;quot; von Snoop Dogg) Etliches Kopfnicken ...
+(Applaus) und viele nickende Köpfe im Publikum, Wir sehen auch hier: Roboter beeinflussen Menschen.
+Und das ist nicht nur Spaß und Spiel.
+Ein Grund für mein Engagement in Sachen Roboter, die ihren Körper zur Kommunikation einsetzen, sich körperlich bewegen -- Ich weihe Sie jetzt in ein Geheimnis ein, das wir Roboter-Techniker noch hüten -- Jeder von Ihnen wird einmal mit einem Roboter zusammenleben, irgendwann in Ihrem Leben.
+Irgendwann in Ihrer Zukunft wird es einen Roboter in Ihrem Leben geben.
+Und wenn nicht in Ihrem Leben, dann im Leben Ihrer Kinder.
+Ich möchte, dass diese Roboter anpassungsfähiger, einnehmender und taktvoller werden als sie heute scheinbar sind.
+Und darum denke ich, dass Roboter vielleicht weniger wie Schachspieler und mehr wie Schauspieler oder Musiker sein sollten.
+Vielleicht sollten sie im Stande sein, Risiken einzugehen und zu improvisieren.
+Und vielleicht sollten sie fähig sein, zu erahnen, was man von ihnen möchte.
+Vielleicht müssen sie im Stande sein, Fehler zu machen und diese zu korrigieren.
+Denn schließlich sind wir Menschen,
+und vielleicht sind Roboter, die nicht ganz so perfekt sind, geradezu perfekt für uns Menschen.
+Vielen Dank.
+(Applaus)
+Dankeschön.
+Es ist wirklich ein Vergnügen hier zu sein.
+Bei meinem letzten TEDTalk, vor etwa sieben Jahren,
+sprach ich über Spaghettisoße.
+Es sehen wohl sehr viele Leute diese Videos.
+Die Leute kommen seither zu mir und befragen mich über Spaghettisoße, was eine wunderbare Sache ist – kurzfristig – (Lachen) aber über sieben Jahre hinweg ist es wirklich nicht optimal.
+Also beschloss ich herzukommen und zu versuchen, die Spaghettisoße hinter mir zu lassen.
+(Lachen) Das Thema dieser Sitzung ist „Dinge, die wir machen".
+So beschloss ich, eine Geschichte über jemanden zu erzählen, der einen der kostbarsten Gegenstände seiner Ära gemacht hat.
+Der Name des Mannes ist Carl Norden.
+Carl Norden wurde 1880 geboren.
+Er war Schweizer.
+Die Schweizer kann man wohl in zwei Hauptkategorien unterteilen: diejenigen, die kleine, exquisite, teure Gegenstände machen, und jene, die das Geld derer verwalten, die kleine, exquisite, teure Gegenstände kaufen.
+Carl Norden gehört ganz sicher in die erste Gruppe.
+Er ist Ingenieur.
+Er besucht die Eidgenössische Technische Hochschule Zürich.
+Tatsächlich ist einer seiner Kommilitonen ein junger Mann namens Lenin, der später kleine, teure, exquisite Gegenstände kaputtmachen würde.
+Er ist also ein Schweizer Ingenieur – Carl.
+Und das meine ich im wahrsten Sinne des Wortes.
+Er trägt dreiteilige Anzüge, und er hat einen sehr kleinen, wichtigen Schnauzbart.
+Er ist bevormundend, narzisstisch und getrieben und hat ein aussergewöhnliches Ego.
+Er arbeitet 16 Stunden am Tag und er beschäftigt sich ernsthaft mit Wechselstrom.
+Er glaubt, dass Sonnenbräune ein Zeichen moralischer Schwäche ist, und er trinkt eine Menge Kaffee.
+Er arbeitet am besten, wenn er stundenlang in der Küche seiner Mutter in Zürich in kompletter Stille und mit nichts als einem Rechenschieber sitzt.
+Jedenfalls wandert Carl Norden kurz vor dem Ersten Weltkrieg in die Vereinigten Staaten aus und eröffnet einen Laden auf der Lafayette Street im Zentrum von Manhattan.
+Er wird besessen von der Frage, wie man Bomben von einem Flugzeug abwirft.
+Wenn Sie nun darüber nachdenken, war das in der Zeit vor GPS und Radar offensichtlich ein wirklich schwieriges Problem.
+Es ist ein kompliziertes Physikproblem.
+Man hat ein Flugzeug in einer Höhe von tausenden von Metern, das hunderte Stundenkilometer schnell fliegt, und man versucht, etwas, eine Bombe, auf irgendein feststehendes Ziel abzuwerfen, trotz aller möglichen Winde, Wolkendecken und anderen Hindernissen.
+Alle möglichen Leute, angefangen beim Ersten Weltkrieg und zwischen den Kriegen, versuchten, dieses Problem zu lösen, und fast alle scheiterten.
+Die Bombenzielgeräte, die es gab, waren ausserordentlich unausgereift.
+Aber Carl Norden hat wirklich den Code geknackt.
+Er lässt sich diesen unglaublich komplizierten Apparat einfallen.
+Er wiegt ungefähr 23 kg.
+Er heisst das Norden-Mark-15-Bombenzielgerät.
+Und er hat allerhand Hebel und Kugellager und Vorrichtungen und Anzeigen.
+Er macht also dieses komplizierte Ding.
+Damit ermöglicht er den Bombenschützen eben dieses Objekt zu nehmen, visuell das Ziel zu erfassen, denn sie sitzen ja im Plexiglasrumpf des Bombers, und dann geben sie die Flughöhe des Flugzeus ein, die Geschwindigkeit des Flugzeugs und des Windes und die Koordinaten des Zieles.
+Das Bombenzielgerät sagt ihm genau, wann er die Bombe abwerfen soll.
+Norden sagt in einem berühmten Zitat: „Bevor es das Bombenzielgerät gab, verfehlten Bomben regelmäßig ihr Ziel um 1,5 Kilometer oder mehr."
+Aber er sagte, dass er mit dem Mark-15-Norden-Bombenzielgerät eine Bombe in ein Gurkenfass abwerfen könne, und das aus 6.000 Metern.
+Ich kann Ihnen gar nicht sagen wie begeistert das US-Militär vom Norden-Bombenzielgerät war.
+Es war wie Manna vom Himmel.
+Hier war eine Armee, die gerade die Erfahrung des Ersten Weltkrieges gemacht hatte, in dem Millionen Männer einander in den Gräben bekämpften, ohne voran zu kommen, ohne Fortschritte, und hier hatte jemand ein Gerät entwickelt, das ihnen erlaubte, in den Himmel zu fliegen, hoch über feindliches Gebiet, und zu zerstören, was immer sie wollten, mit zielgenauer Exaktheit.
+Das US-Militär gibt 1,5 Milliarden Dollar – Milliarden Dollar in Dollars von 1940 – für die Entwicklung des Norden-Bombenzielgeräts aus.
+Um das in eine Relation zu bringen: die Gesamtkosten des Manhattan-Projekts betrugen drei Milliarden Dollar.
+Für das Norden-Bombenzielgerät wurde halb so viel Geld ausgegeben, wie für das berühmteste militärindustrielle Projekt des modernen Zeitalters.
+Und es gab Strategen im US-Militär, die ernsthaft glaubten, dass dieses einzelne Gerät den Unterschied zwischen Sieg und Niederlage ausmachen würde, wenn es zur Schlacht gegen die Nazis und gegen die Japaner kommen sollte.
+Auch für Norden hatte dieser Apparat eine unglaubliche moralische Bedeutung, denn Norden war ein engagierter Christ.
+In der Tat wurde er jedesmal ärgerlich, wenn Leute das Bombenzielgerät als seine Erfindung bezeichneten, denn in seinen Augen konnte nur Gott Dinge erfinden.
+Er war nur das Werkzeug für Gottes Willen.
+Und was war Gottes Wille?
+Nun, Gottes Wille war es, das Leiden in jeglichen Kriegen auf ein kleinstmöglices Maß zu beschränken.
+Und was tat das Norden-Bombenzielgerät?
+Es ermöglichte genau das.
+Es ermöglichte, nur das zu bombardieren, was man unbedingt bombardieren musste und wollte.
+In den Jahren vor dem Zweiten Weltkrieg kaufte das US-Militär also 90.000 Norden-Bombenzielgeräte für je 14.000 Dollar – noch einmal: in Dollars von 1940 ist das eine Menge Geld.
+Sie bildeten 50.000 Bombenschützen für deren Bedienung aus – in monatelangen, ausführlichen Trainingseinheiten – denn diese Apparate sind im Wesentlichen analoge Computer.
+Sie sind nicht einfach zu bedienen.
+Sie lassen jeden dieser Bombenschützen einen Eid leisten.
+Sollten sie in Gefangenschaft geraten, schwören sie, dem Feind kein einziges Detail dieses bestimmten Apparates zu verraten, denn es ist ausschlaggebend, dass dieses grundlegende Stück Technik nicht dem Feind in die Hände fällt.
+Wann immer das Norden-Bombenzielgerät in ein Flugzeug gebracht wird, wird es von einer Reihe bewaffneter Wachen begleitet.
+Es wird in einer Kiste getragen, die mit einem Tuch bedeckt ist.
+Die Kiste ist mit Handschellen an eine der Wachen gekettet.
+Es darf niemals fotografiert werden.
+Es enthält ein kleines Brandelement, so dass es, sollte das Flugzeug abstürzen, vernichtet wird und es keinesfalls in die Hände des Feindes gerät.
+Das Norden-Bombenzielgerät ist der Heilige Gral.
+Was passiert also während des Zweiten Weltkrieges?
+Es stellt sich heraus, dass es nicht der Heilige Gral ist.
+In der Praxis kann das Norden-Bombenzielgerät eine Bombe in ein Gurkenfass aus 6.000 Metern Höhe werfen, aber nur unter perfekten Bedingungen.
+In Kriegszeiten sind die Bedingungen natürlich nicht perfekt.
+Erstens ist es wirklich schwierig zu bedienen – wirklich schwierig.
+Und nicht alle dieser 50.000 Bombenschützen können einen analogen Computer vernünftig programmieren.
+Zweitens versagt es oft.
+Es ist voller Kreisel und Trommeln, Vorrichtungen und Kugellager, und die arbeiten nicht so, wie sie sollen in der Hitze des Gefechts.
+Drittens, ins seinen Berechnungen hatte Norden angenommen, dass ein Flugzeug relativ langsam und niedrig fliegen würde.
+In einem richtigen Krieg kann man das nicht tun, man würde abgeschossen werden.
+Sie flogen also in großen Höhen und unglaublich hohen Geschwindigkeiten.
+Und das Norden-Bombenzielgerät funktioniert nicht so gut unter diesen Bedingungen.
+Aber vor allen Dingen erforderte das Norden-Bombenzielgerät, dass der Bombenschütze Blickkontakt mit dem Ziel hatte.
+Aber was passiert im richtigen Leben?
+Da sind Wolken, genau.
+Es erfordert einen wolkenlosen Himmel, um wirklich akkurat zu sein.
+Wie viele wolkenlose Himmel, glauben Sie, gab es über Zentraleuropa zwischen 1940 und 1945?
+Nicht viele.
+Um Ihnen ein Gefühl dafür zu geben, wie ungenau das Norden-Bombenzielgerät wirklich war, gab es da einen berühmten Fall im Jahre 1944, als die Alliierten eine Chemiefabrik in Leuna, Deutschland, bombardierten.
+Die Chemiefabrik erstreckte sich auf über drei Quadratkilometer.
+Im Verlauf von 22 Bombeneinsätzen warfen die Alliierten 85.000 Bomben auf diese drei Quadratkilometer der Chemiefabrik ab, wobei sie das Norden-Bombenzielgerät einsetzten.
+Welcher Prozentsatz dieser Bomben, glauben Sie, landete tatsächlich innerhalb der drei Quadratkilometer Fabrikgelände?
+Zehn Prozent.
+Zehn Prozent.
+Und von diesen zehn Prozent gingen 16 Prozent noch nicht einmal hoch, sie waren Blindgänger.
+Die Leuna Chemieanlage war nach einem der umfangreichsten Bombenflüge in der Geschichte des Krieges innerhalb von Wochen wieder in Betrieb.
+Und übrigens – all diese Vorsichtsmaßnahmen, um das Norden-Bombenzielgerät nicht in die Hände der Nazis fallen zu lassen?
+Nun, es stellte sich heraus, dass Carl Norden, als richtiger Schweizer, sehr fasziniert von deutschen Ingenieuren war.
+So hatte er in den 1930er Jahren eine ganze Gruppe von ihnen angeworben, inklusive eines Mannes namens Hermann Long, der im Jahre 1938 den Nazis einen kompletten Satz der Pläne für das Norden-Bombenzielgerät gab.
+Sie hatten also ihr eigenes Norden-Bombenzielgerät den ganzen Krieg hindurch – das übrigens auch nicht so gut funktionierte.
+(Lachen) Warum sprechen wir eigentlich über das Norden-Bombenzielgerät?
+Nun, weil wir in einer Zeit leben, in der es eine ganze Menge von Norden-Bombenzielgeräten gibt.
+Wir leben in einer Zeit, in der es allerhand richtig schlaue Leute gibt, die herumrennen und behaupten, sie hätten Geräte erfunden, die unsere Welt für immer verändern werden.
+Sie haben Webseiten erfunden, die die Menschen frei sein lassen.
+Sie haben so ein Ding, oder so ein Ding, oder so ein Ding erfunden, das unsere Welt für immer besser machen wird.
+Wenn Sie beim Militär schauen, finden Sie auch eine Menge von Carl Nordens.
+Wenn Sie ins Pentagon gehen, werden sie sagen: „Wissen Sie was?
+Jetzt können wir wirklich eine Bombe in ein Gurkenfass aus 6.000 Metern abwerfen."
+Und wissen Sie was?
+Es stimmt, sie können das jetzt tatsächlich.
+Aber es muss uns ganz klar sein, wie wenig das bedeutet.
+Im Irak-Krieg, am Anfang des ersten Irak-Krieges, schickte das US-Militär, die Luftwaffe, zwei Staffeln von F-15-Jets in die irakische Wüste.
+Ausgestattet mit diesen 5-Millionen-Dollar-Kameras, konnten sie den gesamten Wüstenboden sehen.
+Ihr Auftrag war es, Boden-Luft-Raketen zu finden und zerstören – erinnern Sie sich an die Scud-Raketenwerfer, diese Boden-Luft-Raketen, die die Irakis auf die Israelis abschossen?
+Der Auftrag der zwei Staffeln war es, alle Scud-Raketenwerfer loszuwerden.
+Sie flogen also Tag und Nacht Einsätze, warfen tausende von Bomben und feuerten tausende von Raketen ab in dem Versuch, diese Plage loszuwerden.
+Nachdem der Krieg vorüber war, gab es eine Überprüfung – so wie es die Armee, die Luftwaffe immer tut – und sie stellten die Frage: Wie viele Scuds haben wir eigentlich zerstört?
+Wissen Sie, was die Antwort war?
+Null, keine einzige.
+Aber warum ist das so?
+Weil ihre Waffen nicht akkurat sind?
+Oh nein, sie waren hervorragend genau.
+Sie hätten dieses kleine Ding hier aus 7.600 Metern Höhe zerstören können.
+Sie wussten einfach nicht, wo die Scud-Raketenwerfer waren.
+Das Problem mit Bomben und Gurkenfässern ist nicht, wie man die Bombe ins Gurkenfass bekommt, sondern wie man das Gurkenfass findet.
+Das war immer das größere Problem, wenn es darum geht, einen Krieg zu führen.
+Oder nehmen Sie den Kampf in Afghanistan.
+Was ist die Vorzeigewaffe des Krieges der CIA in Nordwest-Pakistan?
+Es ist die Drohne.
+Was ist eine Drohne?
+Sie ist die Enkelin des Norden-Mark-15-Bombenzielgerätes.
+Sie ist eine Waffe von verheerender Genauigkeit und Präzision.
+Über die vergangenen sechs Jahre hinweg hat die CIA in Nordwest-Pakistan hunderte von Drohnenraketen geflogen, und sie hat diese Drohnen dazu benutzt, 2.000 verdächtigte Pakistani- und Talibankämpfer zu töten.
+Wie genau sind nun diese Drohnen?
+Außerordentlich genau.
+Wir glauben, dass wir jetzt bei 95 Prozent Genauigkeit sind, wenn es zu Drohnenangriffen kommt.
+95% der Menschen, die wir töten, müssen getötet werden, richtig?
+Das ist einer der außergewöhnlichsten Rekorde in der Geschichte moderner Kriegsführung.
+Aber wissen Sie, was das Ausschlaggebende ist?
+In der exakt gleichen Zeitspanne, in der wir diese Drohnen mit verheerender Genauigkeit benutzt haben, hat sich die Anzahl der Angriffe, Selbstmordattentate und Terroranschläge gegen amerikanische Streitkräfte in Afghanistan verzehnfacht.
+Während wir immer effizienter darin geworden sind, sie zu töten, wurden sie immer wütender und immer motivierter uns zu töten.
+Ich habe Ihnen keine Erfolgsgeschichte beschrieben.
+Ich habe Ihnen das Gegenteil einer Erfolgsgeschichte beschrieben.
+Und das ist das Problem mit unserer Vernarrtheit in die Dinge, die wir machen.
+Wir denken, dass diese Sachen unsere Probleme lösen können, aber unsere Probleme sind viel komplizierter als das.
+Die Frage ist nicht, wie genau die Bomben sind, die wir haben, sondern wie wir die Bomben nutzen, die wir haben, und noch wichtiger, ob wir überhaupt Bomben benutzen sollten.
+Es gibt ein Postskript zu der Norden-Geschichte über Carl Norden und sein fantastisches Bombenzielgerät.
+Denn am 6. August 1945 flog ein B-29 Bomber namens Enola Gay über Japan und warf, unter Verwendung eines Norden-Bombenzielgerätes, eine sehr große Wasserstoffbombe über der Stadt Hiroshima ab.
+Wie es für das Norden-Bombenzielgerät typisch war, verfehlte die Bombe ihr Ziel um knapp 250 Meter.
+Aber das spielte natürlich keine Rolle.
+Und das ist die größte Ironie des Ganzen, wenn es um das Norden-Bombenzielgerät geht.
+Das 1,5 Milliarden Dollar teure Bombenzielgerät der Luftwaffe wurde benutzt, um ihre 3 Milliarden Dollar teure Bombe abzuwerfen, wofür man überhaupt kein Bombenzielgerät gebraucht hätte.
+In der Zwischenzeit, daheim in New York, erzählte keiner Carl Norden, dass sein Bombenzielgerät über Hiroshima eingesetzt worden war.
+Er war ein hingebungsvoller Christ.
+Er dachte, er hätte etwas entworfen, das die Zahl der Opfer in Kriegen verringern würde.
+Es hätte ihm das Herz gebrochen.
+(Applaus)
+Ich möchte mit einem kleinen Experiment beginnen.
+Ich werde Sie gleich bitten, Ihre Augen zu schließen und zu versuchen, zu erkennen, welche Gefühle Sie gerade empfinden.
+Man muss niemandem irgendetwas sagen.
+Es geht darum, zu sehen, wie leicht oder schwer man es findet, genau zu bestimmen, was man fühlt.
+Ich denke, ich gebe Ihnen 10 Sekunden dafür.
+Okay?
+Gut, dann beginnen wir.
+Okay, das war's, die Zeit ist um.
+Wie lief es?
+Sie haben sich vielleicht etwas unter Druck gefühlt, vielleicht mißtrauen Sie der Person neben Ihnen.
+Haben sie wirklich ihre Augen geschlossen?
+

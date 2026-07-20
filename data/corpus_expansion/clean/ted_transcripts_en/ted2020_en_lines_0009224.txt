@@ -1,0 +1,202 @@
+And the fourth reason, I believe, is what I've labeled here on the slide as the ideology of resistance.
+What I mean by that is, if the world superpower today was a communist, it would be much easier for democracy activists to use democracy activism as a form of resistance against colonialism, than it is today with the world superpower being America, occupying certain lands and also espousing democratic ideals.
+So roughly these four reasons make it a lot more difficult for democratic culture to spread as a civilizational choice, not merely as a political choice.
+When talking about those reasons, let's break down certain preconceptions.
+Is it just about grievances?
+Is it just about a lack of education?
+Well statistically, the majority of those who join extremist organizations are highly educated.
+Statistically, they are educated, on average, above the education levels of Western society.
+Anecdotally, we can demonstrate that if poverty was the only factor, well Bin Laden is from one of the richest families in Saudi Arabia.
+His deputy, Ayman al-Zawahiri, was a pediatrician -- not an ill-educated man.
+International aid and development has been going on for years, but extremism in those societies, in many of those societies, has been on the rise.
+And what I believe is missing is genuine grassroots activism on the ground, in addition to international aid, in addition to education, in addition to health.
+Not exclusive to these things, but in addition to them, is propagating a genuine demand for democracy on the ground.
+And this is where I believe neoconservatism had it upside-down.
+Neoconservatism had the philosophy that you go in with a supply-led approach to impose democratic values from the top down.
+Whereas Islamists and far-right organizations, for decades, have been building demand for their ideology on the grassroots.
+They've been building civilizational demand for their values on the grassroots, and we've been seeing those societies slowly transition to societies that are increasingly asking for a form of Islamism.
+Mass movements in Pakistan have been represented after the Arab uprisings mainly by organizations claiming for some form of theocracy, rather than for a democratic uprising.
+Because since pre-partition, they've been building demand for their ideology on the ground.
+And what's needed is a genuine transnational youth-led movement that works to actively advocate for the democratic culture -- which is necessarily more than just elections.
+But without freedom of speech, you can't have free and fair elections.
+Without human rights, you don't have the protection granted to you to campaign.
+Without freedom of belief, you don't have the right to join organizations.
+So what's needed is those organizations on the ground advocating for the democratic culture itself to create the demand on the ground for this culture.
+What that will do is avoid the problem I was talking about earlier, where currently we have political parties presenting democracy as merely a political choice in those societies alongside other choices such as military rule and theocracy.
+Whereas if we start building this demand on the ground on a civilizational level, rather than merely on a political level, a level above politics -- movements that are not political parties, but are rather creating this civilizational demand for this democratic culture.
+What we'll have in the end is this ideal that you see on the slide here -- the ideal that people should vote in an existing democracy, not for a democracy.
+But to get to that stage, where democracy builds the fabric of society and the political choices within that fabric, but are certainly not theocratic and military dictatorship -- i.e. you're voting in a democracy, in an existing democracy, and that democracy is not merely one of the choices at the ballot box.
+To get to that stage, we genuinely need to start building demand in those societies on the ground.
+Now to conclude, how does that happen?
+Well, Egypt is a good starting point.
+The Arab uprisings have demonstrated that this is already beginning.
+But what happened in the Arab uprisings and what happened in Egypt was particularly cathartic for me.
+What happened there was a political coalition gathered together for a political goal, and that was to remove the leader.
+We need to move one step beyond that now.
+We need to see how we can help those societies move from political coalitions, loosely based political coalitions, to civilizational coalitions that are working for the ideals and narratives of the democratic culture on the ground.
+Because it's not enough to remove a leader or ruler or dictator.
+That doesn't guarantee that what comes next will be a society built on democratic values.
+But generally, the trends that start in Egypt have historically spread across the MENA region, the Middle East and North Africa region.
+So when Arab socialism started in Egypt, it spread across the region.
+In the '80s and '90s when Islamism started in the region, it spread across the MENA region as a whole.
+And the aspiration that we have at the moment -- as young Arabs are proving today and instantly rebranding themselves as being prepared to die for more than just terrorism -- is that there is a chance that democratic culture can start in the region and spread across to the rest of the countries that are surrounding that.
+But that will require helping these societies transition from having merely political coalitions to building genuinely grassroots-based social movements that advocate for the democratic culture.
+And we've made a start for that in Pakistan with a movement called Khudi, where we are working on the ground to encourage the youth to create genuine buy-in for the democratic culture.
+And it's with that thought that I'll end.
+And my time is up, and thank you for your time.
+(Applause)
+So I'm here to tell you a story of success from Africa.
+A year and a half ago, four of the five people who are full time members at Ushahidi, which means "testimony" in Swahili, were TED Fellows.
+A year ago in Kenya we had post-election violence.
+And in that time we prototyped and built, in about three days, a system that would allow anybody with a mobile phone to send in information and reports on what was happening around them.
+We took what we knew about Africa, the default device, the mobile phone, as our common denominator, and went from there.
+We got reports like this.
+This is just a couple of them from January 17th, last year.
+And our system was rudimentary.
+It was very basic.
+It was a mash-up that used data that we collected from people, and we put it on our map.
+But then we decided we needed to do something more.
+We needed to take what we had built and create a platform out of it so that it could be used elsewhere in the world.
+And so there is a team of developers from all over Africa, who are part of this team now -- from Ghana, from Malawi, from Kenya.
+There is even some from the U.S.
+We're building for smartphones, so that it can be used in the developed world, as well as the developing world.
+We are realizing that this is true.
+If it works in Africa then it will work anywhere.
+And so we build for it in Africa first and then we move to the edges.
+It's now been deployed in the Democratic Republic of the Congo.
+It's being used by NGOs all over East Africa, small NGOs doing their own little projects.
+Just this last month it was deployed by Al Jazeera in Gaza.
+But that's actually not what I'm here to talk about.
+I'm here to talk about the next big thing, because what we're finding out is that we have this capacity to report eyewitness accounts of what's going on in real time.
+We're seeing this in events like Mumbai recently, where it's so much easier to report now than it is to consume it.
+There is so much information; what do you do?
+This is the Twitter reports for over three days just covering Mumbai.
+How do you decide what is important?
+What is the veracity level of what you're looking at?
+So what we find is that there is this great deal of wasted crisis information because there is just too much information for us to actually do anything with right now.
+And what we're actually really concerned with is this first three hours.
+What we are looking at is the first three hours.
+How do we deal with that information that is coming in?
+You can't understand what is actually happening.
+On the ground and around the world people are still curious, and trying to figure out what is going on.
+But they don't know.
+So what we built of course, Ushahidi, is crowdsourcing this information.
+You see this with Twitter, too.
+You get this information overload.
+So you've got a lot of information.
+That's great.
+But now what?
+So we think that there is something interesting we can do here.
+And we have a small team who is working on this.
+We think that we can actually create a crowdsourced filter.
+Take the crowd and apply them to the information.
+And by rating it and by rating the different people who submit information, we can get refined results and weighted results.
+So that we have a better understanding of the probability of something being true or not.
+This is the kind of innovation that is, quite frankly -- it's interesting that it's coming from Africa.
+It's coming from places that you wouldn't expect.
+From young, smart developers.
+And it's a community around it that has decided to build this.
+So, thank you very much.
+And we are very happy to be part of the TED family.
+(Applause)
+To start, I want to share with you guys something about my hometown of Norwalk, Ohio.
+Now, as this video stated, I am from Norwalk, which is an extremely small town, about 15,000 people.
+And really, in Norwalk, if you want to do something fun, you go to Walmart or drive half an hour to something more interesting.
+And for Norwalk, I've lived there for my entire life, I'm a senior at the local public high school, and you know, it's something to where I really enjoy my small town.
+And I'm just a normal kid, you know, I lead debate clubs, I volunteer at my church.
+And back in November of 2018, I made a small Reddit post asking for advice on an issue that I was encountering that I needed some clarification on.
+And this issue, as was stated in the introduction, was something towards vaccinations and how I was not immunized against various diseases, including polio and measles, as well as influenza, HPV, hepatitis -- the standard vaccine someone my age would receive.
+Now, this question I asked was simple and pretty strange, because, you know, I wanted to get vaccinated.
+That's kind of weird, but it happened, and then this turned into a public story, because I wanted to get vaccinated.
+So that was kind of strange, and then it blew up more, and I was doing interviews and talking to more people, and again, I'm a normal kid, I'm not a scientist, I don't lead a non-profit, I am a pretty casual person, I'm wearing a hoodie.
+(Laughter) Because of this question and this story, because I wanted to get vaccinated and this interesting situation I was in, I saw that I quickly was in this public setting of an extremely important controversy and discussion taking place.
+Now, I saw that the stories and headlines were pretty accurate for most part, you know, "After defying anti-vax mom, Ohio teen expresses why he got vaccinated."
+Pretty accurate, pretty true.
+And, as stated, I testified in front of a Senate committee, so there, they said, "This teen who self-vaccinated just ripped his mom's anti-vaxer beliefs in front of Congress."
+OK, I didn't really do that, but that's fine.
+And certain news outlets took it a little further.
+"'God knows how I'm still alive': Teenager, 18, finally gets vaccinated and attacks his anti-vax parents."
+So I did not attack my parents, that's not accurate at all.
+And you know, really, my story was more about controversy.
+It was about how my mom was bad and I was good, and I was ripping her a new one.
+Not true.
+Not what was happening.
+I never was rude towards my mother, and even in public settings where I expressed how her beliefs were misinformed, I said that she was a loving mother, and that's important to understand.
+Because a lot of people, I think, in the scientific community that understand why vaccines are so important, can really be confused by someone who would not vaccinate.
+Really, we can compare it to someone not taking their child to the ER.
+That's a very dangerous situation to be in and it shows some lack of empathy towards your children in some regards.
+And really, I can understand that, I can.
+But my mom, she was misinformed and misled by sources that convinced her that if she was a loving parent, she wouldn't vaccinate.
+Now, when I encountered this and I talked to my mom, it didn't obviously go well at first, because I was wanting to do something that she thought would either cause autism or maim me for the rest of my life, and I said I wanted to do this -- didn't really fly, didn't really go well.
+But the thing that I found interesting was that when I had started to get into this circumstance, do these interviews, there was one question I proposed.
+Wasn't a positive one: What in the world have I gotten myself into?
+That's what I asked constantly, because, again, I am not an expert, I am a normal kid, and now I'm talking to CNN and Fox News about a scientific discussion that really, should I be facilitating, should I be commenting on?
+And a lot of people questioned that, and for good reason.
+But I never claimed things I didn't understand, I talked about my personal experiences.
+And even at the Senate hearing, I just talked about how misinformation is dangerous.
+My mom got a lot of her beliefs from social media, from Facebook and from organizations that were allowing their platforms to push lies that were very dangerous.
+Now, I also saw that as I was doing this -- and I was doing this as respectfully as I could, as accurately as I could -- I was getting a lot of criticism, a lot of very angry people.
+When I was in DC for that testimony I gave, I was looking around the office building and three ladies got in an elevator with me and said I'm the reason their children are being maimed and murdered and I'm basically Hitler.
+So that was fun.
+(Laughter) So really, for most circumstances, for most teenagers and most people, when they get criticized, it leads to doubt.
+And that doubt leads to questioning, and that questioning leads to quitting.
+Because, when you have a topic that you're interested in, or a movement that you want to be a part of, and you're taking a stance and saying what's true, good ideas don't avoid criticism.
+And for especially young people, they have a hard time dealing with that, and these important discussions that need young people to take a part in, it takes a lot of commitment.
+I'm not saying that I'm amazing, but here's what's important: through me joining this movement and this important scientific discussion, here's what happened.
+Facebook changed their platform.
+They were going to change how they approach anti-vax content.
+Amazon even removed misinformed books about autism and vaccines.
+And recently, GoFundMe took down anti-vax campaigns.
+We're talking about how movements like this are causing actual change, actually impacting the way this game is played and the misinformation that's lying to people and convincing them of very dangerous ideas.
+Now, before I leave, because I only have a short amount of time, I want to give you one important thing to keep in mind.
+One important takeaway from this all.
+What you can do and what I did.
+I didn't do amazing research and studies and take information and present it to people; I didn't have deep, intellectual, scientific debates with people.
+All I did was share my story.
+And that's enough for most people: to understand the anecdotal experiences, the real people behind the data.
+Because data doesn't resonate with people.
+People resonate with people.
+And you have to keep that in mind, because when you are talking about a topic, and you're sharing your story, and sharing what is important, you stay authentic.
+Stay authentic to the data, to the information, to the importance of this topic.
+If I was talking to an individual and they said, "Why are vaccines important?"
+I would say nothing alongside any other answer, I would not in any way fathomably give them answer outside of: people are dying, and that's important.
+And that children are dying, and that's important.
+And that we're having disease outbreaks that should not be here.
+And I believe, as John Boyle put it, these diseases should be in history books and not in our communities.
+So because of that, you need to make a personal decision to stand up for truth.
+You need to make a personal decision for yourself to say, "This is accurate, this is what's real, and these lies are not OK."
+Because it started with me doing that on a personal level.
+I wasn't going from small town to Senate in a day.
+It wasn't like, I go to bed, I wake up and there's Senator Isakson, asking me questions about vaccines.
+It was a slow progression and it started with me saying, "This is true, my mom doesn't believe it, but that's OK."
+Because that doesn't change the truth, doesn't change what's accurate and what's important.
+And honestly, the biggest thing, this whole idea of unbreakable: remain unbroken.
+When you stand up for what's true and you have that criticism, and you're trying to cause a movement, don't sway.
+Thank you.
+(Applause)
+In this dystopian world, your resistance group is humanity's last hope.
+Unfortunately, you've all been captured by the tyrannical rulers and brought to the ancient colosseum for their deadly entertainment.
+Before you're thrown into the dungeon, you see many numbered hallways leading outside.
+But each exit is blocked by an electric barrier with a combination keypad.
+You learn that one of you will be allowed to try to escape by passing a challenge while everyone else will be fed to the mutant salamanders the next morning.
+With her perfect logical reasoning, Zara is the obvious choice.
+You hand her a concealed audio transmitter so that the rest of you can listen along.
+As Zara is led away, you hear her footsteps echo through one of the hallways, then stop.
+A voice announces that she must enter a code consisting of three positive whole numbers in ascending order, so the second number is greater than or equal to the first, and the third is greater than or equal to the second.
+She may ask for up to three clues, but if she makes a wrong guess, or says anything else, she'll be thrown back into the dungeon.
+For the first clue, the voice says the product of the three numbers is 36.
+When Zara asks for the second clue, it tells her the sum of the numbers is the same as the number of the hallway she entered.
+There's a long silence.
+You're sure Zara remembers the hallway number, but there's no way for you to know it, and she can't say it outloud.
+If Zara could enter the passcode at this point, she would, but instead, she asks for the third clue, and the voice announces that the largest number appears only once in the combination.
+Moments later, the buzz of the electric barrier stops for a few seconds, and you realize that Zara has escaped.
+Unfortunately, her transmitter is no longer in range, so that's all the information you get.
+Can you find the solution?
+Pause on the next screen to work out the solution.
+3 2 1 You're worried about the fact that you don't know Zara's hallway number, but you decide to start from the beginning anyways.
+From the first clue, you work out all of the eight possible combinations that come out to a product of 36.
+One of these must be right, but which one?
+Now comes the hard part.
+Even though you don't know which number you're looking for, you decide to work out the sum of each combination's three numbers.
+That's when it hits you.
+

@@ -1,0 +1,267 @@
+Wenn Sie nicht mit einem rechtmäßigen Geheimdienstziel in Zusammenhang stehen, haben wir kein Interesse an Ihnen.
+CA: In Bezug auf die Bedrohungen, denen die USA weltweit begegnet, wo würden Sie Terrorismus einordnen?
+RL: Terrorismus ist immer noch die Nummer 1.
+Es gab wohl noch nie eine Zeit, in der sich an so vielen Orten Dinge schlecht entwickeln, und die so einen Nährboden für Terroristen bilden, die einen Vorteil aus dem Mangel an staatlicher Führung ziehen.
+Ein ehemaliger Chef von mir, Admiral Tom Fargo, beschrieb es als Bögen der Instabilität.
+Aktuell gibt es weltweit viele dieser Bögen der Instabilität an Orten wie Syrien, wo Bürgerkrieg herrscht und eine massive Anzahl, tausende ausländische Kämpfer kommen nach Syrien um zu Terroristen ausgebildet zu werden und diese Aktivitäten zu trainieren.
+Viele dieser Leute kommen aus dem Westen, haben Pässe europäischer Länder oder manchmal die der USA.
+Sie lernen dort praktisch, wie man einen Dschihad führt und haben die Absicht geäußert, das später in ihren Heimatländern zu tun.
+Es gibt Länder wie den Irak, die unter einem hohen Grad an religiös motivierter Gewalt leiden, was wiederum ein Nährboden für Terrorismus ist.
+Und es gibt einige Aktivitäten am Horn von Afrika und der Sahelzone in Afrika,
+wiederum viele schwache Regierungen, die einen Nährboden für terroristische Aktivitäten bilden.
+Also ich denke, es ist sehr ernst.
+Das ist die Nummer eins.
+Nummer zwei ist Cyber-Kriminalität.
+Cyber-Kriminalität bedroht uns auf drei Arten: Die erste und wahrscheinlich häufigste, von der die Leute gehört haben, ist der Diebstahl geistigen Eigentums.
+Also im Grunde stehlen andere Staaten Geschäftsgeheimnisse von Unternehmen und stellen diese Informationen staatlichen Firmen zur Verfügung, oder Firmen, die Verbindungen zur Regierung haben, um ihnen in ihrer technologischen Entwicklung zu Fortschritten zu verhelfen, oder um Firmenanalysen zu erhalten,
+mit denen man an Aufträge im Ausland kommt.
+Da sind viele große und teure Projekte gerade in Arbeit.
+Mehrere Nationalstaaten sind daran beteiligt.
+Zweitens, die Denial-of-Service-Angriffe.
+Es ist Ihnen vermutlich bewusst, dass seit 2012 eine Flut davon gegen den US-Finanzsektor gerichtet wurde.
+Und wieder steckt ein Nationalstaat hinter diesen Angriffen, und das geschieht als halb-anonyme Vergeltungsmaßnahme.
+Und drittens gibt es die destruktiven Angriffe, die mich am meisten beunruhigen.
+Die sind im Kommen.
+Es gab den Angriff auf Saudi Aramco 2012, im August 2012.
+Etwa 35 000 Computer stürzten durch einen "Wiper"-artigen Virus ab.
+Eine Woche später passierte das Gleiche
+bei einer katarischen Firma.
+Im März 2013 gab es einen Angriff in Südkorea, der in der Presse Nordkorea zugeschrieben wurde und tausende Computer abschaltete.
+Die Zahl dieser Angriffe steigt und wir merken, dass Leute Interesse an diesen Fähigkeiten haben und diese anwenden möchten.
+CA: Okay, einige Anmerkungen hierzu, weil das quasi der Kern der Sache ist.
+Zuallererst bezweifeln viele Leute, die sich die Risiken und die Zahlen anschauen, dass Terrorismus immer noch die größte Bedrohung ist.
+Mal abgesehen vom 11. September sind, glaube ich, in den letzten 30 oder 40 Jahren ungefähr 500 Amerikaner durch Terrorismus gestorben, meistens durch einheimische Terroristen.
+In den letzten Jahren war die Gefahr, durch Terrorismus zu sterben, viel niedriger als die Gefahr, durch Blitzschlag zu sterben.
+Ich glaube, Sie würden sagen, dass ein einzelner atomarer Zwischenfall oder ein Terroranschlag mit Biowaffen oder ähnliches diese Zahlen ändern würde.
+Wäre das Ihre Sichtweise?
+RL: Nun, ich würde zwei Dinge sagen.
+Der Grund dafür, dass es in den USA seit dem 11. 9. keinen größeren Anschlag gab, ist kein Zufall.
+Dafür haben wir hart gearbeitet, wie auch andere Geheimdienste, das Militär und unsere Verbündeten auf der ganzen Welt.
+Die Zahlen, die Sie gehört haben, waren die Spitze des Eisbergs in Bezug auf die Terroranschläge, die durch die Hilfe von NSA-Programmen verhindert werden konnten.
+Das waren 54. 25 davon in Europa, und von diesen 25 waren 18 in drei Ländern, manche davon unsere Verbündeten, die uns übrigens gerade richtig fertig machen wegen dieser NSA-Programme.
+Es ist also kein Zufall, dass solche Dinge passieren.
+Das ist harte Arbeit.
+Wir finden Informationen zu terroristischen Aktivitäten und unterbinden sie und auf die eine oder andere Weise.
+Durch Strafverfolgung, durch Zusammenarbeit mit anderen Ländern und manchmal durch militärische Maßnahmen.
+Das andere ist, dass Ihre Vorstellung einer atomaren oder chemisch-biologischen Bedrohung überhaupt nicht weit hergeholt ist, da es in der Tat einige Gruppen gibt, die seit einigen Jahren ausdrückliches Interesse äußern, diese Fähigkeiten besitzen zu wollen
+und darauf hin arbeiten.
+CA: Es wurde auch geäußert, dass von diesen 54 angeblichen Vorfällen eigentlich so gut wie keine einen Bezug zu den umstrittenen Programmen der NSA hatten, die Herr Snowden aufdeckte.
+Diese seien eigentlich eine andere Art der Informationsgewinnung, bei der Sie nach der Nadel im Heuhaufen suchen, und als Folge dieser Programme, dieser umstrittenen Programme, nur mehr Heu zum Haufen dazukommt, aber keine Nadel gefunden wird.
+Die Nadel wurde durch andere Methoden gefunden.
+Ist da was dran?
+RL: Nein, tatsächlich gibt es zwei Programme, die typischerweise in dieser Diskussion auftauchen.
+Eines ist das Section 215-Programm, also das US-Telefon-Metadatenprogramm, und das andere wird gerne PRISM-Programm genannt, eigentlich Abschnitt 702 einer Ergänzung zum FISA-Gesetz.
+Aber das 215-Programm gilt nur für Bedrohungen gegen die Vereinigten Staaten, und es gab ein Dutzend Bedrohungen, bei denen das eine Rolle spielte.
+Die Leute sagen also öffentlich, dass es keinen "außer"-Fall gibt; es gäbe also keinen Fall außer dem, bei dem es eine Bedrohung gegeben hätte.
+Aber das zeugt eigentlich von einem Mangel an Verständnis wie Terrorismusermittlungen funktionieren.
+Denken Sie an das Fernsehen, an ein Krimi-Ratespiel.
+Der beginnt mit einer Leiche.
+Man arbeitet von da an, das Verbrechen aufzuklären.
+Wir fangen viel früher an.
+Hoffentlich bevor es Leichen gibt und wir versuchen Beweise zusammenzutragen, wer die Leute sind, was sie tun wollen.
+Das bedeutet riesige Mengen an Informationen.
+Stellen Sie es sich wie ein Mosaik vor.
+Man kann kaum behaupten, dass ein einzelnes Stück nötig war, das Mosaik zusammenzufügen, aber um das komplette Bild zu sehen, müssen Sie alle Teile haben.
+Für die anderen Bedrohungen, die nicht die USA betrafen, die 42 anderen der 54, war das PRISM-Programm sehr relevant und hat tatsächlich wesentlich dazu beigetragen, diese Angriffe zu stoppen.
+CA: Snowden sagte vor zwei Tagen, dass Terrorismus schon immer -- wie es in der Geheimdienstwelt heißt -- ein "Deckmantel für Maßnahmen", da es eine starke emotionale Reaktion bei Menschen auslöst und es so möglich ist Programme einzuführen, um Befugnisse zu erlangen, die eine Organisation wie Ihre sonst nicht hätte.
+Gibt es eine interne Debatte darüber?
+RL: Ja.
+Wir diskutieren diese Dinge die ganze Zeit, und es gibt Diskussionen darüber, die auch in der Exekutive innerhalb der NSA selbst und in der Geheimdienstszene geführt werden, was rechtens, was angemessen, was das Richtige ist.
+Und es ist wichtig anzumerken, dass die Programme, über die wir reden, von zwei verschiedenen Präsidenten abgesegnet wurden, zwei verschiedenen politischen Parteien, im Kongress zweimal, und von Bundesrichtern 16-mal.
+Es ist also nicht so, dass die NSA davonläuft und ihr eigenes Ding macht.
+Es ist eine legitime Maßnahme des Außenministeriums, die von allen Staatsgewalten bestätigt wurde.
+Präsident Madison wäre stolz darauf gewesen.
+CA: Und dennoch, als die Kongressabgeordneten herausfanden, was tatsächlich mit dieser Berechtigung getan wurde, waren viele von ihnen total schockiert.
+Oder denken Sie, dass das keine legitime Reaktion war, dass das nur so war, weil es jetzt publik wurde, dass sie eigentlich genau wussten, was Sie mit der Macht getan haben, die Ihnen gegeben wurde?
+RL: Der Kongress ist ein großes Gremium aus 535 Leuten die regelmäßig ausgewechselt werden, alle zwei Jahre im Fall des Repräsentantenhauses, und ich glaube, dass die NSA unseren Aufsichtsgremien alle relevanten Informationen bereitgestellt hat, und dass die Streuung dieser Informationen durch die Aufsichtsgremien, durch den Kongress
+selbst organisiert wird.
+Ich würde sagen, dass die Kongressabgeordneten die Möglichkeit hatten, sich selbst zu informieren.
+Tatsächlich hatte eine große Anzahl von ihnen, also diejenigen, die Aufsichtsverantwortung haben, die Möglichkeit dazu.
+Die Vorsitzenden dieser Gremien haben das auch öffentlich bestätigt.
+CA: Sie erwähnten die Bedrohung durch Hackerangriffe, und es widerspricht wohl niemand in diesem Raum, dass das ein großes Problem ist, aber stimmen Sie auch zu, dass es einen Tauschhandel zwischen offensiven und defensiven Strategien gibt und dass möglicherweise eben jene Maßnahmen, die -- Zitat: "Verschlüsselungen schwächen" -- und Ihnen erlauben, die Bösen zu finden, auch die Türe für Netzangriffe öffnen?
+RL: Dazu zwei Dinge.
+Erstens haben Sie "Verschlüsselung schwächen" gesagt, nicht ich.
+Und das andere ist, dass die NSA beide Aufgaben hat, aber unsere Hauptaktivität die Verteidigung ist.
+Die Sicherheitslücken, die wir in der überwiegenden Mehrheit der Fälle finden, teilen wir den Leuten mit, die verantwortlich für die Entwicklung der Produkte sind.
+Da gibt es viele tolle Erfolge.
+Wir arbeiten sogar gerade an einem Vorschlag zur Transparenz und zur Veröffentlichung von Transparenzberichten genauso wie die Internetfirmen selbst Transparenzberichte veröffentlichen können.
+Wir wollen da transparenter sein.
+Wir bewegen uns im selben Netz,
+wir verwenden die Standards, wir nutzen die Produkte, die wir empfehlen.
+Deswegen ist es in unserem Interesse, unsere Kommunikation zu schützen, genauso wie die Kommunikation anderer Leute.
+CA: Edward Snowden fuhr nach seiner Rede in den Räumen hier mit dem Roboter herum, und ich hörte, wie er mit einigen Leuten sprach.
+Sie fragten, was er im Allgemeinen von der NSA halte, und er sprach sehr lobend über die Leute, die mit Ihnen arbeiten.
+Sie seien eine wirklich inspirierte Gruppe von Angestellten, die das Richtige tun wollen.
+Die Probleme kämen durch einige schlecht durchdachte Richtlinien.
+Er kam sehr vernünftig und ruhig rüber,
+nicht wie ein Verrückter.
+Würden Sie akzeptieren -- auch wenn Sie nicht gutheißen, wie er es getan hat -- dass er wenigstens eine wichtige Debatte angestoßen hat?
+RL: Ich denke, dass es wichtig ist, diese Diskussion zu führen.
+Ich finde nicht gut, wie er es getan hat.
+Es gab verschiedene andere Wege, die er hätte nehmen können, und die unsere Leute und die Menschen anderer Länder nicht gefährdet hätten, weil wir die Aktivitäten unserer Gegenspieler nicht mehr beobachten können.
+Aber ich glaube, dass die Debatte wichtig ist.
+CA: Laut Berichten gibt es so etwas wie einen Meinungsunterschied zwischen Ihnen und Ihren Kollegen über ein Szenario, in dem er eine Begnadigung erhalten könnte.
+Ich glaube, Ihr Vorgesetzter General Keith Alexander sagte, dass das ein schreckliches Vorbild für andere wäre; mit jemandem, der das Gesetz so gebrochen hat,
+könne man nicht verhandeln.
+Aber Sie werden so zitiert, dass Snowden, wenn er nachweislich alle unveröffentlichten Dokumente aushändigen würde, eine Abmachung vielleicht in Betracht gezogen werden sollte.
+Denken Sie das noch immer?
+RL: Das ist wirklich mein Lieblingsteil aus dem "60 Minutes"-Interview, wo all die falschen Zitate herstammen.
+In Wirklichkeit habe ich auf die Frage geantwortet, ob wir eine Diskussion bezüglich strafmildernder Umstände für Snowden in Betracht ziehen.
+Ich sagte: Ja, man kann darüber reden.
+Darüber haben sowohl der Justizminister der USA als auch der Präsident tatsächlich bereits gesprochen.
+Dafür ist aber der Justizminister zuständig.
+Aber es gibt eine lange Tradition in der amerikanischen Rechtssprechung, Verhandlungen mit Leuten zu führen, die wegen Verbrechen angeklagt wurden, wenn die Regierung davon profitiert, wenn sie etwas davon hat.
+Es gab immer einen Platz für solche Diskussionen.
+Ich nehme kein Ergebnis vorweg, aber es gibt immer Raum für Gespräche.
+CA: Auf einen Laien wirkt es, als könnte er bestimmte Dinge anbieten, den USA, der Regierung, Ihnen, anderen, um Dinge richtigzustellen und bei der Entwicklung einer besseren Strategie helfen, einem klügeren Weg in die Zukunft.
+Haben Sie diese Möglichkeit bislang überhaupt in Betracht gezogen?
+RL: Das ist außerhalb meiner Befugnis,
+das ist keine Sache der NSA.
+Das wäre eine Diskussion für das Justizministerium.
+Ich verweise auf sie.
+CA: Rick, als Ed Snowden seinen Vortrag beendet hatte, bot ich ihm an eine Idee vorzustellen, die er gern verbreiten möchte.
+Was wäre Ihre Idee für diese Gruppe?
+RL: Studieren Sie die Fakten.
+Das ist eine wirklich wichtige Debatte, und es dreht sich nicht nur um die NSA oder die Regierung, es geht um Sie und um die Internetfirmen.
+Die Problematik der Privatsphäre und persönlichen Daten ist wesentlich größer als eine Regierung,
+also studieren Sie die Fakten.
+Vertrauen Sie nicht auf Schlagzeilen oder markante Sätze
+und auch nicht auf einseitige Debatten.
+Ich denke, das ist die Idee, die ich gerne verbreiten möchte.
+Wir haben ein Zeichen, ein Namensschild.
+Wir tragen bei der Arbeit Ausweise an Schlüsselbändern und wenn ich das kurz erwähnen darf,
+auf meinem Schlüsselband steht "Dallas Cowboys".
+"Go Dallas!"
+Ich habe jetzt wohl das halbe Publikum verprellt.
+Das Schlüsselband unserer Leute, die in dem Bereich unserer Krypto-Analyse arbeiten, hat den Anhänger: "Seht euch die Daten an".
+Das ist die Idee, die ich verbreiten möchte.
+Schauen Sie sich die Daten an.
+CA: Rick, es hat gewissen Mut gekostet, hier aufzutreten und so offen zu dieser Gruppe zu sprechen.
+Das hat die NSA in der Vergangenheit nicht oft getan, außerdem war die Technik eine Herausforderung.
+Wir freuen uns wirklich, dass Sie mit uns gesprochen haben und an dieser wirklich wichtigen Debatte teilgenommen haben.
+Vielen Dank.
+RL: Danke, Chris.
+(Applaus)
+Wisst ihr, als Chris mich fragte, ob ich bei TED vortrage, sagte ich: nein. weil ich dachte, dass ich es nicht schaffe, diesen persönlichen Kontakt herzustellen, den ich will, ihr wisst schon.
+Es ist so'ne große Veranstaltung.
+Aber er sagte, dass er in der Klemme steckt, und dass er Schwierigkeiten hat, jenen Sexappeal und "Star Power" zu finden, für die
+TED so bekannt ist.
+Also sagte ich: Ok Ted!
+Ich meine Chris.
+Aber ich hab 2 Bedingungen.
+Erstens: Ich will so zeitig wie möglich vortragen.
+Und zweitens: ICH will das Thema für TED 2006 aussuchen!
+Und glücklicherweise stimmte er zu.
+Und des Thema von TED 2006 wird sein:
+"Niedliche Welpenbilder" (Applaus) Ich habe die Placebo-Kamera erfunden.
+(Lachen) Sie macht keine Aufnahmen, aber sie ist verdammt günstig und man hat trotzdem das Gefühl
+"da" gewesen zu sein.
+"Sehr geehrter Herr, ich entbiete Ihnen und Ihrer Familie meine Grüße.
+Ich weiß, der Brief mag Sie überraschen,
+aber lassen Sie sich nicht verwirren, denn das ist die Natur der Sache, unerwartet einzutreten und wie ein Sprichwort sagt: Originale sind schwer zu finden, aber sie hinterlassen mehr Eindruck.
+Also entschied ich mich Sie selbst zu kontaktieren,
+damit Sie mir Sicherheit und Ehrlichkeit garantieren, sollte ich Ihnen Geld zur Aufbewahrung anvertrauen.
+Ich bin Mr. Michael Bangoora, Sohn des verstorbenen Mr. Tiamu Bangoora- (Lachen) der in Sierra Leone der Finanzminister war, aber während des Krieges getötet wurde.
+Da ich weiß, dass Ihr Land wirtschaftlichen Anreiz für Investitionen bietet und Ihre Leute transparent und vertrauenswürdig sind, um mit Ihnen Geschäfte zu machen,
+schreibe ich Sie an.
+Bevor mein Vater starb, hatte er die Summe von 23 Millionen US Dollar, die er vor den Rebellenführern im Verlauf des Krieges versteckte.
+(Lachen) Der Fund war angedacht für die Wiederherstellung der Wasserreserven des Landes bevor Kriegsausbruch.
+Als der Krieg ausbrach,
+verlangte der Rebellenführer die Herausgabe des Geldes, mein Vater behauptete, es sei nicht in seinem Besitz, und wurde getötet, weil er sich weigerte es rauszurücken.
+Währenddessen ist meine Mutter und ich die einzige Person, die über den Fund erfuhr, weil mein Vater immer Vertrauen in mich hatte.
+Ich traf schnell eine Vereinbarung mit Einem vom Roten Kreuz, der das Geld mit seinem Dienstwagen zum Lungi Airport, Freetown, fuhr, obwohl er nicht wusste, was wirklich in der Box war.
+(Lachen) Der Fund wurde als familiere Rückversicherung hinterlegt, in einer sicheren, verlässlichen Sicherheitsfirma in Dakar, Senegal, wo man mir vor Kurzem erst zeitweiliges Asyl gewährt hatte.
+Ich will das Geld nicht in Senegal investieren wegen des unvorteilhaften Wirtschaftsklimas und weil es meinem Land so nah ist.
+Das Einzige, was ich Sie bitte zu tun, ich weiß Sie tuen es für mich, ist Folgendes: 1) Seien Sie ein stiller Partner und Sie erhalten das Geld auf Ihrem Konto 2) Stellen Sie ein Konto bereit, das Sie kontrollieren, auf welches das Geld überführt wird; 3) Erhalten Sie das Geld auf Ihr Konto, nehmen Sie Ihre Provision und belassen Sie den Rest bis ich ankomme, nachdem der Transfer gelaufen ist.
+Hochachtungsvoll, Mr.Michael Bangoora."
+(Lachen) (Applaus) Das ist echt peinlich.
+Man sagte mir backstage, ich hätte 18 min.
+Ich habe nur 15 vorbereitet.
+(Lachen) Also wenn's geht, würde ich gerne 3 warten.
+(Lachen) Es tut mir echt Leid.
+(Lachen) (Applaus) Wie heißt du?
+(Lachen) Mark Serfaas.
+Das ist echt cool, was?
+Auf der Suche nach Glück.
+(Lachen) Bis du Jungfrau?
+(Lachen)
+Ich meine - nein!
+Ich meine so im TED-Sinne?
+(Lachen) Bist du?
+Oh, ja.
+Also, wie steht's bei dir,
+so 1000, 2000 haut das hin?
+Ha?
+Du hast keine Ahnung was ich meine?
+(Lachen) Ah, Mark -- (Lachen) Serfaas.
+(Lachen) 1,860 -- bin ich gut?
+(Lachen)
+Dafür braucht man sich nicht schämen.
+Das ist kein Schande.
+(Applaus) Ja, ich hing gestern mit ein paar Google-Typen ab.
+Echt cool, wir haben uns total besoffen.
+(Lachen) Und die erzählten mir, dass Google so fortschrittlich ist, dass, basierend auf deiner gesamten Interaktion mit Google, die tatsächlich vorhersagen können, was du als nächstes sagen wirst.
+(Lachen)
+Und ich so: "Fahr zur Hölle, das ist ja krank!"
+Aber die sagten: "Doch!
+Aber erzähls nicht weiter", aber die haben sich verquatscht.
+Und die sagten, dass ich einfach eintippen kann: "Was sage ich als nächstes"
+sowie meinen Namen und dann wird's angezeigt.
+Ich sag's euch, das ist unverfälschte Software hier, das ist ein echter Browser und das ist wirklich Google, und wir testen das heute live aus.
+"Was sage ich als nächstes" und Ze Frank -- das bin ich.
+Auf gut Glück ?
+(Lachen) AUF GUT GLÜCK ?
+!
+Zuschauer: Ja.
+(Lachen) Ze Frank: Oh.
+Erstaunlich.
+(Lachen) Im März 2001 -- (Lachen) filmte ich mich tanzend zu Madonna´s "Justify My Love".
+Am Donnerstag hab´ ich den Link zu der Website, auf dem die Clips waren, an 17 enge Freunde geschickt als Teil meiner -- einer Einladung zu -- einer Einladung zu meinem dr... zu meinem dr... zu meinem 26. Geburtstag.
+(Lachen) Bis Montag kamen über eine Million Leute auf die Seite, pro Tag!
+(Lachen) Innerhalb einer Woche bekam ich einen Anruf von EarthLink, wegen Überziehung des Transferlimits...
+10 Cent pro überzähligem MB... ich schuldete ihnen also 30.000 $..
+(Lachen) Unnötig zu erwähnen, dass ich meinen Job wechseln konnte.
+OnScreen: Wurde gefeuert Und endlich freiberuflich arbeiten konnte.
+OnScreen: Arbeitslos Aber einige Leute nennen mich eher so eine Art...Internet Guru oder -- Swami OnScreen: Idiot OnScreen Verlierer
+Ich wusste ich hatte was.
+Ich hatte im Prinzip eine sehr schwer zu erklärende und komplexe Philosophie entwickelt, auf die ich aber nicht eingehen werde, weil sie ein wenig zu tiefgreifend ist für euch alle -- aber (Lachen) es geht darum, was Websites populär macht, wisst ihr, es ist...
+OnScreen: Tanz wie ein Idiot und verkauf nichts es ist schade, dass ich nicht mehr Zeit habe.
+Vielleicht kann ich nächstes Jahr nochmal wiederkommen, oder so.
+(Lachen) Ich bin besessen von Email.
+Ich bekomme eine Menge davon.
+4 Jahre später und ich bekomme wahrscheinlich 200 oder 300 Mails pro Tag von Leuten die ich nicht kenne und das ist eine tolle Gelegenheit um, naja, andere Kulturen kennenzulernen, wisst ihr?
+Es ist wie ein Mikroskop für den Rest der Welt.
+Du siehst, irgendwie, in die Leben anderer Leute und ich habe so das Gefühl ich bekomme auch viel Inspiration
+von dem User an sich.
+Zum Beispiel hat mir jemand geschrieben, der sagte "Hey Ze, wenn du jemals nach Boulder kommst, solltest du mit uns abrocken".
+Und ich sagte mir "Warum warten?"
+Und die sagten "Hey Ze, danke für´s abrocken, aber wir meinten die Art von abrocken wo wir nackt sind".
+(Lachen) Das war peinlich...
+Aber wisst ihr, das ist so eine Art von Zusammenarbeit
+zwischen mir und den Fans, also sagte ich "Klar".
+(Lachen) Ich höre viele von euch flüstern.
+(Lachen) Und ich weiß, was ihr sagt.
+Ihr sagt "Heilige Scheiße,
+wie kommt es, dass seine Präsentation so glatt läuft?"
+Und ich muss sagen, das liegt dieses Jahr nicht nur an mir.
+Ich denke, Chris verdient auch ein wenig Anerkennung dafür, denn in den vergangenen Jahren gab es bei TED, glaube ich,
+irgendwie suboptimale Sprecher.
+Und daher hat Chris uns dieses Jahr einen TED-Konferenzsimulator geschickt.
+(Lachen) Was uns Sprechern die Möglichkeit bot richtig reinzugehen, mitten rein, und zu Hause zu üben, sodass wir für diese Erfahrung gewappnet sind.
+Und ich muss sagen, ihr wisst schon,
+es ist wirklich toll hier zu sein.
+Ich würde euch gern einen kleinen Witz erzählen -- aber er kann nicht nur die guten Sachen.
+Du kannst auf "Zwischenrufer" stellen.
+Stimme: "Hey Depp, runter von der Bühne !"
+ZF: RUNTER MIT DIR VON DER BÜHNE !
+(Lachen) Stimme: Wir wollen Malcom Gladwell.
+(Lachen) (Applaus) Für den Fall, dass man über die Zeit hinaus kommt.
+Ich -- nur noch eine letzte Sache möchte ich sagen, ich, wirklich -- (Lachen) ich möchte euch allen dafür danken hier zu sein.
+(Lachen) Und der Frosch-Modus.
+Ahh, das erste Mal, als ich mit einem Fels-Shrimp ins Bett stiiieeeg, (Lachen) Spam Jokes sind die neuen Flugzeugwitze Spam Jokes sind die neuen Flugzeugwitze Ist echt wahr.
+Manche Leute sagen zu mir,
+die sagen, "Ze, du machst dieses ganze Zeug, dieses Internetzeug, und du verdienst keinen Pfennig damit.
+(Lachen) Warum?"
+Und ich sage "Mutti, Vati -- (Lachen) Ich versuch es ja."
+Wisst ihr, ich weiß nicht, ob euch das bewusst ist,
+

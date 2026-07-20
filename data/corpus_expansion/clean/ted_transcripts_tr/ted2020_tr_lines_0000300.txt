@@ -1,0 +1,302 @@
+Suçlu ya da terörist gibi pek çok şekilde anılıyorlar, ve ben yasadışı yollarını savunamam, ancak uğruna savaştıkları fikirler hepimiz için önemli olan şeyler.
+Gerçek şu ki hackerlar bir şeyleri kırmaktan çok daha fazlasını yapabilir.
+İnsanları bir araya getirebilir.
+Ve internet bir şeyleri ortadan kaldırmaya çalışmanızdan hoşlanmıyorsa eğer, bir de interneti kesmeye çalıştığınızda neler olduğuna bakın.
+Mısır'da 2011 yılında Cumhurbaşkanı Hüsnü Mübarek, umutsuz bir çabayla Kahire sokaklarında gerçekleşen devrimi bastırmak için özel ekiplerini göndererek Mısır'ın internet servis sağlayıcılarının yani ülkenin dünyaya bağlantısının bir gecede şalterini kapattı.
+Bir devletin böyle bir şey yapması daha önce hiç görülmemişti ve hackerlar için bu kişisel bir durumdu.
+Telecomix grup gibi hackerlar olay yerinde aktif haldelerdi Mısırlılara sansürü aşmalarında yardım ediyor Mors alfabesi ve amatör radyo gibi zekice çözümler buluyorlardı.
+Devletin engelleyemediği eski teknoloji için parlak bir dönemdi ancak internet tamamen çöktüğünde Telecomix de esas silahı ortaya çıkardı.
+Hala 20 yıllık analog çevirmeli ağ altyapısına sahip Avrupalı servis sağlayıcılar buldular.
+Bu hatlardan 300 tanesini Mısırlıların kullanımına açtılar, yavaş olsa da Mısırlılara internet bağlantısı sağladılar.
+Bu işe yaradı.
+Hatta o kadar yaradı ki, birisi internetten "How I Met Your Mother" dizisinin bir bölümünü bile indirdi.
+Mısır'ın geleceği hala belli değilken, aynı şey tam bir sene sonra Suriye'de olduğunda Telecomix bu hatlarla hazırlıklıydı, Anonymous ise Suriye ordusunun sitesine zarar vererek yaptıkları eylemleri açıkça kınayan belki de ilk uluslararası gruptu.
+Ancak bu tür bir güce sahipseniz önemli olan çizginin neresinde durduğunuzdur çünkü birisinin kahramanı, bir başkası için kötü adam olabilir, Suriye Elektronik Ordusu da Esad'ı ve tartışmalı rejimini destekleyen bir hacker grubuydu.
+Geçtiğimiz senelerde çok iyi tanınan birçok hedefi çökerttiler, buna Birleşik Basın'ın Twitter hesabı da dahildi, yayınladıkları iletide Beyaz Saray'a bir saldırı düzenlendiğini ve Başkan Obama'nın yaralandığını yazdılar.
+Bu Tweet sahteydi tabi, ancak Dow Jones indeksinde gerçekleşen düşüş oldukça gerçekti ve bir sürü insan çok para kaybetti.
+Bu tür şeyler şu an tüm dünyada gerçekleşitor.
+Kırım yarımadasındaki çatışmalardan, Latin Amerika'ya Avrupa'dan ABD'ye varana kadar, hackerlar sosyal, politik ve askeri konularda güçlü bir etkiye sahip.
+Birey olarak ya da grup halinde, gönüllü ya da askeri çatışmalarda, hackerlar her yerde.
+Her toplumsal sınıftan, etnik yapıdan, ideolojiden ve cinsiyetten hacker var.
+Dünya sahnesini şekillendiriyorlar.
+21. yüzyılda hackerlar olağanüstü bir değişim gücünü simgeliyor.
+Çünkü bilgiye erişim çok önemli bir güç göstergesi ve devletler bunu sınırı olmayan gözetim programları kurarak kontrol etmek istiyor üstelik bunu yapmak için de hackerlara ihityaçları var.
+Bu yüzden kurulu düzenin hackerlarla uzun süredir bir aşk-nefret ilişkisi var, çünkü hacklemeyi şeytan gibi gösterenler aynı zamanda buna sıkça başvuruyor.
+İki sene önce General Keith Alexander'i gördüm.
+Kendisi NSA'nın direktörü ve ABD siber komutanı, ancak o gün dört yıldızlı general üniformasının yerine kot pantolon ve tişört giyiyordu.
+Dünyanın en büyük hacker konferansı olan DEF CON'daydık.
+Belki General Alexander da benim gibi o gün Las Vegas'ta 12 bin sabıkalı görmüyordu.
+Bence el değmemiş potansiyel görüyordu.
+Aslında işe alım fırsatı sunmak için oradaydı.
+"Tam burada, bu odada, ulusumuzun ihtiyacı olan yetenekler bulunuyor" dedi.
+Arka sırada oturan hackerlar ise "Bizi tutuklamaktan vazgeçin o zaman" dediler.
+(Alkış) Gerçekten de senelerce hackerlar çitin yanlış tarafındalardı ancak bugün bildiklerimizin ışığında çevrimiçi dünyayı kim daha iyi gözetliyor?
+Oyunun kuralları eskisi gibi net değil ancak belki de haddi aşan devletlere ve veri istifleyen şirketlere kendi alanlarında hâlâ meydan okuyabilen sadece hackerlar var.
+Benim için bu umudu simgeliyor.
+Geçtiğimiz otuz yılda hackerlar pek çok şey yaptılar ama aynı zamanda sivil hakları, yenilikleri ve internet özgürlüğünü geliştridiler, bu yüzden onları nasıl tanımladığımızı iyi düşünmemiz gerekiyor çünkü onların kötü adam olmasını bekliyorsak aynı zamanda nasıl kahraman olabilirler?
+Hackerlık dünyasındaki senelerim hackerlar hakkında hem sorunlu hem de güzel yanları görmemi sağladı.
+Dünyada bozuk bir şey görüp de bunu oluruna bırakamıyorlar.
+Bunu ya sömürmeye ya da değiştirmeye mecbur hissediyorlar, bu yüzden hızlı değişen dünyamızda zayıf noktaları buluyorlar.
+Bizi bir şeyleri onarmaya veya daha iyi bir talepte bulunmaya zorluyorlar, bu yüzden onların tam olarak da bunu yapmalarına ihtiyacımız var, çünkü sonuçta özgür bırakmak istedikleri bilgi değil, biziz.
+Teşekkür ederim.
+Teşekkürler.
+(Alkış) Dünyayı hackleyin!
+Çocukluğumdan beri fizik hakkında kafamı gerçekten kurcalayan bir şeyler var.
+Bu, bilim adamlarının neredeyse 100 senedir sorduğu cevapsız bir soru ile ilgili.
+Doğadaki en küçük şeyler, kuantum dünyasındaki parçacıklar, doğadaki en büyük şeylerle nasıl örtüşüyor?
+Gezegenler, yıldızlar ve galaksiler yer çekimiyle nasıl bir arada tutuluyor?
+Çocukken, bunun gibi sorular üzerine kafa yorardım.
+Mikroskoplar ve elektromıktanıstarla oynayıp durur küçük şeylerin kuvveti ve kuantum mekaniği hakkında yazılar okurdum.
+Betimlemelerin gözlemlerimizle nasıl bu kadar iyi örtüştüğüne hayret ederdim.
+Sonra yıldızlara bakar yer çekimini ne kadar anladığmız hakkında yazılar okurdum.
+Bu iki sistemin kesiştiği zarif bir yöntemin kesinlikle var olması gerektiğini düşünürdüm.
+Fakat böyle bir şey yok.
+Kitaplar, bu iki alanı da ayrı ayrı çok iyi anladıklarını yazardı.
+Fakat, ikisini matematiksel olarak ilişkilendirmeye çalıştığımızda her şey bozulur.
+Yüz yıldır, bu fizik faciasını çözmek için ürettiğimiz fikirlerin hiçbiri kanıtlarla desteklenmedi.
+Bu benim için, --küçük,meraklı, şüpheci James için-- son derece yetersiz bir cevaptı.
+Bu yüzden, ben hâlâ şüpheci,küçük bir çocuğum.
+Şimdi 2015'in Aralık ayına, kendimi, baş aşağı olan fizik dünyasının tam ortasında tokat yemiş gibi bulduğum zamana gidelim.
+Her şey, CERN'de, verilerimizde ilgimizi çeken bir şey görmemizle başladı.
+Bu, yeni bir parçacığın belirtisi, cevaplanamayan bu soruya belki de sıra dışı bir cevap için ipucuydu.
+Sanırım hala şüpheci küçük bir çocuğum ama şimdi aynı zamanda bir parçacık avcısıyım.
+Ben CERN'in Büyük Hadron Çarpıştırıcısında (LHC) şimdiye kadar yapılmış en büyük bilim deneyinde, fizikçiyim.
+Bu Fransa ve İsviçre sınırında yerin 100 metre altında 27 kilometrelik bir tünel.
+Bu tünelde, protonları neredeyse ışık hızı kadar hızlandırıp saniyede milyonlarca defa birbirine çarptırmak, bu çarpışmaların kalıntılarını toplayarak yeni, keşfedilmemiş önemli parçacıkları araştırmak için uzay boşluğundan daha soğuk süper iletkenli mıknatıslar kullandık.
+Tasarımı ve inşaası dünyanın her yerinden binlerce fizikçinin onlarca yılını aldı.
+2015'in yazında, yorulmadan LHC'yi insanoğlunun çarpıştırıcı deneylerinde şimdiye kadar kullandığı en yüksek enerjide çalıştırmaya çalışıyorduk.
+Daha yüksek enerji önemli çünkü parçacıklar için enerji ve parçacık kütlesi arasında bir eşitlik var ve kütle sadece doğa tarafından koyulmuş bir sayıdır.
+Yeni parçacıklar keşfetmek için bu daha büyük sayılara erişmemiz gerek.
+Bunun için daha yüksek enerjili çarpıştırıcı inşa edilmeliyiz, ve dünyanın en büyük, en yüksek enerjili çarpıştırıcısı Büyük Hadron Çarpıştırıcısıdır.
+(LHC) Daha sonra, protonları katrilyonlarca kez çarpıştırır, ve bu verileri aylarca çok yavaş bir şekilde toplarız.
+Daha sonra yeni parçacıklar verilerimizde çıkıntılar olarak belirebilir.
+Umduğunuzdan daha hafif sapmalar, pürüzsüz bir çizgiyi pek de pürüzsüz yapmayan küçük veri noktaları kümeleri.
+Mesela bu çıkıntı, 2012'de aylarca veri topladıktan sonra Higgs parçacığının -Higgs bozonu - keşfedilmesinin ve onun varlığının teyiti olduğu olarak Nobel ödülünün yolunu açmıştır.
+2015'te enerjideki sıçrama, yeni parçacıklar keşfetmek ve bu sorulara yeni cevaplar bulmak için insanoğlunun eline geçen en iyi şansı temsil ediyordu.
+Çünkü Higgs bozonunu keşfettiğimizde kullandığımız enerjinin neredeyse iki katını kullanmıştık.
+Çok sayıda meslektaşım tüm kariyerleri boyunca bu an için çalışmışlardı ve bu benim için de tüm hayatım boyunca beklediğim andı.
+Bu yüzden, 2015 harekete geçme zamanıydı.
+Böylece, 2015'in Haziran ayında LHC tekrar çalışmaya başladı.
+İş arkadaşlarım ve ben neseflerimizi tuttuk ve sonunda bu gelmiş geçmiş en yüksek enerjide ilk proton çarpışmalarını gördük.
+Alkışlar, şampanyalar, kutlamalar.
+Bu bilim için bir dönüm noktasıydı ve bu yepyeni verilerde ne bulacağımıza dair hiçbir fikrimiz yoktu.
+Ve birkaç hafta sonra bir çıkıntı keşfettik.
+Bu çok büyük bir çıkıntı değildi ama yine de gözlerimizi fal taşı gibi açtıracak kadar büyüktü.
+Eğer sizi şaşırtacak şeyleri 10 üzerinden puanlarsak ve 10, yeni bir parçacık keşfettiğinizi gösteriyorsa bu, 4 puan alır.
+(Gülüşmeler) Saatlerimi, günlerimi, haftalarımı meslektaşlarımla gizli toplantılarda bu küçük çıkıntı üzerine tartışmak için harcadım.
+İncelemelere dayanıp dayanamayacağını görmek için onu, en deneysel çubuklarımızla dürtükledik.
+Fakat, aylarca süren ateşli çalışmanın ardından bile - ofislerde sabahlayıp, eve gitmeyerek, akşam yemeği için gofret yiyip kovalarca kahve içerek - ki fizikçiler kahveyi grafiğe döken makinalardır.
+(Gülüşmeler) Bu küçük çıkıntı bir türlü kaybolmadı.
+Böylece, birkaç ay sonra bu küçük çıkıntıyı şu şekilde açık bir mesajla dünyaya sunduk: "Bu küçük çıkıntı ilginç ama sabit değil bu yüzden biz daha fazla veri toplarken gözünüz üzerinde olsun."
+Bu konuyla ilgii aşırı sakin olmaya çalışıyorduk.
+Fakat dünya bu bilgiyle aşırı heyecanlandı.
+Haberler bu bilgiye bayıldı.
+İnsanlar, bunun onlara Higgs bozonunun keşfine doğru beliren çıkıntıyı hatırlattığını söyledi.
+Dahası, benim kuramcı meslektaşlarım -ki kuramcı meslektaşlarımı çok severim- bu küçük çıkıntıyla ilgili 500 sayfalık yazı yazdılar.
+(Gülüşmeler) Parçacık fiziği dünyası tepe taklak olmuştu.
+Peki, binlerce fizikçinin toplu olarak bu özel parçacıkla ilgili aşırı heycanlanmasına sebep olan şey neydi?
+Bu küçük çıkıntı eşsizdi.
+Bu küçük çıkıntı bize, kalıntısı yalnızca iki fotondan yani iki ışık biriminden oluşan beklenmedik sayıda çok çarpışmaya tanık olduğumuzu gösteriyordu,
+ki bu çok nadirdir.
+Parçacık çarpışmaları araba çarpışmalarına benzemez.
+Farklı kuralları vardır.
+İki parçacık, ışık hızı kadar bir hızla çarpıştığında kuantum dünyası devreye girer.
+Kuantum dünyasında, bu iki parçacık çarpıştığında dedektörümüze çarpan diğer parçacıklara bölünmenden önce çok kısa bir anlığına yaşayan yeni bir parçacık yaratabilir.
+Çarpışmanın etkisiyle iki arabanın da ortadan kaybolup bir bisikletin oluştuğu bir kaza düşünün.
+(Gülüşmeler) Sonra bisiklet patlıyor ve dedektörümüze çarpan iki kaykaya dönüşüyor.
+(Gülüşmeler) Tabi umarım böyle bir şey olmaz.
+Çünkü dedektörlerimiz çok pahalı.
+Dedektörlerimize yalnızca iki fotonun çarptığı olaylar çok nadirdir.
+Fotonların özel kuantum özellikleri nedeniyle de yalnızca iki fotonun ortaya çıkmasını sağlayacak çok az sayıda olası yeni parçacıklar - yani şu hayali bisikletler - mecvut.
+Ama bu olasılıklardan bir tanesi çok büyük ve bu olasılık küçücük bir çocukken kafama takılan yer çekimiyle ilgili o uzun soluklu soruyla alakalı.
+Yer çekimi size olağanüstü güçlü görünebilir.
+Fakat, aslında doğanın diğer güçleriyle karşılaştırıldığında
+inanılmaz derecede zayıf.
+Zıpladığım zaman kısa bir süreliğine yer çekimini yenebilirim ama bir protonu elimden çıkaramam.
+Doğadaki diğer güçlerle karşılaştırıldığında yer çekiminin gücü ne midir?
+10 üzeri -39'dur.
+Yani sorasında 39 tane 0 olan ondalık bir sayıdır.
+Daha da kötüsü, doğanın bilinen bütün güçleri, Standard Model dediğimiz şeyle mükemmel bir şekilde tanımlanmış ki bu doğanın, en küçük ölçülerde, mevcut olan en iyi tanımıdır ve açık yüreklilikle söyleyebilirim ki, bu - Standart Modelin dışında kalan yer çekimi hariç - insanoğlunun en büyük, en önemli başarılarından biridir.
+Bu çılgınca bir şey.
+Neredeyse yer çekiminin çoğu kaybolmuş gibi bir şey.
+Onun birazını hissedebiliyoruz ama geri kalanı nerede?
+Kimse bilmiyor.
+Ancak, kuramsal bir açıklama çılgınca bir fikir ortaya atıyor.
+Sen ve ben -- hatta sen arkadaki -- biz, uzayın üç boyutunda yaşıyoruz.
+Umarım bu tartışmaya açık bir ifade olmamıştır.
+(Gülüşmeler) Bilinen parçacıkların tümü de uzayın üç boyutunda yaşıyor.
+Aslında, parçacık, üç boyutlu alandaki uyarımın, yani uzaydaki bölgesel bir sallantının başka bir adıdır.
+Daha da önemlisi, bütün bunları tanımlamak için kullandığımız bütün matematik uzayda sadece üç boyutun var olduğunu varsayıyor.
+Ama matematik matematiktir,onunla istediğimiz şekilde oynayabiliriz.
+İnsanlar da uzun zamandır uzayın ilave boyutlarıyla oynuyordu fakat bu her zaman soyut bir matematiksel kavram olarak kaldı.
+Yani, sadece etrafınıza bakın -- sen arkadaki, etrafına bak -- uzayın sadece üç boyutunun olduğu apaçık.
+Peki ya bu doğru değilse?
+Ya kayıp yer çekimi bize görünmeyen uzay dışı bir boyuta sızıyorsa?
+Ya yer çekimi en az diğer güçler kadar güçlüyse ve bunu sadece uzay dışı boyutta gözlemleyebiiyorsan ve bizim deneyimlediğimiz yer çekiminin onu çok güçsüz gösteren sadece ufacık bir kısmıysa?
+Eğer bunlar doğruysa, parçacıkların Standart Modelini, ilave bir boyutu kapsayacak şekilde yani yer çekiminin hiperboyutlu parçacığı olan uzay dışı boyutlarda yaşayan özel uzaysal gravitonu kapsayacak şekilde genişletmeliyiz.
+Yüz ifadelerinizi görebiliyorum.
+Muhtemelen bana "Üç boyutta sıkışıp kalmış olarak nasıl bu çılgın bilim kurgu fikrini test edeceğiz?" sorusunu soruyorsunuzdur.
+Her zaman yaptığımız gibi, iki protonu birbirine çarptırarak -- (Gülüşmeler) Çarpışmanın, tekrar LHC'nin üç boyutuna geri dönen, iki foton yani iki ışık parçacığı tüketen bu hiperboyutlu gravitonu, anlık olarak yaratarak mevcut olabilecek herhangi bir ilave-uzamsal boyutta yankılanması oldukça zordur.
+Bu varsayımsal ilave boyutlu graviton, bizim ufak, iki-fotonluk çıkıntımıza sebep olabilecek özel kuantum özelliklerine sahip tek olası varsayımsal yeni parçacıklardan biridir.
+Yani, yer çekiminin gizemini açıklama ve uzayın ilave boyutlarını keşfetme olasılığı -- belki şimdi neden binlerce fizikçinin hep beraber bizim ufak iki fotonluk çıkıntımız için aşırı heyecanlandığını birazcık anlayabilmişsinizdir.
+Bu tür bir keşif ders kitaplarını baştan yazdırır.
+Ama unutmayın, bizim, yani o zaman bu işle uğraşan deneyselcilerin mesajı oldukça açıktı: Daha fazla veriye ihtiyacımız var.
+Daha fazla veriyle, küçük çıkıntı ya gıcır gıcır bir Nobel Ödülüne dönüşecek (Gülüşmeler) ya da fazla veri çıkıntının etrafındaki boşluğu doldurup onu güzel pürüzsüz bir çizgiye dönüştürecekti.
+Böylece, daha fazla veri topladık ve birkaç ay sonra, beş kat fazla veriyle küçük çıkıntımız pürüzsüz bir çizgiye dönüştü.
+Gazeteler "büyük hayal kırıklığı", "sönen umutlar" ve parçacık fizikçilerinin "ne kadar üzgün oldukları" ile ilgili yazılar yazdı.
+Gazetelerde yazılanlara bakınca, bizim LHC'yi kapatıp eve gitmeye karar verdiğimizi düşünürdünüz.
+(Gülüşmeler) Ama biz öyle yapmadık.
+Peki neden öyle yapmadık?
+Yani, eğer bir parçacık keşfetmediysem - ki keşfetmedim - neden burada sizinle konuşuyorum?
+Neden sadece utançla başımı eğip eve gitmedim?
+Parçacık fizikçileri araştırmacıdır.
+Bizim yaptığımız daha çok harita çizimi.
+Şöyle anlatayım: bir saniyeliğine LHC'yi unutun.
+Uzak bir gezegene varmakta olan,
+uzaylı arayan bir uzay araştırmacısı olduğunuzu hayal edin.
+İlk göreviniz nedir?
+Hemen gezegenin yörüngesinde dönmek, iniş yapmak, bariz yaşam belirtileri için hızlıca etrafa göz atmak ve ana üsse raporlamak.
+Şu anda biz bu aşamadayız.
+LHC'ye, yeni, gözle açık bir şekilde görülebilen parçacıklar var mı diye bir baktık ve şimdi olmadığını raporlayabiliriz.
+Uzaktaki bir dağda tuhaf görünümlü uzaylı bir çıkıntı gördük fakat yakınlaştığımızda onun bir kaya olduğunu anladık.
+Peki sonra ne yaparız?
+Pes edip geri mi döneriz?
+Tabi ki hayır.
+Eğer öyle yaparsak berbat birer bilim adamı oluruz.
+Hayır, bir sonraki birkaç on yılı, keşfederek, bölgenin haritasını çıkararak, toprağı ince aralıklı aletlerle dikkatle inceleyerek, her taşın altına bakarak, yüzeyin altını kazarak geçiririz.
+Yeni parçacılar büyük, gözle görülebilecek kadar bariz çıkıntılar halinde ya hemen belirir ya da kendilerini yıllarca süren veri toplamanın ardından gösterir.
+İnsanlık, yüksek yoğunluktaki enerjideki yani LHC'deki keşfine daha yeni başladı ve daha yapılacak çok araştırmamız var.
+Peki, ya 10 ya da 20 yıl geçtikten sonra bile yeni bir parçacık keşfedemezsek?
+Daha büyük bir makine inşa ederiz.
+(Gülüşmeler) Daha yüksek enerjilerde araştırmalar yaparız.
+Parçacıkları LHC'nin enerjisinin 10 katı enerjide çarpıştırabileceğimiz 100 km'lik tünelin planlaması devam ediyor.
+Doğanın yeni parçacıkları nereye koyacağına biz karar vermiyoruz.
+Biz sadece araştırmaya devam etmeye karar veriyoruz.
+Peki, ya 100 km'lik ya da 500 km'lik tünel ya da Dünya ve Ay arasında uzayda süzülen 10.000 km'lik çarpıştırıcıdan sonra bile yeni parçacıklar bulamazsak?
+O zaman, belki de parçacık fiziğini yanlış yapıyoruzdur.
+(Gülüşmeler) Belki bir şeyleri yeniden düşünmeliyizdir.
+Belki şu anda sahip olduğumuzdan daha fazla kaynağa, teknolojiye, uzmanlığa ihtiyacımız vardır.
+Zaten yapay zeka ve LHC'de makine öğrenme tekniklerini kullanıyoruz ama kendine hiperboyutlu graviton keşfetmeyi öğretebilen, böyle ileri teknoloji ürünü algoritmaları kullanarak parçacık fiziği deneyi tasarladığınızı hayal edin.
+Peki ya yapay zeka bile sorularımızı cevaplamada bize yardımcı olamazsa?
+Ya bu yüzyıllarca cevaplanamamış sorular öngörülebilir gelecekte de cevaplanamamaya mahkumsa?
+Ya küçüklüğümden beri aklımı kurcalayan şeyler hayatım boyunca cevaplanamamaya mahkumsa?
+İşte o zaman,
+daha da büyüleyici olacak.
+Tamamen yeni şekillerde düşünmek zorunda kalacağız.
+Varsayımlarımıza geri gidip bir yerde kusur olup olmadığını saptayacağız.
+Yüzyıllık sorularda yeni bakışlara ihtiyaç duyduğumuzdan bilim araştırmalarında bize katılmaları için daha çok insanı cesaretlendirmemiz gerekecek.
+Bunların cevaplarını ben de bilmiyorum ama hala arıyorum.
+Ama biri - belki şimdi ilkokulda belki de henüz doğmadı - fiziği, en sonunda tamamen yeni bir bakış açısıyla görmemizi sağlayacak ve belki de yanlış soruları sorduğumuzu bize gösterecek.
+Ki bu fiziğin sonu değil yeni ve farklı bir başlangıcı olacak.
+Teşekkürler.
+(Alkışlar)
+Hayatının her günü, başka insanların oluşturduğu güç sistemleri içinde hareket ediyorsun.
+Onları hissediyor musun?
+Gücü anlıyor musun?
+Neden önemli olduğunun farkında mısın?
+Güç genellikle hakkında konuşmaktan rahatsız olduğumuz bir şey.
+Bu özellikle toplum içinde birlikte yaşama biçimimiz olan sivil yaşam için doğru.
+Demokraside gücün insanlara ait olması gerekirdi.
+Güç hakkında daha fazla konuşma ve gerçekten ona sahip olan kişi biraz edepsiz belki de şeytani bile görünüyor;
+ama güç esasen ateşten ya da fizikten daha iyi ya da kötü değil.
+Güç sadece güçtür.
+Herhangi bir tarzdaki hükümetin nasıl çalışacağını kontrol eder.
+Oyunun kurallarını kimin belirleyeceğini tayin eder.
+Dolayısıyla etkili olmak, ciddiye alınmak ve kullanılmamak için gücün nasıl işlediğini öğrenmek önemlidir.
+Bu derste, gücün nereden geldiğini, nasıl uygulandığını ve toplumsal yaşamda daha güçlü olman için neleri yapabileceğini göz önüne alacağız.
+Basit bir tanımla başlayalım.
+Güç, başkalarına yaptırtmak istediğin şeyleri onlara yaptırabilme becerisidir.
+Tabi ki, bu aileden iş yerine, ilişkilere kadar hayatın her alanında geçerlidir.
+Biz sivil yaşam alanına odaklanacağız.
+Bu alanda güç, bir topluluğa istediğin seçimi yaptırabilme ve istediğin bir harekette bulunmalarını sağlama anlamında.
+Sivil gücün 6 temel kaynağı vardır.
+Birincisi fiziksel güç ve şiddet kapasitesidir.
+Polis teşkilatı ya da ordu içinde olsun şiddet araçlarının kontrolü en ilkel biçimdeki güçtür.
+Gücün ikinci ana kaynağı zenginliktir.
+Para sonuçları ve neredeyse her türlü gücü satın alma becerisini yaratır.
+Üçüncü güç biçimi devlet faaliyetidir, hükümettir.
+Bu, insanları bazı şeyleri yapmayı ya da yapmamayı zorunlu kılmak için kanun ve bürokrasi kullanımıdır.
+Mesela, demokraside halk, teorik olarak, hükümete gücünü seçim yoluyla verir.
+Diktatörlükte, güç şiddet tehdidi altında ortaya çıkar, yönetilenin rızasıyla değil.
+Dördüncü tarz güç sosyal normlardır veya başkalarının uygun gördükleri şeylerdir.
+Normlar hükümetin merkezileştirilmiş mekanizmasına sahip değildir.
+Normlar akrandan akrana daha yumuşak bir şekilde işler.
+Kesinlikle insanların davranışlarını hatta kanunları bile değiştirebilir.
+Evlilikte eşitlik hakkındaki normların son günlerde nasıl değişime uğradığını düşün.
+Beşinci güç biçimi fikirlerdir.
+Bireysel özgürlükler ya da ırkların eşitliği gibi bir fikir fikirlerini ve hareketlerini değiştirmesi için yeterince insanı motive ederse sınırsız miktarda güç yaratabilir.
+Gücün altıncı kaynağı sayılardır, birçok insandır.
+İnsanlardan oluşan sesli kitle, topluca yoğun şekilde paylaşılan çıkarın ifade edilmesiyle ve meşruluğun savunulmasıyla gücü yaratır.
+Arap Baharı'nın ya da Çay Partisi'nin yükselişini düşün.
+Kalabalıklar değerlidir.
+Bunlar gücün ana altı kaynağı.
+Güç bunlardır.
+Şimdi, gücün nasıl işlediğini düşünelim.
+Gücün incelemeye değer 3 tane kuralı var.
+Birinci kural: Güç hiçbir zaman durağan değildir.
+Sivil toplum alanında her zaman ya artar ya da azalır.
+Dolayısıyla eğer harekete geçmiyorsan, başkaları senin üzerinde etki eder.
+İkinci kural: Güç su gibidir.
+Günlük yaşamda, bir akıntı gibi akar.
+Politika, bu akıntıyı tercih ettiğin yöne yönlendirme işidir.
+Yasa oluşturma bir güç akımını dondurma ve sürekli kılma çabasıdır.
+Yasalar donmuş güçtür.
+Üçüncü kural: Güç yoğunlaşır.
+Güç daha fazla güce yol açar ve güçsüzlükte böyledir.
+Üçüncü kuralın sadece bir kişinin bütün güce sahip olmasına engel olan tek şey birinci ve ikinci kuralı nasıl uyguladığımızdır.
+Birkaç insanın çok fazla güç biriktirmemeleri için ve ayrıcalıklarını politikada yüceltmemeleri için hangi kuralları oluşturmalıyız?
+Bu demokrasi konusu ve bu işleyen kuralların her birini herhangi bir haberde görebilirsin.
+Düşük ücretli işçiler daha yüksek ücret için organize oluyorlar.
+Petrol şirketleri büyük bir boru hattını onaylattırmaya çalışıyorlar.
+Gey ve lezbiyen çiftler evlenmek için yasal haklarını arıyorlar.
+Şehirdeki ebeveynler okul için para yardımı talep ediyorlar.
+Bu çabaları destekliyor ya da desteklemiyor olabilirsin.
+İstediğini elde edip etmemen güç konusunda ne kadar becerikli olduğuna bağlı ki bu da bizi sonunda toplumsal yaşamda daha güçlü olman için neler yapabileceğine getirir.
+Burada okuryazarlık bakımından düşünmek yararlıdır.
+Gücün nasıl okunduğunu ve yazıldığını öğrenmek senin aşman gereken zor bir iş.
+Gücü okuma birçok güçle ilgili yazıya dikkati vermen anlamına geliyor.
+Sadece kitapları kastetmiyorum.
+Toplumu yazılar yığını olarak görmeyi kastediyorum.
+Kampüsünde, şehrinde ya da ülkende bazı şeylerden memnun değil misin?
+Kimin nasıl bir güce sahip olduğunu, hangi sistem içinde gücün düzenlendiğini belirle.
+Neden böyle bir duruma dönüştüğünü, kimin bu durumu bu hale getirdiğini ve kimin böyle kalmasını istediğini anla.
+Böyle durumlarda başka kişilerin kullandığı stratejileri araştır: Doğrudan atak mı yoksa dolaylı yoldan mı?
+Koalisyon mu yoksa karizmatik otorite mi?
+Yazabilmen için oku.
+Gücü yazmak ilk olarak yazmaya ve değişimin yazarı olmaya hakkın olduğuna inanmanı gerektirir.
+Hakkın var.
+Diğer her türlü yazın gibi kendini ifade etmeyi, özgün bir söylemle fikirlerini anlatmayı öğrenirsin.
+Fikirlerini organize et ve ondan sonra başka insanları organize et.
+Görüş birliği oluşturmanın pratiğini yap.
+Tartışma pratiği yap.
+Yazı yazma gibi hepsi pratik yapmakla ilgili.
+Her gün pratik yapma şansın var, komşu çevrende ve ötesinde.
+Amaçlarını belirle ve sonra daha büyük olanlara başla.
+İşleyiş düzenini gözlemle ve neyin işe yaradığını gör.
+Uyum sağla, tekrar et.
+Bu vatandaşlıktır.
+Bu kısa derste sivil gücün nereden geldiğini, nasıl işlediğini ve onu uygulamak için neler yapabileceğini keşfettik.
+Güçle ilgili geriye kalan önemli bir soru "neden" sorusudur.
+Gücü herkes için mi yoksa sadece kendin için mi istiyorsun?
+Amaçların toplumdan yana mı?
+topluma karşı mı?
+Bu soru strateji ile ilgili değil.
+Karakterle ilgili ve bu başka bir ders konusu;
+ama şunu hatırla: Karakter artı güç iyi bir vatandaşa eşittir ve öyle biri olmak için güce sahipsin.
+ABD'de yaşayan Ugandalı bir göçmenim ve sığınma başvurumun onaylanmasını bekliyorum.
+Günümüz dünyasında göçmenlerin seyahat özgürlüğünden keyif aldıkları söylenemez.
+Şüphesiz bu, dalgalı ve rüzgarlı denizde kayıklarla seyahat etmek zorunda kalanlar için de geçerli.
+Batı ve Kuzey Afrika'dan Avrupa'ya geçmeye çalışan kuzenlerimin karşılaştığı riskler bunlar.
+Nitekim böyle bir toplanma, bir göçmen için ender ancak talihli görülen bir fırsat.
+Bu aynı zamanda mülteciler, göçmenler ve haklarını kaybedenlere ses olanlar üzerinden yürütülen küresel tartışmalarda neyin eksik kaldığına da işaret ediyor.
+Ev sahibi birçok ülkenin vatandaşları, önceden yeni gelenleri hoş karşılamış olanlar dahi, ülkelerine gelen birey sayısındaki artıştan rahatsız.
+Doğrudan eleştirileri, yeni gelenlerin ülkedeki sosyal refahı ve ülkenin istihdamındaki istikrarı altüst etmesi yönünde.
+Kararsız ve şüpheci vatandaşlar ise, halkçılık ve milliyetçiliğin en güçlü sesi olma konusunda iddialaşarak rekabet eden politikacılara bakıyor.
+Bu yarış göçmenlere karşı en katı olanın seyahat yasağı getirmeye ve duvarlar inşa etmeye yönelik projeler sunmaya en istekli tarafın kim olduğu hakkında.
+Tüm bu kısıtlamalar ilgili sorunun yalnızca belirtileri, sebepleri değil.
+Neden geliyorlar?
+Göçmenler bakış açılarını paylaşabilir, keşke politikacılar da dinlemeye istekli olsa.
+Dubaide iken göçmen işgücünün düzenli olarak maruz kaldığı haksızlık ve eşitsizliklerin kayıtlarını tuttum.
+Bunun sonucu olarak, saygın ülkelerin hükûmetlerinden gelen baskılar Orta Doğu'daki işimi kaybetmeme sebep oldu.
+Ekonomik yoksunluğun herkesi açlık tehlikesiyle karşı karşıya bıraktığı Uganda'ya sürüldüm.
+

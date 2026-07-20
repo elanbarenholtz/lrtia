@@ -1,0 +1,54 @@
+The National Football League has 180 million fans worldwide. About 17 million of those trek out to stadiums each season—which means over 90% of NFL fans are catching the games on TV, online and mobile. That's why NFL games represented 37 of the top 50 highest-rated television broadcasts of 2017.
+A lot of the appeal of football is that it's not just about the long throws of quarterbacks, the bullish strength of defensive lineman, and the lightning-fast reflexes of wide receivers, for example. It's about the chess match between the coaches, and the preparation, instincts, and quick decision-making of the smartest players.
+But while these athletic feats are amazing to watch and easy to recognize, it's often a lot harder to pinpoint the strategies and the smarts that tip a game one way or the other.
+That's where the NFL's Next Gen Stats—a big partnership with Amazon Web Services—is changing how the game is understood, using a combination of cloud computing, big data analytics, and machine learning.
+"We've been turning a corner on creating metrics that are more advanced and do a better job of telling the story of the game," Matt Swensson, the NFL's vice president of emerging products and technology, told TechRepublic.
+SEE: Big data policy (Tech Pro Research) | Job description: Chief data officer (Tech Pro Research) | Job description: Data scientist (Tech Pro Research)
+The NFL has been keeping statistics since 1920. But most of the stats that it displays to the public had been pretty standard for the past several decades. It was the kind of stuff you see on trading cards and game programs—yards passing, yards rushing, catches, tackles, quarterback sacks, interceptions, etc.
+But in 2015, it began putting a pair of RFID tags from Zebra Technologies on the shoulder pads of every NFL player in order to track speed, field location, and movement patterns. Now, it also has sensors on the referees, first down markers, and end zone pylons.
+How to fully take advantage of all this data and convert it into value for the NFL and its customers was the big challenge.
+When Amazon learned that the NFL now had all this player telemetry data, the AWS team suggested that they could help create more value with analytics—similar to what AWS had famously done with Major League Baseball Advanced Media.
+"We started working with [the NFL] to help them apply machine learning to that data," AWS vice president of marketing Ariel Kelman told TechRepublic. "They're recording things like when the ball was snapped, what the formation was, how many of which type of player was on the field, what the result of the play was. A lot of that is pattern recognition... The idea is there's a whole bunch of things that require manual detection and tagging that they want to be able to automate."
+So AWS and the NFL drew up a partnership where the NFL used the Amazon cloud, its advanced analytics tools and the new SageMaker machine learning product—while Amazon got to slap the AWS logo on Next Gen Stats as the official sponsor and get a bunch of promotional opportunities that show off what its big data tools can do.
+The deal kicked off about six months ago, before the start of the 2017 football season, and culminates on Sunday in Super Bowl LII—although both the AWS and NFL folks were even more excited about what they're going to be able to do with the data next year.
+Here are the three main ways it's changing the game:
+1. The impact of Next Gen Stats on NFL teams
+One week of NFL games now creates 3TB of data, NFL CIO Michelle McKenna-Doyle said in her presentation at Amazon's re:Invent conference last November. After each game, the league now exports a trove of data to each team to help them evaluate their overall performance and their players. The league provides some basic tools to help the teams evaluate the data along with a few basic insights. Some teams have their own data scientists or analytics partners to take it further.
+The teams are using the data to help inform their training, fitness, and game preparation. But there's one big caveat that's keeping them from using the data to plan game strategies and draw up plays.
+"Right now clubs are getting just their side of the ball, and so that's a decision point that's coming up," said the NFL's Swensson. "We want to be able to ultimately get to a place where both sides of the ball are available to clubs, so they can do a lot more interesting analysis."
+In other words, teams don't get their opponents' in-depth data or the patterns that machine learning can see. That's a big topic for the NFL in the upcoming off-season, and it's an issue that's up for consideration by the NFL Competition Committee.
+
+2. The impact of Next Gen Stats on NFL broadcasts
+The place where Next Gen Stats has made its most visible impact is on the television broadcasts of NFL games by CBS Sports (both TechRepublic and CBS Sports are owned by CBS). AWS has brought the data visualizations of Next Gen Stats into CBS broadcasts and given CBS analysts data points to explain some of the most important plays in the game. AWS is also working with the NFL's other broadcast partners to bring similar capabilities next season.
+Some of the Next Gen Stats that analysts now have access to include, for example:
+Real-time location data on all of the players
+Player speed and acceleration
+Total running distance for each player for the entire game
+The amount of separation that receivers get from their defenders
+The pressure rate that defenses have on quarterbacks
+Percentage of quarterback throws into tight windows
+Announcers such as former Dallas Cowboys quarterback Tony Romo—a new color commentator at CBS this season—have embraced the data and used it to help give viewers an inside look at why some of the plays on the field succeed and others don't.
+"We're working with the guys in production at CBS Sports to try and evolve it to really make the fan experience better. It's early days. What we've learned from baseball is the way to present this data," said Amazon's Kelman.
+"We're looking forward to taking it to the next level next season."
+3. The impact of Next Gen Stats on NFL fans
+For fans, the NFL has launched nextgenstats.nfl.com as a portal to view these new insights and data points. There are all kinds of new statistics that you've never seen on the back of a trading, such as:
+Average Time to Throw (quarterbacks)
+Average Completed Air Yards (quarterbacks)
+Aggressiveness Percentage (quarterbacks)
+Efficiency (running backs)
+8+ Defenders in the Box (running backs)
+Average Time Behind Line of Scrimmage (running backs)
+Average Cushion (receivers)
+Average Separation (receivers)
+Average Targeted Air Yards (receivers)
+The site also includes charts for quarterbacks, running backs, and receivers to see their patterns from their last game. In addition, the NFL publishes photo essays with specific insights from Next Gen Stats from the previous week's games, as well as videos that explain the differences and similarities between players, teams, and games based on the data.
+"There's some very complicated parts of football that can be really fascinating to die hard fans," said Swensson. "A lot of times you watch a game and maybe you don't realize some of the decisions and why they are made, or even some of the intricacies of the game such as why players line up a certain way. My hope is that [Next Gen Stats] continues to educate fans and help them understand more and more of our game."
+SEE: Turning Big Data into Business Insights (ZDNet special report) | Download the report as a PDF (TechRepublic)
+This stuff is obviously great source material for fantasy football junkies, but it can also fuel die-hard fans in their search to better understand the performance of their team and their favorite players—which can also create greater customer loyalty for the NFL. The good news for fans is that the program is just getting off the ground.
+"The stuff you see on the site now is just based off the tracking data and the splits we've been able to do based on location data, but not much pattern recognition," said Swensson. "A lot of the machine learning stuff we've done, we haven't put up yet. Our plan is to launch that for next season."
+Of course, there's one more big game left this season. For the fans watching Super Bowl LII between the New England Patriots and the Philadelphia Eagles on Sunday, here are a pair of Next Gen Stats videos that break down what's likely to be the game's key matchup:
+
+What other businesses can learn
+"The typical conversation that we're having with customers around machine learning is that it is one of the top priorities," said Kelman. "But, there is a huge gap in most of these companies between what they want to do and the skills of their people. It's kind of as simple as we have all this data, what should we do with machine learning? What problems should we point it at, and what kind of predictions should we make? The more examples that we can give our customers of what other people are doing, the better."
+Subscribe to TechRepublic's Big Data newsletter to keep up with the latest tips and best practices. Subscribe
+Also see

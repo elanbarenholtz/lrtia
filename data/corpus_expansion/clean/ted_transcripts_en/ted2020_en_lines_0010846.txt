@@ -1,0 +1,230 @@
+But like the model of the body, or our conception of white light, it doesn’t have to be.
+Our certainty that we have a metaphysical, subjective experience may come from one of the brain’s models, a cut-corner description of what it means to process information in a focused and deep manner.
+Scientists have already begun trying to figure out how the brain creates that self model.
+MRI studies are a promising avenue for pinpointing the networks involved.
+These studies compare patterns of neural activation when someone is and isn’t conscious of a sensory stimulus, like an image.
+The results show that the areas needed for visual processing are activated whether or not the participant is aware of the image, but a whole additional network lights up only when they are conscious of seeing the image.
+Patients with hemispatial neglect, like P.S., typically have damage to one particular part of this network.
+More extensive damage to the network can sometimes lead to a vegetative state, with no sign of consciousness.
+Evidence like this brings us closer to understanding how consciousness is built into the brain, but there’s still much more to learn.
+For instance, the way neurons in the networks related to consciousness compute specific pieces of information is outside the scope of our current technology.
+As we approach questions of consciousness with science, we’ll open new lines of inquiry into human identity.
+I started life as a fashion designer, working closely with textile designers and fabric suppliers.
+But today, I can no longer see or talk to my new collaborators, because they're in the soil beneath our feet, on the shelves of our supermarkets and in the beer I'm going to drink when I finish this talk.
+I'm talking about microbes and designing with life.
+Fifteen years ago, I completely changed both what I worked with and how I worked after a revelatory collaboration with a biologist.
+Our project gave me a different perspective on life, introducing a whole new world of possibility around how we can design and make things.
+I discovered a radical manufacturing proposition: biofabrication.
+Literally, fabricating with biology.
+What does that mean?
+Well, instead of processing plants, animals or oil to make consumer materials, we might grow materials directly with living organisms.
+In what many are terming "the Fourth Industrial Revolution," we're thinking about the new factories as being living cells.
+Bacteria, algae, fungi, yeast: our latest design tools include those of biotechnology.
+My own journey in biofabrication started with a project called "Biocouture."
+The provocation was that instead of growing a plant, like cotton, in a field over several months, we could use microbes to grow a similar cellulose material in a lab in a few days.
+Using a certain species of bacteria in a nutrient-rich liquid, we fermented threads of cellulose that self-organized into a sheet of fabric.
+I dried the fabric I had grown and cut and sewed it into a range of garments, shoes and bags.
+In other words, in one lab we grew materials and turned them into a range of products in a matter of days.
+And this is in contrast to currents methods of fabric production, where a plant is grown, just the cotton part is harvested, processed into a yarn, woven into a fabric and then potentially shipped across oceans before being cut and sewn into a garment.
+All of that can take months.
+So these prototypes indicated a field offering significant resource efficiencies.
+From reducing the water, energy and chemistry needed in the production of a material, through to generating zero waste, we grew fabrics to finished form -- if you like, "biological additive manufacture."
+Through biofabrication, I had replaced many intensive man-made steps with one biological step.
+And as I engaged with this living system, it transformed my design thinking.
+Here was biology, with no intervention from me other than designing initial conditions for growth, efficiently producing a useful, sustainable material.
+So now I can't help but see all materials through the lens of biofabrication.
+In fact, there's a growing global community of innovators rethinking materials with biology.
+Multiple companies are now growing mushroom materials, but not literally mushrooms -- using mycelium, which is the root system of fungi, to bind together agricultural byproducts.
+It's a process that's been described as "nature's glue."
+A common way to do this is to take a 3-D mold, fill it with a waste crop like corn stalks or hemp, add water, wait a few days for the mycelium to grow throughout, remove the mold, and you're left with a grown 3-D form.
+Incredibly, we can grow all kinds of structures using living organisms, from foams that can replace plastics in footwear, to leather-like materials without animals.
+Furniture, flooring -- all are currently being prototyped.
+Fungi are able to grow materials that are naturally fire retardant, without any chemicals.
+They're naturally hydrophobic, meaning they won't absorb water.
+They have higher melt temperatures than plastics.
+Polystyrene can take thousands of years to degrade.
+Mushroom packaging materials can be naturally composted in your back garden in as little as 30 days.
+Living organisms are transforming waste into cost-competitive, performance-matching materials that can start to replace plastics and other CO2-emitting materials.
+And once we start growing materials with living organisms, it starts to make previous methods of manufacture seem illogical.
+Take the humble house brick.
+The cement industry generates around eight percent of global CO2 emissions.
+That's more than all the planes and ships each year.
+The cement process requires materials to be fired in a kiln at over 2,000 degrees Fahrenheit.
+Compare this to bioMASON.
+They use a soil microbe to transform loose aggregates, like sand or crushed stone, into a biofabricated, or biocement, brick.
+Their process happens at room temperature, in just a couple of days.
+Think: hydroponics for bricks.
+An irrigation system feeds nutrient-rich water to trays of bricks that have been inoculated with bacteria.
+The bacteria produce crystals that form around each grain of sand, locking together all the loose particles to form a solid brick.
+We can now grow construction materials in the elegant way nature does, just like a coral reef.
+And these biofabricated bricks are nearly three times stronger than a concrete block.
+And in stark contrast to traditional cement production, they store more carbon than they make.
+So if we could replace the 1.2 trillion fired bricks that are made each year with biofabricated bricks, we could reduce CO2 emissions by 800 million tons every year.
+(Applause) Beyond growing materials with living organisms, we're even starting to design products that encourage their growth.
+And this comes from the realization that the very thing we've been trying to marginalize -- life -- might actually be our greatest collaborator.
+To that end, we've been exploring all the ways that we can grow healthy microbes in our own ecosystems.
+A great example of this is architects who are imagining the skin of a building to function like the bark of a tree.
+But not as a cosmetic green layer.
+They're designing architectural barks as hosts for evolving ecologies.
+These surface structures are designed to invite life in.
+And if we applied the same energy we currently do suppressing forms of life towards cultivating life, we'd turn the negative image of the urban jungle into one that literally embodies a thriving, living ecosystem.
+By actively encouraging surface interactions with healthy microbes, we could improve passive climate control, stormwater management and even reduce CO2 emissions by lowering the energy used to heat or cool our buildings.
+We're just beginning to realize the potential of nature-based technologies.
+I'm excited that we're starting to design and biofabricate a new material world.
+It's one that moves away from the exploitation of nonrenewable resources to working with the original, renewable life.
+Instead of designing out life, we're designing with it and for it.
+Packaging, fashion, footwear, furniture, construction -- biofabricated products can be grown close to centers of demand, with local resources, less land, energy, and even harnessing industrial waste streams.
+It used to be that the tools of biotechnology were the preserve of powerful, multinational chemical and biotech companies.
+In the last century, we expected material innovation to come from the likes of DuPont, Dow, BASF.
+But this 21st-century material revolution is being led by start-ups with small teams and limited capital.
+And by the way, not all their founders have science degrees.
+They include artists, architects and designers.
+Over a billion dollars has already been invested in start-ups biofabricating consumer products.
+I don't think we have a choice but to biofabricate our future.
+From the jacket you're wearing to the chair you're sitting in to the home you live in, your designed material world shouldn't compromise your health or that of our planet.
+If materials can't be recycled or naturally composted at home, we should reject them.
+I'm committed to making this future a reality by shining a light on all the amazing work being done today and by facilitating more interactions between designers, scientists, investors and brands.
+Because we need a material revolution, and we need it now.
+Thank you.
+(Applause)
+It's said that to be a poet you have to go to hell and back.
+The first time I visited the prison, I was not surprised by the noise of the padlocks, or the closing doors, or the cell bars, or by any of the things I had imagined.
+Maybe because the prison is in a quite open space.
+You can see the sky.
+Seagulls fly overhead, and you feel like you're next to the sea, that you're really close to the beach.
+But in fact, the gulls are looking for food in the dump near the prison.
+I went farther inside and I suddenly saw inmates moving across the corridors.
+Then it was as if I stepped back and thought that I could have very well been one of them.
+If I had another story, another context, different luck.
+Because nobody - nobody - can choose where they're born.
+In 2009, I was invited to join a project that San Martín National University conducted at the Unit 48 penitentiary, to coordinate a writing workshop.
+The prison service ceded some land at the end of the prison, which is where they constructed the University Center building.
+The first time I met with the prisoners, I asked them why they were asking for a writing workshop and they told me they wanted to put on paper all that they couldn't say and do.
+Right then I decided that I wanted poetry to enter the prison.
+So I said to them why don't we work with poetry, if they knew what poetry was.
+But nobody had a clue what poetry really was.
+They also suggested to me that the workshop should be not just for the inmates taking university classes, but for all the inmates.
+And so I said that to start this workshop, I needed to find a tool that we all had in common.
+That tool was language.
+We had language, we had the workshop.
+We could have poetry.
+But what I hadn't considered was that inequality exists in prison, too.
+Many of the prisoners hadn't even completed grammar school.
+Many couldn't use cursive, could barely print.
+They didn't write fluently, either.
+So we started looking for short poems.
+Very short, but very powerful.
+And we started to read, and we'd read one author, then another author, and by reading such short poems, they all began to realize that what the poetic language did was to break a certain logic, and create another system.
+Breaking the logic of language also breaks the logic of the system under which they've learned to respond.
+So a new system appeared, new rules that made them understand very quickly, - very quickly - that with poetic language they would be able to say absolutely whatever they wanted.
+It's said that to be a poet you have to go to hell and back.
+And they have plenty of hell.
+Plenty of hell.
+One of them once said: "In prison you never sleep.
+You can never sleep in jail.
+You can never close your eyelids."
+And so, like I’m doing now, I gave them a moment of silence, then said, “That's what poetry is, you guys.
+It's in this prison universe that you have all around you.
+Everything you say about how you never sleep, it exudes fear.
+All the things that go unwritten -- all of that is poetry."
+So we started appropriating that hell; we plunged ourselves, headfirst, into the seventh circle.
+And in that seventh circle of hell, our very own, beloved circle, they learned that they could make the walls invisible, that they could make the windows yell, and that we could hide inside the shadows.
+When the first year of the workshop had ended, we organized a little closing party, like you do when a job is done with so much love, and you want to celebrate with a party.
+We called family, friends, the university authorities.
+The only thing the inmates had to do was read a poem, and receive their diplomas and applause.
+That was our simple party.
+The only thing I want to leave you with is the moment in which those men, some of them just huge when standing next to me, or the young boys - so young, but with an enormous pride, held their papers and trembled like little kids and sweated, and read their poems with their voices completely broken.
+That moment made me think a lot that for most of them, it was surely the very first time that someone applauded them for something they had done.
+In prison there are things that can't be done.
+In prison, you can't dream.
+In prison, you can't cry.
+There are words that are virtually forbidden, like the word "time," the word "future," the word "wish".
+But we dared to dream, and to dream a lot.
+We decided that they were going to write a book.
+Not only did they write a book, but they also bound it themselves.
+That was at the end of 2010.
+Then, we doubled the bet and wrote another book.
+And we bound that one, too.
+That was a short time ago, at the end of last year.
+What I see week after week, is how they're turning into different people; how they're being transformed.
+How words are empowering them with a dignity they had never known, that they couldn't even imagine.
+They had no idea such dignity could come from them.
+At the workshop, in that beloved hell we share, we all give something.
+We open our hands and hearts and give what we have, what we can.
+All of us; all of us equally.
+And so you feel that at least in a small way you're repairing that huge social fracture which makes it so that for many of them, prison is their only destination.
+I remember a verse by a tremendous poet, a great poet, from our Unit 48 workshop, Nicolás Dorado: "I will need an infinite thread to sew up this huge wound."
+Poetry does that; it sews up the wounds of exclusion.
+It opens doors.
+Poetry works as a mirror.
+It creates a mirror, which is the poem.
+They recognize themselves, they look at themselves in the poem and write from who they are, and are from what they write.
+In order to write, they need to appropriate the moment of writing which is a moment of extraordinary freedom.
+They have to get into their heads, search for that bit of freedom that can never be taken away when they write and that is also useful to realize that freedom is possible even inside a prison, and that the only bars we have in our wonderful space is the word "bars," and that all of us in our hell burn with happiness when we light the wick of the word.
+(Applause) I told you a lot about the prison, a lot about what I experience every week, and how I enjoy it and transform myself with the inmates.
+But you don't know how much I'd like it if you could feel, live, experience, even for a few seconds, what I enjoy every week and what makes me who I am.
+(Applause) Martín Bustamante: The heart chews tears of time; blinded by that light, it hides the speed of existence where the images go rowing by.
+It fights; it hangs on.
+The heart cracks under sad gazes, rides on storms that spread fire, lifts chests lowered by shame, knows that it's not just reading and going on, it also wishes to see the infinite blue.
+The heart sits down to think about things, fights to avoid being ordinary, tries to love without hurting, breathes the sun, giving courage to itself, surrenders, travels toward reason.
+The heart fights among the swamps, skirts the edge of the underworld, falls exhausted, but won't give in to what's easy, while irregular steps of intoxication wake up, wake the stillness.
+I'm Martín Bustamante, I'm a prisoner in Unit 48 of San Martín, today is my day of temporary release.
+And for me, poetry and literature have changed my life.
+Thank you very much!
+Cristina Domenech: Thank you!
+(Applause)
+I want to start with a game.
+Okay?
+And to win this game, all you have to do is see the reality that's in front of you as it really is, all right?
+So we have two panels here, of colored dots.
+And one of those dots is the same in the two panels.
+And you have to tell me which one.
+Now, I narrowed it down to the gray one, the green one, and, say, the orange one.
+So by a show of hands, we'll start with the easiest one.
+Show of hands: how many people think it's the gray one?
+Really?
+Okay.
+How many people think it's the green one?
+And how many people think it's the orange one?
+Pretty even split.
+Let's find out what the reality is.
+Here is the orange one.
+(Laughter) Here is the green one.
+And here is the gray one.
+(Laughter) So for all of you who saw that, you're complete realists.
+All right?
+(Laughter) So this is pretty amazing, isn't it?
+Because nearly every living system has evolved the ability to detect light in one way or another.
+So for us, seeing color is one of the simplest things the brain does.
+And yet, even at this most fundamental level, context is everything.
+What I'm going to talk about is not that context is everything, but why context is everything.
+Because it's answering that question that tells us not only why we see what we do, but who we are as individuals, and who we are as a society.
+But first, we have to ask another question, which is, "What is color for?"
+And instead of telling you, I'll just show you.
+What you see here is a jungle scene, and you see the surfaces according to the amount of light that those surfaces reflect.
+Now, can any of you see the predator that's about to jump out at you?
+And if you haven't seen it yet, you're dead, right?
+(Laughter) Can anyone see it?
+Anyone?
+No?
+Now let's see the surfaces according to the quality of light that they reflect.
+And now you see it.
+So, color enables us to see the similarities and differences between surfaces, according to the full spectrum of light that they reflect.
+But what you've just done is in many respects mathematically impossible.
+Why?
+Because, as Berkeley tells us, we have no direct access to our physical world, other than through our senses.
+And the light that falls onto our eyes is determined by multiple things in the world, not only the color of objects, but also the color of their illumination, and the color of the space between us and those objects.
+You vary any one of those parameters, and you'll change the color of the light that falls onto your eye.
+This is a huge problem, because it means that the same image could have an infinite number of possible real-world sources.
+Let me show you what I mean.
+Imagine that this is the back of your eye, okay?
+And these are two projections from the world.
+They're identical in every single way.
+Identical in shape, size, spectral content.
+They are the same, as far as your eye is concerned.
+And yet they come from completely different sources.
+The one on the right comes from a yellow surface, in shadow, oriented facing the left, viewed through a pinkish medium.
+The one on the left comes from an orange surface, under direct light, facing to the right, viewed through sort of a bluish medium.
+Completely different meanings, giving rise to the exact same retinal information.
+And yet it's only the retinal information that we get.
+

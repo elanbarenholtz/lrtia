@@ -78,3 +78,19 @@ Thumbs.db
 *.fls
 *.fdb_latexmk
 *.toc
+
+# Exception: redistributable cleaned corpora needed for SI increment-shuffle experiment
+!data/
+data/*
+!data/corpus_expansion/
+data/corpus_expansion/*
+!data/corpus_expansion/clean/
+data/corpus_expansion/clean/*
+!data/corpus_expansion/clean/gutenberg_fiction_en/
+!data/corpus_expansion/clean/news_en/
+!data/corpus_expansion/clean/ted_transcripts_en/
+!data/corpus_expansion/clean/ted_transcripts_de/
+!data/corpus_expansion/clean/ted_transcripts_fr/
+!data/corpus_expansion/clean/ted_transcripts_tr/
+!data/corpus_expansion/clean/ted_transcripts_ru/
+!data/corpus_expansion/clean/manifests/

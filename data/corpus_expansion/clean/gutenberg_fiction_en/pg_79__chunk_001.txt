@@ -1,0 +1,470 @@
+"Terminal Compromise" by Winn Schwartau
+
+Who thanks you for your consideration.
+
+INTER.PACT Press
+ 11511 Pine St.
+ Seminole, FL 34642
+
+All contents are (C) 1991, 1992, 1993 Inter.Pact
+
+THE WORLD'S FIRST NOVEL-ON-THE-NET (tm) SHAREWARE!!!
+ By Inter.Pact Press
+
+"TERMINAL COMPROMISE"
+ by Winn Schwartau
+
+A high tech thriller that comes from today's headlines!
+
+"The Tom Clancy of computer security."
+ Assoc. Prof. Dr. Karen Forcht, James Madison University
+
+"Terminal Compromise" is a highly praised novel about the inva-
+sion of the United States by computer terrorists.
+
+Since it was first published in conventional print form, (ISBN:
+0-962-87000-5) it has sold extremely well world-wide, but then
+again, it never hit the New York Times Bestseller List either.
+But that's OK, not many do.
+
+Recently, someone we know very well came up with a real bright
+idea. They suggested that INTER.PACT Press take the unprece-
+dented, and maybe slightly crazy, step to put "Terminal Compro-
+mise" on the Global Network thus creating a new category for book
+publishers. The idea is to offer "Terminal Compromise," and
+perhaps other titles at NOVEL-ON-THE-NET SHAREWARE(tm) rates to
+millions of people who just don't spend a lot of time in book-
+stores. After discussions with dozens of people - maybe even
+more than a hundred - we decided to do just that. We know that
+we're taking a chance, but we've been convinced by hackers and
+phreakers and corporate types and government representatives that
+putting "Terminal Compromise" on the net would be a fabulous step
+forward into the Electronic Age, (Cyberspace if you will) and
+would encourage other publishers to take advantage of electronic
+distribution. (It's still in the bookstores, though.)
+
+To the best of our knowledge, no semi-sorta-kinda-legitimate
+-publisher has ever put a complete pre-published 562 page book on
+the network as a form of Shareware. So, I guess we're making
+news as well as providing a service to the world's electronic
+community. The recommended NOVEL-ON-THE-NET SHAREWARE fees are
+outlined later (this is how we stay in business), so please read
+on.
+
+WE KEEP THE COPYRIGHTS!
+
+"Terminal Compromise" is NOT being entered into the public
+domain. It is being distributed electronically so hundreds
+of thousands more people can enjoy it and understand just where
+we are heading with our omnipresent interconnectedness and the
+potential dangers we face. INTER.PACT Press maintains all copy-
+rights to "Terminal Compromise" and does not, either intentionally
+or otherwise, explicitly or implicitly, waive any rights to
+this piece of work or recourses deemed appropriate. (Damned
+lawyers.)
+
+(C) 1991, 1992, 1993, Inter.Pact Press
+
+TERMINAL COMPROMISE - THE REVIEWS
+
+" . . . a must read . . ."
+ Digital News
+
+"Schwartau knows about networks and security and creates an
+interesting plot that will keep readers turning the pages."
+ Computer World
+
+"Terminal Compromise is fast-paced and gripping. Schwartau
+explains complex technology facilely and without condescension."
+ Government Computer News
+
+"An incredibly fascinating tale of international intrigue . . .
+action . . . characterization . . . deserves attention . . .
+difficult to imagine a more comprehensive resource."
+ PC Laptop
+
+"Schwartau . . . has a definite flair for intrigue and plot
+twists. (He) makes it clear that the most important assets at
+risk are America's right to privacy and our democratic ideals."
+ Personal Identification News
+
+"I am all too familiar with the appalling realities in Mr.
+Schwartau's book. (A) potentially catastrophic situation."
+ Chris Goggans, Ex-Legion of Doom Member.
+
+" . . . chilling scenarios . . . ", "For light summer reading
+with weighty implications . . . ", " . . . thought provoking,
+sometimes chilling . . . "
+
+Remember, it's only fiction. Or is it?
+
+TERMINAL COMPROMISE: SYNOPSIS
+
+"It's all about the information . . . the information."
+ From "Sneakers"
+
+Taki Homosoto, silver haired Chairman of Japan's huge OSO Indus-
+tries, survived Hiroshima; his family didn't. Homosoto promises
+revenge against the United States before he dies. His passion-
+ate, almost obsessive hatred of everything American finally comes
+to a head when he acts upon his desires.
+
+With unlimited resources, he comes up with the ultimate way to
+strike back at the enemy. Miles Foster, a brilliant 33 year old
+mathematician apparently isn't exactly fond of America either.
+The National Security Agency wanted his skills, but his back-
+ground and "family" connections kept him from advancing within the
+intelligence community. His insatiable - borderline psychotic-
+sex drive balances the intensity of waging war against his own
+country to the highest bidder.
+
+Scott Mason, made his fortune selling high tech toys to the
+Pentagon. Now as a New York City Times reporter, Mason under-
+stands both the good and the evil of technology and discovers
+pieces of the terrible plot which is designed to destroy the
+economy of the United States.
+
+Tyrone Duncan, a physically huge 50-ish black senior FBI agent
+who suffered through the Hoover Age indignities, befriends Scott
+Mason. Tyrone provides the inside government track and confusion
+from competing agencies to deal with the threats. His altruistic
+and somewhat pure innate view of the world finally makes him do
+the right thing.
+
+As Homosoto's plan evolves, Arab zealots, German intelligence
+agents and a host of technical mercenaries find the weaknesses in
+our techno-economic infrastructure. Victims find themselves
+under attack by unseen adversaries; Wall Street suffers debili-
+tating blows; Ford and Chrysler endure massive shut downs. The
+U.S. economy suffers a series of crushing blows.
+
+From the White House to the Pentagon to the CIA to the National
+Security Agency and FBI, a complex weaving of fascinating politi-
+cal characters find themselves enmeshed a battle of the New World
+Order. Sex, drugs, rock'n'roll: Tokyo, Vienna, Paris, Iraq,
+Iran. It's all here.
+
+Enjoy reading "Terminal Compromise."
+
+SHAREWARE - NOVEL FEES:
+
+We hope that you enjoy "Terminal Compromise" as much as everyone
+else has, and that you will send us a few shekels according to
+the following guidelines.
+
+The NOVEL-ON-THE-NET SHAREWARE(tm) fees for us as a publishing
+company are no different than the fees for software application
+shareware publishers, and the intent is the same. So please, let
+us continue this form of publishing in the future.
+
+NOVEL-ON-THE-NET SHAREWARE Fees For The People:
+
+The suggested donation for individuals is $7. If you hate Termi-
+nal Compromise after reading it, then only send $6.50. If you're
+really, really broke, then tell a hundred other people how great
+it was, send us a rave review and post it where you think others
+will enjoy reading it, too. If you're only a little broke, send
+a few dollars. After all, this is how we stay in business. With
+each registration, we will also send a FREE! issue of "Security
+Insider Report," a monthly security newsletter also published by
+Inter.Pact Press.
+
+NOVEL-ON-THE-NET SHAREWARE Fees For Businesses:
+
+We hope that you put "Terminal Compromise" on your internal
+networks so that your employees will have the chance to enjoy it
+as well. It's a great way to increase security awareness amongst
+this country's 50,000,000 rank and file computer users. Plus,
+it's a hell of a good read.
+
+One company plans on releasing a chapter every few days
+throughout its E-Mail system as a combination of security aware-
+ness and employee 'perc'. Try it; it works and your employees
+will appreciate it. Why? Because they'll all talk about it -
+bringing security awareness to the forefront of discussion.
+
+FEES
+
+Distribution for up to 100 people on a single network: $ 500
+ (Includes 1 Year subscription to "Security Insider Report.")
+
+Distribution for up to 1000 people on a single network: $ 3000
+ (Includes 10 1 Year subscriptions to "Security Insider
+ Report.")
+
+Distribution for up to 2500 people on a single network: $ 6250
+ (Includes 1 Year electronic Corporate site license to
+ "Security Insider Report.")
+
+Distribution for up to 5000 people on a single network: $ 10000
+ (Includes 1 Year electronic Corporate site license to
+ "Security Insider Report.")
+
+Distribution for up to 10000 people on a single network: $ 15000
+ (Includes 1 Year electronic Corporate site license to
+ "Security Insider Report.")
+
+Distribution for up to 25000 people on a single network: $ 25000
+ (Includes 1 Year electronic Corporate site license to
+ "Security Insider Report.")
+
+Distribution for more than that - Please call and we'll figure it
+out. Would you like us to coordinate a special distribution
+program for you? Would you like in Postscript or other visual
+formats? Give us a call and we'll see what we can do.
+
+* * * * * * * * * *
+ Please DO NOT UPLOAD AND DISTRIBUTE "Terminal Compromise"
+ into your networks unless you intend on paying the recom-
+ mended fees.
+
+* * * * * * * * * *
+
+NOVEL-ON-THE-NET SHAREWARE Fees for Universities: FREE!
+
+"Terminal Compromise" has been used by many schools and universi-
+ties as a teaching supplement. Recognized Educational institu-
+tions are entitled to use "Terminal Compromise" at NO COST, as
+long as you register with us that you are doing so. Please pro-
+vide: School name, address, etc., the course, the instructor, and
+the reason for using it. Also, we'd like to hear from you and
+tell us how it went. Thanks.
+
+SHAREWARE-NOVEL Fees for Local, State and Federal Governments.
+
+You have the money. :-) Please send some back by following
+ the same fee guidelines as those for businesses.
+
+Government employees: You are The People - same fees are
+ appreciated.
+
+* * * * * * * * * *
+
+Agencies: Do not upload and distribute "Terminal Compromise"
+ unless you plan on paying the fees.
+
+* * * * * * * * * * *
+
+NOVEL-ON-THE-NET SHAREWARE Fees for the International Community
+ Make payments in $US, please.
+
+GETTING TERMINAL COMPROMISE:
+
+You can get your copy of Terminal Compromise from a lot of
+sites; if you don't see it, just ask around.
+
+It consists of either 2 or 5 files, depending upon how you re-
+ceive it. (Details at end of this file.)
+
+Feel free to post all five files of "Terminal Compromise" any-
+where on the net or on public or private BBS's as long as this
+file accompanies it as well.
+
+Please forward all NOVEL-ON-THE-NET SHAREWARE fees to:
+
+INTER.PACT PRESS
+ 11511 Pine St. N.
+ Seminole, FL., 34642
+
+Communications:
+
+Phn: 813-393-6600
+ Fax: 813-393-6361
+ E-Mail: p00506@psi.com
+ wschwartau@mcimail.com
+
+We will accept checks, money orders, and cash if you must, and we
+mean if you must. It's not the smartest thing in the world to
+send cash through the mail. We are NOT equipped at this point
+for credit cards.
+
+Remember, "Terminal Compromise is copyrighted, and we will vigor-
+ously pursue violations of that copyright. (Lawyers made us say
+it again.)
+
+If you ABSOLUTELY LOVE "Terminal Compromise," or find that after
+50 pages of On-Screen reading, you may want a hard copy for your
+bookshelf. It is available from bookstores nationwide for
+$19.95, or from Inter.Pact directly for $19.95 + $3.50 shipping
+and handling. If you first paid the $ 7 NOVEL-ON-THE-NET SHARE-
+WARE fee, send in proof and we'll deduct $ 7 from the price of
+the hard copy edition.
+
+ISBN: 0-962-87000-5
+
+Enjoy "Terminal Compromise" and help us make it an easy decision
+to put more books on the Global Network.
+
+Thank you in advance for your attention and your consideration.
+
+The Publishers,
+INTER.PACT Press
+
+****************************************************************
+
+Note to the Readers of "Terminal Compromise:"
+
+In writing a book like this, it is often difficult to distinguish
+fact from fiction.
+
+That is because the fiction is all too probable, and the facts
+are unbelievable. Maybe it doesn't matter and they're the same
+after all. Other than a few well known names and incidents, the
+events in this book are fictional - to the best of my knowledge.
+
+As I wrote this tale, I was endlessly coming upon new methods,
+new tactics, new ways to wage computer warfare. I found that if
+this story was to be told, I had to accept the fact that it would
+always be unfinished. The battle of the computers is one without
+an end in sight.
+
+This story is an attempt to merge the facts as they are with the
+possibilities. The delineation between fact and fiction is
+clouded because the fiction of yesterday is the fact, the news,
+of today. I expect that distinction to become hazier over the
+next few years.
+
+It is that incongruity that spawns a conjectured extrapolation
+indistinguishable from reality.
+
+The construction of the model that gave birth to this tale was
+the culmination of many years of work, with a fictional narrative
+being the last thing in my mind. That was an accident necessi-
+tated by a need to reach the largest possible audience.
+
+In fact, a lot of things have surprised me since "Terminal Com-
+promise" was first published. It seemed that we were able to
+predict a number of things including Polymorphics, Clipper Chips,
+non-lethal warfare . . . and you'll recognize a few other prog-
+nostications we didn't expect to come to pass quite yet.
+
+The reader will soon know why.
+
+There were many people who have been invaluable in the prepara-
+tion of this document, but I'll only mention a few. If the
+reader doesn't want to hear about my friends, please move on to
+the next chapter.
+
+Mary C. Bell. Hi, Mom. Thanks for the flashlight.
+
+Lazarus Cuttman. The greatest editor a writer has ever had. He
+kept me honest.
+
+Miles Roban. That's an alias. He's the one who told me about
+the real NSA. I hope he doesn't get in trouble for what he said.
+I owe him a pound of M&Ms. 2 lbs. of them. (NOTE: For over two
+years, according to 'high-up' sources, the NSA has been and still
+is looking for 'Miles'. They haven't found him yet, despite an
+intensive internal NSA search. We need more people like 'Miles'
+who are willing to break down the conventional barriers of secu-
+rity on issues that affect us all.)
+
+Dad. God rest.
+
+Winn Schwartau, July, 1993
+
+****************************************************************
+
+"Terminal Compromise" is dedicated to:
+
+Sherra
+There is no adequate way to say thank you. You are the super-glue
+of the family. Let's continue to break the rules.
+I Love You
+
+Ashley
+She wrote three books before I finished the first chapter and
+then became a South-Paw.
+
+Adam
+Welcome, pilgrim.
+
+****************************************************************
+
+Prologue
+
+Friday, January 12, The Year After
+ The White House, Washington D.C.
+
+The President was furious. In all of his professional political
+life, not even his closest aids or his wife had ever seen him so
+totally out of character. The placid Southern confidence he
+normally exuded, part well designed media image, part real, was
+completely shattered.
+
+"Are you telling me that we spent almost $4 trillion dollars,
+four goddamn trillion dollars on defense, and we're not prepared
+to defend our computers? You don't have a game plan? What the
+hell have we been doing for the last 12 years?" The President
+bellowed as loudly as anyone could remember. No one in the room
+answered. The President glared right through each of his senior
+aides.
+
+"Damage Assessment Potential?" The President said abruptly as he
+forced a fork full of scrambled eggs into his mouth.
+
+"The Federal Reserve and most Banking transactions come to a
+virtual standstill. Airlines grounded save for emergency opera-
+tions. Telephone communications running at 30% or less of
+capacity. No Federal payments for weeks. Do you want me to
+continue?"
+
+"No, I get the picture."
+
+The President wished to God he wouldn't be remembered as the
+President who allowed the United States of America to slip back-
+ward 50 years. He waited for the steam in his collar to subside
+before saying anything he might regret.
+
+* * * * *
+
+Monday, August 6, 1945.
+ Japan
+
+The classroom was coming to order. Shinzo Ito, the 12th graders'
+instructor was running a few minutes late and the students were
+in a fervent discussion about the impending end to the war. And
+of course it was to be a Japanese victory over the American
+Mongrels.
+
+Ito-san was only 19 years old, and most of the senior class was
+only a year or two younger than he. The war had deeply affected
+all of them. The children of Japan were well acquainted with
+suffering and pain as families were wrenched apart - literally at
+the seams, and expected to hold themselves together by the honor
+that their sacrifices represented. They hardened, out of neces-
+sity, in order to survive and make it through the next day, the
+next week; and so they knew much about the war. Since so many of
+the men had gone to war, women and children ran the country. 10
+and 11 year old students from the schools worked as phone opera-
+tors. It was an honorable cause, and everyone contributed; it was
+only fitting. Their fathers and loved ones were fighting self-
+lessly and winning the war.
+
+Many of the children's fathers had gone to war, valiantly, and
+many had not come home. Many came home in pieces, many others,
+unrecognizable. And when some fathers had gone off to war, both
+they and their families knew that would never return. They were
+making the Supreme Sacrifice for their country, and more impor-
+tantly, a contribution to their honorable way of life.
+
+The sons and daughters of kamikazes were treated with near rever-
+ence. It was widely believed that their father's honor was
+handed down to their offspring as soon as word had been received
+the mission had been successful. Albeit a suicide mission.
+
+Taki Homosoto was one 17 year old boy so revered for his father's
+sacrifice. Taki spoke confidently about such matters, about the
+war, about American atrocities, and how Japan would soon defeat
+the round faced enemy. Taki had understood, on his 17th birthday
+that his father would leave . . .and assuredly die as was the
+goal of the kamikaze. He pretended to understand that it made
+sense to him.
+
+In the last 6 months since his father had left, Taki assumed, at
+his father's request, the patriarchal role in the immediate
+family. The personal anguish had been excruciating. While
+friends and family and officials praised Taki's father and fami-
+ly, inside Taki did not accept that a man could willingly leave
+his family, his children, him . . .Taki, never to return. Didn't
+his father love him? Or his sister and brother? Or his mother?

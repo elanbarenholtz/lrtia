@@ -1,0 +1,216 @@
+C'est similaire à ma chambre car je peux créer des choses dans l'instant et être spontané, ce qui pour moi est l'essence même de la musique et de toute bonne idée.
+KS : Donc tu as gagné deux Grammys pour un enregistrement que tu as fait tout seul dans ta chambre.
+Comment est-ce possible ?
+On n'aurait pas pu faire cela, cela n'aurait pas pu arriver il y a cinq ans seulement.
+JC : C'est un monde tout nouveau.
+Le pouvoir est maintenant aux mains du créateur, je sais que vous êtes d'accord, par opposition à la grosse maison de disques ou au grand patron.
+Quelqu'un avec une bonne idée.
+A TED, vous le savez déjà, mais quelqu'un avec une idée peut planter cette graine.
+C'est la personne qui apporte la lumière au monde.
+Et oui, j'ai fait cet album complétement seul et je n'ai pas attendu que quelqu'un me dise : «Tu devrais faire un album tout seul.
+» Je me suis lancé et je l'ai fait sans me soucier de l'opinion des autres.
+Et deux Grammys, c'est un sacré bonus.
+(Applaudissements) KS : Merci beaucoup, Jacob.
+JC : Merci Kelly.
+Merci beaucoup.
+(Applaudissements)
+Le printemps arabe de 2011 a attiré l'attention du monde entier.
+Il a aussi attiré l'attention de gouvernements autoritaires d'autres pays, qui redoutaient que la révolution se propage.
+En réponse, ils ont augmenté la surveillance d'activistes, de journalistes et de dissidents qui, craignaient-ils, pourraient inciter à la révolution dans leur propre pays.
+Un célèbre activiste bahreïni, qui a été arrêté et torturé par son gouvernement, a dit que les interrogateurs lui avaient montré des transcriptions de ses appels téléphoniques et de ses SMS.
+Évidemment, ce n'est pas un secret que les gouvernements sont capables d'intercepter des appels téléphoniques et des SMS.
+C'est pour cette raison que plusieurs activistes évitent précisément d'utiliser le téléphone.
+Ils utilisent plutôt des outils comme Skype, qui, croient-ils, sont à l'abri du piratage.
+Ils ont tort.
+On a vu naître dans les dernières années, toute une industrie de compagnies qui fournissent aux gouvernements des technologies de surveillance, plus précisément, des technologies qui permettent de pirater les ordinateurs des cibles de surveillance.
+Plutôt que d'intercepter les communications à mesure qu'elles sont envoyées sur le réseau, ils peuvent maintenant infiltrer votre ordinateur, prendre le contrôle de votre webcam, de votre microphone, et s'emparer de vos documents.
+Quand le gouvernement égyptien est tombé en 2011, des activistes ont fait une rafle dans les bureaux de la police secrète, et parmi les nombreux documents qu'ils ont trouvés, il y avait ce document de Gamma Corporation, de Gamma International.
+Gamma est une compagnie allemande qui fabrique des logiciels de surveillance et les vend uniquement à des gouvernements.
+Il est important de noter que la plupart des gouvernements n'ont pas vraiment la capacité de développer ces logiciels en interne.
+Les plus petits n'ont pas les ressources ni l'expertise, et il y a donc un marché de compagnies occidentales qui sont heureuses de leur fournir ces instruments et ces technologies à un certain prix.
+Gamma n'est que l'une de ces compagnies.
+Je devrais aussi ajouter, que Gamma n'a en fait jamais vendu son logiciel au gouvernement égyptien.
+La compagnie a envoyé une facture, mais les Égyptiens ne l'ont jamais réglée.
+Apparemment, le gouvernement égyptien a plutôt utilisé une version de démonstration gratuite
+du logiciel de Gamma.
+(Rires) Cette capture d'écran, montre une vidéo produite par Gamma.
+En fait, ils ne font que mettre l'accent, dans une présentation relativement habile, sur le fait que les policiers peuvent en quelque sorte s'asseoir dans un bureau climatisé et surveiller quelqu'un à distance sans que cette personne en ait la moindre idée.
+Vous savez, la lumière de votre webcam ne va pas s'allumer.
+Rien n'indique que le microphone est contrôlé.
+Voici le directeur général de Gamma International.
+Il s'appelle Martin Muench.
+Il existe plusieurs photos de M. Muench.
+Celle-ci est peut-être ma préférée.
+Je vais juste zoomer un peu sur sa webcam.
+On peut voir qu'il y a un petit autocollant placé sur sa caméra.
+Il connaît les moyens de surveillance possibles, et visiblement, il ne veut pas qu'ils soient utilisés contre lui.
+Muench a dit vouloir, que ses logiciels soient utilisés pour capturer des terroristes et localiser des pédophiles.
+Évidemment, il sait aussi qu'une fois les logiciels vendus à des gouvernements, il n'a aucune façon de savoir comment ils sont utilisés.
+Les logiciels de Gamma ont été installés sur des serveurs dans des pays partout à travers le monde, certains avec des antécédents vraiment atroces de violation des droits humains.
+Ils vendent vraiment leurs logiciels à travers le monde.
+Gamma n'est pas la seule compagnie dans cette industrie.
+Comme je l'ai dit, c'est une industrie de 5 milliards de dollars.
+Un autre géant de l'industrie est la compagnie italienne Hacking Team.
+La présentation de Hacking Team est probablement la plus habile.
+La vidéo qu'ils ont produite est très sexy, et je vais vous en montrer un extrait, juste pour que vous puissiez vous faire une idée à la fois des possibilités du logiciel et de la façon dont il est vendu à leurs clients, les gouvernements.
+(Vidéo) Narrateur : Vous voulez voir avec les yeux de votre cible.
+(Musique) Vous devez infiltrer votre cible.
+Vous devez atteindre plusieurs plateformes différentes.
+Vous devez casser le chiffrement et recueillir les données pertinentes.
+Vous devez être furtif et impossible à tracer.
+Déployé sur la totalité de votre pays.
+C'est exactement ce que nous faisons.
+Christopher Soghoian : On pourrait en rire si ce n'était pas réel, mais dans les faits, les logiciels de Hacking Team sont vendus à des gouvernements à travers le monde.
+L'an dernier, nous avons appris, par exemple, qu'ils étaient utilisés par le gouvernement marocain pour cibler des journalistes marocains.
+Beaucoup, beaucoup de pays sont concernés.
+Hacking Team a aussi courtisé activement le marché américain des forces de l'ordre.
+Depuis un an environ, la compagnie a ouvert un bureau dans le Maryland.
+Elle a aussi engagé un porte-parole.
+Ces gens ont participé à des conférences de l'industrie de la surveillance, où étaient présents des officiers des forces de l'ordre.
+Ils ont pris la parole lors de ces conférences.
+Le plus fascinant, d'après moi, est qu'ils ont même sponsorisé la pause-café de l'une de ces conférences des forces de l'ordre plus tôt cette année.
+Je ne peux pas vous affirmer que Hacking Team a vendu sa technologie aux États-Unis, mais je peux vous dire que s'ils ne l'ont pas fait, ce n'est pas parce qu'ils n'ont pas essayé.
+Donc, comme je l'ai dit plus tôt, les gouvernements qui n'ont pas vraiment les ressources pour créer leurs propres outils vont acheter des logiciels de surveillance commerciaux, et pour cette raison, vous voyez le gouvernement, disons, de la Tunisie, utiliser le même logiciel que le gouvernement allemand.
+Ils achètent tous du matériel commercial.
+Le FBI, aux États-Unis, lui, a le budget pour créer sa propre technologie de surveillance, et donc pendant plusieurs années, j'ai essayé de savoir si le FBI piratait les ordinateurs de cibles de surveillance, et si oui, de quelle façon.
+Un de mes amis de l'organisation Electronic Frontier Foundation, un groupe de la société civile, a obtenu des centaines de documents du FBI qui détaillaient la prochaine génération de technologies de surveillance.
+La plupart de ces documents avaient été censurés, mais ce que vous pouvez voir sur les diapositives, si je zoome, est ceci : Unité d'opérations à distance.
+La première fois que j'ai vu ça, je n'avais jamais entendu parler de cette unité avant.
+J'étudie la surveillance depuis plus de six ans,
+et je n'ai jamais entendu parler de ça.
+J'ai donc fait quelques recherches en ligne, et j'ai finalement trouvé le filon en allant sur LinkedIn, le réseau social pour les chercheurs d'emploi.
+Il y avait beaucoup d'ex-fournisseurs du gouvernement américain, qui avaient à un certain moment travaillé pour cette Unité d'opérations à distance, et qui détaillaient de manière surprenante dans leur CV ce qu'ils avaient fait dans leur ancien emploi.
+(Rires) Alors j'ai pris cette information et je l'ai remise à une journaliste du Wall Street Journal que je connais et en qui j'ai confiance, et elle a été capable de joindre plusieurs ex-officiers des forces de l'ordre, qui ont parlé de manière anonyme, et ont confirmé que oui, effectivement, le FBI a une équipe dédiée spécifiquement au piratage des ordinateurs de cibles de surveillance.
+Tout comme Gamma et Hacking Team, le FBI a aussi la capacité de contrôler à distance des webcams, des microphones, de voler des documents, d'obtenir de l'information sur la navigation internet, le travail.
+Il y a en quelque sorte un gros problème quand des gouvernements s'adonnent au piratage, et c'est que les terroristes, les pédophiles, les vendeurs de drogue, les journalistes et les activistes des droits de l'homme, utilisent tous le même genre d'ordinateur.
+Il n'y a pas un téléphone pour les vendeurs de drogue ou un portable pour les journalistes.
+On utilise tous la même technologie, et ça signifie donc que les gouvernements, s'ils ont la capacité de pirater les ordinateurs des vrais malfaiteurs, peuvent aussi le faire sur nos appareils à nous.
+Donc, les gouvernements de la planète ont adopté ces technologies.
+Ils ont adopté le piratage comme technique de maintien de l'ordre, mais sans qu'un réel débat n'ait lieu.
+Aux États-Unis, où je vis, il n'y a pas eu d'audience devant le Congrès.
+Aucune loi n'a été passée pour autoriser clairement ces techniques, et en raison de leur pouvoir et de leur potentiel d'abus, il est essentiel qu'un débat public éclairé ait lieu.
+Merci beaucoup.
+(Applaudissements)
+L'idée derrière le ver informatique Stuxnet est en fait très simple.
+Nous ne voulons pas que l'Iran ait la Bombe.
+Leur atout majeur pour développer des armes nucléaires est l'usine d'enrichissement d'uranium Natanz.
+Les boites grises que vous voyez, ce sont des systèmes de contrôle en temps réel.
+Et si on arrive à compromettre ces systèmes qui contrôlent la vitesse des disques et les valves nous pouvons en fait causer beaucoup de problèmes à la centrifugeuse.
+Les boites grises ne tournent pas sous Windows ; c'est une technologie complètement différente.
+Mais si nous parvenons à placer un bon virus Windows dans un portable utilisé par un ingénieur pour configurer cette boite grise, alors on est bon.
+Et c'est le scénario derrière Stuxnet.
+Donc nous commençons par un dropper Windows.
+La charge utile va dans la boite grise, endommage la centrifugeuse, et le programme nucléaire iranien est retardé -- mission accomplie.
+C'est facile, non?
+Je veux vous dire comment nous avons découvert ça.
+Quand nous avons commencé nos recherches sur Stuxnet il y a 6 mois, on ignorait complètement le but de la chose.
+La seule chose qu'on savait est très très complexe dans la partie Windows, la partie du dropper, elle utilisait de multiples vulnérabilités à jour zéro.
+Et ce dropper semblait vouloir faire quelque chose avec ces boites grises, ces systèmes de contrôle en temps réel.
+Cela a donc attiré notre attention, et nous avons entrepris un projet de laboratoire dans lequel nous avons infecté notre environnement avec Stuxnet et examiner ce truc.
+Et puis il s'est passé de très drôles de choses.
+Stuxnet s'est comporté comme un rat de laboratoire qui n'aimait pas notre fromage -- il le reniflait, mais il ne voulait pas le manger.
+Pour moi, ça n'avait pas de sens.
+Et après que nous ayons expérimenté avec différents parfums de fromage, je me suis rendu compte, et bien que c'est une attaque dirigée.
+Elle est complètement dirigée.
+Le dropper rôde activement dans la boite grise si il trouve une configuration spécifique, et même si le programme même qu'il essaye d'infecter est ouvert sur cette cible.
+Dans le cas contraire, Stuxnet ne fait rien.
+Cela a donc vraiment retenu mon attention, et nous avons commencé à travailler là dessus presque en permanence, parce que je pensais, nous ne savons pas quelle est la cible.
+Elle pourrait être, disons par exemple, une centrale aux Etats-Unis, ou une usine chimique en Allemagne.
+Il valait donc mieux que nous trouvions rapidement quelle était la cible .
+Nous avons donc extrait et décompilé le code d'attaque, et nous avons découvert qu'il est structuré en deux bombes numériques -- une plus petite et une plus grande.
+Et nous avons vu aussi qu'elles sont conçues de façon très professionnelle par des gens qui avaient évidemment des informations de l'intérieur.
+Ils connaissaient tous les détails et les octets qu'ils devaient attaquer.
+Ils connaissaient sans doute même la pointure de l'administrateur.
+Ils savent donc tout.
+Et si vous avez entendu dire que le dropper de Stuxnet est complexe et high-tech, permettez-moi de vous dire ceci ; la charge utile, c'est du très haut niveau.
+C'est bien au dessus de tout ce que nous avons vu auparavant.
+Vous voyez ici un échantillon du code d'attaque même.
+Nous parlons de -- environ 15000 lignes de code.
+Ca ressemble assez à du langage d'assembleur à l'ancienne.
+Et je veux vous dire comment nous avons été en mesure de comprendre ce code.
+Donc ce que nous cherchions c'est d'abord les appels de fonctions système, parce que nous savons ce qu'ils font.
+Et ensuite nous cherchions les minuteurs et les structures de données et nous essayions de les mettre en relation avec le monde réel -- avec des cibles potentielles du monde réel.
+Nous avons donc besoin de théories de cibles que nous pouvons prouver ou réfuter.
+Pour obtenir ces théories de cibles, nous nous souvenons que c'est vraiment du sabotage hardcore, ce doit être une cible de grande valeur, et c'est le plus vraisemblablement situé en Iran, parce que c'est là que la plupart des infections ont été signalées.
+On ne trouve pas plusieurs milliers de cibles dans cette zone.
+Ca se réduit en gros à la centrale nucléaire de Bushehr et à l'usine d'enrichissement d'uranium de Natanz.
+Alors j'ai dit à mon assistant, " Trouve moi une liste de tous les experts en centrifugeuses et centrales électriques dans notre base de clients."
+Et je leur ai téléphoné et je les ai sollicités dans un effort d'associer leur expertise à ce que nous avons trouvé dans le code et les données.
+Et ça a plutôt bien marché.
+Nous avons donc été en mesure d'associer la petite ogive numérique au contrôle du rotor.
+Le rotor est cette partie mobile dans la centrifugeuse, cet objet noir que vous voyez.
+Et si vous manipulez la vitesse de ce rotor, vous êtes en fait capable de craquer votre rotor et finalement faire même exploser la centifugeuse.
+Ce que nous avons vu aussi c'est que le but de l'attaque était vraiment qu'elle soit lente et progressive -- dans un effort évident de rendre les techniciens de maintenance fous, et qu'ils ne soit pas en mesure de comprendre rapidement ce qui se passe.
+La grande ogive numérique -- nous avons essayé en regardant de très près les données et leurs structures.
+Donc par exemple, le chiffre 164 ressort vraiment dans ce code ; on ne peut pas ne pas le voir.
+J'ai entrepris des recherches dans la littérature scientifique sur la façon dont ces centrifugeuses sont en fait construites à Natanz et j'ai trouvé qu'elles sont structurées en ce qu'on appelle une cascade, et chaque cascade contient 164 centrifugeuses.
+Cela prend donc tout son sens, ça colle.
+Et c'est encore mieux ensuite.
+Ces centrifugeuses en Iran sont subdivisées en 15 stades
+Et devinez ce qu'on a trouvé dans le code d'attaque?
+Une structure quasiment identique.
+Donc là encore, ça colle vraiment bien.
+Et ça nous a donné une très grande confiance dans ce que nous avions sous les yeux.
+Ne me faites pas dire ce que je n'ai pas dit, ça ne s'est pas fait si facilement.
+On a obtenu ces résultats sur plusieurs semaines de travail très dur.
+Et nous sommes souvent tombés sur des impasses et il a fallu nous en remettre.
+Mais bon , nous avons donc compris que les deux ogives numériques visaient en fait une seule et même cible, mais sous des angles différents.
+La petite ogive s'attaque à une cascade, et elle accélère les rotors puis les ralentit, et la grande ogive s'adresse à 6 cascades et elle manipule les valves.
+Donc dans l'ensemble, nous sommes très confiants d'avoir en fait déterminé quelle est la cible.
+C'est Natanz, et Natanz seulement.
+Nous n'avons donc pas à nous inquiéter que d'autres cibles puissent être frappées par Stuxnet.
+Voici certains des trucs très chouettes que nous avons vu -- ça m'a vraiment frappé.
+Là en bas il y a une boite grise, et en haut vous voyez les centrifugeuses.
+Et ce que ce truc fait c'est qu'il intercepte les valeurs des input des capteurs -- donc par exemple, des capteurs de pression et des capteurs de vibrations -- et il fournit du code légitime, qui tourne toujours pendant l'attaque, avec de fausses données d'input.
+Et en fait, ces fausses données d'input sont en fait préenregistrées dans Stuxnet.
+Donc c'est comme dans les films hollywoodiens quand pendant le holp-up la caméra de surveillance reçoit des images vidéo préenregistrées.
+C'est chouette, non?
+Il est évident que l'idée ici n'est pas seulement de tromper les opérateurs dans la salle de contrôle
+Elle est en fait plus dangereuse et agressive.
+L'idée est de contourner un système de sécurité numérique.
+Nous avons besoin de systèmes de sécurité numériques là où un opérateur humain ne pourrait pas agir assez rapidement.
+Donc, par exemple, dans une centrale, quand la grosse turbine à vapeur dépasse la vitesse limite, il vaut ouvrir les vannes de délestage en une milliseconde.
+Il est évident que ça ne peut pas être fait par un opérateur humain.
+C'est donc là que nous avons besoin de systèmes de sécurité numériques.
+Et quand ils sont compromis, alors ça peut vraiment mal tourné.
+Votre centrale peut exploser.
+Et ni vos opérateurs ni votre système de sécurité ne s'en apercevront.
+C'est effrayant.
+Mais il y a pire.
+Et c'est très important, ce que je vais dire,
+Réfléchissez-y.
+Cette attaque est générique.
+Elle n'a rien à voir, dans les détails, avec les centrifugeuses, avec l'uranium enrichi.
+Donc, elle marcherait aussi bien, par exemple, dans une centrale ou dans une usine de construction automobile.
+Elle est générique.
+Et vous n'avez pas -- en tant qu'attaquant -- vous n'avez pas besoin d'introduire la charge utile à l'aide d'une clé USB, comme nous l'avons vu dans le cas de Stuxnet.
+Vous pourriez aussi employer un ver conventionnel pour le répandre.
+Simplement le répandre aussi largement que possible.
+Et si vous le faites, vous vous retrouvez avec une cyber arme de destruction massive.
+C'est la conséquence à laquelle nous devons faire face.
+Donc malheureusement, le plus grand nombre de cibles pour de telles attaques n'est pas au Moyen-Orient.
+C'est en Europe, au Etats-Unis et au Japon.
+Donc toutes les zones en vert, ce sont les environnements riches en cibles.
+Nous devons faire face aux conséquences, et nous ferions mieux de commencer à nous y préparer dès maintenant.
+Merci.
+(Applaudissements) Chris Anderson : J'ai une question.
+Ralph, on a beaucoup dit que les gens pensent que le Mossad est la principale entité derrière ça.
+Est-ce votre opinion?
+Ralph Langner : Bon, vous voulez vraiment entendre ça?
+Oui, Bon.
+Mon opinion, c'est que le Mossad est impliqué, mais que la puissance principale n'est pas Israel.
+La force principale derrière ça est donc la cyber superpuissance.
+Il n'y en a qu'une, et ce sont les Etats-Unis -- heureusement, heureusement.
+PArce qu'autrement, nos problèmes seraient encore plus grands.
+CA : merci de nous avoir terrifiés.
+Merci Ralph.
+(Applaudissements)
+Vous savez, un des plaisirs intenses du voyage et un des délices de la recherche ethnographique est la possibilité de vivre parmi ceux qui n'ont pas oublié les anciennes coutumes, qui ressentent encore leur passé souffler dans le vent, qui le touchent dans les pierres polies par la pluie, le dégustent dans les feuilles amères des plantes.
+Le fait de savoir que les Jaguar shaman voyagent toujours au-delà de la voie lactée, ou que les mythes des anciens Inuit résonnent encore de sens, ou bien que dans l'Himalaya, les Bouddhistes continuent à rechercher le souffle du Dharma, c'est se rappeler de la révélation essentielle de l'anthropologie, et cela veut dire que le monde dans lequel nous vivons n'existe pas dans un sens absolu, mais est uniquement un exemple de réalité, la conséquence d'un ensemble spécifique de choix adaptés établis par notre lignée avec succès, il y a plusieurs générations.
+Bien sûr, nous partageons tous les mêmes impératifs d'adaptation.
+Nous sommes tous nés.
+Nous apportons nos enfants dans ce monde.
+Nous procédons à des rites d'initiations.
+Nous devons faire face à la séparation inexorable de la mort, cela ne devrait donc pas nous surprendre que nous chantions, nous dansions, nous sommes tous des artistes.
+Par contre, la cadence exceptionnelle de la chanson est intéressante, le rythme de la danse dans toutes les cultures.
+

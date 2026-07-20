@@ -1,0 +1,92 @@
+The article How to build a simple timesheet in Excel 2016 tracks hours worked in a traditional clocking-in- and-out, one-record-per-day structure. That's not always suitable, so in this article, I'll show you a different model that tracks days using a columnar structure rather than the traditional row structure. This model supports projects, as many as you need. You probably won't find a magic bullet with either timesheet model, but you can adjust and customize either model to fit your needs.
+I'm using Excel 2016 (desktop) on a Windows 10 64-bit system, but you can use earlier versions. You can use the browser edition to enter your hours. For your convenience, you can download the demonstration .xlsx and .xls files.
+1. Determine your needs
+As with any timesheet app that you plan to distribute, you need to consider the following issues:
+How to validate input to eliminate typos and other invalid data. We'll use data validation in two spots.
+How users will access the template. You can distribute it or allow them to access the sheet via a browser or web-based application. This article doesn't extend beyond a local or server file.
+How to protect the template from misuse. Because this model uses a Table object to expand, Excel protection isn't helpful.
+How to secure confidential information, such as social security numbers, if required. Our example doesn't contain any confidential data.
+2. The model
+Figure A shows the completed timesheet with all the trimmings. This model supports a seven-day week, beginning with Sunday and ending with Saturday. Unlike the timesheet from the first article, this structure allows you to track hours specific to projects. You can easily adapt this structure to handle more than one week.
+Figure A
+We'll create this simple timesheet that allows you to track time by projects.
+The sheet has an input area for employee, company, and department information, including the time (pay) period. This model doesn't force you to "clock in." Instead, users enter hours by category or project. As such, the user does bear bit more responsibility for tracking actual work hours throughout the day.
+SEE: Tap into the power of data validation in Excel (free PDF) (TechRepublic)
+3. Limit the time period
+The example uses Sunday to identify the pay period. You could enter a combo control that lists every Sunday of the year, but it would be cumbersome to use. Instead, we'll a validation control that accepts only Sunday dates:
+Select B2. Click the Data tab click Data Validation in the Data Tools group, and then select the Data Validation option from the dropdown list. In the resulting dialog, choose Custom from the Allow dropdown. In the Formula control, enter the following formula (Figure B):
+=WEEKDAY($B$2,1)=1 If you like, click the Error Alert tab and enter a meaningful error message, as shown in Figure C. This step isn't necessary for the timesheet to work, but your users will appreciate the information. Click OK.
+Figure B
+Use a formula that accepts only Sunday dates.
+Figure C
+Enter a meaningful error message.
+Figure D shows the result of entering a date that isn't a Sunday. You could continue to limit input values, but we won't do so in this article.
+Figure D
+The data validation control rejects invalid input dates.
+4. Automate the dates
+This next step returns the dates in a single pay period by referencing the input date in B2. To start the sequence, enter the following expression in B5:
+=IF(B2<>"",B2,"")
+Next, enter the following expression in C5 and copy it to D5:H5:
+=IF(B5<>"",B5+1,"")
+To extend the pay period, simply add more expressions to row 5. For now, the expressions return nothing because B2 is blank. Enter a Sunday date; initially, the expressions return serial values. Apply the Short Date format to B5:H5 to display meaningful dates, as shown in Figure E.
+Figure E
+Format the expressions in row 5 to display dates.
+5. Add a projects list
+The next few steps might be confusing as we implement them, but everything will come together in the end, so don't worry. Our structure supports projects, and you can specify as many projects as necessary in a simple list. Later, we'll add a data validation control that references this list.
+Move to a new sheet and enter the list shown in Figure F. Next, convert the list to a Table object so it requires no additional work to update:
+Click anywhere inside the list. Click the Insert tab and then click the Table option in the Tables group. In the resulting dialog (Figure F), indicate whether your Table has headers—the example Table does. Click OK.
+Figure F
+Convert the list to a Table object so you can update it easily.
+You can't directly reference a Table in a data validation control, so let's assign a defined name to the Table. First, we you need to know its name. Click inside the Table and then click the contextual Design tab. You'll find the Table object's name in the Table Name control to the left of the ribbon, as shown in Figure G. (It's often easier to work with a more meaningful name than the one Excel assigns. To rename the Table, click inside the Table Name control, enter a name and press Enter. We won't bother with this example.)
+Figure G
+Discern the Table object's name.
+Now you're ready to assign a defined name to the Table as follows:
+Click anywhere inside the Table. Click the Formulas tab. In the Defined Names group, click Define Name. In the resulting dialog, enter ProjectList as the Name. Reference the Table using the format =Tablename[Columnheader]. In this case, that's =Table10[Projects], as shown in Figure H. Click OK.
+Figure H
+Give the Table a defined name.
+It seems like you've gone to lot of extra work to create a simple list, but it's worth it. Because the list is a Table object, you can add and delete projects and the data validation control that we'll add later will automatically update, without any extra work on your part.
+SEE: 10 Excel time-savers you might not know about (TechRepublic)
+6. Add category input range
+With your projects list in place you're ready to start building the work-hour input ranges. Beginning at A7, and using Figure I as a guide, add a row of header labels and category labels. Be sure to leave a blank row (row 6) between the information input range and the category input range. The white space will help reduce the visual noise.
+Figure I
+Leave a blank row between the category Table and the dates.
+Next, using the instructions in step 5, convert the category input range (A7:H12) to a Table object. It isn't necessary, but formatting and updating will be easier. (Your formats won't match the figure, so don't worry about that.)
+With the category Table object selected, click the contextual Design tab and check the Total Row option in the Table Style Options group. Select Sum from the dropdown added to B13. Copy that function to C13:H13. Figure I shows the finished category Table input range.
+By making the range a Table, you can easily add or delete new categories, but each category requires only one row per pay period. You can add a new or delete an existing category, but you won't duplicate a category.
+7. Add project input range
+Now you're ready to add the project input range, which includes the project data validation control I mentioned earlier. Enter days of the week, Sunday through Saturday in B15:H15—leaving a blank row between the two input ranges. To add the projects data validation control, select A16 and do the following:
+Click the Data tab, click Data Validation in the Data Tools group, and then select the Data Validation option from the dropdown list. In the resulting dialog, choose List from the Allow dropdown. In the Source control, enter =ProjectList (Figure J), the defined name you gave to the project list Table object in step 5. If you like, click the Error Alert tab, and enter a meaningful error message. This step isn't necessary for the sheet to work, but your users will appreciate the information. Click OK.
+Figure J
+Create a data validation control that lists the projects.
+In the last step, you converted the category input range to a Table. Do this again, converting the project input range (A15:H16) to a Table (with headers). Then, enable the Total Row as you did for the category Table.
+You may or may not need a project row each week. You could have 0 rows or several, depending on the number of projects you worked on that pay period. The current project list has only two projects, so you'd have up to two rows for the given pay period. If you add a new project next week, you might have up to three rows in this Table. As you add projects using the data validation list, the Table, shown in Figure K, expands. As before, don't worry about Table formats just yet.
+Figure K
+This Table will adjust to the number of projects you work on during the pay period.
+8. Category and project totals
+To add a column of category totals, select I8, click AutoSum, highlight B8:H8 and press Enter. Change the default header to Category Totals and increase the column width. Repeat this process to add project totals to the project Table. Be sure to highlight row 16 (AutoSum might try to sum values in column I).
+9. Grand daily totals
+Presently, you have category and project weekly totals in column I and daily subtotals in row 13 and 17. You don't have a daily grand total. Insert two blank rows between row 5 and 7. Select B7 and enter the expression
+=Table4[[#Totals],[Sunday]]+Table3[[#Totals],[Sunday]]
+Copy it to C7:H7. Instead of entering those long references, you could click B15 and B19.
+Figure L shows the timesheet after disabling the gridlines and applying Table formats consistently to both Table objects. It's a bit odd to have grand totals at the top of the sheet, but this position allows the project Table to grow with impunity.
+Figure L
+The complete timesheet.
+10. Business rules
+At this point, your sheet is functional, but there are some things you might want to add. If blank cells are problematic for your accounting system, add zeros to the input ranges in the category and project Table objects. To do so, enter a 0 into an empty cell and copy it to the Clipboard. Then, select B10:H14 (the category input range) and press F5. In the resulting dialog, click Special. Select the Blanks option and click OK. Press Ctrl+v to paste the 0 from the Clipboard into the selected blank cells. Repeat this task for the project Table's input range, B18:H18.
+Users can delete the 0s and accidentally leave blanks, so you might want to consider a conditional formatting rule that highlights blank cells:
+=ISBLANK(inputrange)
+As you add new projects to the project Table, the rule highlights the entire new row because those cells are blank.
+Most companies don't allow overtime in the same day that you use comp, sick, or vacation time. You can use the following conditional formatting rule to highlight the values in B12:H14 when the overtime value in row 11 is greater than 0 and the corresponding comp, or sick, or vacation value is greater than 0:
+=AND(B$11>0, OR(B$12>0,B$13>0,B$14>0))
+It won't fix the problem, but it will alert your user that a problem exists.
+Using the sheet
+Each pay period, the user will open the template file and rename it to reflect the current pay period. It's not the only way, of course, but it's the easiest way. Employees can submit a printed copy or the electronic file.
+Figure M shows hours accrued for the work week beginning March 25, 2018. Harkins worked a total of 44 hours; 31 in fixed categories and 13 on specific projects. As you can see, there's a problem on Thursday because Harkins is claiming 2 hours of overtime and 2 hours of sick time. The only way to resolve this error is to remove either the overtime or the sick time.
+Figure M
+Using the sheet.
+There's one limitation worth noting: If you work 10 hours on a single project in the same day, you can't identify two of those hours as overtime. Enter 10 in the project row and let payroll staff work out the overtime when applying rates.
+Normally you'd protect the sheet before distributing the workbook, but you can't easily protect a sheet with an expanding Table object. For better or worse, you'll have to trust users to be somewhat competent with this timesheet. They always have the template to start fresh, if the worst happens.
+Get more great Office tips and tricks delivered to your inbox. Sign up for TechRepublic's Microsoft Weekly newsletter. Subscribe
+Send me your question about Office
+I answer readers' questions when I can, but there's no guarantee. Don't send files unless requested; initial requests for help that arrive with attached files will be deleted unread. You can send screenshots of your data to help clarify your question. When contacting me, be as specific as possible. For example, "Please troubleshoot my workbook and fix what's wrong" probably won't get a response, but "Can you tell me why this formula isn't returning the expected results?" might. Please mention the app and version that you're using. I'm not reimbursed by TechRepublic for my time or expertise when helping readers, nor do I ask for a fee from readers I help. You can contact me at susansalesharkins@gmail.com.
+Also see:

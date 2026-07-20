@@ -1,0 +1,200 @@
+I personally have a lot of issues with political polls because I think the role of journalists is actually to report the facts and not attempt to predict them, especially when those predictions can actually damage democracy by signaling to people: don't bother to vote for that guy, he doesn't have a chance.
+Let's set that aside for now and talk about the accuracy of this endeavor.
+Based on national elections in the UK, Italy, Israel and of course, the most recent US presidential election, using polls to predict electoral outcomes is about as accurate as using the moon to predict hospital admissions.
+No, seriously, I used actual data from an academic study to draw this.
+There are a lot of reasons why polling has become so inaccurate.
+Our societies have become really diverse, which makes it difficult for pollsters to get a really nice representative sample of the population for their polls.
+People are really reluctant to answer their phones to pollsters, and also, shockingly enough, people might lie.
+But you wouldn't necessarily know that to look at the media.
+For one thing, the probability of a Hillary Clinton win was communicated with decimal places.
+We don't use decimal places to describe the temperature.
+How on earth can predicting the behavior of 230 million voters in this country be that precise?
+And then there were those sleek charts.
+See, a lot of data visualizations will overstate certainty, and it works -- these charts can numb our brains to criticism.
+When you hear a statistic, you might feel skeptical.
+As soon as it's buried in a chart, it feels like some kind of objective science, and it's not.
+So I was trying to find ways to better communicate this to people, to show people the uncertainty in our numbers.
+What I did was I started taking real data sets, and turning them into hand-drawn visualizations, so that people can see how imprecise the data is; so people can see that a human did this, a human found the data and visualized it.
+For example, instead of finding out the probability of getting the flu in any given month, you can see the rough distribution of flu season.
+This is -- (Laughter) a bad shot to show in February.
+But it's also more responsible data visualization, because if you were to show the exact probabilities, maybe that would encourage people to get their flu jabs at the wrong time.
+The point of these shaky lines is so that people remember these imprecisions, but also so they don't necessarily walk away with a specific number, but they can remember important facts.
+Facts like injustice and inequality leave a huge mark on our lives.
+Facts like Black Americans and Native Americans have shorter life expectancies than those of other races, and that isn't changing anytime soon.
+Facts like prisoners in the US can be kept in solitary confinement cells that are smaller than the size of an average parking space.
+The point of these visualizations is also to remind people of some really important statistical concepts, concepts like averages.
+So let's say you hear a claim like, "The average swimming pool in the US contains 6.23 fecal accidents."
+That doesn't mean every single swimming pool in the country contains exactly 6.23 turds.
+So in order to show that, I went back to the original data, which comes from the CDC, who surveyed 47 swimming facilities.
+And I just spent one evening redistributing poop.
+So you can kind of see how misleading averages can be.
+(Laughter) OK, so the second question that you guys should be asking yourselves to spot bad numbers is: Can I see myself in the data?
+This question is also about averages in a way, because part of the reason why people are so frustrated with these national statistics, is they don't really tell the story of who's winning and who's losing from national policy.
+It's easy to understand why people are frustrated with global averages when they don't match up with their personal experiences.
+I wanted to show people the way data relates to their everyday lives.
+I started this advice column called "Dear Mona," where people would write to me with questions and concerns and I'd try to answer them with data.
+People asked me anything.
+questions like, "Is it normal to sleep in a separate bed to my wife?"
+"Do people regret their tattoos?"
+"What does it mean to die of natural causes?"
+All of these questions are great, because they make you think about ways to find and communicate these numbers.
+If someone asks you, "How much pee is a lot of pee?"
+which is a question that I got asked, you really want to make sure that the visualization makes sense to as many people as possible.
+These numbers aren't unavailable.
+Sometimes they're just buried in the appendix of an academic study.
+And they're certainly not inscrutable; if you really wanted to test these numbers on urination volume, you could grab a bottle and try it for yourself.
+(Laughter) The point of this isn't necessarily that every single data set has to relate specifically to you.
+I'm interested in how many women were issued fines in France for wearing the face veil, or the niqab, even if I don't live in France or wear the face veil.
+The point of asking where you fit in is to get as much context as possible.
+So it's about zooming out from one data point, like the unemployment rate is five percent, and seeing how it changes over time, or seeing how it changes by educational status -- this is why your parents always wanted you to go to college -- or seeing how it varies by gender.
+Nowadays, male unemployment rate is higher than the female unemployment rate.
+Up until the early '80s, it was the other way around.
+This is a story of one of the biggest changes that's happened in American society, and it's all there in that chart, once you look beyond the averages.
+The axes are everything; once you change the scale, you can change the story.
+OK, so the third and final question that I want you guys to think about when you're looking at statistics is: How was the data collected?
+So far, I've only talked about the way data is communicated, but the way it's collected matters just as much.
+I know this is tough, because methodologies can be opaque and actually kind of boring, but there are some simple steps you can take to check this.
+I'll use one last example here.
+One poll found that 41 percent of Muslims in this country support jihad, which is obviously pretty scary, and it was reported everywhere in 2015.
+When I want to check a number like that, I'll start off by finding the original questionnaire.
+It turns out that journalists who reported on that statistic ignored a question lower down on the survey that asked respondents how they defined "jihad."
+And most of them defined it as, "Muslims' personal, peaceful struggle to be more religious."
+Only 16 percent defined it as, "violent holy war against unbelievers."
+This is the really important point: based on those numbers, it's totally possible that no one in the survey who defined it as violent holy war also said they support it.
+Those two groups might not overlap at all.
+It's also worth asking how the survey was carried out.
+This was something called an opt-in poll, which means anyone could have found it on the internet and completed it.
+There's no way of knowing if those people even identified as Muslim.
+And finally, there were 600 respondents in that poll.
+There are roughly three million Muslims in this country, according to Pew Research Center.
+That means the poll spoke to roughly one in every 5,000 Muslims in this country.
+This is one of the reasons why government statistics are often better than private statistics.
+A poll might speak to a couple hundred people, maybe a thousand, or if you're L'Oreal, trying to sell skin care products in 2005, then you spoke to 48 women to claim that they work.
+(Laughter) Private companies don't have a huge interest in getting the numbers right, they just need the right numbers.
+Government statisticians aren't like that.
+In theory, at least, they're totally impartial, not least because most of them do their jobs regardless of who's in power.
+They're civil servants.
+And to do their jobs properly, they don't just speak to a couple hundred people.
+Those unemployment numbers I keep on referencing come from the Bureau of Labor Statistics, and to make their estimates, they speak to over 140,000 businesses in this country.
+I get it, it's frustrating.
+If you want to test a statistic that comes from a private company, you can buy the face cream for you and a bunch of friends, test it out, if it doesn't work, you can say the numbers were wrong.
+But how do you question government statistics?
+You just keep checking everything.
+Find out how they collected the numbers.
+Find out if you're seeing everything on the chart you need to see.
+But don't give up on the numbers altogether, because if you do, we'll be making public policy decisions in the dark, using nothing but private interests to guide us.
+Thank you.
+(Applause)
+There is an environmental mystery afoot, and it begins with a seemingly trivial detail that reveals a disaster of global proportions.
+One day, you notice that the honey you slather on your morning toast is more expensive.
+Instead of switching to jam, you investigate the reason for the price hike.
+What you find is shocking.
+The number of domesticated honeybees in the US has been decreasing at an alarming rate.
+This decline appears too big to be explained by the usual causes of bee death alone: disease, parasites or starvation.
+A typical crime scene has almost no adult bees left in the hive, except, perhaps, a lonely queen and a few other survivors.
+It's full of untouched food stores and a brood of unborn larvae, suggesting that the adults vacated without waiting for them to hatch.
+But what's particularly eerie is that there's no tell-tale mass of dead or dying bees nearby.
+Either they have forgotten their way back to the hive, or they have simply disappeared.
+These mysterious disappearances aren't new.
+Humans have been collecting honey for centuries.
+But it wasn't until European settlers in the 1600's introduced the subspecies, Apis mellifera, that we domesticated bees.
+Since the 19th century, beekeepers have reported occasional mass disappearances, giving them enigmatic names like disappearing disease, spring dwindle disease and autumn collapse.
+But when in 2006 such losses were found to affect more than half of all hives in the US, the phenomenon got a new name: colony collapse disorder.
+The most frightening thing about this mystery isn't that we'll have to go back to using regular sugar in our tea.
+We farm bees for their honey, but they also pollinate our crops on an industrial scale, generating over 1/3 of America's food production this way.
+So, how can we find the culprit behind this calamity?
+Here are three of the possible offenders.
+Exhibit A: Pests and Disease.
+Most infamous is the varroa mite, a minuscule red pest that not only invades colonies and feeds on bees, but also transfers pathogens that stunt bee growth and shortens their life span.
+Exhibit B: Genetics.
+The queen is the core of a healthy hive.
+But nowadays, the millions of queen bees distributed in commercial hives are bred from just a few original queens, which raises the worry about a lack of genetic diversity which could weaken bees' defenses against pathogens and pests.
+Exhibit C: Chemicals.
+Pesticides used both on commercial beehives and agricultural crops to ward off parasites could be getting into the food and water that honeybees consume.
+Researchers have even found that some pesticides damage the honeybees' homing abilities.
+So we have a file full of clues but no clear leads.
+In reality, scientists, the actual detectives on this case, face disagreement over what causes colony collapse disorder.
+For now, we assume that several factors are the cause.
+Honeybees aren't necessarily in danger of extinction, but fewer bees overall means less pollination and higher food costs, so it's crucial that scientists solve the case of the vanishing bees.
+Because while having less honey might be a buzzkill, crop shortages are something that would truly sting.
+I'm often asked why I do art, what do I want to say with my art photography, and what is the use of it?
+Once in a while I start to worry how to actually measure the impact from the art like we do with medicine or technology, where we can see the results and calculate it.
+Then I would finally be able to explain to my mother my art with real numbers.
+But my art is so far from metrics, and moreover, my photography is widely exposing the theme of escapism.
+My theory is that all of us struggle sometimes to escape in order to analyze our reality, appreciate it or change.
+I don't work with daily life as it is, and I'm not a documentary photographer in the common sense.
+But I am a documentary photographer in a different sense.
+I document dreams.
+I work with daily life as it could be, as I imagine it.
+I am a daydreamer, but at the same time I love things that are authentic and deal with our innermost nature, which I would never want to escape from.
+I adore complicated personalities, and real life inspires me to create my images.
+Real life inspires our escape, and sometimes that escape is very needed.
+I believe heroes are not created easily, and I choose to work with individuals who are survivors and facing everyday routines that are not always full of color, people who are on their way to a better life, fighting against life circumstances.
+Why do I choose people like that for my models?
+Because I've been in that position myself, when I had to learn how to survive in real life.
+I was a student living abroad in London.
+I was working at two places at the same time as a waitress.
+Obviously that wasn't my dream job, but I decided to play a game where I imagined that I am taking a role in a film, and in the film I am a waitress, and I need to act great.
+I used to dye my hair and brows to gingerette, I changed my hair to curly perm, I lost weight and made myself believe I am just a character acting in a film.
+That isn't forever, that is all just temporary.
+That helped me a lot.
+It motivated me to change my life and take a hard time as a game.
+Now, as an artist, I am creating different lives for my models in order to give them the experience of being someone else in reality.
+Through the photographic process, all of my models become like silent movie actors.
+They are captured at the moment when they believe in being someone else entirely.
+In order to create a new reality in its entirety, I physically create every single thing in my work, sometimes from outfits to the stage.
+Because I work with analogues, and I don't make any digital manipulations to my photographs, I need everything to take place in reality, in spite of the fact that nowadays, digitally, you can create pretty much everything.
+I don't like this path.
+Even if that reaches perfection, I see the beauty in authenticity of making, and that's impossible without flaws.
+A digitally manipulated photograph is not true for me.
+It doesn't capture anything real.
+It's not experienced, not motivating.
+It's like, instead of going traveling, you look at someone else's travel photographs.
+What I find so exciting is the ability to make people's dreams of being someone else a reality.
+That's like a drug which pushes me to keep working, even without metrics.
+One of my models had always dreamed of being seen as a warrior, but she wasn't able to do sports because of her health problems.
+Half a year ago, she passed away from heart disease at the age of 22.
+But two days before her death, the images we spent months working on together of her as a warrior she dreamed of becoming were published at a large exhibition in Milan by Vogue Magazine.
+All her life was about overcoming.
+Before she died, she had known that thousands of people saw her image from the land of escapism and believed in her as a brave and fearless warrior.
+For my work, I invite people to play a game like we all used to as children when we pretend to be someone else and that process made us really happy.
+To my mind it is important for grown-ups.
+We need these transformations to enact this in the name of art.
+It gives us the very real feeling of being important and powerful in order to influence our reality.
+I know this from my own personal experience.
+I have had so many versions of myself through my self-portraits that I've been many different characters.
+Being someone else in the land of escapism doesn't exactly give us numbers that we can gauge, but it's like a real lost form of magic which exists but can't be measured.
+There is a unique power in art to transform and lift our limits.
+Art creates what I call a conjured life, which helps our existence and pushes, motivates and inspires us to dwell and express ourselves without metrics or calculations.
+Thank you.
+(Applause)
+Here are two images of a house.
+There’s one obvious difference, but to this patient, P.S., they looked completely identical.
+P.S. had suffered a stroke that damaged the right side of her brain, leaving her unaware of everything on her left side.
+But though she could discern no difference between the houses, when researchers asked her which she would prefer to live in, she chose the house that wasn’t burning— not once, but again and again.
+P.S.’s brain was still processing information from her whole field of vision.
+She could see both images and tell the difference between them, she just didn’t know it.
+If someone threw a ball at her left side, she might duck.
+But she wouldn’t have any awareness of the ball, or any idea why she ducked.
+P.S.’s condition, known as hemispatial neglect, reveals an important distinction between the brain’s processing of information and our experience of that processing.
+That experience is what we call consciousness.
+We are conscious of both the external world and our internal selves— we are aware of an image in much the same way we are aware of ourselves looking at an image, or our inner thoughts and emotions.
+But where does consciousness come from?
+Scientists, theologians, and philosophers have been trying to get to the bottom of this question for centuries— without reaching any consensus.
+One recent theory is that consciousness is the brain’s imperfect picture of its own activity.
+To understand this theory, it helps to have a clear idea of one important way the brain processes information from our senses.
+Based on sensory input, it builds models, which are continuously updating, simplified descriptions of objects and events in the world.
+Everything we know is based on these models.
+They never capture every detail of the things they describe, just enough for the brain to determine appropriate responses.
+For instance, one model built deep into the visual system codes white light as brightness without color.
+In reality, white light includes wavelengths that correspond to all the different colors we can see.
+Our perception of white light is wrong and oversimplified, but good enough for us to function.
+Likewise, the brain’s model of the physical body keeps track of the configuration of our limbs, but not of individual cells or even muscles, because that level of information isn’t needed to plan movement.
+If it didn’t have the model keeping track of the body’s size, shape, and how it is moving at any moment, we would quickly injure ourselves.
+The brain also needs models of itself.
+For example, the brain has the ability to pay attention to specific objects and events.
+It also controls that focus, shifting it from one thing to another, internal and external, according to our needs.
+Without the ability to direct our focus, we wouldn’t be able to assess threats, finish a meal, or function at all.
+To control focus effectively, the brain has to construct a model of its own attention.
+With 86 billion neurons constantly interacting with each other, there’s no way the brain’s model of its own information processing can be perfectly self-descriptive.
+

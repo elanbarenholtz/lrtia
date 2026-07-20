@@ -1,0 +1,213 @@
+I don't know why it's impossible, but, even for a moment, if you did assume that it's impossible -- I have a quotation from Sir Arthur C. Clarke, the science fiction writer whom I met in Colombo, and he said something which completely solves this problem.
+He said a teacher than can be replaced by a machine, should be.
+So, you know, it puts the teacher into a tough bind, you have to think.
+Anyway, so I'm proposing that an alternative primary education, whatever alternative you want, is required where schools don't exist, where schools are not good enough, where teachers are not available or where teachers are not good enough, for whatever reason.
+If you happen to live in a part of the world where none of this applies, then you don't need an alternative education.
+So far I haven't come across such an area, except for one case.
+I won't name the area, but somewhere in the world people said, we don't have this problem, because we have perfect teachers and perfect schools.
+There are such areas, but -- anyway, I'd never heard that anywhere else.
+I'm going to talk about children and self-organization, and a set of experiments which sort of led to this idea of what might an alternative education be like.
+They're called the hole-in-the-wall experiments.
+I'll have to really rush through this.
+They're a set of experiments.
+The first one was done in New Delhi in 1999.
+And what we did over there was pretty much simple.
+I had an office in those days which bordered a slum, an urban slum, so there was a dividing wall between our office and the urban slum.
+They cut a hole inside that wall -- which is how it has got the name hole-in-the-wall -- and put a pretty powerful PC into that hole, sort of embedded into the wall so that its monitor was sticking out at the other end, a touchpad similarly embedded into the wall, put it on high-speed Internet, put the Internet Explorer there, put it on Altavista.com -- in those days -- and just left it there.
+And this is what we saw.
+So that was my office in IIT.
+Here's the hole-in-the-wall.
+About eight hours later, we found this kid.
+To the right is this eight-year-old child who -- and to his left is a six-year-old girl, who is not very tall.
+And what he was doing was, he was teaching her to browse.
+So it sort of raised more questions than it answered.
+Is this real?
+Does the language matter, because he's not supposed to know English?
+Will the computer last, or will they break it and steal it -- and did anyone teach them?
+The last question is what everybody said, but you know, I mean, they must have poked their head over the wall and asked the people in your office, can you show me how to do it, and then somebody taught him.
+So I took the experiment out of Delhi and repeated it, this time in a city called Shivpuri in the center of India, where I was assured that nobody had ever taught anybody anything.
+(Laughter) So it was a warm day, and the hole in the wall was on that decrepit old building.
+This is the first kid who came there; he later on turned out to be a 13-year-old school dropout.
+He came there and he started to fiddle around with the touchpad.
+Very quickly, he noticed that when he moves his finger on the touchpad something moves on the screen -- and later on he told me, "I have never seen a television where you can do something."
+So he figured that out.
+It took him over two minutes to figure out that he was doing things to the television.
+And then, as he was doing that, he made an accidental click by hitting the touchpad -- you'll see him do that.
+He did that, and the Internet Explorer changed page.
+Eight minutes later, he looked from his hand to the screen, and he was browsing: he was going back and forth.
+When that happened, he started calling all the neighborhood children, like, children would come and see what's happening over here.
+And by the evening of that day, 70 children were all browsing.
+So eight minutes and an embedded computer seemed to be all that we needed there.
+So we thought that this is what was happening: that children in groups can self-instruct themselves to use a computer and the Internet.
+But under what circumstances?
+At this time there was a -- the main question was about English.
+People said, you know, you really ought to have this in Indian languages.
+So I said, have what, shall I translate the Internet into some Indian language?
+That's not possible.
+So, it has to be the other way about.
+But let's see, how do the children tackle the English language?
+I took the experiment out to northeastern India, to a village called Madantusi, where, for some reason, there was no English teacher, so the children had not learned English at all.
+And I built a similar hole-in-the-wall.
+One big difference in the villages, as opposed to the urban slums: there were more girls than boys who came to the kiosk.
+In the urban slums, the girls tend to stay away.
+I left the computer there with lots of CDs -- I didn't have any Internet -- and came back three months later.
+So when I came back there, I found these two kids, eight- and 12-year-olds, who were playing a game on the computer.
+And as soon as they saw me they said, "We need a faster processor and a better mouse."
+(Laughter) I was real surprised.
+You know, how on earth did they know all this?
+And they said, "Well, we've picked it up from the CDs."
+So I said, "But how did you understand what's going on over there?"
+So they said, "Well, you've left this machine which talks only in English, so we had to learn English."
+So then I measured, and they were using 200 English words with each other -- mispronounced, but correct usage -- words like exit, stop, find, save, that kind of thing, not only to do with the computer but in their day-to-day conversations.
+So, Madantusi seemed to show that language is not a barrier; in fact they may be able to teach themselves the language if they really wanted to.
+Finally, I got some funding to try this experiment out to see if these results are replicable, if they happen everywhere else.
+India is a good place to do such an experiment in, because we have all the ethnic diversities, all the -- you know, the genetic diversity, all the racial diversities, and also all the socio-economic diversities.
+So, I could actually choose samples to cover a cross section that would cover practically the whole world.
+So I did this for almost five years, and this experiment really took us all the way across the length and breadth of India.
+This is the Himalayas.
+Up in the north, very cold.
+I also had to check or invent an engineering design which would survive outdoors, and I was using regular, normal PCs, so I needed different climates, for which India is also great, because we have very cold, very hot, and so on.
+This is the desert to the west.
+Near the Pakistan border.
+And you see here a little clip of -- one of these villages -- the first thing that these children did was to find a website to teach themselves the English alphabet.
+Then to central India -- very warm, moist, fishing villages, where humidity is a very big killer of electronics.
+So we had to solve all the problems we had without air conditioning and with very poor power, so most of the solutions that came out used little blasts of air put at the right places to keep the machines running.
+I want to just cut this short.
+We did this over and over again.
+This sequence is also nice.
+This is a small child, a six-year-old, telling his eldest sister what to do.
+And this happens very often with these computers, that the younger children are found teaching the older ones.
+What did we find?
+We found that six- to 13-year-olds can self-instruct in a connected environment, irrespective of anything that we could measure.
+So if they have access to the computer, they will teach themselves, including intelligence.
+I couldn't find a single correlation with anything, but it had to be in groups.
+And that may be of great, you know, interest to this group, because all of you are talking about groups.
+So here was the power of what a group of children can do, if you lift the adult intervention.
+Just a quick idea of the measurements.
+We took standard statistical techniques, so I'm going to not talk about that.
+But we got a clean learning curve, almost exactly the same as what you would get in a school.
+I'll leave it at that, because, I mean, it sort of says it all, doesn't it?
+What could they learn to do?
+Basic Windows functions, browsing, painting, chatting and email, games and educational material, music downloads, playing video.
+In short, what all of us do.
+And over 300 children will become computer literate and be able to do all of these things in six months with one computer.
+So, how do they do that?
+If you calculated the actual time of access, it would work out to minutes per day, so that's not how it's happening.
+What you have, actually, is there is one child operating the computer.
+And surrounding him are usually three other children, who are advising him on what they should do.
+If you test them, all four will get the same scores in whatever you ask them.
+Around these four are usually a group of about 16 children, who are also advising, usually wrongly, about everything that's going on on the computer.
+And all of them also will clear a test given on that subject.
+So they are learning as much by watching as they learn by doing.
+It seems counter-intuitive to adult learning, but remember, eight-year-olds live in a society where most of the time they are told, don't do this, you know, don't touch the whiskey bottle.
+So what does the eight-year-old do?
+He observes very carefully how a whiskey bottle should be touched.
+And if you tested him, he would answer every question correctly on that topic.
+So, they seem to be able to acquire very quickly.
+So what was the conclusion over the six years of work?
+It was that primary education can happen on its own, or parts of it can happen on its own.
+It does not have to be imposed from the top downwards.
+It could perhaps be a self-organizing system, so that was the second bit that I wanted to tell you, that children can self-organize and attain an educational objective.
+The third piece was on values, and again, to put it very briefly, I conducted a test over 500 children spread across all over India, and asked them -- I gave them about 68 different values-oriented questions and simply asked them their opinions.
+We got all sorts of opinions.
+Yes, no or I don't know.
+I simply took those questions where I got 50 percent yeses and 50 percent noes -- so I was able to get a collection of 16 such statements.
+These were areas where the children were clearly confused, because half said yes and half said no.
+A typical example being, "Sometimes it is necessary to tell lies."
+They don't have a way to determine which way to answer this question; perhaps none of us do.
+So I leave you with this third question.
+Can technology alter the acquisition of values?
+Finally, self-organizing systems, about which, again, I won't say too much because you've been hearing all about it.
+Natural systems are all self-organizing: galaxies, molecules, cells, organisms, societies -- except for the debate about an intelligent designer.
+But at this point in time, as far as science goes, it's self-organization.
+But other examples are traffic jams, stock market, society and disaster recovery, terrorism and insurgency.
+And you know about the Internet-based self-organizing systems.
+So here are my four sentences then.
+Remoteness affects the quality of education.
+Educational technology should be introduced into remote areas first, and other areas later.
+Values are acquired; doctrine and dogma are imposed -- the two opposing mechanisms.
+And learning is most likely a self-organizing system.
+If you put all the four together, then it gives -- according to me -- it gives us a goal, a vision, for educational technology.
+An educational technology and pedagogy that is digital, automatic, fault-tolerant, minimally invasive, connected and self-organized.
+As educationists, we have never asked for technology; we keep borrowing it.
+PowerPoint is supposed to be considered a great educational technology, but it was not meant for education, it was meant for making boardroom presentations.
+We borrowed it.
+Video conferencing.
+The personal computer itself.
+I think it's time that the educationists made their own specs, and I have such a set of specs.
+This is a brief look at that.
+And such a set of specs should produce the technology to address remoteness, values and violence.
+So I thought I'd give it a name -- why don't we call it "outdoctrination."
+And could this be a goal for educational technology in the future?
+So I want to leave that as a thought with you.
+Thank you.
+(Applause)
+When the Portuguese arrived in Latin America about 500 years ago, they obviously found this amazing tropical forest.
+And among all this biodiversity that they had never seen before, they found one species that caught their attention very quickly.
+This species, when you cut the bark, you find a very dark red resin that was very good to paint and dye fabric to make clothes.
+The indigenous people called this species pau brasil, and that's the reason why this land became "land of Brasil," and later on, Brazil.
+That's the only country in the world that has the name of a tree.
+So you can imagine that it's very cool to be a forester in Brazil, among other reasons.
+Forest products are all around us.
+Apart from all those products, the forest is very important for climate regulation.
+In Brazil, almost 70 percent of the evaporation that makes rain actually comes from the forest.
+Just the Amazon pumps to the atmosphere 20 billion tons of water every day.
+This is more than what the Amazon River, which is the largest river in the world, puts in the sea per day, which is 17 billion tons.
+If we had to boil water to get the same effect as evapotranspiration, we would need six months of the entire power generation capacity of the world.
+So it's a hell of a service for all of us.
+We have in the world about four billion hectares of forests.
+This is more or less China, U.S., Canada and Brazil all together, in terms of size, to have an idea.
+Three quarters of that is in the temperate zone, and just one quarter is in the tropics, but this one quarter, one billion hectares, holds most of the biodiversity, and very importantly, 50 percent of the living biomass, the carbon.
+Now, we used to have six billion hectares of forest -- 50 percent more than what we have -- 2,000 years ago.
+We've actually lost two billion hectares in the last 2,000 years.
+But in the last 100 years, we lost half of that.
+That was when we shifted from deforestation of temperate forests to deforestation of tropical forests.
+So think of this: In 100 years, we lost the same amount of forest in the tropics that we lost in 2,000 years in temperate forests.
+That's the speed of the destruction that we are having.
+Now, Brazil is an important piece of this puzzle.
+We have the second largest forest in the world, just after Russia.
+It means 12 percent of all the world's forests are in Brazil, most of that in the Amazon.
+It's the largest piece of forest we have.
+It's a very big, large area.
+You can see that you could fit many of the European countries there.
+We still have 80 percent of the forest cover.
+That's the good news.
+But we lost 15 percent in just 30 years.
+So if you go with that speed, very soon, we will loose this powerful pump that we have in the Amazon that regulates our climate.
+Deforestation was growing fast and accelerating at the end of the '90s and the beginning of the 2000s.
+(Chainsaw sound) (Sound of falling tree) Twenty-seven thousand square kilometers in one year.
+This is 2.7 million hectares.
+It's almost like half of Costa Rica every year.
+So at this moment -- this is 2003, 2004 -- I happened to be coming to work in the government.
+And together with other teammates in the National Forest Department, we were assigned a task to join a team and find out the causes of deforestation, and make a plan to combat that at a national level, involving the local governments, the civil society, business, local communities, in an effort that could tackle those causes.
+So we came up with this plan with 144 actions in different areas.
+Now I will go through all of them one by one -- no, just giving some examples of what we had done in the next few years.
+So the first thing, we set up a system with the national space agency that could actually see where deforestation is happening, almost in real time.
+So now in Brazil, we have this system, DETER, where every month, or every two months, we get information on where deforestation is happening so we can actually act when it's happening.
+And all the information is fully transparent so others can replicate that in independent systems.
+This allows us, among other things, to apprehend 1.4 million cubic meters of logs that were illegally taken.
+Part of that we saw and sell, and all the revenue becomes a fund that now funds conservation projects of local communities as an endowment fund.
+This also allows us to make a big operation to seize corruption and illegal activities that ended up having 700 people in prison, including a lot of public servants.
+Then we made the connection that areas that have been doing illegal deforestation should not get any kind of credit or finance.
+So we cut this through the bank system and then linked this to the end users.
+So supermarkets, the slaughterhouses, and so on that buy products from illegal clear-cut areas, they also can be liable for the deforestation.
+So making all these connections to help to push the problem down.
+And also we work a lot on land tenure issues.
+It's very important for conflicts.
+Fifty million hectares of protected areas were created, which is an area the size of Spain.
+And of those, eight million were indigenous lands.
+Now we start to see results.
+So in the last 10 years, deforestation came down in Brazil 75 percent.
+(Applause) So if we compare it with the average deforestation that we had in the last decade, we saved 8.7 million hectares, which is the size of Austria.
+But more importantly, it avoided the emission of three billion tons of CO2 in the atmosphere.
+This is by far the largest contribution to reduce greenhouse gas emissions, until today, as a positive action.
+One may think that when you do these kinds of actions to decrease, to push down deforestation, you will have an economic impact because you will not have economic activity or something like that.
+But it's interesting to know that it's quite the opposite.
+In fact, in the period when we have the deepest decline of deforestation, the economy grew, on average, double from the previous decade, when deforestation was actually going up.
+So it's a good lesson for us.
+Maybe this is completely disconnected, as we just learned by having deforestation come down.
+Now this is all good news, and it's quite an achievement, and we obviously should be very proud about that.
+But it's not even close to sufficient.
+In fact, if you think about the deforestation in the Amazon in 2013, that was over half a million hectares, which means that every minute, an area the size of two soccer fields is being cut in the Amazon last year, just last year.
+If we sum up the deforestation we have in the other biomes in Brazil, we are talking about still the largest deforestation rate in the world.
+

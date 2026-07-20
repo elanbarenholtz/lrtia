@@ -1,0 +1,50 @@
+You might want to mass delete email from Gmail for many reasons: To remove non-work-related messages from an account, to achieve "inbox zero" as part of a personal productivity effort, or—more mundanely—to reduce the storage space used by attachments. Some people pursue #NoEmail—and start to treat email as an ephemeral communication channel instead of a permanent archive.
+Before you start to mass delete items from Gmail, I recommend that you export your current email data. To do this, use Google Takeout at Choose the "Select None" button, then scroll down the page to Mail. Move the slider to the right of Mail to "on." (You may export just some of your email: Select the down arrow to the left of the slider, then choose one—or more—Gmail labels to select items tagged with those labels to export.)
+Select Next at the bottom of the page, then choose the format, file sizes, and storage action for your export. Wait to start your deletions until you've either downloaded or verified that your exported email has been stored. (Note: If you use G Suite, an administrator has the ability to disable access to Takeout. If that's the case, talk with your administrator about backup before you begin.)
+After you backup, cycle through the following four steps to move sets of email to the Gmail trash.
+1. Search
+I've found that typing search terms into the Gmail search box in the desktop Chrome browser to be the most efficient way to find and select sets of emails. And while Google gives you a long list of search operators, I suggest you start with the following:
+Email address . Enter to: or from: followed by an email address to find all of the email sent to or received from an address.
+. Enter to: or from: followed by an email address to find all of the email sent to or received from an address. Subject . Enter subject: followed by a word (or a phrase in quotes) to find all email that contains the word or phrase specified.
+. Enter subject: followed by a word (or a phrase in quotes) to find all email that contains the word or phrase specified. Date . While there are several time-search options, try before: or older_than: first. The first locates items prior to a specified data, while the latter locates item older than a certain number of days, months, or years (e.g., 3d, 1m, or 7y for 3 days, 1 month, or 7 years, respectively) from the current date.
+. While there are several time-search options, try before: or older_than: first. The first locates items prior to a specified data, while the latter locates item older than a certain number of days, months, or years (e.g., 3d, 1m, or 7y for 3 days, 1 month, or 7 years, respectively) from the current date. Size. Locates email larger than a specific size. For example, larger:20M finds items larger than 20Mb.
+Often a simple search may be all you need to locate a set of email you no longer need. For example, you might not need to keep receipts from some vendors (email address), accepted calendar invitations (subject), email older than 3 years (date), or large files (size) stored elsewhere.
+2. Review and refine
+Review the search results to see if you wish to keep email found with a simple search. If no, move on to step no. 3.
+If you see emails that you wish to keep among the results, you'll need to refine your search. You can combine multiple search terms. For example, search for both an email address and a date:
+from:andy@pa311.com older_than:1y
+This would find items older than one year from the current day. Or, add a subject as well, to narrow the results further:
+from:andy@pa311.com older_than:1y subject:"Weekly meeting"
+You may use the - character to exclude a search term (or terms). For example:
+to:andy@pa311.com older_than:1y -subject:"Quarterly review"
+This would find items older than a year sent to a specific email address, but would exclude any emails with the subject "Quarterly review."
+If more than one screen of results is indicated, select the arrow in the upper right area to review additional screens of email search results.
+Refine and review the results until you're confident that all the email found by your search is email you wish to delete.
+3. Select / Select All
+Select the box at the top of the column above your email search results to select all of the email displayed.
+If your search returns more email than is displayed on the current screen, you'll see a message above the list of email that gives you the option to "Select all conversations that match this search." Click the words to select all conversations that match your search terms.
+4. Move to Trash
+Select the trashcan icon to delete the selected email.
+Repeat for various terms
+Repeat your search to find, select, and delete as many sets of email as you wish. When I help people get control of their email we often search for things such as:
+Old promotional emails, newsletters, and updates
+Email no longer needed from specific clients, vendors, or colleagues
+System status notices (e.g., update notifications and system down/up notifications)
+Outdated social media or account sign-in notifications
+Email related to prior jobs (including paid and volunteer roles)
+Tip: Use a label to exclude a set from a search
+Often, I find it helpful to label a set of email so that I can always exclude that set of email when I work through the email deletion process. For example, you might want to keep all email from a specific person (or several people).
+To do this, first create a Gmail label, such as "Never delete." Then, search for a colleague's email address. Select all email with that person, then select the label icon, choose the label you created (e.g., "Never delete"), then select "Apply" at the bottom of the column. Repeat this process for as many criteria as you wish
+Then, when you do searches, always exclude labels that match the selected set. For example:
+older_than:1y -label:"Never delete"
+This would return all emails older than a year, while excluding all emails labeled "Never delete."
+Optional: Delete Trash
+At this point, you're done. Gmail will remove items left in the trash after 30 days. If you really want things deleted now, you can always navigate to the trash, select all items (and select all items in the trash), then choose "Delete forever."
+× e-gmail-auto-delete-vault-search.jpg
+G Suite controls
+A G Suite administrator has at least two significant options available to manage mail, as well. First, an administrator can set a Gmail auto-delete policy (from admin.google.com, sign-in, then Apps > G Suite > Gmail > Advanced settings > Compliance: Email and chat auto-deletion) for messages to either be moved to trash or deleted after a specified number of days.
+The administrator also may specify that emails with a specific label (or labels) will not be auto-deleted. Second, a G Suite administrator can configure Google Vault, which gives the organization a sophisticated set of controls to preserve, search, and export email communications for legal and/or compliance purposes. (Vault is included with Business and Enterprise edition licenses.)
+Your thoughts?
+Do you maintain a pristine, close-to-zero Gmail inbox? Or do you archive everything forever? How often do you delete sets of messages from Gmail? Let me know in the comments — or on Twitter (@awolber).
+Subscribe now to our Google Weekly newsletter to stay informed of useful Google news and tips! Subscribe
+Also see
