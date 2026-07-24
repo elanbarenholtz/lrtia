@@ -91,7 +91,11 @@ def p_curve(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dmin", type=float, default=10.0, help="min distance for the log-log fit")
+    # default d>=16 matches the manuscript's restricted-range headline (beta ~ -1.3).
+    # Q(d) is curved, so its OLS slope shallows with a higher dmin; P(d) is scale-free,
+    # so alpha stays ~1.0 and the comparison remains range-matched. Use --dmin 10 for the
+    # full-range fit (beta ~ 1.1-1.6). Verify the printed beta matches the text on your run.
+    ap.add_argument("--dmin", type=float, default=16.0, help="min distance for the log-log fit")
     args = ap.parse_args()
     dmin = args.dmin
     if not QDIR.exists():
