@@ -342,6 +342,30 @@ is shallow and carries the long-range tail (slope $-0.78 \pm 0.24$). Sensitivity
 reversal and discourse-sequence permutation is therefore concentrated at short range, whereas
 sentence-level content carries the long-range tail.
 
+\paragraph{A localized order manipulation converges on the same decomposition.}
+As an independent check, we applied an increment-shuffle manipulation that
+localizes the disruption to a single distance band: for each adjacent pair of
+context lengths $(c_{i-1},c_i)$, all nearer context (distances $1\ldots c_{i-1}$)
+is held intact and in place, and only the tokens at distances
+$c_{i-1}+1\ldots c_i$ are permuted within that band ($K=20$ permutations per
+target and band). The per-token quantity
+$Q(d)=(\overline{\mathrm{ppl}}_{\mathrm{shuf}}-\mathrm{ppl}_{\mathrm{intact}})/(c_i-c_{i-1})$,
+at the geometric midpoint $d=\sqrt{c_{i-1}c_i}$, isolates the internal order of a
+single distant span while the surrounding context is preserved; where $P(d)$
+reflects the order-specific value of the accumulating context as a whole, $Q(d)$
+probes span-internal order alone. Across the $N$ cells with a range-matched
+$P(d)$ estimate, $Q(d)$ is positive throughout but decays more steeply than
+$P(d)$, with a log--log slope near $-1.3$ and downward curvature (bounded and
+curved forms outperform a pure power law by AIC in most cells), whereas the
+range-matched $P(d)$ retains a slope near $-1.0$; the band-local exponent exceeds
+the integrated exponent in every cell tested. This coincides with the
+sequence-permutation contrast ($-1.26\pm0.01$) recovered from sentence shuffling,
+obtained here by an independent manipulation at token resolution with nearer
+context held fixed. Two structure-disrupting methods therefore converge: the
+internal ordering of localized spans makes a steep, short-range, bounded
+contribution, while the scale-free long-range tail is carried by integrated
+content rather than by the internal order of any distant region.
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/fig2_sentence_shuffle.pdf}
