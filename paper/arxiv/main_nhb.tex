@@ -119,9 +119,8 @@ is consistent instead with mechanisms in which prior content continues to shape
 ongoing generation through the evolving probability structure of the sequence itself.
 
 We present this as an empirical discovery rather than a mechanistic proposal. We identify a
-previously undescribed quantitative law governing contextual persistence in human language:
-the evidence establishes a robust regularity, and the principal question it raises is why it
-exists.
+previously undescribed quantitative law governing contextual persistence in human language; its
+existence, rather than any particular mechanism, is the result we report.
 
 \section{Results}
 
@@ -132,8 +131,8 @@ predictive influence of prior context at distance $d$ from the current point of 
 the reduction in target perplexity produced by revealing prior context at that distance, minus
 the reduction produced by the same tokens in scrambled order (Methods). Subtracting the
 shuffled-token baseline controls the predictive benefit available from the same token composition in
-scrambled order (the lower rungs of the hierarchy above), so $P(d)$ isolates the component of contextual dependence
-that survives only when sequential order is preserved, resolved as a function of distance.
+scrambled order, so $P(d)$ isolates the additional contribution of intact sequential arrangement,
+resolved as a function of distance.
 
 Across all corpora, $P(d)$ is positive at distances well beyond any plausible bound
 on working-memory capacity. At distances approaching 1000 tokens (the far end of our
@@ -353,7 +352,7 @@ $Q(d)=(\overline{\mathrm{ppl}}_{\mathrm{shuf}}-\mathrm{ppl}_{\mathrm{intact}})/(
 at the geometric midpoint $d=\sqrt{c_{i-1}c_i}$, isolates the internal order of a
 single distant span while the surrounding context is preserved; where $P(d)$
 reflects the order-specific value of the accumulating context as a whole, $Q(d)$
-probes span-internal order alone. Across the $N$ cells with a range-matched
+probes span-internal order alone. Across the eight cells with a range-matched
 $P(d)$ estimate, $Q(d)$ is positive throughout but decays more steeply than
 $P(d)$, with a log--log slope near $-1.3$ and downward curvature (bounded and
 curved forms outperform a pure power law by AIC in most cells), whereas the
@@ -424,16 +423,16 @@ scale-free power law, with a near-constant exponent across ten corpora, six lang
 and both written and spoken modalities. Because that exponent is close to $1$, contextual
 influence is distributed approximately uniformly across logarithmic timescales rather than
 concentrated at any one, a more specific statement than the mere absence of a horizon. The
-consistency of the exponent across such diverse samples makes this a candidate broadly
+consistency of the exponent across such diverse samples makes this a candidate
 cross-linguistic regularity of human language, in the same empirical sense that Zipf's and Heaps'
 laws are cross-linguistic regularities. In the hierarchy of statistical descriptions considered here ---
 unit frequency (Zipf's law), pairwise dependence across distance (long-range mutual information),
 and order-specific dependence --- the contextual persistence law is the third, order-specific rung,
 extending the Zipfian program of reproducible scale-free regularities to the component of contextual
-dependence that remains once unit identity and co-occurrence are removed. We read it
-as a law to be explained rather than as an adjudication between mechanisms, and its main force is
-as a constraint. The evidence establishes a robust regularity; the principal question is why it
-exists. Any successful account of how human language is generated must explain why its statistical
+dependence that remains once unit identity and co-occurrence are removed. We view it
+as a law to be explained rather than as an adjudication between mechanisms; its primary role is to
+constrain mechanistic theories. The evidence establishes a robust empirical regularity. The
+principal question is why it exists. Any successful account of how human language is generated must explain why its statistical
 product lacks a detectable characteristic scale over this range. An architecture with a fixed maintenance
 horizon would generally be expected to produce an inflection in $P(d)$ near that horizon, of
 whatever size; we observe none across nearly two orders of magnitude. An account in which long-range coherence rests on a small

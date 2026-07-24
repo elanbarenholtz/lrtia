@@ -475,7 +475,7 @@ def fig3():
         (ord_mean, ord_se, 'C0', 'o', 'Ordered (intact forward chain)'),
         (ss_mean, ss_se, 'C1', 's', 'Sentence-shuffled (sequence destroyed)'),
         (sr_mean, sr_se, sent_rev_color, 'D', 'Sentence-reversed (direction destroyed)'),
-        (ts_mean, ts_se, 'C3', '^', 'Token-shuffled (chance floor)'),
+        (ts_mean, ts_se, 'C3', '^', 'Token-shuffled (order control)'),
     ]:
         ax.fill_between(all_d, vals - se_vals, vals + se_vals,
                         color=color, alpha=0.20, zorder=2)
