@@ -10,15 +10,20 @@ Data sources (all local on Drive):
 """
 import json
 import math
+import os
 from pathlib import Path
 
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 
-DRIVE = Path('/Users/elansmini/Library/CloudStorage/'
-             'GoogleDrive-mpcrlab@gmail.com/My Drive/LRTIA/Results')
-OUT = Path('/Users/elansmini/lrtia/paper/Paper_Figures')
+# Results (per-corpus caches) and figure-output directories. Repo-relative by
+# default so the figure pipeline runs without editing absolute paths; override
+# with env vars to point at a Google Drive mount, e.g.
+#   LRTIA_RESULTS="$HOME/Library/CloudStorage/GoogleDrive-.../My Drive/LRTIA/Results"
+_ROOT = Path(__file__).resolve().parents[1]
+DRIVE = Path(os.environ.get('LRTIA_RESULTS', _ROOT / 'NHB_submission' / 'data' / 'derived'))
+OUT = Path(os.environ.get('LRTIA_FIGURES', _ROOT / 'paper' / 'arxiv' / 'figures'))
 OUT.mkdir(parents=True, exist_ok=True)
 
 plt.rcParams.update({

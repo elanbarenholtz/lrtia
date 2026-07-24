@@ -353,7 +353,7 @@ at the geometric midpoint $d=\sqrt{c_{i-1}c_i}$, isolates the internal order of 
 single distant span while the surrounding context is preserved; where $P(d)$
 reflects the order-specific value of the accumulating context as a whole, $Q(d)$
 probes span-internal order alone. Across the eight cells with a range-matched
-$P(d)$ estimate, $Q(d)$ is positive throughout but decays more steeply than
+$P(d)$ estimate (Figure~\ref{fig:qd}), $Q(d)$ is positive throughout but decays more steeply than
 $P(d)$, with a log--log slope near $-1.3$ and downward curvature (bounded and
 curved forms outperform a pure power law by AIC in most cells), whereas the
 range-matched $P(d)$ retains a slope near $-1.0$; the band-local exponent exceeds
@@ -862,6 +862,23 @@ distributing repository states the terms of use; no separate license file was re
 Snapshot dates are given where recorded; the Project Gutenberg fiction set was captured in the same
 2026 collection window but without a per-file date stamp.}
 \end{table}
+
+\renewcommand{\thefigure}{S1}
+\begin{figure}[h]
+\centering
+\IfFileExists{figures/exp2_qd_loglog.pdf}{%
+  \includegraphics[width=\textwidth]{figures/exp2_qd_loglog.pdf}}{%
+  \fbox{\parbox[c][6cm][c]{0.9\textwidth}{\centering \texttt{figures/exp2\_qd\_loglog.pdf} --- generate
+  with \texttt{analysis/exp2\_qd\_figure.py} after placing the Exp 2 caches in
+  \texttt{results/exp2\_increment\_shuffle/llama/}.}}}
+\caption{\textbf{Span-internal order contribution $Q(d)$ and range-matched marginal persistence
+$P(d)$, per corpus.} For each of the eight corpora with both estimates (Llama-3.1-8B), the
+increment-shuffle band-local order function $Q(d)$ and the marginal persistence function $P(d)$ on
+log--log axes. $Q(d)$ is positive throughout but steeper: the band-local exponent $\beta$ exceeds the
+range-matched integrated exponent $\alpha$ in every corpus. Per-corpus fits and values are in
+\texttt{results/exp2\_increment\_shuffle/qd\_summary.csv}.}
+\label{fig:qd}
+\end{figure}
 
 \section*{Data and code availability}
 
