@@ -28,7 +28,7 @@
 
 \begin{abstract}
 \noindent
-Human language obeys scaling laws for vocabulary growth, word frequency, and syntactic
+Human language exhibits well-established scaling laws for vocabulary growth, word frequency, and syntactic
 structure, yet none describes how the influence of prior context decays with distance. Using
 large language models as probabilistic probes, we measured the reduction in target perplexity
 conferred by prior context at distance $d$ beyond that conferred by the same words scrambled;
@@ -61,12 +61,13 @@ than expected under conventional finite-order Markov models \citep{ebeling1994en
 
 These two levels of description --- unit frequency and co-occurrence across distance --- are
 defined without reference to arrangement: long-range mutual information can reflect repeated
-lexical and topical content even when the local ordering of that content is disrupted. (Hilberg's
-conjecture, which holds that the conditional entropy of text falls as a power law of context
-length \citep{hilberg1990grenzwert, debowski2015relaxed}, concerns total predictive information,
-and likewise conflates the contribution of word identities with that of their arrangement.) But language
-carries critical additional structure that these measures do not capture: the order in which units
-appear. Word order
+lexical and topical content even when the local ordering of that content is disrupted. Hilberg's
+conjecture, a reinterpretation of Shannon's guessing experiments \citep{shannon1951prediction},
+holds that the conditional entropy of text falls as a power law of context length
+\citep{hilberg1990grenzwert, debowski2015relaxed}; it likewise concerns total predictive
+information, conflating the contribution of word identities with that of their arrangement. But
+language carries additional structure that these measures do not capture: the order in which
+units appear. Word order
 carries what neither lower level can register. Those levels record which words are present and at
 what distances they co-occur; but the same words at the same separations can compose entirely
 different meanings depending on their arrangement. Grammatical relations and compositional meaning
@@ -84,9 +85,9 @@ underlying long-range mutual information: where mutual information asks how the 
 word co-varies with that of another at a given separation, this quantity asks how the probability
 of a word depends on the ordered configuration of others --- whether immediately adjacent, as in
 what follows a given construction, or far back in the sequence. Classical corpus statistics
-approximate it only crudely. Large autoregressive transformer models
-\citep{vaswani2017attention, radford2019language} provide a tool for capturing exactly this
-structure: trained only to predict the next token, they assign token-level conditional
+approximate it only crudely. Autoregressive transformer models
+\citep{vaswani2017attention, radford2019language} provide a tool for capturing this structure
+directly: trained only to predict the next token, they assign token-level conditional
 probabilities over context lengths far exceeding those tractable with conventional corpus
 estimators, and are sensitive to precisely the order-dependent structure that raw co-occurrence
 statistics cannot isolate. Used as measuring instruments, or probes, rather than as objects of study, they provide a
@@ -96,7 +97,7 @@ Here we measure this dependence directly. Like mutual information, the quantity 
 dependence, but it is taken between an individual word and the ordered configuration of the words
 that precede it rather than between pairs of words. A probe's next-token probability supplies the
 measure of influence: how much the probability assigned to a fixed upcoming span changes when prior
-context is revealed. The sequence itself supplies the axis of measurement: revealing the true
+context is revealed. The sequence provides the axis of measurement: revealing the true
 context step by step, farther and farther back, makes that influence a function of distance $d$. At
 each step we ask how much the revealed context reduces the probe's surprise, and subtract the
 reduction obtained when the same words are supplied in scrambled order --- the entire revealed span
@@ -151,7 +152,7 @@ resolved as a function of distance.
 Across all corpora, $P(d)$ is positive at distances well beyond any plausible bound
 on working-memory capacity. At distances approaching 1000 tokens (the far end of our
 measurement range), prior context continues to reduce target perplexity by a measurable
-margin relative to shuffled controls. Long-range contextual influence is therefore not confined to a recency
+margin relative to shuffled controls. Long-range contextual influence is not confined to a recency
 window but extends as a graded function across the full sequences we examined.
 
 \subsection{Heavy-tailed decay across languages, genres, and modalities}
@@ -264,7 +265,7 @@ value --- an exponent near $1$ across languages, modalities, and independently t
 \includegraphics[width=\textwidth]{figures/schematic_alpha1.pdf}
 \caption{\textbf{Persistence functions $P(d)\propto d^{-\alpha}$ at three exponents and the resulting per-decade influence (schematic).}
 \textbf{Top row (observation):} the persistence law $P(d)\propto d^{-\alpha}$ on log--log axes, where the
-decay appears as a straight line of slope $-\alpha$. The three laws look nearly indistinguishable.
+decay appears as a straight line of slope $-\alpha$. The three power laws look nearly indistinguishable.
 \textbf{Bottom row (interpretation):} their sharply different consequences. The aggregate influence within a
 logarithmic decade of distance is proportional to $d\,P(d)\propto d^{\,1-\alpha}$, so for $\alpha>1$ (left)
 aggregate influence is concentrated in recent context; for $\alpha<1$ (right) it is dominated by distant
@@ -325,7 +326,7 @@ median $r^2=0.96$; points lie on the fit). \textbf{Centre:} DNA is roughly two o
 weaker and non-monotonic, with no clean scale-free decay. \textbf{Right:} protein carries genuine long-range
 influence but is not scale-free --- the fit is poor and the point estimate varies across model
 scale while power-law fit quality declines ($\alpha=1.07\!\to\!0.74$, $r^2=0.62\!\to\!0.36$ from 151M to 2.7B); $\times$ marks distances
-where $P(d)\leq 0$. The discriminating signature is scale-freeness and exponent stability, not the
+where $P(d)\leq 0$. The discriminating combination is scale-freeness and exponent stability, not the
 mere presence of long-range structure. Among the domains and probes tested here, only human
 language exhibits the combination of clean scale-free decay, a near-unity exponent, and cross-probe
 stability, despite an identical measurement protocol and domain-native autoregressive probes across domains.}
@@ -343,14 +344,14 @@ token-shuffled context, which removes ordered structure altogether. Three contra
 follow. The sentence-reversal contrast (intact minus sentence-reversed) measures the loss
 associated with reversing the temporal organization of the prior discourse, while preserving
 sentence-internal order and the set of sentences; the sequence-permutation contrast (intact minus
-sentence-shuffled) isolates sentence-sequence organization; and the content-driven
+sentence-shuffled) isolates sentence-sequence organization; and the sentence-content
 contrast (sentence-shuffled minus token-shuffled) estimates the contribution retained by
 sentence content once discourse ordering is removed.
 
 Over their positive range, each contrast is approximately linear on log--log axes, with distinct
 fitted slopes. The sentence-reversal and sequence-permutation contrasts are steep and
 concentrated at short range (slopes $-1.44 \pm 0.48$ and $-1.26 \pm 0.01$
-respectively, approaching zero by $d > 100$ tokens), whereas the content-driven contrast
+respectively, approaching zero by $d > 100$ tokens), whereas the sentence-content contrast
 is shallow and carries the long-range tail (slope $-0.78 \pm 0.24$). Sensitivity to sentence
 reversal and discourse-sequence permutation is therefore concentrated at short range, whereas
 sentence-level content carries the long-range tail.
@@ -397,10 +398,10 @@ content preserved), sentence-reversed (sentence order reversed, so the set of ad
 while their order and target-relative positions are reversed), and token-shuffled (ordered structure
 removed). Curve ribbons are mean $\pm$ SE across the eight cells. Three contrasts decompose $P(d)$:
 sentence-reversal (intact minus sentence-reversed; slope $-1.44 \pm 0.48$), sequence-permutation (intact
-minus sentence-shuffled; slope $-1.26 \pm 0.01$), and content-driven (sentence-shuffled minus
+minus sentence-shuffled; slope $-1.26 \pm 0.01$), and sentence-content (sentence-shuffled minus
 token-shuffled; slope $-0.78 \pm 0.24$); slope uncertainties are the SD of the per-cell slopes. The
 sentence-reversal and sequence-permutation contrasts are concentrated below ${\sim}100$ tokens, whereas
-the content-driven contrast is shallow and carries the long-range tail. The reported quantities are
+the sentence-content contrast is shallow and carries the long-range tail. The reported quantities are
 log--log slopes, not values of $\alpha$; since $P(d)\propto d^{-\alpha}$ with $\alpha>0$, a slope of
 $-1.44$ corresponds to a decay exponent $\alpha=1.44$.}
 \label{fig:sentshuf}
@@ -457,8 +458,8 @@ and order-specific dependence --- the contextual persistence law is the third, o
 Where previous scaling laws describe distributions of units or pairwise relations among them, this
 law characterizes the scaling of conditional prediction itself: the organization of sequential
 influence across distance, the component of contextual dependence that remains once unit identity
-and co-occurrence are removed. We view it
-as a law to be explained rather than as an adjudication between mechanisms: any account of how
+and co-occurrence are removed. It is a law to be
+explained rather than an adjudication between mechanisms: any account of how
 human language is generated must explain why its statistical product lacks a detectable
 characteristic scale over this range. An architecture with a fixed maintenance
 horizon would generally be expected to produce an inflection in $P(d)$ near that horizon, of
@@ -646,7 +647,7 @@ permuted). From these we formed three contrasts, each fit by least squares on lo
 positive bins at $d \geq 10$: the sentence-reversal contrast (ordered minus sentence-reversed), which
 measures the loss from reversing the temporal organization of the prior discourse; the
 sequence-permutation contrast (ordered minus sentence-shuffled), which isolates sentence-sequence
-organization; and the content-driven contrast (sentence-shuffled minus token-shuffled), which
+organization; and the sentence-content contrast (sentence-shuffled minus token-shuffled), which
 estimates the contribution retained by sentence content. Slopes are reported
 as per-cell means $\pm$ SD across cells. The decomposition was computed across eight cells: the
 long-range corpora excluding Buckeye (spontaneous speech lacks unambiguous sentence boundaries) and
