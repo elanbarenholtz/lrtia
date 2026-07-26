@@ -53,26 +53,23 @@ with striking consistency across languages and corpora. What makes such a regula
 reproducibility of its exponent, not the power-law form alone: across a wide range of languages and
 corpora, Zipf's exponent sits near unity and Heaps' recurs within a characteristic sublinear band.
 
-Both of these laws describe the units in aggregate, independent of the order in which they appear, and so occupy
+Both of these laws describe the units in aggregate, and so occupy
 the most basic level of a hierarchy of statistical structure. A second level concerns
 the units not singly but in pairs: how their occurrences co-vary across distance. That language carries such long-range dependence is established: the mutual information
 between symbols falls off as an approximate power law of their separation, decaying far more slowly
-than expected under conventional finite-order Markov models \citep{ebeling1994entropy, lin2017critical, montemurro2002longrange}.
+than expected under conventional finite-order Markov models \citep{ebeling1994entropy, lin2017critical, montemurro2002longrange}. A conditional counterpart, Hilberg's conjecture --- a
+reinterpretation of Shannon's guessing experiments \citep{shannon1951prediction} --- posits that
+the conditional entropy of text likewise falls as a power law of context length
+\citep{hilberg1990grenzwert, debowski2015relaxed}.
 
-These two levels of description --- unit frequency and co-occurrence across distance --- are
-defined without reference to arrangement: long-range mutual information can reflect repeated
-lexical and topical content even when the local ordering of that content is disrupted. The same
-limitation holds for Hilberg's conjecture, a reinterpretation of Shannon's guessing experiments
-\citep{shannon1951prediction}, which posits that the conditional entropy of text falls as a power
-law of context length \citep{hilberg1990grenzwert, debowski2015relaxed}: although the quantity is
-conditioned on preceding text, it tracks total predictive information, in which the contribution
-of word identities and that of their arrangement are combined and cannot be separated. But
-language carries additional structure that none of these measures isolates: the order in which
-units appear. Word order
-carries what neither lower level can register. Those levels record which words are present and at
-what distances they co-occur; but the same words at the same separations can compose entirely
-different meanings depending on their arrangement. Grammatical relations and compositional meaning
-live in arrangement itself, not in the inventory of words or their spacing. Representational accounts of
+None of these measures, however, isolates the order in which units appear. Unit frequencies are
+order-blind by construction; long-range mutual information can reflect repeated lexical and
+topical content even when the local ordering of that content is disrupted; and conditional
+entropy, although conditioned on preceding text, tracks total predictive information, in which
+the contributions of word identities and of their arrangement are combined and cannot be
+separated. Yet the same words at the same separations can compose entirely different meanings
+depending on their arrangement: grammatical relations and compositional meaning live in
+arrangement itself, not in the inventory of words or their spacing. Representational accounts of
 contextual dependence, such as discourse and situation models \citep{vandijk1983strategies} and
 resonance-based accounts of memory access during reading \citep{myers1998accessing}, describe it
 qualitatively; no lawful quantitative structure has been identified. Like co-occurrence,
