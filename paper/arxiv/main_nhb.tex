@@ -441,7 +441,11 @@ contextual persistence law: contextual influence in human language decays as an 
 scale-free power law, with a near-constant exponent across ten corpora, six language families,
 and both written and spoken modalities. Because that exponent is close to $1$, contextual
 influence is distributed approximately uniformly across logarithmic timescales rather than
-concentrated at any one, a more specific statement than the mere absence of a horizon. The
+concentrated at any one. Unlike generic heavy-tailed behaviour, an exponent near unity occupies
+the unique boundary at which aggregate influence per logarithmic decade is approximately constant
+--- for $\alpha>1$ influence concentrates at short range, for $\alpha<1$ at long range --- so the
+law specifies not merely the absence of a characteristic scale but a particular organization of
+influence across scales. The
 consistency of the exponent across such diverse samples makes this a candidate
 cross-linguistic regularity of human language, in the same empirical sense that Zipf's and Heaps'
 laws are cross-linguistic regularities. In the hierarchy of statistical descriptions considered here ---
@@ -455,7 +459,11 @@ account must explain why its statistical product lacks a detectable characterist
 horizon would generally be expected to produce an inflection in $P(d)$ near that horizon, of
 whatever size; we observe none across nearly two orders of magnitude. An account in which long-range coherence rests on a small
 number of privileged anchor positions would generally predict a concentrated rather than a
-distributed influence field; we observe broad, recency-graded distribution. We do not take
+distributed influence field; we observe broad, recency-graded distribution. And an account in
+which distant material contributes through the internal structure of isolated episodes would
+predict that the law could be reconstructed from span-internal order; the increment-shuffle
+experiment shows it cannot: band-local order decays too steeply, and the scale-free law emerges
+only at the level of integrated ordered context. We do not take
 these observations to settle how memory is organized during production; they characterize
 the product, not the process. But the law they describe is what every candidate process
 now has to reproduce.
@@ -464,14 +472,10 @@ The mean exponent we report ($\alpha=1.04$, SD $=0.15$) sits in a neighborhood t
 independently identified in two adjacent traditions in memory research.
 \citet{anderson1991reflections}, examining the statistics of information demand in natural
 environments, reported power-law relationships between the odds a memory is needed and its
-history of past use, with exponents near $0.8$ (for example, $0.73$ with recency and $0.77$
-with frequency of prior occurrence, each with $r^2 > 0.98$).
+history of past use, with exponents near $0.8$.
 \citet{kahana2002age}, examining associative decay in free recall via the lag-conditional
-response probability, fit power functions to each arm of the curve and reported a forward
-exponent of $0.82 \pm 0.09$ for younger adults. Each of these measurements was made by entirely different methods on
-entirely different data, and neither involves a language model: one is a
-statistical analysis of environmental information demand, the other a behavioural memory
-task. That two model-free measurements of human memory land in the same order-unity exponent
+response probability, reported a forward power-function exponent of $0.82 \pm 0.09$ for younger
+adults. Neither measurement involves a language model. That two model-free measurements of human memory land in the same order-unity exponent
 range as our language-based measurement indicates that the scale-free form is neither an
 artefact of our instrument nor idiosyncratic to language, but a property that recurs across
 paradigms that are unambiguously about memory. The exponents are not identical: recall and
@@ -481,38 +485,25 @@ characteristic bound detected in any of the three over the measured range, is th
 memory would naturally produce, and one that a fixed-horizon architecture would not naturally
 predict.
 
-This convergence extends to the mathematical form of forgetting itself. Forgetting across several
-human and animal memory tasks has been found to be better described by a power function than by
-exponential and other alternatives \citep{wixted1991form}: the same scale-free signature, with no
-characteristic timescale, that we find in the contextual persistence of language. That the order-specific structure of language
-should decay at a near-unity power-law rate, matching the power-law decay of the memory systems
-that must encode and retrieve it, is at least suggestive. It raises the possibility (which we
-advance as a hypothesis, not a finding) that linguistic structure is organized to align with,
-or exploit, the natural decay characteristics of human memory, so that the accessibility of prior
-content falls in step with its predictive value.
+The convergence extends to the mathematical form of forgetting itself: across several human and
+animal memory tasks, forgetting is better described by a power function than by exponential and
+other alternatives \citep{wixted1991form}. That the order-specific structure of language should
+decay at a near-unity power-law rate, matching the decay of the memory systems that must encode
+and retrieve it, raises the possibility (a hypothesis, not a finding) that linguistic structure is
+organized to align with, or exploit, the natural decay characteristics of human memory, so that
+the accessibility of prior content falls in step with its predictive value. On this ecological
+reading, the CPF describes the statistical structure of the linguistic input stream, and a memory
+system rationally adapted to that structure \citep{anderson1991reflections} would mirror its decay
+rather than impose an arbitrary one --- the temporal analogue of the visual system's tuning to the
+$1/f$ spatial statistics of natural scenes \citep{field1987relations, simoncelli2001natural}.
 
-This suggests an ecological reading of the law. The CPF describes the statistical structure of
-the linguistic input stream itself, and a memory system that adapted rationally to that structure
-\citep{anderson1991reflections} would be expected to mirror its decay rather than impose an
-arbitrary one. The parallel is to natural-scene statistics, where the sensitivity of the visual
-system is matched to the $1/f$ spatial-frequency structure of the natural environment
-\citep{field1987relations, simoncelli2001natural}: on this view the $1/d$ temporal structure of linguistic context is
-an environmental regularity to which the language processor may be tuned, and the shared
-near-unity exponent of language and of memory decay is what such tuning would produce.
-
-This empirical picture aligns with a longer trajectory in cognitive psychology away from
-architecturally bounded views of memory and toward continuous and graded characterizations.
-Cowan's embedded-processes account \citep{cowan2001magical} distinguishes a capacity-limited
-focus of attention from a broader set of activated long-term-memory representations; Ericsson and Kintsch's
-long-term working memory framework \citep{ericsson1995longterm} argues that skilled
-performers make routine use of long-term-memory structures during ongoing task performance,
-blurring the maintenance-retrieval boundary; and continuous-resource accounts in visual
-working memory \citep{ma2014changing} replace discrete-item architectures with graded
-distributions of representational precision. The CPF provides a direct
-quantitative measurement of an analogous continuity in natural language, observed at the
-scale of token-level sequential dependence and across naturalistic discourse rather than
-experimental task sequences. To the extent the law bears on this debate, it is consistent
-with that longer trajectory rather than a refutation of it.
+This picture aligns with a longer trajectory in cognitive psychology away from architecturally
+bounded views of memory and toward continuous, graded characterizations: Cowan's
+embedded-processes account \citep{cowan2001magical}, Ericsson and Kintsch's long-term working
+memory \citep{ericsson1995longterm}, and continuous-resource models of visual working memory
+\citep{ma2014changing}. The CPF provides a direct quantitative measurement of an analogous
+continuity in natural language, at the scale of token-level sequential dependence in naturalistic
+discourse. To the extent the law bears on this debate, it is consistent with that trajectory.
 
 The CPF characterizes the statistical structure of language, not directly the memory process
 that produced it: it is computed over text, and predictive structure in text need not imply that
@@ -526,20 +517,18 @@ independently trained probes shows it is not an artefact of any single model. Th
 dependence therefore reflects genuine order-dependent structure in what humans produce, not
 lexical co-occurrence or measurement bias. A related objection, that written text is a static
 visual trace an author can edit and cross-reference offline unlike online cognition, is
-tempered by the modalities in which the law holds. The same signature appears in spontaneous
-conversational speech in Buckeye, where offline revision is impossible, and in the spoken delivery
-of prepared TED discourse. The Buckeye result is therefore especially important: it shows that the
-effect does not depend on written revision and is present in language generated under real-time
-constraints.
+tempered by the modalities in which the law holds: the same signature appears in spontaneous
+conversational speech, where offline revision is impossible, and in the spoken delivery of
+prepared TED discourse. The observation across both spontaneous and prepared speech indicates
+that the law is not contingent on written revision.
 
 What the data do not establish is that production is implemented by a sequential process drawing
 directly on arbitrarily distant prior material; that mechanistic claim the present measurements cannot adjudicate, and
 we do not make it. A natural question is whether autoregressive systems, which generate each element
-by conditioning on the available prior context, reproduce the same scale-free form under
-identical measurement. Establishing this would be a sufficiency result, showing that a purely
-sequential generation mechanism can produce the observed structure and placing the burden on
-fixed-horizon or non-sequential accounts to explain the absence of a characteristic scale by some
-other route; we leave that direct comparison to future work.
+by conditioning on the available prior context, reproduce the same scale-free form under identical
+measurement; such a sufficiency result would place the burden on fixed-horizon and non-sequential
+accounts to explain the absence of a characteristic scale by some other route. We leave that
+comparison to future work.
 Converting the present result from a property of the product into a claim about the producer,
 or the comprehender, will require online behavioural and neural evidence, and the law makes
 this directly testable because it predicts a specific quantity. The central prediction is that the
@@ -547,9 +536,9 @@ cost of disrupting prior context should itself scale as $P(d)$: shuffling or rep
 log-spaced windows (for example, tokens 10--20 back versus 100--110 back) should slow human
 reading and lengthen gaze durations on a downstream target \citep{hale2001probabilistic, levy2008expectation, smith2013effect} by amounts that fall off with distance
 at the near-unity rate, rather than dropping sharply at a working-memory horizon. Parallel
-predictions follow for the decay of proactive interference during comprehension and for the
-context-driven reduction of the N400 \citep{kutas2011thirty} as a function of context distance, each expected to follow
-the same $\alpha \approx 1$ decay. We regard adjudicating these as the key open hypothesis the law
+predictions follow for proactive interference during comprehension and for the context-driven
+reduction of the N400 \citep{kutas2011thirty}, each expected to follow the same
+$\alpha \approx 1$ decay; we regard adjudicating these as the key open hypothesis the law
 motivates.
 
 Human language appears to obey a simple quantitative law, the contextual
