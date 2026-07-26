@@ -61,12 +61,13 @@ than expected under conventional finite-order Markov models \citep{ebeling1994en
 
 These two levels of description --- unit frequency and co-occurrence across distance --- are
 defined without reference to arrangement: long-range mutual information can reflect repeated
-lexical and topical content even when the local ordering of that content is disrupted. Hilberg's
-conjecture, a reinterpretation of Shannon's guessing experiments \citep{shannon1951prediction},
-holds that the conditional entropy of text falls as a power law of context length
-\citep{hilberg1990grenzwert, debowski2015relaxed}; it likewise concerns total predictive
-information, conflating the contribution of word identities with that of their arrangement. But
-language carries additional structure that these measures do not capture: the order in which
+lexical and topical content even when the local ordering of that content is disrupted. The same
+limitation holds for Hilberg's conjecture, a reinterpretation of Shannon's guessing experiments
+\citep{shannon1951prediction}, which posits that the conditional entropy of text falls as a power
+law of context length \citep{hilberg1990grenzwert, debowski2015relaxed}: although the quantity is
+conditioned on preceding text, it tracks total predictive information, in which the contribution
+of word identities and that of their arrangement are combined and cannot be separated. But
+language carries additional structure that none of these measures isolates: the order in which
 units appear. Word order
 carries what neither lower level can register. Those levels record which words are present and at
 what distances they co-occur; but the same words at the same separations can compose entirely
