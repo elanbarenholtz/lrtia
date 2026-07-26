@@ -57,17 +57,12 @@ Both of these laws describe the units in aggregate, and so occupy
 the most basic level of a hierarchy of statistical structure. A second level concerns
 the units not singly but in pairs: how their occurrences co-vary across distance. That language carries such long-range dependence is established: the mutual information
 between symbols falls off as an approximate power law of their separation, decaying far more slowly
-than expected under conventional finite-order Markov models \citep{ebeling1994entropy, lin2017critical, montemurro2002longrange}. A conditional counterpart, Hilberg's conjecture --- a
-reinterpretation of Shannon's guessing experiments \citep{shannon1951prediction} --- posits that
-the conditional entropy of text likewise falls as a power law of context length
-\citep{hilberg1990grenzwert, debowski2015relaxed}.
+than expected under conventional finite-order Markov models \citep{ebeling1994entropy, lin2017critical, montemurro2002longrange}.
 
-None of these measures, however, isolates the order in which units appear. Unit frequencies are
-order-blind by construction; long-range mutual information can reflect repeated lexical and
-topical content even when the local ordering of that content is disrupted; and conditional
-entropy, although conditioned on preceding text, tracks total predictive information, in which
-the contributions of word identities and of their arrangement are combined and cannot be
-separated. Yet the same words at the same separations can compose entirely different meanings
+Neither of these measures, however, isolates the order in which units appear. Unit frequencies
+are order-blind by construction, and long-range mutual information can reflect repeated lexical
+and topical content even when the local ordering of that content is
+disrupted. Yet the same words at the same separations can compose entirely different meanings
 depending on their arrangement: grammatical relations and compositional meaning live in
 arrangement itself, not in the inventory of words or their spacing. Representational accounts of
 contextual dependence, such as discourse and situation models \citep{vandijk1983strategies} and
@@ -96,8 +91,18 @@ dependence, but it is taken between an individual word and the ordered configura
 that precede it rather than between pairs of words. A probe's next-token probability supplies the
 measure of influence: how much the probability assigned to a fixed upcoming span changes when prior
 context is revealed. The sequence provides the axis of measurement: revealing the true
-context step by step, farther and farther back, makes that influence a function of distance $d$. At
-each step we ask how much the revealed context reduces the probe's surprise, and subtract the
+context step by step, farther and farther back, makes that influence a function of distance $d$.
+
+This way of posing the question has a distinguished ancestor. Shannon's guessing experiments
+\citep{shannon1951prediction} asked how much uncertainty about what comes next remains as a reader
+is given longer and longer stretches of the preceding text, and Hilberg's conjecture
+\citep{hilberg1990grenzwert, debowski2015relaxed}, a reinterpretation of Shannon's data, holds
+that the answer follows a power law: prediction keeps improving with context length, with no
+floor reached within the measured range. Our intact-context measurement is the same program,
+carried out with a probe over far longer contexts. But any such curve is a total: prediction
+improves both because more words are revealed and because those words arrive in their true
+arrangement, and a single curve confounds the two contributions. At
+each step we therefore ask how much the revealed context reduces the probe's surprise, and subtract the
 reduction obtained when the same words are supplied in scrambled order --- the entire revealed span
 permuted, so that the baseline retains vocabulary and topical content but no arrangement. What
 remains is the additional benefit of intact sequential arrangement: the order-specific contextual
