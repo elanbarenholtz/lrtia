@@ -64,10 +64,10 @@ defined without reference to arrangement: long-range mutual information can refl
 lexical and topical content even when the local ordering of that content is disrupted. But language
 carries critical additional structure that these measures do not capture: the order in which units
 appear. Word order
-encodes grammatical relations and compositional meaning that the identities of the words alone do
-not, so isolating order-specific dependence captures structure carried by arrangement, including
-grammatical and compositional relations that token identity alone cannot preserve, as distinct
-from the lexical and topical content carried by which words are present. Representational accounts of
+carries what neither lower level can register. Those levels record which words are present and at
+what distances they co-occur; but the same words at the same separations can compose entirely
+different meanings depending on their arrangement. Grammatical relations and compositional meaning
+live in arrangement itself, not in the inventory of words or their spacing. Representational accounts of
 contextual dependence, such as discourse and situation models \citep{vandijk1983strategies} and
 resonance-based accounts of memory access during reading \citep{myers1998accessing}, describe it
 qualitatively; no lawful quantitative structure has been identified. Like co-occurrence,
@@ -75,23 +75,33 @@ order-specific dependence can be posed as a question of distance: how does the p
 given word depend on the arrangement of the other words in the sequence, and how does that
 dependence change with distance?
 
-Reaching this third level requires estimating the probability of what comes next given long and
-specific prior context, a quantity that classical corpus statistics approximate only crudely. Large
-autoregressive transformer models \citep{vaswani2017attention, radford2019language} change this. Trained only to predict the next token, they assign
-token-level conditional probabilities to continuations over context lengths that far exceed those
-tractable with conventional corpus estimators, and are
-sensitive to precisely the order-dependent structure that raw co-occurrence statistics cannot
-isolate. Used as measuring instruments, or probes, rather than as objects of study, they provide a
+Reaching this third level requires estimating the probability of specific words given ordered
+combinations of other words. This is the arrangement-level analogue of the pairwise calculation
+underlying long-range mutual information: where mutual information asks how the occurrence of one
+word co-varies with that of another at a given separation, this quantity asks how the probability
+of a word depends on the ordered configuration of others --- whether immediately adjacent, as in
+what follows a given construction, or far back in the sequence. Classical corpus statistics
+approximate it only crudely. Large autoregressive transformer models
+\citep{vaswani2017attention, radford2019language} provide a tool for capturing exactly this
+structure: trained only to predict the next token, they assign token-level conditional
+probabilities over context lengths far exceeding those tractable with conventional corpus
+estimators, and are sensitive to precisely the order-dependent structure that raw co-occurrence
+statistics cannot isolate. Used as measuring instruments, or probes, rather than as objects of study, they provide a
 new vantage point on this level of linguistic structure.
 
-Here we measure this decay directly. For a fixed upcoming span, we ask how much revealing the
-true, ordered prior context reduces a probe's surprise, and subtract the reduction obtained when
-the same words are supplied in scrambled order. The difference removes predictive benefit available
-from the same vocabulary and topical content in scrambled order, retaining the additional benefit of
-intact sequential arrangement: the order-specific
-contextual influence. Measured as a function of distance $d$ back through the sequence,
-this defines the \emph{contextual persistence function} (CPF), $P(d)$; its
-functional form we call the \emph{contextual persistence law}. We apply it across ten
+Here we measure this dependence directly. Like mutual information, the quantity is a statistical
+dependence, but it is taken between an individual word and the ordered configuration of the words
+that precede it rather than between pairs of words. A probe's next-token probability supplies the
+measure of influence: how much the probability assigned to a fixed upcoming span changes when prior
+context is revealed. The sequence itself supplies the axis of measurement: revealing the true
+context step by step, farther and farther back, makes that influence a function of distance $d$. At
+each step we ask how much the revealed context reduces the probe's surprise, and subtract the
+reduction obtained when the same words are supplied in scrambled order --- the entire revealed span
+permuted, so that the baseline retains vocabulary and topical content but no arrangement. What
+remains is the additional benefit of intact sequential arrangement: the order-specific contextual
+influence. Its per-token gain as context is extended past distance $d$ defines the
+\emph{contextual persistence function} (CPF), $P(d)$; its functional form we call the
+\emph{contextual persistence law}. We apply it across ten
 corpora spanning six language families, multiple genres, and written and spoken modalities.
 Throughout, we treat the CPF as a law governing natural-language sequences, a property of
 the linguistic product; whether and how it maps onto the real-time mechanisms of human
@@ -128,8 +138,9 @@ existence, rather than any particular mechanism, is the result we report.
 
 We define the contextual persistence function (CPF), $P(d)$, as the \emph{order-specific}
 predictive influence of prior context at distance $d$ from the current point of generation:
-the reduction in target perplexity produced by revealing prior context at that distance, minus
-the reduction produced by the same tokens in scrambled order (Methods). Subtracting the
+the per-token reduction in target perplexity produced by extending the revealed context past
+distance $d$, minus the corresponding marginal computed with the entire revealed span in scrambled
+order (Methods). Subtracting the
 shuffled-token baseline controls the predictive benefit available from the same token composition in
 scrambled order, so $P(d)$ isolates the additional contribution of intact sequential arrangement,
 resolved as a function of distance.
@@ -363,7 +374,15 @@ obtained here by an independent manipulation at token resolution with nearer
 context held fixed. Two structure-disrupting methods therefore converge: the
 internal ordering of localized spans makes a steep, short-range, bounded
 contribution, while the scale-free long-range tail is carried by integrated
-content rather than by the internal order of any distant region.
+content rather than by the internal order of any distant region. We note what this contrast does
+and does not license. In natural generation no span is conditioned on in isolation; each word is
+produced against the entire ordered sequence so far. The extension-marginal $P(d)$ therefore
+tracks a quantity with a direct referent in natural generation --- the influence that accrues as
+ordered context lengthens --- whereas the increment shuffle is a decomposition tool, informative
+precisely because it shows where the scale-free law does not originate. The persistence law is a
+property of integrated ordered context, not a sum of separable span contributions: distant
+material exerts its influence as part of the ordered whole rather than through its internal
+arrangement alone.
 
 \begin{figure}[t]
 \centering
