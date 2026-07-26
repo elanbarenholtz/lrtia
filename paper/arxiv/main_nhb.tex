@@ -31,9 +31,9 @@
 Human language obeys scaling laws for vocabulary growth, word frequency, and syntactic
 structure, yet none describes how the influence of prior context decays with distance. Using
 large language models as probabilistic probes, we measured the reduction in target perplexity
-conferred by prior context at distance $d$, and subtracted the reduction conferred by the same
-words in scrambled order; the difference, the contextual persistence function $P(d)$, isolates the
-influence of sequential arrangement. Across ten corpora (449 documents) spanning six language
+conferred by prior context at distance $d$ beyond that conferred by the same words scrambled;
+this difference, the contextual persistence function $P(d)$, isolates the influence of
+sequential arrangement. Across ten corpora (449 documents) spanning six language
 families and written and spoken modalities, $P(d)$ decayed approximately as $1/d$
 ($P(d)\propto d^{-\alpha}$, mean $\alpha=1.04$; median $r^2=0.96$). The decay vanished
 in scrambled and synthetic controls and replicated across independent probes; the same
@@ -61,7 +61,10 @@ than expected under conventional finite-order Markov models \citep{ebeling1994en
 
 These two levels of description --- unit frequency and co-occurrence across distance --- are
 defined without reference to arrangement: long-range mutual information can reflect repeated
-lexical and topical content even when the local ordering of that content is disrupted. But language
+lexical and topical content even when the local ordering of that content is disrupted. (Hilberg's
+conjecture, which holds that the conditional entropy of text falls as a power law of context
+length \citep{hilberg1990grenzwert, debowski2015relaxed}, concerns total predictive information,
+and likewise conflates the contribution of word identities with that of their arrangement.) But language
 carries critical additional structure that these measures do not capture: the order in which units
 appear. Word order
 carries what neither lower level can register. Those levels record which words are present and at
@@ -436,7 +439,7 @@ for any specific position.}
 
 \section{Discussion}
 
-We have identified a quantitative regularity, which we term the
+Our observations establish a scaling law, which we term the
 contextual persistence law: contextual influence in human language decays as an approximately
 scale-free power law, with a near-constant exponent across ten corpora, six language families,
 and both written and spoken modalities. Because that exponent is close to $1$, contextual
@@ -450,9 +453,11 @@ consistency of the exponent across such diverse samples makes this a candidate
 cross-linguistic regularity of human language, in the same empirical sense that Zipf's and Heaps'
 laws are cross-linguistic regularities. In the hierarchy of statistical descriptions considered here ---
 unit frequency (Zipf's law), pairwise dependence across distance (long-range mutual information),
-and order-specific dependence --- the contextual persistence law is the third, order-specific rung,
-extending the Zipfian program of reproducible scale-free regularities to the component of contextual
-dependence that remains once unit identity and co-occurrence are removed. We view it
+and order-specific dependence --- the contextual persistence law is the third, order-specific rung.
+Where previous scaling laws describe distributions of units or pairwise relations among them, this
+law characterizes the scaling of conditional prediction itself: the organization of sequential
+influence across distance, the component of contextual dependence that remains once unit identity
+and co-occurrence are removed. We view it
 as a law to be explained rather than as an adjudication between mechanisms: any account of how
 human language is generated must explain why its statistical product lacks a detectable
 characteristic scale over this range. An architecture with a fixed maintenance
