@@ -430,20 +430,27 @@ transition or threshold (Figure~\ref{fig:distributed}). The magnitude of contrib
 recent positions (top-5 sentences account for 30--51\% of total positive influence;
 Gini coefficient 0.78--0.90), but this concentration is attributable to recency:
 variation in mean influence by absolute position within the prior context is accounted
-for by distance to the target, with no detectable residual effect of structural position
-(e.g., document opening). Persistence is therefore a distributed field of influence across the
+for by distance to the target, with no detectable residual effect of structural position,
+including the earliest positions in the prior context (Figure~\ref{fig:distributed}b). Persistence is therefore a distributed field of influence across the
 prior sequence, with magnitude graded smoothly by recency rather than localized to a
 small number of anchoring positions.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/fig3_distributed_influence.pdf}
-\caption{\textbf{Proportion of prior sentences contributing to prediction as a function of distance.} Proportion of prior
-sentences whose removal degrades target prediction as a function of distance to the target. The
+\caption{\textbf{Persistence is broadly distributed across prior sentences.} \textbf{a,} Proportion of prior
+sentences whose removal degrades target prediction, as a function of distance to the target. The
 proportion declines smoothly from ${\sim}90\%$ within the first 32 tokens to ${\sim}55$--$60\%$ beyond
 500 tokens, with no sharp transition. The top-5 sentences account for 30--51\% of total positive
 influence (Gini 0.78--0.90), but this concentration reflects recency, not a privileged structural role
-for any specific position.}
+for any specific position. \textbf{b,} Mean residual per-sentence influence by absolute position in the
+prior context, after regressing influence on log(distance) (leave-one-sentence-out influence
+matrices, 15 documents per corpus; positions supported by at least five sentence pairs shown; error
+bars, s.e.m.). Immediately adjacent pairs (one sentence back) are excluded: adjacent-sentence
+influence systematically exceeds the log-linear distance model, so their residuals reflect adjacency
+rather than position (Methods). Residuals lie within ${\pm}0.05$ of zero at all positions, including
+the earliest context position (pos $=0$, dotted line): influence is graded by recency, with no
+privileged anchor positions.}
 \label{fig:distributed}
 \end{figure}
 
@@ -673,9 +680,16 @@ of contributing sentences was computed in distance bins, and concentration metri
 over per-sentence magnitudes; share of total positive influence in the top-5 sentences) were computed
 per document and aggregated. To test whether magnitude variation across prior-sentence positions
 reflects a privileged structural role over and above distance from the target, the full
-leave-one-sentence-out influence matrix was computed on a 15-document subset of each ablation corpus;
-variation in influence magnitude was accounted for by distance, with no detectable residual effect of
-structural position once distance was controlled.
+leave-one-sentence-out influence matrix was computed on a 15-document subset of each ablation corpus
+(standardized 25-sentence prior-context windows). For the positional analysis, per-sentence influence
+was regressed on log(distance) and mean residuals were examined by absolute position. Immediately
+adjacent sentence pairs (distance of one sentence) were excluded from this analysis: adjacent-sentence
+influence systematically exceeds the log-linear distance model, so including these pairs would
+conflate adjacency with position --- in particular, the final context positions, which pair with the
+target region only at the nearest distances, would otherwise inherit the model's short-range misfit.
+Positions supported by at least five pairs are reported. Variation in influence magnitude was
+accounted for by distance, with no detectable residual effect of structural position once distance
+was controlled.
 
 \section*{Supplementary Information: functional-form robustness}
 

@@ -589,6 +589,12 @@ def fig4():
                 for i in range(t):
                     v = m[i][t]
                     if v is None: continue
+                    # Exclude immediately adjacent pairs (distance 1 sentence):
+                    # adjacent-sentence influence systematically exceeds the
+                    # log-linear distance model, so including them conflates
+                    # adjacency with position (final positions pair only at the
+                    # nearest distances and would inherit the short-range misfit).
+                    if (t - i) < 2: continue
                     positions.append(i)
                     distances.append(t - i)
                     influences.append(v)
