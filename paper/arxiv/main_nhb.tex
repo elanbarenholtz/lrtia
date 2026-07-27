@@ -109,7 +109,10 @@ permuted, so that the baseline retains vocabulary and topical content but no arr
 remains is the additional benefit of intact sequential arrangement: the order-specific contextual
 influence. Its per-token gain as context is extended past distance $d$ defines the
 \emph{contextual persistence function} (CPF), $P(d)$; its functional form we call the
-\emph{contextual persistence law}. We apply it across ten
+\emph{contextual persistence law}. We use \emph{persistence} in a statistical sense --- the
+continued predictive influence of ordered prior context as a function of distance --- not the
+persistence of any internal representation or cognitive process: the function is the
+operational measure, and the law is the regularity it reveals. We apply it across ten
 corpora spanning six language families, multiple genres, and written and spoken modalities.
 Throughout, we treat the CPF as a law governing natural-language sequences, a property of
 the linguistic product; whether and how it maps onto the real-time mechanisms of human
@@ -460,8 +463,8 @@ laws are cross-linguistic regularities. In the hierarchy of statistical descript
 unit frequency (Zipf's law), pairwise dependence across distance (long-range mutual information),
 and order-specific dependence --- the contextual persistence law is the third, order-specific rung.
 Where previous scaling laws describe distributions of units or pairwise relations among them, this
-law characterizes the scaling of conditional prediction itself: the organization of sequential
-influence across distance, the component of contextual dependence that remains once unit identity
+law characterizes the scaling of order-specific contextual influence: the sequential organization
+of predictive dependence across distance, the component that remains once unit identity
 and co-occurrence are removed. It is a law to be
 explained rather than an adjudication between mechanisms: any account of how
 human language is generated must explain why its statistical product lacks a detectable
