@@ -446,10 +446,11 @@ proportion declines smoothly from ${\sim}90\%$ within the first 32 tokens to ${\
 influence (Gini 0.78--0.90), but this concentration reflects recency, not a privileged structural role
 for any specific position. \textbf{b,} Mean per-sentence influence by absolute position in the prior context, after
 subtracting the mean influence at each exact sentence distance (nonparametric distance control;
-leave-one-sentence-out influence matrices, 15 documents per corpus; positions supported by at
-least 40 sentence pairs shown; error bars, s.e.m.). TED residuals are flat across positions.
-Fiction shows a small elevation at the earliest positions (${\sim}0.05$, an order of magnitude
-below its mean per-sentence influence), consistent with the added cost of removing sentences that
+leave-one-sentence-out influence matrices, 15 documents per corpus). Positions 0 and 1 are shown
+individually; later positions are aggregated in dyadic bins (2--3, 4--7, 8--15, 16--23; horizontal
+bars show bin extent; vertical bars, s.e.m.). TED residuals are flat across positions. Fiction
+shows a small elevation at the earliest two positions (${\sim}0.05$, an order of magnitude below
+its mean per-sentence influence), consistent with the added cost of removing sentences that
 introduce recurring referents. No position carries influence beyond distance on a scale comparable
 to the distance effect itself: influence is a distributed field graded by recency, not anchored at
 privileged positions.}
@@ -686,7 +687,8 @@ leave-one-sentence-out influence matrix was computed on a 15-document subset of 
 (standardized 25-sentence prior-context windows). For the positional analysis, per-sentence
 influence values were demeaned within each exact sentence distance --- a nonparametric distance
 control that imposes no functional form and requires no exclusions --- and mean residuals were
-examined by absolute position; positions supported by fewer than 40 pairs are not displayed.
+examined by absolute position, with positions 0 and 1 reported individually and later positions
+aggregated in dyadic bins (2--3, 4--7, 8--15, 16--23) for stable estimates.
 Distance-matched residuals are flat across positions in TED transcripts; in fiction the earliest
 one to two positions show a small positive residual (${\sim}0.05$ per sentence, an order of
 magnitude below mean per-sentence influence), consistent with the reintroduction cost of referents

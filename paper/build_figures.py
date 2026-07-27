@@ -603,24 +603,30 @@ def fig4():
             sel = distances == d
             residuals[sel] = influences[sel] - influences[sel].mean()
 
-        # Mean residual by absolute position
-        by_pos = {}
-        for p, r_v in zip(positions, residuals):
-            by_pos.setdefault(p, []).append(r_v)
-        pos_keys = sorted([k for k in by_pos if len(by_pos[k]) >= 40])
-        means = [np.mean(by_pos[k]) for k in pos_keys]
-        sems = [np.std(by_pos[k]) / np.sqrt(len(by_pos[k])) for k in pos_keys]
+        # Mean residual by absolute position: positions 0 and 1 individually,
+        # later positions in dyadic bins for stable estimates.
+        PBINS = [(0, 0), (1, 1), (2, 3), (4, 7), (8, 15), (16, 23)]
+        xs, ms, ss, xlo, xhi = [], [], [], [], []
+        for lo, hi in PBINS:
+            sel = (positions >= lo) & (positions <= hi)
+            r_v = residuals[sel]
+            if len(r_v) == 0: continue
+            c = (lo + hi) / 2
+            xs.append(c); ms.append(r_v.mean())
+            ss.append(r_v.std() / np.sqrt(len(r_v)))
+            xlo.append(c - lo); xhi.append(hi - c)
 
-        ax.errorbar(pos_keys, means, yerr=sems, fmt=markers[cell] + '-',
-                    color=colors[cell], linewidth=1.8, markersize=6, capsize=2,
-                    alpha=0.85, label=cell.replace('_', ' '))
+        ax.errorbar(xs, ms, yerr=ss, xerr=[xlo, xhi], fmt=markers[cell],
+                    linestyle='-', color=colors[cell], linewidth=1.8,
+                    markersize=7, capsize=2, alpha=0.85,
+                    label=cell.replace('_', ' '))
 
     # Highlight the opening (pos=0) with a vertical line
     ax.axvline(0, color='red', linestyle=':', linewidth=1.5, alpha=0.7,
                label='opening (pos=0)')
     ax.axhline(0, color='black', linewidth=0.5)
 
-    ax.set_xlabel('Source sentence absolute position in document')
+    ax.set_xlabel('Source sentence absolute position in document (binned)')
     ax.set_ylabel('Residual influence  (per-distance mean subtracted)')
     ax.set_title('Distance-matched residuals by position')
     ax.legend(loc='upper right', fontsize=9, framealpha=0.9)
