@@ -589,12 +589,6 @@ def fig4():
                 for i in range(t):
                     v = m[i][t]
                     if v is None: continue
-                    # Exclude immediately adjacent pairs (distance 1 sentence):
-                    # adjacent-sentence influence systematically exceeds the
-                    # log-linear distance model, so including them conflates
-                    # adjacency with position (final positions pair only at the
-                    # nearest distances and would inherit the short-range misfit).
-                    if (t - i) < 2: continue
                     positions.append(i)
                     distances.append(t - i)
                     influences.append(v)
@@ -602,17 +596,18 @@ def fig4():
         distances = np.array(distances)
         influences = np.array(influences)
 
-        # Regression: influence ~ log(distance)
-        log_d = np.log(distances)
-        slope, intercept, *_ = stats.linregress(log_d, influences)
-        predicted = intercept + slope * log_d
-        residuals = influences - predicted
+        # Nonparametric distance control: demean within each exact sentence
+        # distance (imposes no functional form, requires no exclusions).
+        residuals = np.empty_like(influences)
+        for d in np.unique(distances):
+            sel = distances == d
+            residuals[sel] = influences[sel] - influences[sel].mean()
 
         # Mean residual by absolute position
         by_pos = {}
         for p, r_v in zip(positions, residuals):
             by_pos.setdefault(p, []).append(r_v)
-        pos_keys = sorted([k for k in by_pos if len(by_pos[k]) >= 5])
+        pos_keys = sorted([k for k in by_pos if len(by_pos[k]) >= 40])
         means = [np.mean(by_pos[k]) for k in pos_keys]
         sems = [np.std(by_pos[k]) / np.sqrt(len(by_pos[k])) for k in pos_keys]
 
@@ -626,8 +621,8 @@ def fig4():
     ax.axhline(0, color='black', linewidth=0.5)
 
     ax.set_xlabel('Source sentence absolute position in document')
-    ax.set_ylabel('Residual influence  (after regressing out log(distance))')
-    ax.set_title('No anchor effect — residuals flat near zero, including opening')
+    ax.set_ylabel('Residual influence  (per-distance mean subtracted)')
+    ax.set_title('Distance-matched residuals by position')
     ax.legend(loc='upper right', fontsize=9, framealpha=0.9)
     ax.grid(True, alpha=0.3)
     panel_label(ax, 'b')
