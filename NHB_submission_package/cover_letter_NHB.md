@@ -24,6 +24,7 @@ The manuscript is ~4,200 words with five figures. A preprint will be posted to a
 Sincerely,
 
 Elan Barenholtz
+Machine Perception and Cognitive Robotics Laboratory
 Department of Psychology and Center for Complex Systems
 Florida Atlantic University
 elanbarenholtz@gmail.com
