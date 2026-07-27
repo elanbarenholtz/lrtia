@@ -28,34 +28,33 @@
 
 \begin{abstract}
 \noindent
-Human language exhibits well-established scaling laws for vocabulary growth, word frequency, and syntactic
-structure, yet none describes how the influence of prior context decays with distance. Using
+Human language exhibits lawful structure at the level of words (frequency,
+vocabulary growth) and word pairs (co-occurrence across distance). Here we show that the arrangement of words in
+sequence --- a central determinant of meaning --- obeys a comparable law. Using
 large language models as probabilistic probes, we measured the reduction in target perplexity
-conferred by prior context at distance $d$ beyond that conferred by the same words scrambled;
+conferred by prior context at distance $d$ beyond that of the same words scrambled;
 this difference, the contextual persistence function $P(d)$, isolates the influence of
-sequential arrangement. Across ten corpora (449 documents) spanning six language
+arrangement. Across ten corpora spanning six language
 families and written and spoken modalities, $P(d)$ decayed approximately as $1/d$
 ($P(d)\propto d^{-\alpha}$, mean $\alpha=1.04$; median $r^2=0.96$). The decay vanished
-in scrambled and synthetic controls and replicated across independent probes; the same
-scale-free, near-unity signature did not appear in genomic or protein sequences under
-domain-native models. An exponent near $1$ distributes contextual influence approximately
-uniformly across logarithmic timescales. These results establish a previously undescribed
-scaling law of contextual persistence --- a constraint any theory of language must
-explain.
+in scrambled and synthetic controls, replicated across independent probes, and did not appear
+in genomic or protein sequences under domain-native models. An exponent near $1$ distributes
+contextual influence approximately uniformly across logarithmic timescales. The results
+establish a scaling law of contextual persistence in human language.
 \end{abstract}
 
 \section{Introduction}
 
-Human language has a rich statistical structure, much of which has been captured by quantitative
+Human language has a rich statistical structure, aspects of which have been captured by quantitative
 laws \citep{altmann2016statistical, tanakaishii2021statistical}. Word frequencies follow Zipf's law \citep{zipf1949human}, and
 vocabulary growth follows Heaps' law \citep{heaps1978information}; both are scale-free and recur
 with striking consistency across languages and corpora. What makes such a regularity a law is the
 reproducibility of its exponent, not the power-law form alone: across a wide range of languages and
 corpora, Zipf's exponent sits near unity and Heaps' recurs within a characteristic sublinear band.
-
 Both of these laws describe the units in aggregate, and so occupy
 the most basic level of a hierarchy of statistical structure. A second level concerns
-the units not singly but in pairs: how their occurrences co-vary across distance. That language carries such long-range dependence is established: the mutual information
+the units not singly but in pairs: how their occurrences co-vary across distance. Here too a high
+degree of statistical structure has been uncovered: the mutual information
 between symbols falls off as an approximate power law of their separation, decaying far more slowly
 than expected under conventional finite-order Markov models \citep{ebeling1994entropy, lin2017critical, montemurro2002longrange}.
 
@@ -99,25 +98,29 @@ ancestor. Shannon's guessing experiments
 is given longer and longer stretches of the preceding text, and Hilberg's conjecture
 \citep{hilberg1990grenzwert, debowski2015relaxed}, a reinterpretation of Shannon's data, holds
 that the answer follows a power law: prediction keeps improving with context length, with no
-floor reached within the measured range. Our intact-context measurement is the same program,
-carried out with a probe over far longer contexts. But in this tradition order itself was never a
-variable: context was always presented intact and only its length was varied, so the resulting
-curve is a total, mixing what is gained from the words revealed with what is gained from their
-arrangement, with no way to tell the two apart. At
+floor reached within the measured range. Our intact-context condition extends this measurement,
+with a probe reaching far longer contexts. Critically, unlike these earlier studies, our measure
+specifically addresses the role of order within the sequence. In that tradition context was always
+presented intact and only its length was varied, so the resulting curve is a total, mixing what is
+gained from the words revealed with what is gained from their arrangement, with no way to tell the
+two apart. At
 each step we therefore ask how much the revealed context reduces the probe's surprise, and subtract the
 reduction obtained when the same words are supplied in scrambled order --- the entire revealed span
 permuted, so that the baseline retains vocabulary and topical content but no arrangement. What
 remains is the additional benefit of intact sequential arrangement: the order-specific contextual
 influence. Its per-token gain as context is extended past distance $d$ defines the
 \emph{contextual persistence function} (CPF), $P(d)$; its functional form we call the
-\emph{contextual persistence law}. We apply it across ten
+\emph{contextual persistence law}. Note: we use \emph{persistence} in a statistical sense --- the
+continued predictive influence of ordered prior context as a function of distance --- not the
+persistence of any internal representation or cognitive process: the function is the
+operational measure, and the law is the regularity it reveals. We apply it across ten
 corpora spanning six language families, multiple genres, and written and spoken modalities.
 Throughout, we treat the CPF as a law governing natural-language sequences, a property of
 the linguistic product; whether and how it maps onto the real-time mechanisms of human
 production and comprehension is a separate, empirically open question we return to in the
 Discussion.
 
-$P(d)$ decays approximately as $1/d$ ($P(d)\propto d^{-\alpha}$) with mean decay exponent
+We find that $P(d)$ decays approximately as $1/d$ ($P(d)\propto d^{-\alpha}$), with mean decay exponent
 $\alpha=1.04$ (SD $=0.15$) and no characteristic cutoff across nearly two orders of magnitude in distance. This decay
 is consistent across language families, genres, and modalities, vanishes in
 random-token controls, scales with the integrity of sequential structure, and is
@@ -137,10 +140,6 @@ maintained and retrieved material with distinguishable temporal dynamics. The pa
 is consistent instead with mechanisms in which prior content continues to shape
 ongoing generation through the evolving probability structure of the sequence itself.
 
-We present this as an empirical discovery rather than a mechanistic proposal. We identify a
-previously undescribed quantitative law governing contextual persistence in human language; its
-existence, rather than any particular mechanism, is the result we report.
-
 \section{Results}
 
 \subsection{The contextual persistence function}
@@ -154,16 +153,23 @@ shuffled-token baseline controls the predictive benefit available from the same 
 scrambled order, so $P(d)$ isolates the additional contribution of intact sequential arrangement,
 resolved as a function of distance.
 
-Across all corpora, $P(d)$ is positive at distances well beyond any plausible bound
-on working-memory capacity. At distances approaching 1000 tokens (the far end of our
-measurement range), prior context continues to reduce target perplexity by a measurable
-margin relative to shuffled controls. Long-range contextual influence is not confined to a recency
-window but extends as a graded function across the full sequences we examined.
+Figure~\ref{fig:persistence} shows $P(d)$ for each of the ten corpora, plotted against distance
+on log--log axes. Across all corpora, $P(d)$ is positive throughout the measured range: at
+distances approaching 1000 tokens (the far end of our measurement range), prior context continues
+to reduce target perplexity by a measurable margin relative to shuffled controls. Long-range
+contextual influence is not confined to a recency window but extends as a graded function across
+the full sequences we examined.
+
+The analyses that follow characterize this function: its form, a power law with exponent near
+$1$ that recurs across languages, genres, and modalities; its source, sequential structure in
+language itself rather than properties of the probe, established by synthetic, cross-probe, and
+cross-domain controls; and its composition, the separable contributions of sentence-internal
+order, discourse sequence, and sentence content, distributed broadly across prior context rather
+than concentrated in privileged sentences.
 
 \subsection{Heavy-tailed decay across languages, genres, and modalities}
 
-The functional form of $P(d)$ is well approximated by a heavy-tailed decay. Figure~\ref{fig:persistence}
-plots $P(d)$ against distance on log--log axes for each of the ten corpora. Across
+The functional form of $P(d)$ is well approximated by a heavy-tailed decay. Across
 languages, genres, and modalities, $P(d)$ decays smoothly across nearly two orders of
 magnitude with a mean decay exponent $\alpha=1.04$ (SD $=0.15$; $P(d)\propto d^{-\alpha}$)
 --- close to a $1/d$ power law --- and a median goodness-of-fit of $r^2 = 0.96$. A
@@ -332,9 +338,7 @@ weaker and non-monotonic, with no clean scale-free decay. \textbf{Right:} protei
 influence but is not scale-free --- the fit is poor and the point estimate varies across model
 scale while power-law fit quality declines ($\alpha=1.07\!\to\!0.74$, $r^2=0.62\!\to\!0.36$ from 151M to 2.7B); $\times$ marks distances
 where $P(d)\leq 0$. The discriminating combination is scale-freeness and exponent stability, not the
-mere presence of long-range structure. Among the domains and probes tested here, only human
-language exhibits the combination of clean scale-free decay, a near-unity exponent, and cross-probe
-stability, despite an identical measurement protocol and domain-native autoregressive probes across domains.}
+mere presence of long-range structure.}
 \label{fig:langbio}
 \end{figure}
 
@@ -424,22 +428,32 @@ examined. The proportion of contributing sentences declines gradually with dista
 from approximately 90\% at short range to 55--60\% beyond 500 tokens, with no sharp
 transition or threshold (Figure~\ref{fig:distributed}). The magnitude of contribution is concentrated at
 recent positions (top-5 sentences account for 30--51\% of total positive influence;
-Gini coefficient 0.78--0.90), but this concentration is attributable to recency:
-variation in mean influence by absolute position within the prior context is accounted
-for by distance to the target, with no detectable residual effect of structural position
-(e.g., document opening). Persistence is therefore a distributed field of influence across the
+Gini coefficient 0.78--0.90), but this concentration is attributable to recency.
+After matching for distance exactly, influence by position is flat in TED transcripts; fiction
+shows one small, interpretable exception --- a ${\sim}0.05$ elevation at the earliest one to two
+positions, an order of magnitude below mean per-sentence influence, consistent with the cost of
+removing sentences that introduce recurring referents (Figure~\ref{fig:distributed}b). Persistence is therefore a distributed field of influence across the
 prior sequence, with magnitude graded smoothly by recency rather than localized to a
 small number of anchoring positions.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/fig3_distributed_influence.pdf}
-\caption{\textbf{Proportion of prior sentences contributing to prediction as a function of distance.} Proportion of prior
-sentences whose removal degrades target prediction as a function of distance to the target. The
+\caption{\textbf{Persistence is broadly distributed across prior sentences.} \textbf{a,} Proportion of prior
+sentences whose removal degrades target prediction, as a function of distance to the target. The
 proportion declines smoothly from ${\sim}90\%$ within the first 32 tokens to ${\sim}55$--$60\%$ beyond
 500 tokens, with no sharp transition. The top-5 sentences account for 30--51\% of total positive
 influence (Gini 0.78--0.90), but this concentration reflects recency, not a privileged structural role
-for any specific position.}
+for any specific position. \textbf{b,} Mean per-sentence influence by absolute position in the prior context, after
+subtracting the mean influence at each exact sentence distance (nonparametric distance control;
+leave-one-sentence-out influence matrices, 15 documents per corpus). Positions 0 and 1 are shown
+individually; later positions are aggregated in dyadic bins (2--3, 4--7, 8--15, 16--23). Shaded
+band marks the opening position; error bars, s.e.m. TED residuals are flat across positions. Fiction
+shows a small elevation at the earliest two positions (${\sim}0.05$, an order of magnitude below
+its mean per-sentence influence), consistent with the added cost of removing sentences that
+introduce recurring referents. No position carries influence beyond distance on a scale comparable
+to the distance effect itself: influence is a distributed field graded by recency, not anchored at
+privileged positions.}
 \label{fig:distributed}
 \end{figure}
 
@@ -461,8 +475,8 @@ laws are cross-linguistic regularities. In the hierarchy of statistical descript
 unit frequency (Zipf's law), pairwise dependence across distance (long-range mutual information),
 and order-specific dependence --- the contextual persistence law is the third, order-specific rung.
 Where previous scaling laws describe distributions of units or pairwise relations among them, this
-law characterizes the scaling of conditional prediction itself: the organization of sequential
-influence across distance, the component of contextual dependence that remains once unit identity
+law characterizes the scaling of order-specific contextual influence: the sequential organization
+of predictive dependence across distance, the component that remains once unit identity
 and co-occurrence are removed. It is a law to be
 explained rather than an adjudication between mechanisms: any account of how
 human language is generated must explain why its statistical product lacks a detectable
@@ -669,9 +683,17 @@ of contributing sentences was computed in distance bins, and concentration metri
 over per-sentence magnitudes; share of total positive influence in the top-5 sentences) were computed
 per document and aggregated. To test whether magnitude variation across prior-sentence positions
 reflects a privileged structural role over and above distance from the target, the full
-leave-one-sentence-out influence matrix was computed on a 15-document subset of each ablation corpus;
-variation in influence magnitude was accounted for by distance, with no detectable residual effect of
-structural position once distance was controlled.
+leave-one-sentence-out influence matrix was computed on a 15-document subset of each ablation corpus
+(standardized 25-sentence prior-context windows). For the positional analysis, per-sentence
+influence values were demeaned within each exact sentence distance --- a nonparametric distance
+control that imposes no functional form and requires no exclusions --- and mean residuals were
+examined by absolute position, with positions 0 and 1 reported individually and later positions
+aggregated in dyadic bins (2--3, 4--7, 8--15, 16--23) for stable estimates.
+Distance-matched residuals are flat across positions in TED transcripts; in fiction the earliest
+one to two positions show a small positive residual (${\sim}0.05$ per sentence, an order of
+magnitude below mean per-sentence influence), consistent with the reintroduction cost of referents
+established at the opening. No structural position carries influence beyond distance on the scale
+of the distance effect itself.
 
 \section*{Supplementary Information: functional-form robustness}
 

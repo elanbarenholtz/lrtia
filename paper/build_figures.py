@@ -494,7 +494,7 @@ def fig3():
     annotation_text = (
         f'direction-specific:  slope = {s_direction[0]:+.2f} ± {s_direction[1]:.2f}'
         '   (ord − sent_rev)\n'
-        f'content-driven:      slope = {s_content[0]:+.2f} ± {s_content[1]:.2f}'
+        f'sentence-content:    slope = {s_content[0]:+.2f} ± {s_content[1]:.2f}'
         '   (sent_shuf − tok_shuf)\n'
         f'sequence-permute:    slope = {s_permute[0]:+.2f} ± {s_permute[1]:.2f}'
         '   (ord − sent_shuf; small)'

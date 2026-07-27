@@ -28,8 +28,9 @@ acceptance), `cover_letter_NHB.md`.
 
 ## Known open items
 
-- [ ] Fig 2 legend label regen ("chance floor" → "order control") if still stale —
-      see FINAL_REVISION_HANDOFF.md
+- [x] Fig 2 regenerated from Drive data (legend "order control"; inset "sentence-content") — 2026-07-27
+- [x] Fig 5b reworked: nonparametric per-distance demeaning, dyadic position bins,
+      fiction opening effect reported as interpretable — 2026-07-27
 - [ ] Read-aloud pass by author
 - [ ] Reporting Summary + Editorial Policy Checklist (requested at first revision,
       not initial submission)
