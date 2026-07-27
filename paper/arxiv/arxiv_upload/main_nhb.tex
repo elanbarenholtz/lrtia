@@ -178,7 +178,8 @@ reduced-sample replication averaging $20$ shuffled permutations per target produ
 cross-corpus mean exponent ($\alpha=1.04$) and improved fit stability (Supplementary Information),
 indicating that the headline result does not depend on the selected permutation. Fits are computed on $d \geq 10$
 tokens, the range over which both ordered- and shuffled-context bases are stable;
-very-short-range intervals are reported in Methods. In a comparison of five candidate
+very-short-range intervals are reported in Methods, and the fitted exponent is insensitive to the
+exact cutoff within the stable range (Supplementary Information). In a comparison of five candidate
 functional forms by small-sample-corrected information criteria (Supplementary
 Information), the power law is preferred in eight of the ten corpora and outperforms a
 pure exponential in all ten; a fixed-scale exponential is never preferred. The two
@@ -309,7 +310,9 @@ itself, not on the probe. We replicated the persistence signature with two
 independently trained probe models, Llama-3.1-8B and Mistral-7B, obtaining the same
 qualitative pattern and comparable decay ranges on shared corpora, along with near-zero
 $P(d)$ on synthetic controls. The CPF is therefore not an idiosyncratic
-property of the model used to estimate it.
+property of the model used to estimate it. Both probes do share the transformer architecture;
+replication with architecturally distinct autoregressive models (for example, state-space models)
+remains an additional check for future work.
 
 A stronger version of this argument replaces synthetic sequences with real non-language
 sequences that carry their own long-range structure, each probed with its own domain-native
@@ -839,6 +842,20 @@ across the twenty permutations. Averaging leaves the cross-corpus mean at $\alph
 the poorer single-permutation fits to $r^2\approx0.97$. The Russian TED cell, computed with a
 separate pipeline in the main analysis, was not included in this check.}
 \end{table}
+
+\subsection*{Robustness of the exponent: sensitivity to the fit range}
+
+Headline fits use distance bins with $d \geq 10$ tokens, excluding the shortest intervals, where
+the shuffled-token baseline is unstable (Methods). Because context lengths are log-spaced,
+candidate cutoffs quantize onto the interval midpoints ($d \approx 5.7, 11.3, 22.6, \ldots$):
+cutoffs of 8 and 10 tokens select identical bin sets, as do 12 and 16. Refitting every corpus at
+each cutoff, the headline range ($d \geq 8$ or $10$) yields mean $\alpha = 1.04$ (SD $= 0.15$);
+additionally excluding the $d \approx 11.3$ interval ($d \geq 12$ or $16$) leaves the mean
+unchanged ($\alpha = 1.04$, SD $= 0.21$); and including the $d \approx 5.7$ interval
+($d \geq 5$) shifts it to $\alpha = 0.89$ (SD $= 0.10$), reflecting the documented short-range
+instability of the baseline rather than a property of the decay. The exponent estimate is
+therefore insensitive to the cutoff within the stable range, and its only sensitivity is to
+intervals excluded on independent grounds.
 
 \subsection*{Corpus sources and provenance}
 
