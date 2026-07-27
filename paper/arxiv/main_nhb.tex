@@ -153,15 +153,17 @@ shuffled-token baseline controls the predictive benefit available from the same 
 scrambled order, so $P(d)$ isolates the additional contribution of intact sequential arrangement,
 resolved as a function of distance.
 
-Across all corpora, $P(d)$ is positive throughout the measured range. At distances approaching 1000 tokens (the far end of our
-measurement range), prior context continues to reduce target perplexity by a measurable
-margin relative to shuffled controls. Long-range contextual influence is not confined to a recency
-window but extends as a graded function across the full sequences we examined.
+Figure~\ref{fig:persistence} shows $P(d)$ for each of the ten corpora, plotted against distance
+on log--log axes. Across all corpora, $P(d)$ is positive throughout the measured range: at
+distances approaching 1000 tokens (the far end of our measurement range), prior context continues
+to reduce target perplexity by a measurable margin relative to shuffled controls. Long-range
+contextual influence is not confined to a recency window but extends as a graded function across
+the full sequences we examined.
 
 \subsection{Heavy-tailed decay across languages, genres, and modalities}
 
-The functional form of $P(d)$ is well approximated by a heavy-tailed decay. Figure~\ref{fig:persistence}
-plots $P(d)$ against distance on log--log axes for each of the ten corpora. Across
+The functional form of $P(d)$ is well approximated by a heavy-tailed decay
+(Figure~\ref{fig:persistence}). Across
 languages, genres, and modalities, $P(d)$ decays smoothly across nearly two orders of
 magnitude with a mean decay exponent $\alpha=1.04$ (SD $=0.15$; $P(d)\propto d^{-\alpha}$)
 --- close to a $1/d$ power law --- and a median goodness-of-fit of $r^2 = 0.96$. A
