@@ -93,7 +93,7 @@ context is revealed. Distance along the sequence provides the axis of measuremen
 context step by step, farther and farther back, makes that influence a function of distance $d$.
 
 The method of measuring next-token prediction as a function of context length has a distinguished
-ancestor. Shannon's guessing experiments
+pedigree. Shannon's guessing experiments
 \citep{shannon1951prediction} asked how much uncertainty about what comes next remains as a reader
 is given longer and longer stretches of the preceding text, and Hilberg's conjecture
 \citep{hilberg1990grenzwert, debowski2015relaxed}, a reinterpretation of Shannon's data, holds
@@ -493,17 +493,20 @@ these observations to settle how memory is organized during production; they cha
 the product, not the process. But the law they describe is what every proposed process
 must reproduce.
 
-The mean exponent we report ($\alpha=1.04$, SD $=0.15$) sits in a neighborhood independently
-identified in memory research by methods that involve no language model: the odds that a memory
-is needed in natural environments \citep{anderson1991reflections}, associative decay in free
-recall \citep{kahana2002age}, and the form of forgetting across human and animal tasks
-\citep{wixted1991form} all follow power functions with order-unity exponents. We do not claim a
-single mechanism generates them all, but the recurrence indicates that the scale-free form is
-neither an artefact of our instrument nor idiosyncratic to language, and it raises the
-possibility (a hypothesis, not a finding) that linguistic structure is organized to exploit the
-natural decay characteristics of human memory, consistent with graded rather than architecturally
-bounded characterizations of memory more generally
-\citep{cowan2001magical, ericsson1995longterm, ma2014changing}. The observation doing the work
+Why should such a law exist? The mean exponent we report ($\alpha=1.04$, SD $=0.15$) sits in a
+neighborhood independently identified in memory research by methods that involve no language
+model: the odds that a memory is needed in natural environments \citep{anderson1991reflections},
+associative decay in free recall \citep{kahana2002age}, and the form of forgetting across human
+and animal tasks \citep{wixted1991form} all follow power functions with order-unity exponents. We
+do not claim a single mechanism generates them all, but the recurrence raises the possibility (a
+hypothesis, not a finding) that the persistence law reflects the same constraints operating in
+human language generation: the accessibility of prior content during production falling off in
+the same graded, scale-free way that memory itself decays. If this account is accurate, it
+dissolves a familiar discontinuity. Architectures that divide memory into a capacity-limited
+store for the present and a separate long-term store for the past should leave some boundary
+signature in the product, and none appears: the law is continuous across the range where any such
+boundary would fall, consistent with graded rather than architecturally bounded characterizations
+of memory \citep{cowan2001magical, ericsson1995longterm, ma2014changing}. The observation doing the work
 remains the same: a near-$1/d$ persistence law whose near-unity exponent places language at the
 boundary where each logarithmic timescale contributes approximately equally to prediction.
 
@@ -520,13 +523,16 @@ conversational speech, where offline revision is impossible, and in the spoken d
 prepared TED discourse. The observation across both spontaneous and prepared speech indicates
 that the law is not contingent on written revision.
 
-What the data do not establish is that production is implemented by a sequential process drawing
-directly on arbitrarily distant prior material; that mechanistic claim the present measurements cannot adjudicate, and
-we do not make it. A natural question is whether autoregressive systems, which generate each element
-by conditioning on the available prior context, reproduce the same scale-free form under identical
-measurement; such a sufficiency result would place the burden on fixed-horizon and non-sequential
-accounts to explain the absence of a characteristic scale by some other route. We leave that
-comparison to future work.
+A parsimonious reading of these results is that the human generative process is itself
+autoregressive: each word is produced against the accumulated ordered history of the sequence,
+and the persistence law is the trace that this mechanism leaves in its product. On this reading
+the probe is not an arbitrary instrument but one matched in form to the process it measures. We
+advance this as an interpretation, not a demonstrated mechanism: the measurements characterize
+the product, and other generative architectures --- hierarchical planning, retrieval over
+structured discourse representations --- could conceivably yield the same scale-free profile.
+Nor can modern language models decide the question: they are explicitly autoregressive, but they
+are trained on human text and inherit its statistics, so their reproduction of the law shows only
+that they have learned it. What would adjudicate is evidence from the human process itself.
 Converting the present result from a property of the product into a claim about the producer,
 or the comprehender, will require online behavioural and neural evidence, and the law makes
 this directly testable because it predicts a specific quantity. The central prediction is that the
@@ -539,7 +545,7 @@ reduction of the N400 \citep{kutas2011thirty}, each expected to follow the same
 $\alpha \approx 1$ decay; we regard adjudicating these as the key open hypothesis the law
 motivates.
 
-Human language appears to exhibit a simple quantitative law, the contextual
+Human language exhibits a simple quantitative law, the contextual
 persistence law, in which the influence of prior context is distributed approximately
 uniformly across logarithmic distances in human-produced language. Whether this regularity reflects
 properties of memory, discourse organization, planning, prediction, or communication is
