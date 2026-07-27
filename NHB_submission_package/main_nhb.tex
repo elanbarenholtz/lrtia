@@ -176,13 +176,12 @@ languages, genres, and modalities, $P(d)$ decays smoothly across nearly two orde
 magnitude with a mean decay exponent $\alpha=1.04$ (SD $=0.15$; $P(d)\propto d^{-\alpha}$)
 --- close to a $1/d$ power law --- and a median goodness-of-fit of $r^2 = 0.96$. A
 reduced-sample replication averaging $20$ shuffled permutations per target produced the same
-cross-corpus mean exponent ($\alpha=1.04$) and improved fit stability (Supplementary Information),
+cross-corpus mean exponent ($\alpha=1.04$) and improved fit stability (Supplementary Note~3),
 indicating that the headline result does not depend on the selected permutation. Fits are computed on $d \geq 10$
 tokens, the range over which both ordered- and shuffled-context bases are stable;
 very-short-range intervals are reported in Methods, and the fitted exponent is insensitive to the
-exact cutoff within the stable range (Supplementary Information). In a comparison of five candidate
-functional forms by small-sample-corrected information criteria (Supplementary
-Information), the power law is preferred in eight of the ten corpora and outperforms a
+exact cutoff within the stable range (Supplementary Note~4). In a comparison of five candidate
+functional forms by small-sample-corrected information criteria (Supplementary Note~1), the power law is preferred in eight of the ten corpora and outperforms a
 pure exponential in all ten; a fixed-scale exponential is never preferred. The two
 remaining corpora, Japanese literary prose and Buckeye spoken English, show mild downward
 curvature and are marginally better described by a log-normal and a stretched-exponential
@@ -231,7 +230,7 @@ the measured range. The second, and more distinctive, is the value of the expone
 ten corpora the fitted decay exponent is close to $1$ and clustered around it (mean $\alpha=1.04$,
 SD $=0.15$, with $P(d)\propto d^{-\alpha}$).
 The observed between-corpus spread modestly exceeds document-sampling error (typical bootstrap SE
-${\approx}\,0.10$; Supplementary Information), although permutation sensitivity analyses indicate that
+${\approx}\,0.10$; Supplementary Note~2), although permutation sensitivity analyses indicate that
 part of this spread reflects noise in the shuffled baseline. The exponent is therefore best described
 as clustered near $1$, with limited evidence for residual corpus-level heterogeneity. The reproducibility of the near-unity value across otherwise very different samples is
 itself part of the result, and it carries a specific quantitative meaning.
@@ -265,8 +264,7 @@ the result from a generic heavy tail.
 
 The near-unity regime is robust to the choice of response scale: expressing influence in additive
 log-probability (nats) units rather than perplexity leaves every corpus a near-$1/d$ power law,
-though the mean exponent shifts modestly from $\alpha=1.04$ to $\alpha=1.18$ (Supplementary
-Information), indicating approximate rather than exact equality of influence across logarithmic
+though the mean exponent shifts modestly from $\alpha=1.04$ to $\alpha=1.18$ (Supplementary Note~2), indicating approximate rather than exact equality of influence across logarithmic
 decades.
 
 The reproducibility of the near-unity exponent across corpora is what supports treating this as a
@@ -578,8 +576,7 @@ German 60, French 31, Turkish 12, Russian 60, Japanese literary 42, Finnish lite
 documents in total. The complementary cross-language qualitative replication of the sign-flip
 pattern (Afro-Asiatic, Koreanic, Sino-Tibetan) was performed on Wikipedia and TED-transcript cells
 from a broader corpus inventory at shorter context lengths. Full per-corpus provenance --- sources,
-identifiers, licenses, snapshot dates, and selection criteria --- is given in Supplementary
-Information (Table~S3), and preprocessing steps are described there.
+identifiers, licenses, snapshot dates, and selection criteria --- is given in Supplementary Note~5 (Table~S3), and preprocessing steps are described there.
 
 \subsection{Probe models}
 
@@ -602,8 +599,7 @@ baseline used a single random permutation of the prior-context tokens at each ta
 length, drawn with a fixed seed so that the baseline is deterministic and reproducible and the same
 permutation is applied across probe models; the 30-token target itself was never permuted, and no
 sentence-boundary or special tokens were introduced into the shuffled span. Sensitivity of the
-fitted exponent to this single-permutation choice is quantified in Supplementary Information
-(\emph{Robustness of the exponent: sensitivity to the shuffled permutation}), where the analysis is
+fitted exponent to this single-permutation choice is quantified in Supplementary Note~3, where the analysis is
 repeated with $K=20$ independent permutations per target and context length. Per-distance
 marginals were obtained as the per-token change in perplexity across successive context lengths,
 $m_d = (\mathrm{ppl}_{c_{i-1}} - \mathrm{ppl}_{c_i}) / (c_i - c_{i-1})$, with distance indexed by
@@ -621,7 +617,7 @@ measurement.
 The per-token order-specific gap was fit to five candidate functional forms (power law,
 exponential, stretched exponential, truncated power law, and quadratic-in-log,
 i.e.\ log-normal-in-distance) and ranked per corpus by the small-sample-corrected Akaike
-criterion (AICc); the full comparison is reported in Supplementary Information. Fits were performed
+criterion (AICc); the full comparison is reported in Supplementary Note~1. Fits were performed
 in log space on the fit range $d \geq 10$ tokens, the first interval at which both ordered and
 shuffled bases are at least eight tokens; shorter intervals were excluded a priori because with
 only one or two context tokens there is no meaningful permutation, leaving the shuffled baseline,
@@ -706,7 +702,9 @@ magnitude below mean per-sentence influence), consistent with the reintroduction
 established at the opening. No structural position carries influence beyond distance on the scale
 of the distance effect itself.
 
-\section*{Supplementary Information: functional-form robustness}
+\section*{Supplementary Information}
+
+\subsection*{Supplementary Note 1: functional-form robustness}
 
 Because scale-free claims are sensitive to the choice of fitting procedure and to
 competing functional forms, we treated functional-form selection as a robustness analysis
@@ -766,7 +764,7 @@ with the power law a close second). Exponent 95\% confidence intervals are from 
 bootstrap ($B=2000$); the wider intervals correspond to the smaller corpora (Turkish, Buckeye, French).}
 \end{table}
 
-\subsection*{Robustness of the exponent: units and heterogeneity}
+\subsection*{Supplementary Note 2: robustness of the exponent --- units and heterogeneity}
 
 Two further checks bound the interpretation of the exponent. First, because $P(d)$ is defined as a
 difference of perplexities, and perplexity is exponential in the underlying log-loss, we recomputed
@@ -790,7 +788,7 @@ therefore best described as clustered near $1$, with limited evidence for residu
 heterogeneity and the low-$N$ corpora (Turkish, Buckeye, French) contributing most of both the
 apparent spread and the widest intervals.
 
-\subsection*{Robustness of the exponent: sensitivity to the shuffled permutation}
+\subsection*{Supplementary Note 3: robustness of the exponent --- sensitivity to the shuffled permutation}
 
 Because $P(d)$ subtracts a shuffled-context baseline, and the main analysis used a single random
 permutation of the prior context at each target and context length, we tested whether the fitted
@@ -844,7 +842,7 @@ the poorer single-permutation fits to $r^2\approx0.97$. The Russian TED cell, co
 separate pipeline in the main analysis, was not included in this check.}
 \end{table}
 
-\subsection*{Robustness of the exponent: sensitivity to the fit range}
+\subsection*{Supplementary Note 4: robustness of the exponent --- sensitivity to the fit range}
 
 Headline fits use distance bins with $d \geq 10$ tokens, excluding the shortest intervals, where
 the shuffled-token baseline is unstable (Methods). Because context lengths are log-spaced,
@@ -858,7 +856,7 @@ instability of the baseline rather than a property of the decay. The exponent es
 therefore insensitive to the cutoff within the stable range, and its only sensitivity is to
 intervals excluded on independent grounds.
 
-\subsection*{Corpus sources and provenance}
+\subsection*{Supplementary Note 5: corpus sources and provenance}
 
 Table~S3 lists the source, license, and snapshot or version for each of the ten long-range corpora;
 preprocessing and selection are summarized here. English fiction comprises public-domain novels from
