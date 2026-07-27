@@ -93,7 +93,7 @@ context is revealed. Distance along the sequence provides the axis of measuremen
 context step by step, farther and farther back, makes that influence a function of distance $d$.
 
 The method of measuring next-token prediction as a function of context length has a distinguished
-ancestor. Shannon's guessing experiments
+pedigree. Shannon's guessing experiments
 \citep{shannon1951prediction} asked how much uncertainty about what comes next remains as a reader
 is given longer and longer stretches of the preceding text, and Hilberg's conjecture
 \citep{hilberg1990grenzwert, debowski2015relaxed}, a reinterpretation of Shannon's data, holds
@@ -520,13 +520,21 @@ conversational speech, where offline revision is impossible, and in the spoken d
 prepared TED discourse. The observation across both spontaneous and prepared speech indicates
 that the law is not contingent on written revision.
 
-What the data do not establish is that production is implemented by a sequential process drawing
-directly on arbitrarily distant prior material; that mechanistic claim the present measurements cannot adjudicate, and
-we do not make it. A natural question is whether autoregressive systems, which generate each element
-by conditioning on the available prior context, reproduce the same scale-free form under identical
-measurement; such a sufficiency result would place the burden on fixed-horizon and non-sequential
-accounts to explain the absence of a characteristic scale by some other route. We leave that
-comparison to future work.
+What the data do not establish is that human production is implemented by a sequential process
+drawing directly on arbitrarily distant prior material; that mechanistic claim the present
+measurements cannot adjudicate, and we do not make it. The shape of the law is nonetheless
+suggestive. A scale-free, order-specific persistence structure is what a process that generates
+each word against its own accumulated ordered history would be expected to leave in its product,
+and the law can be read as a candidate trace of such autoregressive organization in human
+generation. Modern language models offer no independent test of this reading: they are explicitly
+autoregressive, but they are trained on human text and inherit its statistics, so reproducing the
+law would show only that they have learned it. The open question is the law's origin: whether the
+near-unity exponent is a generic consequence of autoregressive generation, or a signature of the
+human system --- most plausibly its memory constraints --- that artificial models inherit through
+the data. The convergence of the exponent with model-free measurements of human memory favours
+the second reading. Distinguishing the two cleanly --- for example, by measuring the CPF in
+autoregressive models trained on sequences whose persistence structure differs from language's ---
+is a direct target for future work.
 Converting the present result from a property of the product into a claim about the producer,
 or the comprehender, will require online behavioural and neural evidence, and the law makes
 this directly testable because it predicts a specific quantity. The central prediction is that the
